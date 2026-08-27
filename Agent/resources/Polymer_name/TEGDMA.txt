@@ -1,0 +1,8 @@
+tegdma
+bis-gma/tegdma
+ptegdma
+tetegdma
+bisgma/tegdma
+modified udma, ebpadma, tegdma
+bis-gma, bis-ema, udma, tegdma
+bis-gma/tegdma copolymer
