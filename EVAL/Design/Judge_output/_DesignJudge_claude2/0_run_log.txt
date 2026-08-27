@@ -1,0 +1,50 @@
+[2026-05-11 14:11:25] ================================================================================
+[2026-05-11 14:11:25] Start Design-mode 3-candidates-per-family LLM-as-a-Judge scoring
+[2026-05-11 14:11:25] ROOT_DIR = Judge_Input
+[2026-05-11 14:11:25] OUTPUT_DIR = Judge_output\_DesignJudge_claude2
+[2026-05-11 14:11:25] Judge model = claude-opus-4-6
+[2026-05-11 14:11:25] Judge base_url = https://new.12ai.org/v1
+[2026-05-11 14:11:25] Judge api_key_present = True
+[2026-05-11 14:11:25] MAX_CHARS_PER_CANDIDATE = 10000
+[2026-05-11 14:11:25] Ignored output keywords = ['grok']
+[2026-05-11 14:11:25] Metrics = ['Chemical_Feasibility', 'Scientific_Rigor', 'Mechanistic_Coherence', 'Property_Constraint_and_Tradeoff_Handling', 'Design_Completeness', 'Risk_and_Uncertainty_Awareness', 'Design_Innovation_and_Exploration']
+[2026-05-11 14:11:25] Weights = {'Chemical_Feasibility': 0.17, 'Scientific_Rigor': 0.15, 'Mechanistic_Coherence': 0.15, 'Property_Constraint_and_Tradeoff_Handling': 0.2, 'Design_Completeness': 0.13, 'Risk_and_Uncertainty_Awareness': 0.1, 'Design_Innovation_and_Exploration': 0.1}
+[2026-05-11 14:11:25] === Discovered cases ===
+[2026-05-11 14:11:25] case_01 | 力学+热学 | n_candidates=15 | ordered=['BEAVER_Paper_1', 'BEAVER_Paper_2', 'BEAVER_Paper_3', 'GPT5.5-1', 'GPT5.5-2', 'GPT5.5-3', 'Gemini3.1-pro-1', 'Gemini3.1-pro-2', 'Gemini3.1-pro-3', 'DeepSeek-V4-pro-1', 'DeepSeek-V4-pro-2', 'DeepSeek-V4-pro-3', 'Qwen3.5-Plus-1', 'Qwen3.5-Plus-2', 'Qwen3.5-Plus-3'] | extra=[] | request=Design a PLA-based copolymer that increases Tg while maintaining ductility for biodegradable packaging.
+[2026-05-11 14:11:25] case_02 | 力学+热学+降解 | n_candidates=15 | ordered=['BEAVER_Paper_1', 'BEAVER_Paper_2', 'BEAVER_Paper_3', 'GPT5.5-1', 'GPT5.5-2', 'GPT5.5-3', 'Gemini3.1-pro-1', 'Gemini3.1-pro-2', 'Gemini3.1-pro-3', 'DeepSeek-V4-pro-1', 'DeepSeek-V4-pro-2', 'DeepSeek-V4-pro-3', 'Qwen3.5-Plus-1', 'Qwen3.5-Plus-2', 'Qwen3.5-Plus-3'] | extra=[] | request=Design a biodegradable copolymer that simultaneously increases Tg, preserves toughness, and maintains a clinically acceptable degradation rate.
+[2026-05-11 14:11:25] case_03 | 力学+降解 | n_candidates=15 | ordered=['BEAVER_Paper_1', 'BEAVER_Paper_2', 'BEAVER_Paper_3', 'GPT5.5-1', 'GPT5.5-2', 'GPT5.5-3', 'Gemini3.1-pro-1', 'Gemini3.1-pro-2', 'Gemini3.1-pro-3', 'DeepSeek-V4-pro-1', 'DeepSeek-V4-pro-2', 'DeepSeek-V4-pro-3', 'Qwen3.5-Plus-1', 'Qwen3.5-Plus-2', 'Qwen3.5-Plus-3'] | extra=[] | request=Design a biodegradable implant polymer that provides high initial mechanical support while retaining strength during early-stage hydrolytic degradation.
+[2026-05-11 14:11:25] case_04 | 热学+降解 | n_candidates=15 | ordered=['BEAVER_Paper_1', 'BEAVER_Paper_2', 'BEAVER_Paper_3', 'GPT5.5-1', 'GPT5.5-2', 'GPT5.5-3', 'Gemini3.1-pro-1', 'Gemini3.1-pro-2', 'Gemini3.1-pro-3', 'DeepSeek-V4-pro-1', 'DeepSeek-V4-pro-2', 'DeepSeek-V4-pro-3', 'Qwen3.5-Plus-1', 'Qwen3.5-Plus-2', 'Qwen3.5-Plus-3'] | extra=[] | request=Design a biodegradable polyester with improved heat resistance but without excessively suppressing degradation kinetics.
+[2026-05-11 14:13:55] ✅ API成功 [DesignJudge::forward] case=case_02 model=claude-opus-4-6 time=149.52s chars=16903 preview=```json {   "Critique": "Overall, the 15 candidates span a range from highly detailed experimental proposals (BEAVER papers) to concise conceptual designs (GPT5...
+[2026-05-11 14:13:55] ✅ API成功 [DesignJudge::forward] case=case_01 model=claude-opus-4-6 time=149.60s chars=15662 preview=```json {   "Critique": "Overall, the candidates split into two broad camps: (1) the BEAVER papers, which are structured as experimental proposals with detailed...
+[2026-05-11 14:13:55] 💾 Saved forward scores: 2/4 latest_ok=True
+[2026-05-11 14:15:44] ✅ API成功 [DesignJudge::forward] case=case_03 model=claude-opus-4-6 time=109.02s chars=18263 preview=```json {   "Critique": "Overall, all candidates address the core challenge of balancing initial mechanical support with strength retention during early hydroly...
+[2026-05-11 14:15:59] ✅ API成功 [DesignJudge::forward] case=case_04 model=claude-opus-4-6 time=123.83s chars=15776 preview=```json {   "Critique": "Overall, candidates cluster around two main design motifs: (1) PBS-based copolyesters with FDCA/furan units for rigidity, and (2) isoso...
+[2026-05-11 14:15:59] 💾 Saved forward scores: 4/4 latest_ok=True
+[2026-05-11 14:18:20] ✅ API成功 [DesignJudge::reverse] case=case_01 model=claude-opus-4-6 time=140.85s chars=16233 preview=```json {   "Critique": "Overall, the field is dominated by a recurring motif: PLA + isosorbide (rigid) + soft block (PBS or PCL) in a block copolymer architect...
+[2026-05-11 14:18:30] ✅ API成功 [DesignJudge::reverse] case=case_02 model=claude-opus-4-6 time=151.39s chars=16106 preview=```json {   "Critique": "Overall, the candidates span a range from conservative PLLA-based block copolymers to more innovative designs using tyrosine-derived po...
+[2026-05-11 14:18:30] 💾 Saved reverse scores: 2/4 latest_ok=True
+[2026-05-11 14:20:02] ✅ API成功 [DesignJudge::reverse] case=case_03 model=claude-opus-4-6 time=102.44s chars=16996 preview=```json {   "Critique": "Overall, the candidates cluster around a few dominant design motifs: stereocomplex PLA, poly(ester-urethane) segmented copolymers, nHA ...
+[2026-05-11 14:20:10] ✅ API成功 [DesignJudge::reverse] case=case_04 model=claude-opus-4-6 time=99.42s chars=16458 preview=```json {   "Critique": "This evaluation covers 15 candidates from 5 model families, each proposing biodegradable polyesters with improved heat resistance. The ...
+[2026-05-11 14:20:10] 💾 Saved reverse scores: 4/4 latest_ok=True
+[2026-05-11 14:20:13] 📊 heatmap saved: Judge_output\_DesignJudge_claude2\9_metric_heatmap_by_candidate.png
+[2026-05-11 14:20:15] 📊 heatmap saved: Judge_output\_DesignJudge_claude2\10_metric_heatmap_by_family_mean.png
+[2026-05-11 14:20:16] 📊 overall plot saved: Judge_output\_DesignJudge_claude2\11_overall_bar_by_candidate.png
+[2026-05-11 14:20:17] 📊 overall plot saved: Judge_output\_DesignJudge_claude2\12_overall_bar_by_family_mean.png
+[2026-05-11 14:20:17] ✅ discovered cases saved: Judge_output\_DesignJudge_claude2\0_discovered_cases.csv
+[2026-05-11 14:20:17] ✅ raw outputs saved: Judge_output\_DesignJudge_claude2\1_raw_design_outputs.csv
+[2026-05-11 14:20:17] ✅ forward scores saved: Judge_output\_DesignJudge_claude2\2_item_scores_forward.csv
+[2026-05-11 14:20:17] ✅ reverse scores saved: Judge_output\_DesignJudge_claude2\2_item_scores_reverse.csv
+[2026-05-11 14:20:17] ✅ average per-candidate scores saved: Judge_output\_DesignJudge_claude2\3_item_scores_average_per_candidate.csv
+[2026-05-11 14:20:17] ✅ final by candidate saved: Judge_output\_DesignJudge_claude2\4_final_scores_by_candidate.csv
+[2026-05-11 14:20:17] ✅ final by family mean saved: Judge_output\_DesignJudge_claude2\5_final_scores_by_family_mean.csv
+[2026-05-11 14:20:17] ✅ final by family best saved: Judge_output\_DesignJudge_claude2\6_final_scores_by_family_best.csv
+[2026-05-11 14:20:17] ✅ family similarity/exploration saved: Judge_output\_DesignJudge_claude2\14_family_similarity_and_exploration.csv
+[2026-05-11 14:20:17] ✅ family mean with objective exploration saved: Judge_output\_DesignJudge_claude2\15_final_scores_by_family_mean_with_exploration.csv
+[2026-05-11 14:20:17] ✅ overall candidate matrix saved: Judge_output\_DesignJudge_claude2\7_case_candidate_overall_matrix.csv
+[2026-05-11 14:20:17] ✅ overall family mean matrix saved: Judge_output\_DesignJudge_claude2\8_case_family_mean_overall_matrix.csv
+[2026-05-11 14:20:17] ✅ candidate heatmap saved: Judge_output\_DesignJudge_claude2\9_metric_heatmap_by_candidate.png
+[2026-05-11 14:20:17] ✅ family mean heatmap saved: Judge_output\_DesignJudge_claude2\10_metric_heatmap_by_family_mean.png
+[2026-05-11 14:20:17] ✅ candidate overall plot saved: Judge_output\_DesignJudge_claude2\11_overall_bar_by_candidate.png
+[2026-05-11 14:20:17] ✅ family mean overall plot saved: Judge_output\_DesignJudge_claude2\12_overall_bar_by_family_mean.png
+[2026-05-11 14:20:17] Finished
+[2026-05-11 14:20:17] ================================================================================

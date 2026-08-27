@@ -1,0 +1,16 @@
+﻿Candidate,Family,Overall,ScoredCases,JudgeParseOK(%),Chemical_Feasibility,Scientific_Rigor,Mechanistic_Coherence,Property_Constraint_and_Tradeoff_Handling,Design_Completeness,Risk_and_Uncertainty_Awareness,Design_Innovation_and_Exploration
+BEAVER_Paper_1,BEAVER,6.823,4,100.0,7.188,7.25,6.25,6.312,7.938,7.875,4.938
+BEAVER_Paper_2,BEAVER,6.791,4,100.0,6.438,7.0,6.375,6.5,7.812,7.562,6.188
+BEAVER_Paper_3,BEAVER,6.508,4,100.0,6.062,6.625,6.0,6.25,7.562,7.5,6.0
+GPT5.5-1,GPT5.5,6.519,4,100.0,7.438,6.5,7.0,6.938,6.812,5.062,4.5
+GPT5.5-2,GPT5.5,6.402,4,100.0,7.438,6.438,6.812,6.812,6.875,4.938,4.0
+GPT5.5-3,GPT5.5,6.474,4,100.0,7.438,6.5,6.875,6.938,7.0,5.0,4.062
+Gemini3.1-pro-1,Gemini3.1-pro,6.178,4,100.0,6.625,5.938,7.0,6.562,6.188,4.438,5.5
+Gemini3.1-pro-2,Gemini3.1-pro,6.106,4,100.0,6.562,5.875,6.875,6.688,6.125,4.375,5.062
+Gemini3.1-pro-3,Gemini3.1-pro,6.172,4,100.0,6.75,6.0,7.062,6.625,6.125,4.438,5.0
+DeepSeek-V4-pro-1,DeepSeek-V4-pro,6.66,4,100.0,7.125,6.562,7.188,7.062,6.438,4.938,6.438
+DeepSeek-V4-pro-2,DeepSeek-V4-pro,6.888,4,100.0,6.812,6.875,7.5,7.438,6.625,5.25,7.0
+DeepSeek-V4-pro-3,DeepSeek-V4-pro,6.67,4,100.0,6.625,6.375,7.312,7.062,6.562,5.25,7.0
+Qwen3.5-Plus-1,Qwen3.5-Plus,6.464,4,100.0,6.688,6.188,7.062,6.812,6.938,5.688,5.062
+Qwen3.5-Plus-2,Qwen3.5-Plus,6.727,4,100.0,7.25,6.562,7.312,7.125,7.125,5.75,4.875
+Qwen3.5-Plus-3,Qwen3.5-Plus,6.718,4,100.0,7.25,6.5,7.375,7.062,6.812,5.75,5.312
