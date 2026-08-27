@@ -1,7 +1,0 @@
-cfrp
-bidirectional cfrp (hcp 200c)
-uhm cfrp
-ff-cr120 cfrp
-unidirectional cfrp (hcu 232)
-low-modulus cfrp
-polymer matrix in cfrp
