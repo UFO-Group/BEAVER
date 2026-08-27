@@ -1,0 +1,19 @@
+文件夹 PATH 列表
+卷序列号为 0630-3C72
+C:.
+|   README.txt
+|   requirements.txt
+|   Split_pdf.ipynb
+|   Standardize_Units.ipynb
+|   Table_Generation.ipynb
+|   tree.txt
+|   
+\---Data_Extraction
+        API-YoungsModulus.py
+        Clean.py
+        contains_keywords-swelling.py
+        contains_keywords-youngs.py
+        main-PDF-Swellingratio.ipynb
+        main-PDF-Youngsmodulus.ipynb
+        TextNormalizer.py
+        

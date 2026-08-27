@@ -1,0 +1,9 @@
+{
+  "pdf_raw_dir": "Data/PDFs",
+  "pdf_split_dir": "Data/Data_split", 
+  "output_dir": "Data/Processed_Results",
+  "log_dir": "Data/Logs",
+  "temp_dir": "Data/Temp",
+  "chunk_size": 5,
+  "cleanup_temp": false
+}
