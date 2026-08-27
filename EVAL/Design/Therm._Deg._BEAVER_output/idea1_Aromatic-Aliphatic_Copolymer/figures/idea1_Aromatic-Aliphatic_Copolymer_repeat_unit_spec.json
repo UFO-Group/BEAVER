@@ -1,0 +1,100 @@
+{
+  "rendered": true,
+  "renderer": "rdkit_dictionary_smiles",
+  "image_path": "Therm._Deg._BEAVER_output\\idea1_Aromatic-Aliphatic_Copolymer\\figures\\idea1_Aromatic-Aliphatic_Copolymer_repeat_unit.png",
+  "spec_path": "Therm._Deg._BEAVER_output\\idea1_Aromatic-Aliphatic_Copolymer\\figures\\idea1_Aromatic-Aliphatic_Copolymer_repeat_unit_spec.json",
+  "spec": {
+    "should_draw": true,
+    "confidence": "high",
+    "polymer_name": "poly(butylene adipate-co-terephthalate)",
+    "architecture": "random copolymer",
+    "repeat_units": [
+      {
+        "extracted_name": "poly(butylene adipate-co-terephthalate)",
+        "label": "poly(butylene adipate-co-terephthalate)",
+        "role": "main polymer-level structure",
+        "lookup_candidates": [
+          "poly(butylene adipate-co-terephthalate)",
+          "butylene adipate-co-terephthalate"
+        ],
+        "selected_lookup_candidate": "poly(butylene adipate-co-terephthalate)",
+        "canonical_name": "Polybutylene_adipate_co_terephthalate(PBAT)",
+        "database_name": "Polybutylene_adipate_co_terephthalate(PBAT)",
+        "mapped_smiles": "[*]C(CCCCC(OCCCCOC(C1=CC=C(C(OCCCCO[*])=O)C=C1)=O)=O)=O",
+        "smiles": "[*]C(CCCCC(OCCCCOC(C1=CC=C(C(OCCCCO[*])=O)C=C1)=O)=O)=O",
+        "rdkit_valid": true,
+        "rdkit_validation": {
+          "input_smiles": "[*]C(CCCCC(OCCCCOC(C1=CC=C(C(OCCCCO[*])=O)C=C1)=O)=O)=O",
+          "rdkit_available": true,
+          "valid": true,
+          "canonical_smiles": "*OCCCCOC(=O)c1ccc(C(=O)OCCCCOC(=O)CCCCC(*)=O)cc1",
+          "error": ""
+        },
+        "name_resolution": {
+          "alias_status": {
+            "status": "matched",
+            "match_method": "alias_exact",
+            "matched_key": "poly(butylene adipate-co-terephthalate)",
+            "matched_variant": "poly(butylene adipate-co-terephthalate)",
+            "score": 1.0
+          },
+          "smiles_status": {
+            "status": "matched",
+            "match_method": "smiles_exact",
+            "matched_key": "polybutylene_adipate_co_terephthalate(pbat)",
+            "score": 1.0
+          },
+          "candidate_trials": [
+            {
+              "candidate": "poly(butylene adipate-co-terephthalate)",
+              "canonical_name": "Polybutylene_adipate_co_terephthalate(PBAT)",
+              "database_name": "Polybutylene_adipate_co_terephthalate(PBAT)",
+              "mapped_smiles": "[*]C(CCCCC(OCCCCOC(C1=CC=C(C(OCCCCO[*])=O)C=C1)=O)=O)=O",
+              "rdkit_valid": true,
+              "alias_status": {
+                "status": "matched",
+                "match_method": "alias_exact",
+                "matched_key": "poly(butylene adipate-co-terephthalate)",
+                "matched_variant": "poly(butylene adipate-co-terephthalate)",
+                "score": 1.0
+              },
+              "smiles_status": {
+                "status": "matched",
+                "match_method": "smiles_exact",
+                "matched_key": "polybutylene_adipate_co_terephthalate(pbat)",
+                "score": 1.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "[*]C(CCCCC(OCCCCOC(C1=CC=C(C(OCCCCO[*])=O)C=C1)=O)=O)=O",
+                "rdkit_available": true,
+                "valid": true,
+                "canonical_smiles": "*OCCCCOC(=O)c1ccc(C(=O)OCCCCOC(=O)CCCCC(*)=O)cc1",
+                "error": ""
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "functional_groups": [],
+    "composition_note": "T:A TBD",
+    "non_polymer_components": [],
+    "caption": "Representative polymer-structure schematic of poly(butylene adipate-co-terephthalate) with variable terephthalate (T) to adipate (A) ratio.",
+    "polymer_level_priority_used": true,
+    "name_mapping": {
+      "name_name_dict_path": "resources\\Polymer-关键词",
+      "alias_source_type": "keyword_txt_folder",
+      "name_smiles_csv_path": "resources\\字典-使用-只含聚合物.csv",
+      "alias_entries": 13628,
+      "smiles_entries": 509,
+      "allow_fuzzy": false,
+      "fuzzy_cutoff": 0.92,
+      "rdkit_available": true,
+      "valid_smiles_count": 1,
+      "total_units": 1,
+      "generic_name_guard": true,
+      "keyword_folder_match_required": true,
+      "polymer_level_priority_used": true
+    }
+  }
+}

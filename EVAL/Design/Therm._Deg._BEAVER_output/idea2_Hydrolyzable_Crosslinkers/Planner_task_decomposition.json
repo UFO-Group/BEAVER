@@ -1,0 +1,26 @@
+{
+  "query_structure": "single",
+  "steps": [
+    {
+      "id": "step1",
+      "type": "search_papers",
+      "description": "Retrieve literature on hydrolyzable crosslinkers for biodegradable polyesters, focusing on thermal stability and degradation kinetics mechanisms",
+      "inputs": {
+        "query": "hydrolyzable crosslinkers in biodegradable polyesters for enhanced heat resistance without compromising degradation kinetics",
+        "top_k": 15,
+        "query_policy": "preserve_original",
+        "query_rewrite_mode": "none"
+      }
+    },
+    {
+      "id": "step2",
+      "type": "reason_over_evidence",
+      "description": "Evaluate feasibility and innovation of hydrolyzable crosslinkers, distinguishing direct evidence from mechanistic support",
+      "inputs": {
+        "use_steps": [
+          "step1"
+        ]
+      }
+    }
+  ]
+}

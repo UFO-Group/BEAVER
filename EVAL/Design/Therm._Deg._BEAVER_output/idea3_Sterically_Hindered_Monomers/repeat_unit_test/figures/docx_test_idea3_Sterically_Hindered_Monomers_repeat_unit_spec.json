@@ -1,0 +1,142 @@
+{
+  "rendered": true,
+  "renderer": "rdkit_dictionary_smiles",
+  "image_path": "Therm._Deg._BEAVER_output\\idea3_Sterically_Hindered_Monomers\\repeat_unit_test\\figures\\docx_test_idea3_Sterically_Hindered_Monomers_repeat_unit.png",
+  "spec_path": "Therm._Deg._BEAVER_output\\idea3_Sterically_Hindered_Monomers\\repeat_unit_test\\figures\\docx_test_idea3_Sterically_Hindered_Monomers_repeat_unit_spec.json",
+  "spec": {
+    "should_draw": true,
+    "confidence": "high",
+    "polymer_name": "poly(butylene succinate-co-isosorbide succinate)",
+    "architecture": "random copolymer",
+    "repeat_units": [
+      {
+        "extracted_name": "poly(butylene succinate-co-isosorbide succinate)",
+        "label": "poly(butylene succinate-co-isosorbide succinate)",
+        "role": "overall polymer structure",
+        "lookup_candidates": [
+          "poly(butylene succinate-co-isosorbide succinate)"
+        ],
+        "selected_lookup_candidate": "poly(butylene succinate-co-isosorbide succinate)",
+        "canonical_name": "Poly(butylene succinate)(PBS)",
+        "database_name": "Poly(butylene succinate)(PBS)",
+        "mapped_smiles": "[*]OCCCCOC(CCC([*])=O)=O",
+        "smiles": "[*]OCCCCOC(CCC([*])=O)=O",
+        "rdkit_valid": true,
+        "rdkit_validation": {
+          "input_smiles": "[*]OCCCCOC(CCC([*])=O)=O",
+          "rdkit_available": true,
+          "valid": true,
+          "canonical_smiles": "*OCCCCOC(=O)CCC(*)=O",
+          "error": ""
+        },
+        "name_resolution": {
+          "alias_status": {
+            "status": "matched",
+            "match_method": "strict_alias_exact",
+            "matched_key": "poly(butylene succinate-co-isosorbide succinate)",
+            "matched_variant": "poly(butylene succinate-co-isosorbide succinate)",
+            "score": 1.0
+          },
+          "smiles_status": {
+            "status": "matched",
+            "match_method": "smiles_exact",
+            "matched_key": "poly(butylene succinate)(pbs)",
+            "score": 1.0
+          },
+          "candidate_trials": [
+            {
+              "candidate": "poly(butylene succinate-co-isosorbide succinate)",
+              "canonical_name": "Poly(butylene succinate)(PBS)",
+              "database_name": "Poly(butylene succinate)(PBS)",
+              "mapped_smiles": "[*]OCCCCOC(CCC([*])=O)=O",
+              "rdkit_valid": true,
+              "alias_status": {
+                "status": "matched",
+                "match_method": "strict_alias_exact",
+                "matched_key": "poly(butylene succinate-co-isosorbide succinate)",
+                "matched_variant": "poly(butylene succinate-co-isosorbide succinate)",
+                "score": 1.0
+              },
+              "smiles_status": {
+                "status": "matched",
+                "match_method": "smiles_exact",
+                "matched_key": "poly(butylene succinate)(pbs)",
+                "score": 1.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "[*]OCCCCOC(CCC([*])=O)=O",
+                "rdkit_available": true,
+                "valid": true,
+                "canonical_smiles": "*OCCCCOC(=O)CCC(*)=O",
+                "error": ""
+              },
+              "strict_full_name_match": true
+            }
+          ]
+        }
+      }
+    ],
+    "functional_groups": [],
+    "composition_note": "isosorbide mol%: TBD",
+    "non_polymer_components": [
+      "titanium butoxide"
+    ],
+    "caption": "Representative polymer-structure schematic of poly(butylene succinate-co-isosorbide succinate) with variable isosorbide content.",
+    "architecture_unit_inference_used": true,
+    "polymer_level_priority_used": true,
+    "polymer_level_priority_skipped": false,
+    "name_mapping": {
+      "name_name_dict_path": "resources\\Polymer-关键词",
+      "alias_source_type": "keyword_txt_folder",
+      "name_smiles_csv_path": "resources\\字典-使用-只含聚合物.csv",
+      "alias_entries": 13650,
+      "smiles_entries": 509,
+      "allow_fuzzy": false,
+      "fuzzy_cutoff": 0.92,
+      "rdkit_available": true,
+      "valid_smiles_count": 1,
+      "total_units": 1,
+      "generic_name_guard": true,
+      "keyword_folder_match_required": true,
+      "polymer_level_priority_used": true,
+      "polymer_level_priority_skipped": false,
+      "prefer_overall_polymer_if_available": true,
+      "force_segment_level_schematic": false,
+      "overall_polymer_priority_attempted": true,
+      "overall_polymer_priority_blocked_reason": "",
+      "overall_polymer_trials": [
+        {
+          "candidate": "poly(butylene succinate-co-isosorbide succinate)",
+          "canonical_name": "Poly(butylene succinate)(PBS)",
+          "database_name": "Poly(butylene succinate)(PBS)",
+          "mapped_smiles": "[*]OCCCCOC(CCC([*])=O)=O",
+          "rdkit_valid": true,
+          "alias_status": {
+            "status": "matched",
+            "match_method": "strict_alias_exact",
+            "matched_key": "poly(butylene succinate-co-isosorbide succinate)",
+            "matched_variant": "poly(butylene succinate-co-isosorbide succinate)",
+            "score": 1.0
+          },
+          "smiles_status": {
+            "status": "matched",
+            "match_method": "smiles_exact",
+            "matched_key": "poly(butylene succinate)(pbs)",
+            "score": 1.0
+          },
+          "rdkit_validation": {
+            "input_smiles": "[*]OCCCCOC(CCC([*])=O)=O",
+            "rdkit_available": true,
+            "valid": true,
+            "canonical_smiles": "*OCCCCOC(=O)CCC(*)=O",
+            "error": ""
+          },
+          "strict_full_name_match": true
+        }
+      ],
+      "architecture_requires_multiple_units": true,
+      "independent_multi_component": false,
+      "split_after_failed_overall_lookup": false
+    }
+  }
+}

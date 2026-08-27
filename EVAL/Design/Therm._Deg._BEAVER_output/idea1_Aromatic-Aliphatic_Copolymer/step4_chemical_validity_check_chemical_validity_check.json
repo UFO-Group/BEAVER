@@ -1,0 +1,17 @@
+{
+  "chemical_validity": 85,
+  "structure_mechanism_consistency": 80,
+  "property_pathway_plausibility": 75,
+  "evidence_claim_consistency": 70,
+  "overall_chemical_validity": 78,
+  "contradiction_detected": false,
+  "major_red_flags": [],
+  "score_caps": {
+    "Feasibility": null,
+    "Predictability": null,
+    "Performance": null,
+    "Innovation": null
+  },
+  "rationale": "The report proposes a chemically plausible aromatic-aliphatic copolyester system (e.g., PBAT-like) targeting Tg elevation via aromatic unit incorporation, which is well-established. The mechanism of increased chain rigidity from aromatic segments (terephthalate) is sound. The design rule to limit aromatic block length (≤2 units) to preserve biodegradation pathways is reasonable and cited. However, there is a significant evidence gap regarding quantitative degradation kinetics for such precisely controlled microstructures, creating uncertainty in the central trade-off claim. The report acknowledges this gap and associated risks. No fundamental chemical contradictions are present, but the property-pathway plausibility is moderated by the unverified assumption that short aromatic blocks will not excessively suppress degradation.",
+  "critic_status": "validated"
+}

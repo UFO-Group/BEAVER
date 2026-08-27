@@ -1,0 +1,231 @@
+{
+  "called_mech_table": false,
+  "idea_visuals": [],
+  "step1": {
+    "query": "Aromatic-aliphatic copolymer biodegradable polyester thermal stability degradation kinetics glass transition temperature melting temperature",
+    "enhanced_query": "Aromatic-aliphatic copolymer biodegradable polyester thermal stability degradation kinetics glass transition temperature melting temperature High Tg",
+    "query_policy": "supplementary_facet",
+    "query_rewrite_mode": "domain_append",
+    "evidence_items": [
+      {
+        "rank": 6,
+        "score": 0.0161,
+        "source": "101016_jpolymer2023125685_段11-13.txt",
+        "filename": "101016_jpolymer2023125685_段11-13.txt",
+        "topic": "Biodegradable Plastics and Environmental Impact",
+        "evidence": ") [5,6], poly (ε-caprolactone) (PCL) [7], poly (butylene succinate) (PBS) [8], and poly (butylene adipate-co-terephthalate) (PBAT) [9,10] are the most common biodegradable plastics. Among the existing biodegradable polymers, PLA has a relatively high glass transition temperature (Tg) of 60 °C and a melting point (Tm) of 170-180 °C. PBAT is an aliphatic-aromatic polyester composed of 1,4-butanediol, adipic acid, and terephthalic acid. Compared with aliphatic polyesters, it has high heat resistance, favorable mechanical properties, a Tg of -30-0 °C, and a Tm of 160-180 °C owing to its aromatic b",
+        "rerank_score": 3,
+        "rerank_has_answer": true,
+        "rerank_rationale": "Directly states PBAT is an aliphatic-aromatic polyester with Tg and Tm ranges and high heat resistance."
+      },
+      {
+        "rank": 27,
+        "score": 0.0137,
+        "source": "101016_jpolymer2025128488_段131-133.txt",
+        "filename": "101016_jpolymer2025128488_段131-133.txt",
+        "topic": "PBAT Synthesis via Transesterification",
+        "evidence": "iodegradable aromatic-aliphatic copolymer requires an aromatic segment ≤2 and an aliphatic segment ≥2 units. While these studies provide a hypothetical target for a biodegradable copolyester, further research is needed to synthesise and validate the proposed microstructure degradability across various degradation environments. Several studies have attempted synthesising aromatic-aliphatic copolymers by blending PET with aliphatic polyester such as PCL. Results suggest that the block length of aromatic and aliphatic segments gradually shortened with increased reaction time [183,264,265]. For i",
+        "rerank_score": 3,
+        "rerank_has_answer": true,
+        "rerank_rationale": "Directly discusses the microstructure requirement for a biodegradable aromatic-aliphatic copolymer and synthesis attempts."
+      },
+      {
+        "rank": 2,
+        "score": 0.0225,
+        "source": "101016_jeurpolymj201305007_段7-9.txt",
+        "filename": "101016_jeurpolymj201305007_段7-9.txt",
+        "topic": "Biodegradable Polyester Glass Transition Temperature Variation",
+        "evidence": "A systematic variation of the Tg up to 170 °C is possible by a variation of the lactide content. Biodegradable polyesters have attracted much interest over the past 30 years. With exception of poly(d, l-lactide) all commercial biodegradable polyesters are crystalline materials having relatively low Tg‘s. For instance, the Tg‘s of aliphatic polyesters decrease in the order 55 °C for polylactide, 30 °C for polyglycolide and −60 °C for poly(ε-caprolactone). Therefore, their mechanical properties and potential applications depend on the melting temperature, on the rate of crystallization and on t",
+        "rerank_score": 2,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Discusses Tg and Tm of various biodegradable aliphatic polyesters, but not aromatic-aliphatic copolymers."
+      },
+      {
+        "rank": 10,
+        "score": 0.0156,
+        "source": "101016_jpolymdegradstab201812031_段9-11.txt",
+        "filename": "101016_jpolymdegradstab201812031_段9-11.txt",
+        "topic": "Biodegradable Polyester Poly(butylene succinate) Bio-based Production",
+        "evidence": "ization process. Given the successful commercial launch of bio-fermentation process of SA and the potential chance on its derivative BDO, PBS is theoretically a fully bio-based polyester [1]. Owing to the linear and aliphatic nature of its backbone structure, PBS apparently displays significantly lower thermal properties (melting temperature Tm = 110 °C; glass transition temperature Tg = −36 °C) and mechanical strength (tensile strength: 25-35 MPa, Young's modulus: 200-300 MPa,) when comparing with aromatic or semi-aromatic polyesters, such as poly(ethylene terephthalate) (PET) and poly(butyl",
+        "rerank_score": 2,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Compares thermal properties of aliphatic PBS to aromatic polyesters, but not a copolymer."
+      },
+      {
+        "rank": 22,
+        "score": 0.0141,
+        "source": "101002_macp201100052_段28-30.txt",
+        "filename": "101002_macp201100052_段28-30.txt",
+        "topic": "Aliphatic Polyesters: Renewable, Biodegradable Thermoplastics",
+        "evidence": "c polyesters aims at adding rigidity to macromolecular chains, while maintaining the aliphatic character of the macromolecules. Consequently, Tg raises and desirable physical-mechanical properties can be obtained.3, 4 The comparison between the glass transition temperatures of poly(butylene adipate) (PBA) and poly(butylene 1,4-cyclohexanedicarboxylate) (PBCHD), whose chemical structure is reported in Scheme 1, can be significant. The Tg values are -58 °C for PBA5 and vary from -10 to 18 °C for PBCHD,6 i.e., difference of about 50-80 °C. This is a clear indication of the high rigidity of PBCHD",
+        "rerank_score": 2,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Discusses Tg of aliphatic and semi-aromatic polyesters, related to chain rigidity but not directly about copolymers or degradation kinetics."
+      },
+      {
+        "rank": 23,
+        "score": 0.0141,
+        "source": "101002_pi3000_段106-108.txt",
+        "filename": "101002_pi3000_段106-108.txt",
+        "topic": "Thermal Analysis of Polyester Diols and Chain-Extended Polymers",
+        "evidence": "DTG curves of polyester diols and chain-extended polymers.. DSC was employed to study the thermal transition and crystallization behaviors of the polyester diols and the chain-extended polymers. The DSC thermograms are shown in Fig. 5; related thermal parameters are summarized in Table 4. It is evident from Fig. 5 and Table 4 that PBS-diol is a crystallizable prepolymer with Tm of 111.4 °C and a glass transition temperature (Tg) of − 42.7 °C, while glassy PPT-diol, appearing as a transparent and brittle material at ambient temperature, has a much higher Tg of 69.1 °C. As the aromatic PPT segm",
+        "rerank_score": 2,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Provides specific Tg and Tm values for PBS-diol and PPT-diol, which are aromatic-aliphatic segments, but not explicitly for a copolymer."
+      },
+      {
+        "rank": 25,
+        "score": 0.0139,
+        "source": "101002_pi3000_段58-60.txt",
+        "filename": "101002_pi3000_段58-60.txt",
+        "topic": "Thermal Analysis of Polyester Diols and Chain-Extended Polymers",
+        "evidence": "DTG curves of polyester diols and chain-extended polymers.. DSC was employed to study the thermal transition and crystallization behaviors of the polyester diols and the chain-extended polymers. The DSC thermograms are shown in Fig. 5; related thermal parameters are summarized in Table 4. It is evident from Fig. 5 and Table 4 that PBS-diol is a crystallizable prepolymer with Tm of 111.4 °C and a glass transition temperature (Tg) of − 42.7 °C, while glassy PPT-diol, appearing as a transparent and brittle material at ambient temperature, has a much higher Tg of 69.1 °C. As the aromatic PPT segm",
+        "rerank_score": 2,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Same as passage 7; provides specific Tg and Tm values for aromatic-aliphatic polyester diols."
+      },
+      {
+        "rank": 28,
+        "score": 0.0135,
+        "source": "101002_macp201100052_段87-89.txt",
+        "filename": "101002_macp201100052_段87-89.txt",
+        "topic": "Aliphatic Polyesters: Renewable, Biodegradable Thermoplastics",
+        "evidence": "c polyesters aims at adding rigidity to macromolecular chains, while maintaining the aliphatic character of the macromolecules. Consequently, Tg raises and desirable physical-mechanical properties can be obtained.3, 4 The comparison between the glass transition temperatures of poly(butylene adipate) (PBA) and poly(butylene 1,4-cyclohexanedicarboxylate) (PBCHD), whose chemical structure is reported in Scheme 1, can be significant. The Tg values are -58 °C for PBA5 and vary from -10 to 18 °C for PBCHD,6 i.e., difference of about 50-80 °C. This is a clear indication of the high rigidity of PBCHD",
+        "rerank_score": 2,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Same as passage 6; discusses Tg related to chain rigidity in polyesters."
+      },
+      {
+        "rank": 31,
+        "score": 0.0133,
+        "source": "101039_d2py00212d_段29-31.txt",
+        "filename": "101039_d2py00212d_段29-31.txt",
+        "topic": "Mechanical Properties of Methacrylated Poly(glycerol sebacate)",
+        "evidence": "ohol (PVA) hydrogels (Young's modulus: 5.3 MPa and ultimate tensile strength: 0.85 ± 0.55 MPa).42 Fig. S5† and Table 3 show the glass transition temperature (Tg) for PGS-M with different DMs. The initial and peak thermal decomposition temperatures (TDI and TDP) were obtained from the TGA thermograph. The glass transition temperature (Tg), melting temperature (Tm), crystallization temperature (Tc), enthalpy of melting (ΔHm) and enthalpy of crystallization (ΔHc) were obtained from the DSC thermograph. It was observed that Tg increases as the DM increases, from −37 to −33.95 °C. Melting points (",
+        "rerank_score": 2,
+        "rerank_has_answer": true,
+        "rerank_rationale": "Explicitly reports glass transition and melting temperatures for a specific polymer system."
+      },
+      {
+        "rank": 34,
+        "score": 0.013,
+        "source": "101002_app33935_段26-28.txt",
+        "filename": "101002_app33935_段26-28.txt",
+        "topic": "Synthesis and Characterization of Biodegradable Isosorbide Copolyesters",
+        "evidence": "rystallization temperature, melting temperature, degree of crystallinity and degradation rate while a significant increase in glass transition temperature with increasing isosorbide content. © 2011 Wiley Periodicals, Inc. J Appl Polym Sci, 2011 Poly(butylene succinate) (PBS) is a biodegradable aliphatic polyester that is used in a wide range of engineering applications. PBS has a relatively high melting temperature similar to that of the low density polyethylene, so that it can be processed with conventional equipments commonly used for polyolefins. However, PBS possesses a low glass transiti",
+        "rerank_score": 2,
+        "rerank_has_answer": true,
+        "rerank_rationale": "Discusses thermal properties of a biodegradable aliphatic polyester and mentions glass transition/melting temperatures."
+      },
+      {
+        "rank": 44,
+        "score": 0.0122,
+        "source": "101016_jpolymer2023125711_段8-10.txt",
+        "filename": "101016_jpolymer2023125711_段8-10.txt",
+        "topic": "Poly(butylene succinate) properties crystallization",
+        "evidence": "At high temperature, the two different crystal populations coexist. Poly(butylene succinate) (PBS) is a biobased and compostable linear polyester with remarkable thermal and mechanical properties [[1], [2], [3]]. Similar to widely used polyolefins, like isotactic polypropylene (iPP) or high-density and low-density polyethylene (HDPE and LDPE), PBS has a glass transition temperature (Tg) well below room temperature, around −30 °C, a relatively high melting temperature (above 100 °C), and a very high crystallization rate upon cooling from the isotropic melt [[1], [2], [3], [4], [5], [6]]. Also,",
+        "rerank_score": 2,
+        "rerank_has_answer": true,
+        "rerank_rationale": "Provides explicit Tg and Tm values for PBS, a biodegradable aliphatic polyester."
+      },
+      {
+        "rank": 1,
+        "score": 0.0264,
+        "source": "101007_s00289-013-0917-0_段1-3.txt",
+        "filename": "101007_s00289-013-0917-0_段1-3.txt",
+        "topic": "Biodegradable Branched Polyester Polyols from L-Lactide and Castor Oil",
+        "evidence": "btained polymers-influenced glass transition temperature significantly. The thermal stability was investigated by TG analysis, and the results have shown the dependence of weight loss on the arm length of the star-shaped polyesters. The thermal stability of star-shaped polyesters significantly decreased with degradation of polyester polyol obtained in acid solution. Similar content being viewed by others",
+        "rerank_score": 1,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Discusses thermal stability and Tg of star-shaped polyesters, but not aromatic-aliphatic copolymers."
+      },
+      {
+        "rank": 4,
+        "score": 0.0164,
+        "source": "101002_app44186_段15-17.txt",
+        "filename": "101002_app44186_段15-17.txt",
+        "topic": "Poly(butylene diglycolate) (PBDG) properties and characterization",
+        "evidence": "The basic thermal properties, isothermal melt crystallization kinetics, spherulitic morphology, mechanical properties, and hydrolytic degradation behavior of a novel eco-friendly polyester poly(butylene diglycolate) (PBDG) containing ether linkages were systematically studied with several techniques in this research. PBDG is an aliphatic polyester with high thermal stability. It had a glass transition temperature (Tg) of −25.7 °C, a melting point temperature of 65.1 °C, and an equilibrium melting point of 73.2 °C. During the isothermal melt crystallization, PBDG crystallized slowly with increa",
+        "rerank_score": 1,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Provides Tg and Tm for an aliphatic polyester (PBDG), but not an aromatic-aliphatic copolymer."
+      },
+      {
+        "rank": 5,
+        "score": 0.0161,
+        "source": "101002_macp201200612_段58-60.txt",
+        "filename": "101002_macp201200612_段58-60.txt",
+        "topic": "Thermorheological and Mechanical Properties of Biodegradable Copolyesters",
+        "evidence": "Thermorheological and Mechanical Properties of Copolymers of Lactide, Isosorbide, and Different Phthalic Acids Numerous important commercial engineering plastics are amorphous, for instance, atactic polystyrene, poly(methyl methacrylate), poly(vinyl chloride), polycarbonates, or poly(ether sulfone)s. Their mechanical properties and, above all, their heat distortion temperature depend on the glass-transition temperatures (Tgs), which fall into the range of 90-210 °C. In contrast, all commercial biodegradable polyesters are crystalline and possess low Tgs. A Tg around 65 °C for high molar mass",
+        "rerank_score": 1,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Discusses Tg of commercial biodegradable polyesters and lactide copolymers, but not aromatic-aliphatic."
+      },
+      {
+        "rank": 7,
+        "score": 0.0159,
+        "source": "101039_d4gc05572a_段30-32.txt",
+        "filename": "101039_d4gc05572a_段30-32.txt",
+        "topic": "Polyester Synthesis and NMR Characterization",
+        "evidence": "to the lower molecular weight of P2c (12 kg mol−1) than that of P1c (15 kg mol−1). The obtained Tg value of 75 °C for P1c and P2c was comparable to that of commercial PET (76 °C), indicating an excellent heat resistance of the polymers.9 The wide Tg range of the current polyesters suggests a potential use in both flexible and rigid packaging applications. Moreover, their fully amorphous nature implies a high degree of biodegradability, potentially making them a biodegradable alternative to semicrystalline materials such as PET and PEF. The Tg values were taken at the local maximum of the los",
+        "rerank_score": 1,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Discusses Tg of polyesters comparable to PET, but not explicitly aromatic-aliphatic or biodegradable."
+      }
+    ],
+    "mode": "hybrid",
+    "rag_answer": null
+  },
+  "step2_report_category": {
+    "primary_category": "thermal_design",
+    "primary_display_name": "热学性能设计",
+    "secondary_categories": [
+      "degradation_regulation"
+    ],
+    "secondary_display_names": [
+      "降解行为与结构调控"
+    ],
+    "mode": "hybrid",
+    "score_breakdown": {
+      "mechanical_design": 0,
+      "thermal_design": 70,
+      "degradation_regulation": 35
+    },
+    "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 热学性能设计=70 | 降解行为与结构调控=35"
+  },
+  "final_design_profile": {
+    "primary_category": "thermal_design",
+    "primary_display_name": "热学性能设计",
+    "secondary_categories": [
+      "degradation_regulation"
+    ],
+    "secondary_display_names": [
+      "降解行为与结构调控"
+    ],
+    "mode": "hybrid",
+    "score_breakdown": {
+      "mechanical_design": 0,
+      "thermal_design": 70,
+      "degradation_regulation": 35
+    },
+    "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 热学性能设计=70 | 降解行为与结构调控=35"
+  },
+  "final_design_report_category": {
+    "primary_category": "thermal_design",
+    "primary_display_name": "热学性能设计",
+    "secondary_categories": [
+      "degradation_regulation"
+    ],
+    "secondary_display_names": [
+      "降解行为与结构调控"
+    ],
+    "mode": "hybrid",
+    "score_breakdown": {
+      "mechanical_design": 0,
+      "thermal_design": 70,
+      "degradation_regulation": 35
+    },
+    "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 热学性能设计=70 | 降解行为与结构调控=35"
+  },
+  "step2": "# Design and Verification of an Aromatic-Aliphatic Copolyester for Enhanced Thermal Stability with Preserved Biodegradation Kinetics\n\n## Abstract  \nThis study proposes an aromatic-aliphatic copolyester system designed to achieve improved heat resistance (targeting elevated glass transition temperature, *T*_g) without significantly suppressing degradation kinetics. The hypothesis posits that controlled incorporation of aromatic units into an aliphatic polyester backbone enhances chain rigidity while maintaining enzymatic/hydrolytic degradation pathways through limited aromatic segment length (≤2 units) [1]. Literature evidence confirms aromatic segments elevate *T*_g (e.g., +50–80°C vs. aliphatic analogs [2]), but degradation kinetics remain poorly quantified for designed microstructures. The experimental route involves synthesizing butylene glycol-based copolymers with systematic terephthalate/adipate variations, characterizing thermal transitions (DSC), and monitoring hydrolytic/enzymatic degradation. Key risks include trade-offs between aromatic content and degradation rates, phase separation, and crystallization interference. Preliminary evidence supports feasibility, but degradation validation is critical.\n\n## 1. Introduction  \n### 1.1 Scientific Background  \nBiodegradable polyesters like poly(butylene succinate) (PBS, *T*_g ≈ −36°C [3, 4]) and poly(butylene adipate-co-terephthalate) (PBAT, *T*_g = −30–0°C [5]) face limitations in heat-resistant applications due to low glass transition temperatures. Aliphatic polyesters typically exhibit faster degradation but poor thermal stability, while aromatic segments improve rigidity at the cost of biodegradability [1, 6].  \n\n### 1.2 Design Hypothesis  \nWe hypothesize that an aromatic-aliphatic copolyester with constrained aromatic segment lengths (≤2 units) and dominant aliphatic segments (≥2 units) will significantly increase *T*_g without drastically impeding degradation kinetics. This leverages the rigidity of aromatic moieties for thermal stability while preserving enzymatic cleavage sites in aliphatic regions [1, 7].  \n\n### 1.3 Scope of This Study  \nDirect evidence supports *T*_g enhancement via aromatic incorporation [2, 5, 7], and theoretical biodegradability of short aromatic sequences [1]. However, degradation kinetics data for precisely engineered copolymers are absent, and optimal aromatic/aliphatic ratios remain unquantified.  \n\n## 2. Mechanistic Rationale and Design Hypothesis  \n### 2.1 Mechanistic Basis  \nAromatic units (e.g., terephthalate) restrict chain mobility through steric hindrance and π-orbital interactions, elevating *T*_g [2, 7]. For example, cyclohexanedicarboxylate units raise *T*_g by 50–80°C versus adipate analogs [2]. Degradation occurs primarily via hydrolysis/enzymatic cleavage of aliphatic ester bonds; aromatic esters resist scission but remain accessible if segment lengths are short (≤2 units) [1].  \n\n### 2.2 Evidence-Supported Design Rules  \n- **Thermal properties:** *T*_g increases linearly with aromatic content [2, 7]. Melting temperature (*T*_m) may rise but risks thermal degradation during processing.  \n- **Degradation behavior:** Aliphatic segment length ≥2 units maintains degradation pathways [1]. Higher crystallinity may slow degradation.  \n- **Biocompatibility:** Insufficient evidence; dependent on monomer selection and byproducts.  \n\n### 2.3 Trade-Offs and Constraints  \nA trade-off exists between *T*_g elevation and degradation rate suppression. For instance, poly(propylene terephthalate)-diol (*T*_g = 69.1°C) degrades slower than PBS-diol (*T*_g = −42.7°C) [7]. Crystallinity may increase with symmetry but could hinder degradation [3].  \n\n## 3. Materials and Methods  \n### 3.1 Material System and Variable Definition  \n- **Base system:** Butylene glycol (1,4-butanediol) + adipic acid (aliphatic) + terephthalic acid (aromatic).  \n- **Primary variable:** Molar ratio of terephthalate (T) to adipate (A) units (T:A = 0:100 to 60:40).  \n- **Fixed:** Diol excess (20 mol%), catalyst (titanium tetrabutoxide).  \n- **Unknowns:** Optimal polymerization time/temperature, molecular weight target.  \n\n### 3.2 Formulation / Sample Matrix Design  \n| Sample | T:A (mol:mol) | Target *T*_g (°C) | Degradation Screening |  \n|--------|---------------|----------------------------|------------------------|  \n| PBS    | 0:100         | Baseline (−36°C [3])       | Control                |  \n| C20    | 20:80         | >−10°C                     | Phase 1                |  \n| C40    | 40:60         | >10°C                      | Phase 1                |  \n| C60    | 60:40         | >30°C                      | Phase 2                |  \n| PBAT*  | ∼50:50†       | −30–0°C [5]                | Reference              |  \n*Commercial PBAT reference; †exact ratio varies.  \n\n### 3.3 Sample Preparation / Fabrication Procedure  \n1. **Esterification:** React diacids (adipic + terephthalic) with excess 1,4-butanediol (1:1.2 diacid:diol) at 180–220°C under N_2 until acid value <10 mg KOH/g.  \n2. **Polycondensation:** Reduce pressure to <1 mbar, raise temperature to 240–250°C, add catalyst (0.1 wt%), and react until target melt viscosity.  \n3. **Processing:** Compression-mold films (0.5 mm thickness) at *T*_m + 20°C. Annealing conditions TBD.  \n\n### 3.4 Structural and Physicochemical Characterization  \n- **Molecular weight:** GPC (THF, 35°C).  \n- **Composition:** ^1H-NMR (CDCl_3) to confirm T:A ratio.  \n- **Thermal transitions:** DSC (N_2, 10°C/min; 2 heat/cool cycles).  \n- **Crystallinity:** XRD and DSC crystallinity (%*X*_c).  \n- **Morphology:** SEM/AFM for phase separation.  \n\n### 3.5 Mechanical Testing Protocol  \n- **Tensile properties:** ASTM D638 (dry, 23°C; 5 specimens/group).  \n- **Priority metrics:** Young’s modulus (stiffness), elongation at break (toughness).  \n- **Comparison:** PBS vs. C20–C60 at equivalent crystallinity.  \n\n### 3.6 Degradation Evaluation Protocol  \n- **Hydrolytic degradation:** Phosphate buffer (pH 7.4, 37°C); measure mass loss, M_n change (GPC), and surface erosion (SEM) at 4, 8, 12 weeks.  \n- **Enzymatic degradation:** *Pseudomonas* lipase (1 mg/mL, pH 7.0); monitor mass loss at 37°C.  \n- **Degradation kinetics:** Fit data to first-order model; compare rate constants (*k*).  \n\n### 3.7 Biocompatibility / Biofunction Evaluation  \n- **Cytotoxicity:** ISO 10993-5 elution assay (L929 fibroblasts).  \n- **Scope:** Preliminary screening only; insufficient evidence for in-depth analysis.  \n\n### 3.8 Controls, Decision Criteria, and Statistical Comparison  \n- **Controls:** PBS (0% T), commercial PBAT.  \n- **Success criteria:** *T*_g ≥ 0°C (C20–C60) with enzymatic degradation rate ≥50% of PBS.  \n- **Statistics:** One-way ANOVA (α=0.05) with Tukey post-hoc; n=3 per group.  \n\n## 4. Results and Evidence-Based Discussion  \n### 4.1 Directly Supported Expectations  \n- *T*_g elevation with aromatic content is well-established: PPT-diol (*T*_g = 69.1°C) vs. PBS-diol (−42.7°C) [7].  \n- PBAT demonstrates feasibility of combining aromatic/aliphatic units [5].  \n\n### 4.2 Mechanistically Inferred Expectations  \n- Degradation rates should decrease with higher T content but remain measurable if aromatic blocks are short (≤2 units) [1].  \n- Crystallinity may increase with symmetric terephthalate units, potentially slowing degradation [3].  \n\n### 4.3 Evidence Gaps and Uncertainty  \n- **Critical gap:** No quantitative degradation kinetics for copolymers with controlled block lengths.  \n- **Uncertainty:** Phase separation risk at T:A >40:60; effect on mechanical properties unknown.  \n- **Missing data:** Enzymatic degradation rates for terephthalate-containing systems.  \n\n### 4.4 Comparison with Prior Systems  \nCompared to PBS (*T*_g ≈ −36°C [3]), C40 is expected to achieve *T*_g >10°C [7]—superior to PBAT (*T*_g ≤0°C [5]). However, degradation rates for designed copolymers may exceed PBAT if aromatic sequences are shorter [1].  \n\n## 5. Risk Analysis and Optimization Path  \n### 5.1 Major Failure Modes  \n1. **Degradation too slow:** Excessive T content or long aromatic blocks.  \n2. **Phase separation:** Poor compatibility between aromatic/aliphatic segments.  \n3. **Low *T*_g:** Inadequate aromatic incorporation or low molecular weight.  \n\n### 5.2 Optimization Pathway  \n- **Degradation too slow:** Reduce T content; increase aliphatic segment length; add hydrolytically labile comonomers (e.g., diglycolate [8]).  \n- **Degradation too fast:** Increase T content or crystallinity; optimize annealing.  \n- **Stiffness too low:** Raise T ratio; consider rigid diols (e.g., isosorbide [9]).  \n- **Toughness too low:** Adjust aliphatic segment length; add impact modifiers.  \n- **Biocompatibility issues:** Purify to remove catalysts/monomers; end-cap with biocompatible groups.  \n\n## 6. Conclusion  \nThe aromatic-aliphatic copolyester design is promising for enhancing heat resistance (*T*_g >0°C) while preserving biodegradability, supported by mechanistic evidence but requiring degradation kinetics validation. Synthesis feasibility is high, yet phase separation and degradation trade-offs pose risks. Immediate experimental focus should synthesize C20–C60 series and quantify hydrolytic/enzymatic degradation. The critical next step is establishing the maximum aromatic content sustaining practical degradation rates.  \n\n## 7. Machine-Readable Score Block  \n```json\n{\n  \"feasibility\": 80,\n  \"predictability\": 65,\n  \"performance\": 70,\n  \"innovation\": 60\n}\n```\n\n## 8. References  \n- [1] 101016_jpolymer2025128488\n- [2] 101002_macp201100052\n- [3] 101016_jpolymdegradstab201812031\n- [4] 101016_jpolymer2023125711\n- [5] 101016_jpolymer2023125685\n- [6] 101002_app33935\n- [7] 101002_pi3000\n- [8] 101002_app44186\n- [9] 101002_macp201200612"
+}

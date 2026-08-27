@@ -1,0 +1,20 @@
+{
+  "chemical_validity": 85,
+  "structure_mechanism_consistency": 80,
+  "property_pathway_plausibility": 75,
+  "evidence_claim_consistency": 70,
+  "overall_chemical_validity": 78,
+  "contradiction_detected": false,
+  "major_red_flags": [
+    "Base oligomer selection (PCL, Tg ~ -60°C) contradicts the primary objective of achieving 'High Tg' and 'improved heat resistance'. The report's target of +15°C Tg elevation would still result in a material well below room temperature, failing the user's goal.",
+    "The proposed crosslinking chemistry (Michael addition of acrylates with cysteine-based thiols) creates hydrolytically stable thioether linkages, not the claimed 'hydrolyzable ester' crosslinks. This is a fundamental chemical contradiction between the proposed mechanism and the stated materials/methods."
+  ],
+  "score_caps": {
+    "Feasibility": 40,
+    "Predictability": 50,
+    "Performance": 40,
+    "Innovation": null
+  },
+  "rationale": "The core chemical design contains a critical flaw: the proposed base material (PCL) has an intrinsically low Tg (~-60°C), making the stated goal of 'improved heat resistance' chemically unachievable through crosslinking alone, as even a +20°C increase would not yield a heat-resistant material. Furthermore, a major chemical contradiction exists: the proposed Michael addition between acrylates and thiols forms stable thioether bonds, not hydrolyzable ester crosslinks as claimed throughout the hypothesis. This invalidates the central degradation-control mechanism. The structure-property logic for Tg elevation via crosslinking is sound, and the report correctly identifies trade-offs, but the foundational material choice and crosslink chemistry are chemically inconsistent with the design objectives.",
+  "critic_status": "validated"
+}

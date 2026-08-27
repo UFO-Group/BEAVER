@@ -1,0 +1,26 @@
+{
+  "query_structure": "single",
+  "steps": [
+    {
+      "id": "step1",
+      "type": "search_papers",
+      "description": "Retrieve literature on sterically hindered monomers in biodegradable polyesters focusing on thermal properties and degradation kinetics",
+      "inputs": {
+        "query": "Sterically hindered monomers in biodegradable polyesters: effects on glass transition temperature, melting temperature, and degradation kinetics",
+        "top_k": 15,
+        "query_policy": "preserve_original",
+        "query_rewrite_mode": "none"
+      }
+    },
+    {
+      "id": "step2",
+      "type": "reason_over_evidence",
+      "description": "Evaluate feasibility of sterically hindered monomers for improved heat resistance without compromising degradation, distinguishing direct evidence from mechanistic support",
+      "inputs": {
+        "use_steps": [
+          "step1"
+        ]
+      }
+    }
+  ]
+}

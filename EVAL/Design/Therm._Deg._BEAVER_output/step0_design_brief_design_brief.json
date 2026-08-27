@@ -1,0 +1,15 @@
+{
+  "target_system": "biodegradable polyester",
+  "targets": [
+    {
+      "property": "heat resistance",
+      "target_value": null,
+      "unit": ""
+    }
+  ],
+  "constraints": [
+    "Degradation kinetics must not be excessively suppressed",
+    "Material must maintain biodegradability"
+  ],
+  "context": "The design focuses on enhancing thermal stability of a biodegradable polyester while preserving its degradation rate. No specific base materials or synthesis methods are provided, requiring general polymer design strategies."
+}

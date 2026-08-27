@@ -1,0 +1,26 @@
+{
+  "query_structure": "single",
+  "steps": [
+    {
+      "id": "step1",
+      "type": "search_papers",
+      "description": "Retrieve literature on aromatic-aliphatic copolymers for thermal stability and degradation kinetics in biodegradable polyesters",
+      "inputs": {
+        "query": "Aromatic-aliphatic copolymer biodegradable polyester thermal stability degradation kinetics glass transition temperature melting temperature",
+        "top_k": 15,
+        "query_policy": "supplementary_facet",
+        "query_rewrite_mode": "domain_append"
+      }
+    },
+    {
+      "id": "step2",
+      "type": "reason_over_evidence",
+      "description": "Evaluate feasibility of aromatic-aliphatic copolymer design for heat resistance and degradation balance",
+      "inputs": {
+        "use_steps": [
+          "step1"
+        ]
+      }
+    }
+  ]
+}

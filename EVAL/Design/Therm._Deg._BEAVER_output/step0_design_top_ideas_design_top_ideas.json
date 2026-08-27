@@ -1,0 +1,222 @@
+[
+  {
+    "idea_name": "Aromatic-Aliphatic Copolymer",
+    "score_overall": 7.7,
+    "score_dimensions": {
+      "feasibility": 8.5,
+      "performance_potential": 7.5,
+      "controllability": 8.0,
+      "novelty": 6.0
+    },
+    "pros": [
+      "Well-established copolymerization chemistry",
+      "Directly increases Tg and rigidity via aromatic units",
+      "Degradation pathways in aliphatic segments remain largely intact"
+    ],
+    "cons": [
+      "Aromatic content can significantly slow enzymatic hydrolysis",
+      "Phase separation risk may complicate processing and properties"
+    ],
+    "summary": "A classic and feasible approach to enhance heat resistance by incorporating rigid aromatic units while preserving hydrolytic degradation sites in the aliphatic backbone.",
+    "scoring_status": "validated",
+    "original_idea": {
+      "idea_name": "Aromatic-Aliphatic Copolymer",
+      "core_idea": "Incorporate limited aromatic units into an aliphatic polyester backbone to enhance rigidity while maintaining hydrolytic degradation sites.",
+      "components": [
+        {
+          "name": "Terephthalic acid",
+          "role": "Rigid aromatic monomer"
+        },
+        {
+          "name": "Butanediol/succinic acid",
+          "role": "Flexible degradable segments"
+        }
+      ],
+      "mechanism": "Aromatic monomers increase chain rigidity and glass transition temperature, improving heat resistance. Strategic placement minimizes disruption to hydrolytically cleavable ester bonds in aliphatic regions. Controlled aromatic content prevents excessive crystallinity that slows degradation, while hydrolytic cleavage remains accessible in amorphous domains.",
+      "risks": [
+        "Aromatic content may reduce enzymatic degradation efficiency",
+        "Potential phase separation during polymerization"
+      ]
+    },
+    "design_profile": {
+      "primary_category": "thermal_design",
+      "primary_display_name": "热学性能设计",
+      "secondary_categories": [
+        "degradation_regulation"
+      ],
+      "secondary_display_names": [
+        "降解行为与结构调控"
+      ],
+      "mode": "hybrid",
+      "score_breakdown": {
+        "mechanical_design": 0,
+        "thermal_design": 70,
+        "degradation_regulation": 35
+      },
+      "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 热学性能设计=70 | 降解行为与结构调控=35",
+      "active_categories": [
+        "thermal_design",
+        "degradation_regulation"
+      ],
+      "active_display_names": [
+        "热学性能设计",
+        "降解行为与结构调控"
+      ],
+      "extra_searches": [
+        {
+          "name": "thermal_degradation_coupling",
+          "description": "Search coupling among Tg/crystallinity/water uptake/hydrolysis/degradation.",
+          "query": " Design a biodegradable polyester with improved heat resistance but without excessively suppressing degradation kinetics. Aromatic-Aliphatic Copolymer biodegradable polymer crystallinity Tg water uptake hydrolysis degradation coupling",
+          "top_k": 15
+        }
+      ],
+      "max_total_search_steps": 4
+    }
+  },
+  {
+    "idea_name": "Hydrolyzable Crosslinkers",
+    "score_overall": 7.3,
+    "score_dimensions": {
+      "feasibility": 7.0,
+      "performance_potential": 8.0,
+      "controllability": 6.0,
+      "novelty": 7.5
+    },
+    "pros": [
+      "Crosslinking effectively restricts chain mobility for thermal stability",
+      "Cleavable crosslinks designed to fragment first, enabling degradation"
+    ],
+    "cons": [
+      "Precise control of crosslink density and distribution is challenging",
+      "Risk of premature hydrolysis during processing or storage"
+    ],
+    "summary": "An innovative but synthetically challenging strategy using degradable crosslinks to provide temporary thermal reinforcement.",
+    "scoring_status": "validated",
+    "original_idea": {
+      "idea_name": "Hydrolyzable Crosslinkers",
+      "core_idea": "Introduce acid/ester-containing crosslinkers that reinforce thermal stability but cleave under environmental conditions.",
+      "components": [
+        {
+          "name": "Citric acid derivatives",
+          "role": "Thermo-reinforcing crosslinker"
+        },
+        {
+          "name": "PLA/PCL chains",
+          "role": "Base polymer matrix"
+        }
+      ],
+      "mechanism": "Crosslinks restrict chain mobility at high temperatures but contain strategically positioned ester bonds. These hydrolyze first during degradation, fragmenting the network before bulk polymer erosion. Temporary stabilization occurs during use while allowing progressive disassembly in disposal environments. Crosslink density is optimized to balance initial heat resistance with degradation onset.",
+      "risks": [
+        "Premature hydrolysis during processing",
+        "Inconsistent crosslink distribution"
+      ]
+    },
+    "design_profile": {
+      "primary_category": "degradation_regulation",
+      "primary_display_name": "降解行为与结构调控",
+      "secondary_categories": [
+        "thermal_design"
+      ],
+      "secondary_display_names": [
+        "热学性能设计"
+      ],
+      "mode": "hybrid",
+      "score_breakdown": {
+        "mechanical_design": 0,
+        "thermal_design": 46,
+        "degradation_regulation": 47
+      },
+      "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 降解行为与结构调控=47 | 热学性能设计=46",
+      "active_categories": [
+        "degradation_regulation",
+        "thermal_design"
+      ],
+      "active_display_names": [
+        "降解行为与结构调控",
+        "热学性能设计"
+      ],
+      "extra_searches": [
+        {
+          "name": "thermal_degradation_coupling",
+          "description": "Search coupling among Tg/crystallinity/water uptake/hydrolysis/degradation.",
+          "query": " Design a biodegradable polyester with improved heat resistance but without excessively suppressing degradation kinetics. Hydrolyzable Crosslinkers biodegradable polymer crystallinity Tg water uptake hydrolysis degradation coupling",
+          "top_k": 15
+        }
+      ],
+      "max_total_search_steps": 4
+    }
+  },
+  {
+    "idea_name": "Sterically Hindered Monomers",
+    "score_overall": 7.3,
+    "score_dimensions": {
+      "feasibility": 8.0,
+      "performance_potential": 7.0,
+      "controllability": 7.5,
+      "novelty": 6.5
+    },
+    "pros": [
+      "Bio-derived rigid monomers like isosorbide are commercially available",
+      "Increases Tg through chain stiffness without strong crystallinity"
+    ],
+    "cons": [
+      "May lead to brittleness and processing difficulties at high loadings",
+      "Polymerization kinetics can be slower with bulky monomers"
+    ],
+    "summary": "A practical monomer-based strategy utilizing bulky, bio-based diols to enhance chain rigidity and thermal stability.",
+    "scoring_status": "validated",
+    "original_idea": {
+      "idea_name": "Sterically Hindered Monomers",
+      "core_idea": "Integrate bicyclic monomers that elevate Tg while maintaining hydrolysable backbone linkages.",
+      "components": [
+        {
+          "name": "Isosorbide",
+          "role": "Rigid bio-based monomer"
+        },
+        {
+          "name": "Sebacic acid",
+          "role": "Flexible linker"
+        }
+      ],
+      "mechanism": "Fused ring structures introduce kinetic barriers to chain rotation, increasing thermal stability without strong intermolecular interactions that slow degradation. Hydrolytic susceptibility is preserved through strategically exposed ester groups adjacent to aliphatic chains. The monomers' internal rigidity provides heat resistance while avoiding crystalline domains that impede erosion.",
+      "risks": [
+        "Limited monomer solubility during synthesis",
+        "Potential brittleness at high loadings"
+      ]
+    },
+    "design_profile": {
+      "primary_category": "thermal_design",
+      "primary_display_name": "热学性能设计",
+      "secondary_categories": [
+        "degradation_regulation"
+      ],
+      "secondary_display_names": [
+        "降解行为与结构调控"
+      ],
+      "mode": "hybrid",
+      "score_breakdown": {
+        "mechanical_design": 0,
+        "thermal_design": 67,
+        "degradation_regulation": 47
+      },
+      "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 热学性能设计=67 | 降解行为与结构调控=47",
+      "active_categories": [
+        "thermal_design",
+        "degradation_regulation"
+      ],
+      "active_display_names": [
+        "热学性能设计",
+        "降解行为与结构调控"
+      ],
+      "extra_searches": [
+        {
+          "name": "thermal_degradation_coupling",
+          "description": "Search coupling among Tg/crystallinity/water uptake/hydrolysis/degradation.",
+          "query": " Design a biodegradable polyester with improved heat resistance but without excessively suppressing degradation kinetics. Sterically Hindered Monomers biodegradable polymer crystallinity Tg water uptake hydrolysis degradation coupling",
+          "top_k": 15
+        }
+      ],
+      "max_total_search_steps": 4
+    }
+  }
+]
