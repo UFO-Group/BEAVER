@@ -1,0 +1,26 @@
+{
+  "rendered": false,
+  "renderer": "none",
+  "image_path": "",
+  "spec_path": "Mech._Therm._BEAVER_output\\idea3_Cyclic_Lactone_Terpolymer\\figures\\idea3_Cyclic_Lactone_Terpolymer_repeat_unit_spec.json",
+  "spec": {
+    "should_draw": false,
+    "confidence": "low",
+    "polymer_name": "",
+    "architecture": "",
+    "repeat_units": [],
+    "functional_groups": [],
+    "composition_note": "No specific polymer/repeat-unit name was extracted; generic polymer-class terms were skipped.",
+    "non_polymer_components": [],
+    "caption": "",
+    "mapping_warning": "No specific polymer name was extracted; generic class terms such as polyester/polymer are not sent to the SMILES dictionary.",
+    "name_mapping": {
+      "name_name_dict_path": "resources\\Polymer-关键词",
+      "name_smiles_csv_path": "resources\\字典-使用-只含聚合物.csv",
+      "rdkit_available": true,
+      "valid_smiles_count": 0,
+      "total_units": 0,
+      "generic_name_guard": true
+    }
+  }
+}

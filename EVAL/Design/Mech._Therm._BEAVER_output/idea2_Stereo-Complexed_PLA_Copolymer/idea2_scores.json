@@ -1,0 +1,44 @@
+{
+  "overall_score": 78,
+  "scores_dict": {
+    "Feasibility": 90,
+    "Predictability": 70,
+    "Performance": 75,
+    "Innovation": 65,
+    "Chemical Validity": 82
+  },
+  "chemical_validity": {
+    "chemical_validity": 85,
+    "structure_mechanism_consistency": 90,
+    "property_pathway_plausibility": 80,
+    "evidence_claim_consistency": 75,
+    "overall_chemical_validity": 82,
+    "contradiction_detected": false,
+    "major_red_flags": [],
+    "score_caps": {
+      "Feasibility": null,
+      "Predictability": null,
+      "Performance": null,
+      "Innovation": null
+    },
+    "rationale": "The stereo-complexed PLA design is chemically sound and well-established in literature. The mechanism of Tg elevation through denser chain packing in SC crystals is plausible and supported. However, the report makes strong claims about maintaining ductility that are not directly supported by the evidence cited - rubber toughening is proposed but not specifically demonstrated for SC-PLA systems. The design acknowledges trade-offs between Tg and ductility, which is chemically realistic. No fundamental chemical contradictions were detected.",
+    "critic_status": "validated"
+  },
+  "report_category": {
+    "primary_category": "thermal_design",
+    "primary_display_name": "热学性能设计",
+    "secondary_categories": [
+      "mechanical_design"
+    ],
+    "secondary_display_names": [
+      "力学性能设计"
+    ],
+    "mode": "hybrid",
+    "score_breakdown": {
+      "mechanical_design": 27,
+      "thermal_design": 30,
+      "degradation_regulation": 0
+    },
+    "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 热学性能设计=30 | 力学性能设计=27"
+  }
+}

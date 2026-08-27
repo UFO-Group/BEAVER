@@ -1,0 +1,17 @@
+{
+  "primary_category": "thermal_design",
+  "primary_display_name": "热学性能设计",
+  "secondary_categories": [
+    "mechanical_design"
+  ],
+  "secondary_display_names": [
+    "力学性能设计"
+  ],
+  "mode": "hybrid",
+  "score_breakdown": {
+    "mechanical_design": 27,
+    "thermal_design": 30,
+    "degradation_regulation": 0
+  },
+  "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 热学性能设计=30 | 力学性能设计=27"
+}

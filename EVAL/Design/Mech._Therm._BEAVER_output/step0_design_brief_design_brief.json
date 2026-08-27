@@ -1,0 +1,16 @@
+{
+  "target_system": "PLA-based copolymer for biodegradable packaging",
+  "targets": [
+    {
+      "property": "glass transition temperature",
+      "target_value": null,
+      "unit": ""
+    }
+  ],
+  "constraints": [
+    "The copolymer must be based on polylactic acid (PLA)",
+    "Ductility must be maintained at levels suitable for packaging applications",
+    "Material must retain biodegradability"
+  ],
+  "context": "The design focuses on modifying PLA, a common biodegradable polymer, through copolymerization. The goal is to enhance thermal stability (via increased Tg) while preserving mechanical flexibility required for packaging. The application context is sustainable/biodegradable materials."
+}

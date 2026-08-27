@@ -1,0 +1,46 @@
+{
+  "overall_score": 55,
+  "scores_dict": {
+    "Feasibility": 40,
+    "Predictability": 50,
+    "Performance": 65,
+    "Innovation": 40,
+    "Chemical Validity": 71
+  },
+  "chemical_validity": {
+    "chemical_validity": 75,
+    "structure_mechanism_consistency": 70,
+    "property_pathway_plausibility": 60,
+    "evidence_claim_consistency": 80,
+    "overall_chemical_validity": 71,
+    "contradiction_detected": true,
+    "major_red_flags": [
+      "The report's central hypothesis (lactide incorporation increases Tg) is contradicted by its own cited evidence [3] which states glycolide incorporation reduces Tg relative to pure PLA. The proposed lactide-glycolide copolymer (PLGA) is known in literature to have lower Tg than PLA, directly opposing the design objective of increasing Tg."
+    ],
+    "score_caps": {
+      "Feasibility": 40,
+      "Predictability": 50,
+      "Performance": 65,
+      "Innovation": 40
+    },
+    "rationale": "The report demonstrates good chemical understanding of PLA/PLGA systems and maintains internal consistency in methods and evidence discussion. However, a fundamental contradiction exists: the design goal is to increase Tg, but lactide-glycolide copolymers (PLGA) are well-established to have lower Tg than PLA homopolymer due to glycolide's chain-flexibilizing effect. The report acknowledges this in section 2.1 but proceeds with the contradictory hypothesis. This invalidates the central thermal design objective, though mechanical ductility pathways remain plausible.",
+    "critic_status": "validated"
+  },
+  "report_category": {
+    "primary_category": "thermal_design",
+    "primary_display_name": "热学性能设计",
+    "secondary_categories": [
+      "mechanical_design"
+    ],
+    "secondary_display_names": [
+      "力学性能设计"
+    ],
+    "mode": "hybrid",
+    "score_breakdown": {
+      "mechanical_design": 36,
+      "thermal_design": 39,
+      "degradation_regulation": 0
+    },
+    "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 热学性能设计=39 | 力学性能设计=36"
+  }
+}

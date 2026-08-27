@@ -1,0 +1,996 @@
+{
+  "route_type": "design",
+  "tags": {
+    "is_chat": false,
+    "is_question": false,
+    "is_design": true,
+    "reason": "Explicitly asking to design a novel copolymer formulation with specific property modifications (increase Tg while maintaining ductility), which requires proposing new chemical strategies and interventions."
+  },
+  "domain": {
+    "material_family": "PLA",
+    "modification_type": "copolymer",
+    "target_property": "Tg",
+    "degradation_environment": "unknown",
+    "mechanism_type": "unknown",
+    "method_type": "unknown",
+    "reason": "Mapped 'PLA-based' to PLA material family. 'Copolymer' directly matches modification_type. 'Increases $T_g$' maps to Tg target property (covers glass transition). Ductility relates to Mechanical Strength but is secondary to the explicit Tg request. Environment/mechanism/method unspecified per constraints."
+  },
+  "original_input": "Design a PLA-based copolymer that increases $T_g$ while maintaining ductility for biodegradable packaging.",
+  "design_brief": {
+    "target_system": "PLA-based copolymer for biodegradable packaging",
+    "targets": [
+      {
+        "property": "glass transition temperature",
+        "target_value": null,
+        "unit": ""
+      }
+    ],
+    "constraints": [
+      "The copolymer must be based on polylactic acid (PLA)",
+      "Ductility must be maintained at levels suitable for packaging applications",
+      "Material must retain biodegradability"
+    ],
+    "context": "The design focuses on modifying PLA, a common biodegradable polymer, through copolymerization. The goal is to enhance thermal stability (via increased Tg) while preserving mechanical flexibility required for packaging. The application context is sustainable/biodegradable materials."
+  },
+  "top_ideas": [
+    {
+      "idea_name": "Lactide-Glycolide Copolymer",
+      "score_overall": 7.7,
+      "score_dimensions": {
+        "feasibility": 9.0,
+        "performance_potential": 7.5,
+        "controllability": 8.5,
+        "novelty": 4.0
+      },
+      "pros": [
+        "Well-established copolymerization chemistry (PLGA is FDA-approved).",
+        "Clear mechanism for Tg increase via glycolide's rigidity.",
+        "Biodegradability is inherently preserved.",
+        "Ductility can be tuned by controlling glycolide content."
+      ],
+      "cons": [
+        "Glycolide incorporation can significantly increase crystallinity and brittleness if not carefully controlled.",
+        "Potential for reduced hydrolytic stability compared to pure PLA.",
+        "Limited Tg enhancement range compared to more novel approaches."
+      ],
+      "summary": "A straightforward, highly feasible copolymer using established PLGA chemistry to moderately increase Tg while maintaining ductility through composition control.",
+      "scoring_status": "validated",
+      "original_idea": {
+        "idea_name": "Lactide-Glycolide Copolymer",
+        "core_idea": "Incorporate glycolide monomers into PLA chains to enhance chain rigidity and increase Tg through restricted molecular mobility.",
+        "components": [
+          {
+            "name": "L-lactide",
+            "role": "Primary matrix providing biodegradability and baseline properties"
+          },
+          {
+            "name": "Glycolide",
+            "role": "Rigid comonomer increasing chain stiffness and thermal stability"
+          }
+        ],
+        "mechanism": "Glycolide's compact ring structure and higher bond rotation energy barrier reduce chain mobility in the amorphous regions, elevating Tg. The copolymer maintains ductility by limiting glycolide content below 15% to prevent excessive crystallinity. Biodegradability is preserved as both monomers hydrolyze enzymatically, and the balanced composition avoids compromising elongation at break.",
+        "risks": [
+          "Excessive glycolide may reduce ductility below packaging requirements",
+          "Potential crystallization rate changes could affect processing parameters"
+        ]
+      },
+      "design_profile": {
+        "primary_category": "thermal_design",
+        "primary_display_name": "热学性能设计",
+        "secondary_categories": [
+          "mechanical_design"
+        ],
+        "secondary_display_names": [
+          "力学性能设计"
+        ],
+        "mode": "hybrid",
+        "score_breakdown": {
+          "mechanical_design": 36,
+          "thermal_design": 39,
+          "degradation_regulation": 0
+        },
+        "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 热学性能设计=39 | 力学性能设计=36",
+        "active_categories": [
+          "thermal_design",
+          "mechanical_design"
+        ],
+        "active_display_names": [
+          "热学性能设计",
+          "力学性能设计"
+        ],
+        "extra_searches": [
+          {
+            "name": "thermal_mechanical_tradeoff",
+            "description": "Search trade-off evidence linking Tg/crystallinity/processing window to modulus/toughness/ductility.",
+            "query": "Design a PLA-based copolymer that increases $T_g$ while maintaining ductility for biodegradable packaging. Lactide-Glycolide Copolymer biodegradable polymer Tg toughness modulus ductility crystallinity trade-off processing window",
+            "top_k": 15
+          }
+        ],
+        "max_total_search_steps": 4
+      }
+    },
+    {
+      "idea_name": "Stereo-Complexed PLA Copolymer",
+      "score_overall": 7.5,
+      "score_dimensions": {
+        "feasibility": 7.0,
+        "performance_potential": 9.0,
+        "controllability": 6.0,
+        "novelty": 7.0
+      },
+      "pros": [
+        "Stereocomplexation offers a significant, well-documented Tg increase (~50-60°C).",
+        "Caprolactone incorporation is a proven method to improve ductility.",
+        "High thermal stability of stereocomplex crystals is a major advantage."
+      ],
+      "cons": [
+        "Precise control over stereocomplexation and blending is difficult to scale.",
+        "Risk of plasticization and property dilution if caprolactone content is too high.",
+        "Process is more complex than simple copolymerization."
+      ],
+      "summary": "A high-performance-potential approach leveraging stereocomplexation for major Tg gains, though controllability in a copolymer system is a significant challenge.",
+      "scoring_status": "validated",
+      "original_idea": {
+        "idea_name": "Stereo-Complexed PLA Copolymer",
+        "core_idea": "Blend enantiomeric PLA blocks (PLLA/PDLA) to form stereocomplex crystals with higher Tg while adding flexible comonomers.",
+        "components": [
+          {
+            "name": "PLLA segments",
+            "role": "Enantiomeric component for stereocomplex formation"
+          },
+          {
+            "name": "PDLA segments",
+            "role": "Complementary enantiomer enabling crystal crosslinking"
+          },
+          {
+            "name": "Caprolactone comonomer",
+            "role": "Ductility enhancer reducing brittleness"
+          }
+        ],
+        "mechanism": "Stereocomplex crystallites act as physical crosslinks, raising Tg by 50-60°C compared to homopolymer PLA. The incorporated caprolactone segments remain amorphous, providing energy dissipation through chain slippage. Biodegradability persists as all components hydrolyze, and the dual-phase structure balances rigidity and elongation.",
+        "risks": [
+          "Precise stereocomplexation control required to avoid homogeneity issues",
+          "Caprolactone may plasticize excessively if overused"
+        ]
+      },
+      "design_profile": {
+        "primary_category": "thermal_design",
+        "primary_display_name": "热学性能设计",
+        "secondary_categories": [
+          "mechanical_design"
+        ],
+        "secondary_display_names": [
+          "力学性能设计"
+        ],
+        "mode": "hybrid",
+        "score_breakdown": {
+          "mechanical_design": 27,
+          "thermal_design": 30,
+          "degradation_regulation": 0
+        },
+        "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 热学性能设计=30 | 力学性能设计=27",
+        "active_categories": [
+          "thermal_design",
+          "mechanical_design"
+        ],
+        "active_display_names": [
+          "热学性能设计",
+          "力学性能设计"
+        ],
+        "extra_searches": [
+          {
+            "name": "thermal_mechanical_tradeoff",
+            "description": "Search trade-off evidence linking Tg/crystallinity/processing window to modulus/toughness/ductility.",
+            "query": "Design a PLA-based copolymer that increases $T_g$ while maintaining ductility for biodegradable packaging. Stereo-Complexed PLA Copolymer biodegradable polymer Tg toughness modulus ductility crystallinity trade-off processing window",
+            "top_k": 15
+          }
+        ],
+        "max_total_search_steps": 4
+      }
+    },
+    {
+      "idea_name": "Cyclic Lactone Terpolymer",
+      "score_overall": 7.1,
+      "score_dimensions": {
+        "feasibility": 7.0,
+        "performance_potential": 8.0,
+        "controllability": 6.0,
+        "novelty": 6.0
+      },
+      "pros": [
+        "Rational design using monomers with complementary functions (rigidity vs. flexibility).",
+        "All components are biodegradable and have known polymerization mechanisms.",
+        "Good potential to fine-tune properties via monomer ratios."
+      ],
+      "cons": [
+        "Terpolymerization kinetics are complex, making reproducible synthesis difficult.",
+        "Potential for undesirable side reactions or sequence distributions.",
+        "Crystallinity conflicts between monomers could lead to phase separation."
+      ],
+      "summary": "A scientifically sound terpolymer strategy to balance Tg and ductility, though controllability is limited by complex polymerization kinetics.",
+      "scoring_status": "validated",
+      "original_idea": {
+        "idea_name": "Cyclic Lactone Terpolymer",
+        "core_idea": "Terpolymerize lactide with ε-caprolactone for ductility and a rigid cyclic comonomer (e.g., p-dioxanone) for Tg boost.",
+        "components": [
+          {
+            "name": "Lactide",
+            "role": "Primary structural monomer"
+          },
+          {
+            "name": "ε-Caprolactone",
+            "role": "Ductility modifier"
+          },
+          {
+            "name": "p-Dioxanone",
+            "role": "Tg-enhancing rigid comonomer"
+          }
+        ],
+        "mechanism": "p-Dioxanone's fused ring structure increases chain stiffness and intermolecular interactions, raising Tg. Caprolactone segments provide plasticization through flexible ester linkages, preserving elongation. All monomers hydrolyze via similar mechanisms, ensuring predictable biodegradation without toxic residues in packaging applications.",
+        "risks": [
+          "Complex reactivity ratios may hinder controlled polymerization",
+          "Potential crystallization conflicts between monomers"
+        ]
+      },
+      "design_profile": {
+        "primary_category": "mechanical_design",
+        "primary_display_name": "力学性能设计",
+        "secondary_categories": [
+          "thermal_design"
+        ],
+        "secondary_display_names": [
+          "热学性能设计"
+        ],
+        "mode": "hybrid",
+        "score_breakdown": {
+          "mechanical_design": 36,
+          "thermal_design": 30,
+          "degradation_regulation": 15
+        },
+        "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 力学性能设计=36 | 热学性能设计=30 | 降解行为与结构调控=15",
+        "active_categories": [
+          "mechanical_design",
+          "thermal_design"
+        ],
+        "active_display_names": [
+          "力学性能设计",
+          "热学性能设计"
+        ],
+        "extra_searches": [
+          {
+            "name": "thermal_mechanical_tradeoff",
+            "description": "Search trade-off evidence linking Tg/crystallinity/processing window to modulus/toughness/ductility.",
+            "query": "Design a PLA-based copolymer that increases $T_g$ while maintaining ductility for biodegradable packaging. Cyclic Lactone Terpolymer biodegradable polymer Tg toughness modulus ductility crystallinity trade-off processing window",
+            "top_k": 15
+          }
+        ],
+        "max_total_search_steps": 4
+      }
+    }
+  ],
+  "all_ideas": [
+    {
+      "idea_name": "Lactide-Glycolide Copolymer",
+      "score_overall": 7.7,
+      "score_dimensions": {
+        "feasibility": 9.0,
+        "performance_potential": 7.5,
+        "controllability": 8.5,
+        "novelty": 4.0
+      },
+      "pros": [
+        "Well-established copolymerization chemistry (PLGA is FDA-approved).",
+        "Clear mechanism for Tg increase via glycolide's rigidity.",
+        "Biodegradability is inherently preserved.",
+        "Ductility can be tuned by controlling glycolide content."
+      ],
+      "cons": [
+        "Glycolide incorporation can significantly increase crystallinity and brittleness if not carefully controlled.",
+        "Potential for reduced hydrolytic stability compared to pure PLA.",
+        "Limited Tg enhancement range compared to more novel approaches."
+      ],
+      "summary": "A straightforward, highly feasible copolymer using established PLGA chemistry to moderately increase Tg while maintaining ductility through composition control.",
+      "scoring_status": "validated",
+      "original_idea": {
+        "idea_name": "Lactide-Glycolide Copolymer",
+        "core_idea": "Incorporate glycolide monomers into PLA chains to enhance chain rigidity and increase Tg through restricted molecular mobility.",
+        "components": [
+          {
+            "name": "L-lactide",
+            "role": "Primary matrix providing biodegradability and baseline properties"
+          },
+          {
+            "name": "Glycolide",
+            "role": "Rigid comonomer increasing chain stiffness and thermal stability"
+          }
+        ],
+        "mechanism": "Glycolide's compact ring structure and higher bond rotation energy barrier reduce chain mobility in the amorphous regions, elevating Tg. The copolymer maintains ductility by limiting glycolide content below 15% to prevent excessive crystallinity. Biodegradability is preserved as both monomers hydrolyze enzymatically, and the balanced composition avoids compromising elongation at break.",
+        "risks": [
+          "Excessive glycolide may reduce ductility below packaging requirements",
+          "Potential crystallization rate changes could affect processing parameters"
+        ]
+      },
+      "design_profile": {
+        "primary_category": "thermal_design",
+        "primary_display_name": "热学性能设计",
+        "secondary_categories": [
+          "mechanical_design"
+        ],
+        "secondary_display_names": [
+          "力学性能设计"
+        ],
+        "mode": "hybrid",
+        "score_breakdown": {
+          "mechanical_design": 36,
+          "thermal_design": 39,
+          "degradation_regulation": 0
+        },
+        "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 热学性能设计=39 | 力学性能设计=36",
+        "active_categories": [
+          "thermal_design",
+          "mechanical_design"
+        ],
+        "active_display_names": [
+          "热学性能设计",
+          "力学性能设计"
+        ],
+        "extra_searches": [
+          {
+            "name": "thermal_mechanical_tradeoff",
+            "description": "Search trade-off evidence linking Tg/crystallinity/processing window to modulus/toughness/ductility.",
+            "query": "Design a PLA-based copolymer that increases $T_g$ while maintaining ductility for biodegradable packaging. Lactide-Glycolide Copolymer biodegradable polymer Tg toughness modulus ductility crystallinity trade-off processing window",
+            "top_k": 15
+          }
+        ],
+        "max_total_search_steps": 4
+      }
+    },
+    {
+      "idea_name": "Stereo-Complexed PLA Copolymer",
+      "score_overall": 7.5,
+      "score_dimensions": {
+        "feasibility": 7.0,
+        "performance_potential": 9.0,
+        "controllability": 6.0,
+        "novelty": 7.0
+      },
+      "pros": [
+        "Stereocomplexation offers a significant, well-documented Tg increase (~50-60°C).",
+        "Caprolactone incorporation is a proven method to improve ductility.",
+        "High thermal stability of stereocomplex crystals is a major advantage."
+      ],
+      "cons": [
+        "Precise control over stereocomplexation and blending is difficult to scale.",
+        "Risk of plasticization and property dilution if caprolactone content is too high.",
+        "Process is more complex than simple copolymerization."
+      ],
+      "summary": "A high-performance-potential approach leveraging stereocomplexation for major Tg gains, though controllability in a copolymer system is a significant challenge.",
+      "scoring_status": "validated",
+      "original_idea": {
+        "idea_name": "Stereo-Complexed PLA Copolymer",
+        "core_idea": "Blend enantiomeric PLA blocks (PLLA/PDLA) to form stereocomplex crystals with higher Tg while adding flexible comonomers.",
+        "components": [
+          {
+            "name": "PLLA segments",
+            "role": "Enantiomeric component for stereocomplex formation"
+          },
+          {
+            "name": "PDLA segments",
+            "role": "Complementary enantiomer enabling crystal crosslinking"
+          },
+          {
+            "name": "Caprolactone comonomer",
+            "role": "Ductility enhancer reducing brittleness"
+          }
+        ],
+        "mechanism": "Stereocomplex crystallites act as physical crosslinks, raising Tg by 50-60°C compared to homopolymer PLA. The incorporated caprolactone segments remain amorphous, providing energy dissipation through chain slippage. Biodegradability persists as all components hydrolyze, and the dual-phase structure balances rigidity and elongation.",
+        "risks": [
+          "Precise stereocomplexation control required to avoid homogeneity issues",
+          "Caprolactone may plasticize excessively if overused"
+        ]
+      },
+      "design_profile": {
+        "primary_category": "thermal_design",
+        "primary_display_name": "热学性能设计",
+        "secondary_categories": [
+          "mechanical_design"
+        ],
+        "secondary_display_names": [
+          "力学性能设计"
+        ],
+        "mode": "hybrid",
+        "score_breakdown": {
+          "mechanical_design": 27,
+          "thermal_design": 30,
+          "degradation_regulation": 0
+        },
+        "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 热学性能设计=30 | 力学性能设计=27",
+        "active_categories": [
+          "thermal_design",
+          "mechanical_design"
+        ],
+        "active_display_names": [
+          "热学性能设计",
+          "力学性能设计"
+        ],
+        "extra_searches": [
+          {
+            "name": "thermal_mechanical_tradeoff",
+            "description": "Search trade-off evidence linking Tg/crystallinity/processing window to modulus/toughness/ductility.",
+            "query": "Design a PLA-based copolymer that increases $T_g$ while maintaining ductility for biodegradable packaging. Stereo-Complexed PLA Copolymer biodegradable polymer Tg toughness modulus ductility crystallinity trade-off processing window",
+            "top_k": 15
+          }
+        ],
+        "max_total_search_steps": 4
+      }
+    },
+    {
+      "idea_name": "Cyclic Lactone Terpolymer",
+      "score_overall": 7.1,
+      "score_dimensions": {
+        "feasibility": 7.0,
+        "performance_potential": 8.0,
+        "controllability": 6.0,
+        "novelty": 6.0
+      },
+      "pros": [
+        "Rational design using monomers with complementary functions (rigidity vs. flexibility).",
+        "All components are biodegradable and have known polymerization mechanisms.",
+        "Good potential to fine-tune properties via monomer ratios."
+      ],
+      "cons": [
+        "Terpolymerization kinetics are complex, making reproducible synthesis difficult.",
+        "Potential for undesirable side reactions or sequence distributions.",
+        "Crystallinity conflicts between monomers could lead to phase separation."
+      ],
+      "summary": "A scientifically sound terpolymer strategy to balance Tg and ductility, though controllability is limited by complex polymerization kinetics.",
+      "scoring_status": "validated",
+      "original_idea": {
+        "idea_name": "Cyclic Lactone Terpolymer",
+        "core_idea": "Terpolymerize lactide with ε-caprolactone for ductility and a rigid cyclic comonomer (e.g., p-dioxanone) for Tg boost.",
+        "components": [
+          {
+            "name": "Lactide",
+            "role": "Primary structural monomer"
+          },
+          {
+            "name": "ε-Caprolactone",
+            "role": "Ductility modifier"
+          },
+          {
+            "name": "p-Dioxanone",
+            "role": "Tg-enhancing rigid comonomer"
+          }
+        ],
+        "mechanism": "p-Dioxanone's fused ring structure increases chain stiffness and intermolecular interactions, raising Tg. Caprolactone segments provide plasticization through flexible ester linkages, preserving elongation. All monomers hydrolyze via similar mechanisms, ensuring predictable biodegradation without toxic residues in packaging applications.",
+        "risks": [
+          "Complex reactivity ratios may hinder controlled polymerization",
+          "Potential crystallization conflicts between monomers"
+        ]
+      },
+      "design_profile": {
+        "primary_category": "mechanical_design",
+        "primary_display_name": "力学性能设计",
+        "secondary_categories": [
+          "thermal_design"
+        ],
+        "secondary_display_names": [
+          "热学性能设计"
+        ],
+        "mode": "hybrid",
+        "score_breakdown": {
+          "mechanical_design": 36,
+          "thermal_design": 30,
+          "degradation_regulation": 15
+        },
+        "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 力学性能设计=36 | 热学性能设计=30 | 降解行为与结构调控=15",
+        "active_categories": [
+          "mechanical_design",
+          "thermal_design"
+        ],
+        "active_display_names": [
+          "力学性能设计",
+          "热学性能设计"
+        ],
+        "extra_searches": [
+          {
+            "name": "thermal_mechanical_tradeoff",
+            "description": "Search trade-off evidence linking Tg/crystallinity/processing window to modulus/toughness/ductility.",
+            "query": "Design a PLA-based copolymer that increases $T_g$ while maintaining ductility for biodegradable packaging. Cyclic Lactone Terpolymer biodegradable polymer Tg toughness modulus ductility crystallinity trade-off processing window",
+            "top_k": 15
+          }
+        ],
+        "max_total_search_steps": 4
+      }
+    },
+    {
+      "idea_name": "Ionic Functionalized PLA",
+      "score_overall": 7.1,
+      "score_dimensions": {
+        "feasibility": 6.0,
+        "performance_potential": 8.5,
+        "controllability": 5.5,
+        "novelty": 8.0
+      },
+      "pros": [
+        "Ionic associations offer a powerful, reversible mechanism to increase Tg.",
+        "Potential for self-healing and excellent toughness via energy-dissipating ionic bonds.",
+        "High novelty in applying ionomers to biodegradable polyesters."
+      ],
+      "cons": [
+        "Ionic interactions are highly sensitive to moisture and humidity, problematic for packaging.",
+        "Risk of metal ion leaching during degradation or composting.",
+        "Synthesis of ionic-functionalized lactide monomers can be challenging."
+      ],
+      "summary": "A novel and high-potential ionomer approach for enhancing Tg and toughness, but its practicality is questionable due to inherent moisture sensitivity in packaging applications.",
+      "scoring_status": "validated",
+      "original_idea": {
+        "idea_name": "Ionic Functionalized PLA",
+        "core_idea": "Incorporate ionic monomers (e.g., itaconate salts) to create ionic associations that elevate Tg without covalent crosslinking.",
+        "components": [
+          {
+            "name": "PLA backbone",
+            "role": "Primary biodegradable chain"
+          },
+          {
+            "name": "Sodium itaconate",
+            "role": "Ionic comonomer forming reversible crosslinks"
+          }
+        ],
+        "mechanism": "Ionic aggregates act as thermally labile crosslinks, restricting chain mobility below dissociation temperature to increase Tg. Under stress, ionic bonds reversibly break/reform to dissipate energy, maintaining ductility. The ionic groups enhance hydrophilicity, accelerating enzymatic degradation while preserving compostability.",
+        "risks": [
+          "Moisture sensitivity may affect ionic interactions",
+          "Potential metal ion leaching during degradation"
+        ]
+      },
+      "design_profile": {
+        "primary_category": "thermal_design",
+        "primary_display_name": "热学性能设计",
+        "secondary_categories": [
+          "mechanical_design"
+        ],
+        "secondary_display_names": [
+          "力学性能设计"
+        ],
+        "mode": "hybrid",
+        "score_breakdown": {
+          "mechanical_design": 27,
+          "thermal_design": 39,
+          "degradation_regulation": 15
+        },
+        "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 热学性能设计=39 | 力学性能设计=27 | 降解行为与结构调控=15",
+        "active_categories": [
+          "thermal_design",
+          "mechanical_design"
+        ],
+        "active_display_names": [
+          "热学性能设计",
+          "力学性能设计"
+        ],
+        "extra_searches": [
+          {
+            "name": "thermal_mechanical_tradeoff",
+            "description": "Search trade-off evidence linking Tg/crystallinity/processing window to modulus/toughness/ductility.",
+            "query": "Design a PLA-based copolymer that increases $T_g$ while maintaining ductility for biodegradable packaging. Ionic Functionalized PLA biodegradable polymer Tg toughness modulus ductility crystallinity trade-off processing window",
+            "top_k": 15
+          }
+        ],
+        "max_total_search_steps": 4
+      }
+    },
+    {
+      "idea_name": "PLA-PHBV Block Copolymer",
+      "score_overall": 6.9,
+      "score_dimensions": {
+        "feasibility": 6.5,
+        "performance_potential": 8.0,
+        "controllability": 5.5,
+        "novelty": 6.5
+      },
+      "pros": [
+        "Potential for excellent toughness via phase-separated morphology.",
+        "Both components are biodegradable and bio-based.",
+        "Good theoretical performance potential for balancing Tg and ductility."
+      ],
+      "cons": [
+        "High risk of incompatibility and macrophase separation, leading to poor properties.",
+        "Synthesis of well-defined block copolymers is challenging and costly.",
+        "PHBV has lower thermal stability, complicating melt processing with PLA."
+      ],
+      "summary": "A promising but challenging block copolymer concept that could achieve a good property balance if precise morphology control is achieved.",
+      "scoring_status": "validated",
+      "original_idea": {
+        "idea_name": "PLA-PHBV Block Copolymer",
+        "core_idea": "Create block copolymers with poly(3-hydroxybutyrate-co-3-hydroxyvalerate) soft segments to preserve ductility while PLA blocks maintain high Tg.",
+        "components": [
+          {
+            "name": "PLA blocks",
+            "role": "High-Tg rigid segments providing thermal stability"
+          },
+          {
+            "name": "PHBV blocks",
+            "role": "Ductile elastomeric segments absorbing mechanical stress"
+          }
+        ],
+        "mechanism": "Phase-separated morphology allows PLA domains to elevate Tg through restricted mobility while PHBV domains dissipate energy via chain uncoiling during deformation. The nanoscale phase separation prevents crack propagation, maintaining toughness. Both components are enzymatically degradable, ensuring end-of-life biodegradation remains uncompromised.",
+        "risks": [
+          "Incompatibility between blocks may lead to macrophase separation",
+          "PHBV's lower thermal stability could limit processing temperatures"
+        ]
+      },
+      "design_profile": {
+        "primary_category": "mechanical_design",
+        "primary_display_name": "力学性能设计",
+        "secondary_categories": [
+          "thermal_design",
+          "degradation_regulation"
+        ],
+        "secondary_display_names": [
+          "热学性能设计",
+          "降解行为与结构调控"
+        ],
+        "mode": "hybrid",
+        "score_breakdown": {
+          "mechanical_design": 30,
+          "thermal_design": 30,
+          "degradation_regulation": 15
+        },
+        "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 力学性能设计=30 | 热学性能设计=30 | 降解行为与结构调控=15",
+        "active_categories": [
+          "mechanical_design",
+          "thermal_design",
+          "degradation_regulation"
+        ],
+        "active_display_names": [
+          "力学性能设计",
+          "热学性能设计",
+          "降解行为与结构调控"
+        ],
+        "extra_searches": [
+          {
+            "name": "thermal_mechanical_tradeoff",
+            "description": "Search trade-off evidence linking Tg/crystallinity/processing window to modulus/toughness/ductility.",
+            "query": "Design a PLA-based copolymer that increases $T_g$ while maintaining ductility for biodegradable packaging. PLA-PHBV Block Copolymer biodegradable polymer Tg toughness modulus ductility crystallinity trade-off processing window",
+            "top_k": 15
+          },
+          {
+            "name": "degradation_mechanical_retention",
+            "description": "Search evidence on mechanical retention during hydrolytic degradation / wet-state support.",
+            "query": "Design a PLA-based copolymer that increases $T_g$ while maintaining ductility for biodegradable packaging. PLA-PHBV Block Copolymer biodegradable polymer mechanical retention during hydrolytic degradation wet-state support strength retention",
+            "top_k": 15
+          },
+          {
+            "name": "thermal_degradation_coupling",
+            "description": "Search coupling among Tg/crystallinity/water uptake/hydrolysis/degradation.",
+            "query": "Design a PLA-based copolymer that increases $T_g$ while maintaining ductility for biodegradable packaging. PLA-PHBV Block Copolymer biodegradable polymer crystallinity Tg water uptake hydrolysis degradation coupling",
+            "top_k": 15
+          }
+        ],
+        "max_total_search_steps": 4
+      }
+    },
+    {
+      "idea_name": "PLA-PEG-PLA Triblock",
+      "score_overall": 6.9,
+      "score_dimensions": {
+        "feasibility": 8.5,
+        "performance_potential": 6.5,
+        "controllability": 8.0,
+        "novelty": 3.0
+      },
+      "pros": [
+        "Triblock synthesis is well-understood and controllable.",
+        "PEG is an excellent, biocompatible flexibilizer.",
+        "Good feasibility and processability."
+      ],
+      "cons": [
+        "PEG is hydrophilic and can migrate, harming barrier properties crucial for packaging.",
+        "PEG plasticization may lower the effective Tg of the PLA domains.",
+        "Very low novelty; extensively studied system."
+      ],
+      "summary": "A highly feasible and controllable triblock design, but its performance for packaging is limited by PEG's hydrophilicity and potential to reduce barrier properties.",
+      "scoring_status": "validated",
+      "original_idea": {
+        "idea_name": "PLA-PEG-PLA Triblock",
+        "core_idea": "Design triblock copolymers with central poly(ethylene glycol) blocks for flexibility and terminal PLA blocks for high Tg.",
+        "components": [
+          {
+            "name": "Terminal PLA blocks",
+            "role": "High-Tg components for thermal stability"
+          },
+          {
+            "name": "PEG mid-block",
+            "role": "Rubbery segment ensuring ductility and impact resistance"
+          }
+        ],
+        "mechanism": "The glassy PLA end-blocks (Tg ~60°C) provide thermal resistance while the PEG mid-block (Tg ~-60°C) enables large-scale deformation. Microphase separation creates physical networks where rigid domains reinforce the matrix without sacrificing elongation. PEG's hydrophilicity accelerates hydrolysis, maintaining biodegradability despite copolymerization.",
+        "risks": [
+          "PEG may migrate to surface affecting barrier properties",
+          "Molecular weight sensitivity may complicate processing"
+        ]
+      },
+      "design_profile": {
+        "primary_category": "thermal_design",
+        "primary_display_name": "热学性能设计",
+        "secondary_categories": [
+          "mechanical_design"
+        ],
+        "secondary_display_names": [
+          "力学性能设计"
+        ],
+        "mode": "hybrid",
+        "score_breakdown": {
+          "mechanical_design": 27,
+          "thermal_design": 51,
+          "degradation_regulation": 15
+        },
+        "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 热学性能设计=51 | 力学性能设计=27 | 降解行为与结构调控=15",
+        "active_categories": [
+          "thermal_design",
+          "mechanical_design"
+        ],
+        "active_display_names": [
+          "热学性能设计",
+          "力学性能设计"
+        ],
+        "extra_searches": [
+          {
+            "name": "thermal_mechanical_tradeoff",
+            "description": "Search trade-off evidence linking Tg/crystallinity/processing window to modulus/toughness/ductility.",
+            "query": "Design a PLA-based copolymer that increases $T_g$ while maintaining ductility for biodegradable packaging. PLA-PEG-PLA Triblock biodegradable polymer Tg toughness modulus ductility crystallinity trade-off processing window",
+            "top_k": 15
+          }
+        ],
+        "max_total_search_steps": 4
+      }
+    },
+    {
+      "idea_name": "Aromatic Diacid Crosslinked PLA",
+      "score_overall": 6.1,
+      "score_dimensions": {
+        "feasibility": 5.5,
+        "performance_potential": 7.0,
+        "controllability": 4.0,
+        "novelty": 7.5
+      },
+      "pros": [
+        "Aromatic crosslinkers can provide strong Tg enhancement via restricted mobility.",
+        "Use of biobased crosslinker (ferulic acid) aligns with sustainability goals.",
+        "Low crosslink density could theoretically preserve some ductility."
+      ],
+      "cons": [
+        "Crosslinking inherently reduces ductility and processability (thermoset behavior).",
+        "Extremely difficult to control crosslink density uniformly and keep it low.",
+        "Crosslinked networks may severely hinder or alter biodegradation kinetics."
+      ],
+      "summary": "A novel bio-based crosslinking concept that risks compromising key constraints of ductility and biodegradability due to the fundamental nature of crosslinking.",
+      "scoring_status": "validated",
+      "original_idea": {
+        "idea_name": "Aromatic Diacid Crosslinked PLA",
+        "core_idea": "Introduce biobased aromatic monomers (e.g., ferulic acid) as crosslinkers to restrict chain mobility while keeping crosslink density low.",
+        "components": [
+          {
+            "name": "PLA backbone",
+            "role": "Primary biodegradable matrix"
+          },
+          {
+            "name": "Ferulic acid derivatives",
+            "role": "Mild crosslinker providing thermal reinforcement"
+          }
+        ],
+        "mechanism": "Aromatic rings in crosslinkers impose steric hindrance, elevating Tg through reduced free volume. Limited crosslinking density (2-5%) maintains ductility by allowing chain movement between junctions. Ferulic acid's natural origin ensures enzymatic degradation pathways remain active, preserving biodegradability despite crosslinks.",
+        "risks": [
+          "Over-crosslinking could induce brittleness",
+          "Potential UV sensitivity from aromatic groups"
+        ]
+      },
+      "design_profile": {
+        "primary_category": "thermal_design",
+        "primary_display_name": "热学性能设计",
+        "secondary_categories": [
+          "mechanical_design",
+          "degradation_regulation"
+        ],
+        "secondary_display_names": [
+          "力学性能设计",
+          "降解行为与结构调控"
+        ],
+        "mode": "hybrid",
+        "score_breakdown": {
+          "mechanical_design": 27,
+          "thermal_design": 30,
+          "degradation_regulation": 15
+        },
+        "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 热学性能设计=30 | 力学性能设计=27 | 降解行为与结构调控=15",
+        "active_categories": [
+          "thermal_design",
+          "mechanical_design",
+          "degradation_regulation"
+        ],
+        "active_display_names": [
+          "热学性能设计",
+          "力学性能设计",
+          "降解行为与结构调控"
+        ],
+        "extra_searches": [
+          {
+            "name": "thermal_mechanical_tradeoff",
+            "description": "Search trade-off evidence linking Tg/crystallinity/processing window to modulus/toughness/ductility.",
+            "query": "Design a PLA-based copolymer that increases $T_g$ while maintaining ductility for biodegradable packaging. Aromatic Diacid Crosslinked PLA biodegradable polymer Tg toughness modulus ductility crystallinity trade-off processing window",
+            "top_k": 15
+          },
+          {
+            "name": "degradation_mechanical_retention",
+            "description": "Search evidence on mechanical retention during hydrolytic degradation / wet-state support.",
+            "query": "Design a PLA-based copolymer that increases $T_g$ while maintaining ductility for biodegradable packaging. Aromatic Diacid Crosslinked PLA biodegradable polymer mechanical retention during hydrolytic degradation wet-state support strength retention",
+            "top_k": 15
+          },
+          {
+            "name": "thermal_degradation_coupling",
+            "description": "Search coupling among Tg/crystallinity/water uptake/hydrolysis/degradation.",
+            "query": "Design a PLA-based copolymer that increases $T_g$ while maintaining ductility for biodegradable packaging. Aromatic Diacid Crosslinked PLA biodegradable polymer crystallinity Tg water uptake hydrolysis degradation coupling",
+            "top_k": 15
+          }
+        ],
+        "max_total_search_steps": 4
+      }
+    },
+    {
+      "idea_name": "Lignin-Grafted PLA",
+      "score_overall": 6.0,
+      "score_dimensions": {
+        "feasibility": 4.5,
+        "performance_potential": 7.5,
+        "controllability": 3.5,
+        "novelty": 8.5
+      },
+      "pros": [
+        "High novelty in using a abundant, rigid bio-resource.",
+        "Lignin's structure offers strong potential for Tg enhancement and UV protection.",
+        "Grafting architecture could improve nanoparticle dispersion."
+      ],
+      "cons": [
+        "Lignin heterogeneity is a major hurdle for consistent property control.",
+        "Grafting efficiency and control over graft length are significant technical challenges.",
+        "Risk of lignin agglomeration leading to brittleness."
+      ],
+      "summary": "A highly novel, biomass-valorizing concept with good performance potential, but severely hampered by the inherent heterogeneity and processing challenges of lignin.",
+      "scoring_status": "validated",
+      "original_idea": {
+        "idea_name": "Lignin-Grafted PLA",
+        "core_idea": "Graft PLA chains onto lignin nanoparticles to utilize lignin's rigid structure for Tg enhancement.",
+        "components": [
+          {
+            "name": "Lignin core",
+            "role": "Nanoscale rigid reinforcement"
+          },
+          {
+            "name": "PLA grafts",
+            "role": "Biodegradable matrix providing ductility and processability"
+          }
+        ],
+        "mechanism": "Lignin's aromatic network restricts PLA chain mobility through steric confinement and hydrogen bonding, elevating Tg. The graft architecture prevents filler agglomeration, maintaining uniform stress distribution during deformation. Both components are fully biodegradable, with lignin enhancing UV protection while preserving enzymatic degradation pathways.",
+        "risks": [
+          "Lignin heterogeneity may cause inconsistent properties",
+          "Grafting efficiency challenges could affect performance"
+        ]
+      },
+      "design_profile": {
+        "primary_category": "thermal_design",
+        "primary_display_name": "热学性能设计",
+        "secondary_categories": [
+          "mechanical_design",
+          "degradation_regulation"
+        ],
+        "secondary_display_names": [
+          "力学性能设计",
+          "降解行为与结构调控"
+        ],
+        "mode": "hybrid",
+        "score_breakdown": {
+          "mechanical_design": 18,
+          "thermal_design": 30,
+          "degradation_regulation": 15
+        },
+        "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 热学性能设计=30 | 力学性能设计=18 | 降解行为与结构调控=15",
+        "active_categories": [
+          "thermal_design",
+          "mechanical_design",
+          "degradation_regulation"
+        ],
+        "active_display_names": [
+          "热学性能设计",
+          "力学性能设计",
+          "降解行为与结构调控"
+        ],
+        "extra_searches": [
+          {
+            "name": "thermal_mechanical_tradeoff",
+            "description": "Search trade-off evidence linking Tg/crystallinity/processing window to modulus/toughness/ductility.",
+            "query": "Design a PLA-based copolymer that increases $T_g$ while maintaining ductility for biodegradable packaging. Lignin-Grafted PLA biodegradable polymer Tg toughness modulus ductility crystallinity trade-off processing window",
+            "top_k": 15
+          },
+          {
+            "name": "degradation_mechanical_retention",
+            "description": "Search evidence on mechanical retention during hydrolytic degradation / wet-state support.",
+            "query": "Design a PLA-based copolymer that increases $T_g$ while maintaining ductility for biodegradable packaging. Lignin-Grafted PLA biodegradable polymer mechanical retention during hydrolytic degradation wet-state support strength retention",
+            "top_k": 15
+          },
+          {
+            "name": "thermal_degradation_coupling",
+            "description": "Search coupling among Tg/crystallinity/water uptake/hydrolysis/degradation.",
+            "query": "Design a PLA-based copolymer that increases $T_g$ while maintaining ductility for biodegradable packaging. Lignin-Grafted PLA biodegradable polymer crystallinity Tg water uptake hydrolysis degradation coupling",
+            "top_k": 15
+          }
+        ],
+        "max_total_search_steps": 4
+      }
+    }
+  ],
+  "planner_view_top_ideas": [
+    {
+      "rank_index": 1,
+      "idea_name": "Lactide-Glycolide Copolymer",
+      "score_overall": 7.7,
+      "score_dimensions": {
+        "feasibility": 9.0,
+        "performance_potential": 7.5
+      },
+      "core_goal": "Incorporate glycolide monomers into PLA chains to enhance chain rigidity and increase Tg through restricted molecular mobility.",
+      "mechanism_one_liner": "Glycolide's compact ring structure and higher bond rotation energy barrier reduce chain mobility in the amorphous regions, elevating Tg",
+      "risk_one_liner": "Excessive glycolide may reduce ductility below packaging requirements",
+      "pros_short": [
+        "Well-established copolymerization chemistry (PLGA is FDA-approved).",
+        "Clear mechanism for Tg increase via glycolide's rigidity."
+      ],
+      "cons_short": [
+        "Glycolide incorporation can significantly increase crystallinity and brittleness if not carefully controlled.",
+        "Potential for reduced hydrolytic stability compared to pure PLA."
+      ],
+      "scoring_status": "validated"
+    },
+    {
+      "rank_index": 2,
+      "idea_name": "Stereo-Complexed PLA Copolymer",
+      "score_overall": 7.5,
+      "score_dimensions": {
+        "feasibility": 7.0,
+        "performance_potential": 9.0
+      },
+      "core_goal": "Blend enantiomeric PLA blocks (PLLA/PDLA) to form stereocomplex crystals with higher Tg while adding flexible comonomers.",
+      "mechanism_one_liner": "Stereocomplex crystallites act as physical crosslinks, raising Tg by 50-60°C compared to homopolymer PLA",
+      "risk_one_liner": "Precise stereocomplexation control required to avoid homogeneity issues",
+      "pros_short": [
+        "Stereocomplexation offers a significant, well-documented Tg increase (~50-60°C).",
+        "Caprolactone incorporation is a proven method to improve ductility."
+      ],
+      "cons_short": [
+        "Precise control over stereocomplexation and blending is difficult to scale.",
+        "Risk of plasticization and property dilution if caprolactone content is too high."
+      ],
+      "scoring_status": "validated"
+    },
+    {
+      "rank_index": 3,
+      "idea_name": "Cyclic Lactone Terpolymer",
+      "score_overall": 7.1,
+      "score_dimensions": {
+        "feasibility": 7.0,
+        "performance_potential": 8.0
+      },
+      "core_goal": "Terpolymerize lactide with ε-caprolactone for ductility and a rigid cyclic comonomer (e.g., p-dioxanone) for Tg boost.",
+      "mechanism_one_liner": "p-Dioxanone's fused ring structure increases chain stiffness and intermolecular interactions, raising Tg",
+      "risk_one_liner": "Complex reactivity ratios may hinder controlled polymerization",
+      "pros_short": [
+        "Rational design using monomers with complementary functions (rigidity vs. flexibility).",
+        "All components are biodegradable and have known polymerization mechanisms."
+      ],
+      "cons_short": [
+        "Terpolymerization kinetics are complex, making reproducible synthesis difficult.",
+        "Potential for undesirable side reactions or sequence distributions."
+      ],
+      "scoring_status": "validated"
+    }
+  ],
+  "plan": null
+}

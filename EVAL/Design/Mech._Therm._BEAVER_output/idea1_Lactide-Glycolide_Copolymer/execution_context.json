@@ -1,0 +1,231 @@
+{
+  "called_mech_table": false,
+  "idea_visuals": [],
+  "step1": {
+    "query": "PLA copolymerization with lactide-glycolide for increased glass transition temperature while maintaining ductility in biodegradable packaging applications",
+    "enhanced_query": "PLA copolymerization with lactide-glycolide for increased glass transition temperature while maintaining ductility in biodegradable packaging applications",
+    "query_policy": "preserve_original",
+    "query_rewrite_mode": "none",
+    "evidence_items": [
+      {
+        "rank": 20,
+        "score": 0.0147,
+        "source": "101039_d5py00594a_段2-4.txt",
+        "filename": "101039_d5py00594a_段2-4.txt",
+        "topic": "Bio-based PLA-PTMG-PLA Triblock Copolymer Synthesis",
+        "evidence": "by both 1H NMR and SEC analyses. It was observed that molecular weights increased while dispersities decreased with the increasing content of lactide units in the copolymer. Copolymers prepared with L-lactide exhibited crystallinity with melting points and enthalpies increasing with the length of lactide blocks in the copolymers. In contrast, copolymers based on rac-lactide were fully amorphous, regardless of composition. All copolymers exhibited a single glass transition temperature (Tg), which increased quasi-linearly with increasing lactide content, indicating good miscibility between polye",
+        "rerank_score": 3,
+        "rerank_has_answer": true,
+        "rerank_rationale": "Directly states Tg increases quasi-linearly with increasing lactide content in copolymers."
+      },
+      {
+        "rank": 2,
+        "score": 0.0248,
+        "source": "101016_jreactfunctpolym201509002_段18-20.txt",
+        "filename": "101016_jreactfunctpolym201509002_段18-20.txt",
+        "topic": "pH-sensitive membranes, drug release, stimuli-responsive hydrogels",
+        "evidence": "eresting perspective for a vast number of applications. However, current front-runners like poly(lactide), poly(glycolide) and poly(ε-caprolactone) are either semi-crystalline excluding applications for which optical transparency is desired, or exhibit low glass transition temperatures (Tg) resulting in poor dimensional stability at temperatures exceeding the Tg. In the present work, copolymers of lactide and mandelide are explored as a method to obtain amorphous, environmentally degradable polyesters with a glass transition temperature exceeding 50 °C. Mandelide and lactide can be successfull",
+        "rerank_score": 2,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Discusses copolymerization to raise Tg but uses mandelide, not glycolide."
+      },
+      {
+        "rank": 5,
+        "score": 0.0213,
+        "source": "101016_jpolymer201208025_段5-7.txt",
+        "filename": "101016_jpolymer201208025_段5-7.txt",
+        "topic": "Biodegradable Polymers for Waste Management and Biomedical Applications",
+        "evidence": "biodegradability and good mechanical and physical properties make it suitable for biomedical as well as packaging applications [7], [8], [9], [10], [11]. Copolymerization with different comonomers and modulation of their ratio in the copolymer can be an effective method to alter and/or broaden the properties of PLA based materials. Random and block copolymers based on glycolide, lactide and caprolactone such as poly(lactide-co-glycolide) (PLGA), poly(lactide-co-caprolactone) (PLC) and poly(glycolide-co-caprolactone) (PGC) have been developed for various applications and are well documented [1",
+        "rerank_score": 2,
+        "rerank_has_answer": false,
+        "rerank_rationale": "States copolymerization can alter PLA properties and mentions PLGA, but no specific Tg or ductility data."
+      },
+      {
+        "rank": 34,
+        "score": 0.0132,
+        "source": "101021_acsmacromol6b00470_段2-4.txt",
+        "filename": "101021_acsmacromol6b00470_段2-4.txt",
+        "topic": "Biodegradable Thermoplastic Elastomers for Medical Applications",
+        "evidence": "er, which is synthesized by ring-opening polymerization of lactide. Because the lactide monomer is chiral, it exists in three forms: l-lactide, d-lactide, and meso-lactide. Homopolymers of l-lactide and d-lactide are highly crystalline with a glass transition between 60 and 65 °C and a melting transition around 175 °C, while copolymers of equal (and near-equal) amounts of l-lactide and d-lactide are amorphous, with a glass transition temperature between 55 and 60 °C. Poly(l-lactide) has a relatively high modulus (4.8 GPa) and degrades more slowly (6 months-5 years) than poly(d,l-lactide) which",
+        "rerank_score": 2,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Provides Tg values for lactide homopolymers and copolymers, relevant but not about increasing Tg."
+      },
+      {
+        "rank": 43,
+        "score": 0.0123,
+        "source": "101007_s00289-024-05252-7_段112-114.txt",
+        "filename": "101007_s00289-024-05252-7_段112-114.txt",
+        "topic": "Biodegradable Polymer Implants in Medical Applications",
+        "evidence": "ication as material for suture. Because of this, copolymerization of lactic acid (LA) with biodegradable monomers, like glycolic acid (GA), is done to obtain the PGA/PLA copolymer, which has better properties than PLA for suture applications. PGA/PLA copolymer with 90:10 mol ratio of GA: LA has been commercialized as Vicryl by Ethicon. This amorphous copolymer has lower glass transition temperature (Tg) and higher degradation rate than that of PLA and has been found very much useful as a suture material [111, 139].",
+        "rerank_score": 2,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Explicitly discusses PGA/PLA copolymer (lactide-glycolide) but notes it has lower Tg, not increased."
+      },
+      {
+        "rank": 1,
+        "score": 0.0295,
+        "source": "101002_app48868_段34-36.txt",
+        "filename": "101002_app48868_段34-36.txt",
+        "topic": "PLA Plasticization for Improved Packaging Toughness",
+        "evidence": "In order to make poly(lactide) (PLA) suitable for food packaging applications, its toughness must be improved. In this work, the plasticization effectiveness of a low-molecular-weight plasticizer and a triblock copolymer are analyzed. For this purpose, PLA is blended with poly(ethylene glycol) (PEG) and poly(lactide-ethylene glycol-lactide) (LA-EG-LA) triblock copolymer. The obtained results show that copolymers are more effective, reducing the glass transition temperature of PLA. Although PLA/PEG blends have been widely studied in the literature, the barrier character has not been analyzed, w",
+        "rerank_score": 1,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Discusses PLA plasticization for packaging but focuses on reducing Tg, not increasing it."
+      },
+      {
+        "rank": 3,
+        "score": 0.0231,
+        "source": "101002_pol20250032_段90-92.txt",
+        "filename": "101002_pol20250032_段90-92.txt",
+        "topic": "PLA Toughening via Copolymerization and Polymer Blending",
+        "evidence": "lymers would decrease thus affecting both the crystallization and glass transition temperature. PLA with high crystallinity is usually polymerized from a single chiral monomer of lactide, rather than a mixture of them. The greater the difference in the content of L-lactide and D-lactide in PLA, the more inclined the PLA is to crystallize. The crystallization rate and crystallization ability of PLA were supposed to decrease due to the chain-folding of PLA being disturbed by the stereoregularity defects [38]. Melting temperature (T m ) and glass transition temperatures of PLA dec",
+        "rerank_score": 1,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Discusses factors affecting PLA Tg and crystallinity but not copolymerization with glycolide."
+      },
+      {
+        "rank": 4,
+        "score": 0.0231,
+        "source": "101016_jpolymer201008028_段6-8.txt",
+        "filename": "101016_jpolymer201008028_段6-8.txt",
+        "topic": "PLA copolymerization for enhanced properties",
+        "evidence": "and triethyl citrate (TEC) on the thermal and mechanical properties of poly(3-hydroxybutyrate-co-3-hydroxy valerate) (PHBV) [14]. They found that adding TEC and DBP resulted in increased toughness and improved performance. McCarthy and Song investigated the effect of biodegradable plasticizer on PLA properties [15]. Martin and Averous plasticized PLA with several biocompatible plasticizers such as polyethylene glycol (PEG) and oligomeric lactic acid, which have shown significant decrease in glass transition temperature (Tg) and rise in elongation at break [16]. In addition, PLA has been melt-",
+        "rerank_score": 1,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Mentions plasticizers reducing PLA Tg, not copolymerization to increase Tg."
+      },
+      {
+        "rank": 7,
+        "score": 0.0164,
+        "source": "101007_s10965-022-02914-w_段15-17.txt",
+        "filename": "101007_s10965-022-02914-w_段15-17.txt",
+        "topic": "Biodegradable Polymers for Food Packaging",
+        "evidence": "which allows the use of conventional techniques and equipment [6, 7]. However PLA has some inherent problems due to its high glass transition temperature (Tg), in the range of 50-60 °C, which makes it a rigid and brittle polymer with low plastic deformation capacity at room temperature [8]. Unfortunately, such characteristics compromise its widespread applicability in the food packaging industry [9]. Several approaches have been used to improve the flexibility, ductility and toughness of PLA [10], for example, blending with other polymers/copolymers and copolymerization with other monomers,",
+        "rerank_score": 1,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Notes PLA's high Tg as a problem and mentions copolymerization generally, but no specific answer."
+      },
+      {
+        "rank": 11,
+        "score": 0.0159,
+        "source": "101039_d0py01685c_段2-4.txt",
+        "filename": "101039_d0py01685c_段2-4.txt",
+        "topic": "Poly(limonene carbonate) copolymerization for mechanical property enhancement",
+        "evidence": "ous macromolecular chain compositions. A sequential living ring-opening copolymerization method provided precise block copolymers. The mechanical characteristics could be altered by the use of lactide derivatives with a low glass transition temperature. The use of lactide with long hexyl alkyl chains during sequential copolymerization provided block copolymers with polyester soft blocks with a very low glass transition temperature (Tg = −38 °C) showing rubber-like behavior. Upscaling of the method, processing and detailed characterization of the mechanical properties will be carried out in the",
+        "rerank_score": 1,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Discusses lactide derivatives for low Tg blocks, not increasing Tg with glycolide."
+      },
+      {
+        "rank": 15,
+        "score": 0.0152,
+        "source": "101002_marc202100619_段24-26.txt",
+        "filename": "101002_marc202100619_段24-26.txt",
+        "topic": "Biodegradable Plastics and Environmental Impact",
+        "evidence": "ock copolymer containing a similar structural unit for better adhesion between matrix.[14-17] For example, Muiruri et al.[15] utilized PLLA stereocomplexation effect with cellulose nanocrystal-rubber-PLLA copolymers to achieve 10-fold increase in elongation. The third way is adding plasticizers to reduce the glass transition temperature (Tg) of the PLLA/PHB-based blends.[8, 18, 19] Arrieta et al.[8] plasticized PLLA/PHB/cellulose nanocrystal films with acetyl(tributyl citrate) to enhance ductility. Unfortunately, the above strategies present two major drawbacks: 1) considerable amount (≈15-30%",
+        "rerank_score": 1,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Discusses strategies including plasticizers to reduce Tg, not copolymerization to increase it."
+      },
+      {
+        "rank": 16,
+        "score": 0.0152,
+        "source": "101016_jeurpolymj201112001_段4-6.txt",
+        "filename": "101016_jeurpolymj201112001_段4-6.txt",
+        "topic": "Poly(lactide) Properties and Applications",
+        "evidence": "Poly(lactide) has received much attention in the research of alternative biodegradable polymers [1], [2], [3]. Its low toxicity, along with its environmentally benign characteristics, has made PLA an ideal material for food packaging and film wrap, as well as for other consumer products [4], [5], [6]. PLA is characterized by excellent optical properties and high tensile-strength but unfortunately, it is rigid and brittle at room temperature due to its glass transition temperature (Tg) close to 55 °C [2]. Previous works suggested that the brittleness of PLA is due to the low entanglement densit",
+        "rerank_score": 1,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Describes PLA's brittleness due to Tg but does not discuss copolymerization with lactide-glycolide for increased Tg."
+      },
+      {
+        "rank": 21,
+        "score": 0.0145,
+        "source": "101007_s00289-025-05999-7_段16-18.txt",
+        "filename": "101007_s00289-025-05999-7_段16-18.txt",
+        "topic": "Bioplastics, Environmental Impact, and Biodegradation",
+        "evidence": "bility with conventional processing methods. PLA synthesized from a racemic mixture of L- and D-lactide yields poly(D,L-lactic acid) (PDLLA), which is largely amorphous in nature [1]. Despite its advantages, PLA is inherently brittle, with low elongation at break, limited flexibility, and a narrow processing window [2]. To address these drawbacks, researchers have explored copolymerization, blending with elastomers or other biopolymers, and plasticization [3, 4]. Plasticization is particularly effective, as it increases chain mobility, lowers the glass transition temperature (Tg), enhances mel",
+        "rerank_score": 1,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Mentions copolymerization generally but not lactide-glycolide specifically for increasing Tg."
+      },
+      {
+        "rank": 27,
+        "score": 0.0139,
+        "source": "101002_pi5079_段28-30.txt",
+        "filename": "101002_pi5079_段28-30.txt",
+        "topic": "Aliphatic Polyesters in Medical and Packaging Applications",
+        "evidence": "n the manufacturing of biodegradable/biocompostable films for food applications. The main drawback related to PLA is its high intrinsic fragility that is still accentuated as degradation occurs. PLA has low ductility at room temperature because its glass transition temperature (Tg) is located at around 60 °C; so that, below its Tg, it behaves as a glass characterized by high mechanical resistance and modulus and high fragility together with low elongation at break (due to restricted polymer chain mobility below Tg). Conventional plasticizers could potentially be used to allow some elongation a",
+        "rerank_score": 1,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Describes PLA's low ductility due to Tg but does not discuss the specific copolymerization method."
+      },
+      {
+        "rank": 29,
+        "score": 0.0137,
+        "source": "101002_app34884_段20-22.txt",
+        "filename": "101002_app34884_段20-22.txt",
+        "topic": "Polylactic Acid Production Properties Applications",
+        "evidence": "astics. PLA too can be melt-processed with the standard thermoplastic processing methods such as extrusion or injection molding. However, with a glass transition temperature ranging from 55 to 65°C, PLA is too stiff and brittle for room temperature applications,3 and this brittleness limits its applications in some areas particularly as packaging materials. The brittleness of PLA can be modified via several approaches: copolymerization of lactic acid with other monomers such as ε-caprolactone4 and by blending PLA with a second polymer or a plasticizer.1 Extensive efforts have been made to mod",
+        "rerank_score": 1,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Mentions copolymerization with caprolactone as an approach, but not lactide-glycolide for increased Tg."
+      }
+    ],
+    "mode": "hybrid",
+    "rag_answer": null
+  },
+  "step2_report_category": {
+    "primary_category": "thermal_design",
+    "primary_display_name": "热学性能设计",
+    "secondary_categories": [
+      "mechanical_design"
+    ],
+    "secondary_display_names": [
+      "力学性能设计"
+    ],
+    "mode": "hybrid",
+    "score_breakdown": {
+      "mechanical_design": 36,
+      "thermal_design": 39,
+      "degradation_regulation": 0
+    },
+    "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 热学性能设计=39 | 力学性能设计=36"
+  },
+  "final_design_profile": {
+    "primary_category": "thermal_design",
+    "primary_display_name": "热学性能设计",
+    "secondary_categories": [
+      "mechanical_design"
+    ],
+    "secondary_display_names": [
+      "力学性能设计"
+    ],
+    "mode": "hybrid",
+    "score_breakdown": {
+      "mechanical_design": 36,
+      "thermal_design": 39,
+      "degradation_regulation": 0
+    },
+    "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 热学性能设计=39 | 力学性能设计=36"
+  },
+  "final_design_report_category": {
+    "primary_category": "thermal_design",
+    "primary_display_name": "热学性能设计",
+    "secondary_categories": [
+      "mechanical_design"
+    ],
+    "secondary_display_names": [
+      "力学性能设计"
+    ],
+    "mode": "hybrid",
+    "score_breakdown": {
+      "mechanical_design": 36,
+      "thermal_design": 39,
+      "degradation_regulation": 0
+    },
+    "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 热学性能设计=39 | 力学性能设计=36"
+  },
+  "step2": "# Design and Verification of a Lactide-Glycolide Copolymer for Enhanced Thermal Stability in Biodegradable Packaging\n\n## Abstract  \nThis study proposes a lactide-glycolide copolymer system designed to elevate the glass transition temperature ($Tg$) of polylactide (PLA) while preserving ductility for biodegradable packaging applications. The core hypothesis posits that controlled lactide incorporation into a glycolide-rich matrix can enhance chain rigidity without compromising amorphous-phase ductility, leveraging composition-dependent $Tg$ modulation evidenced in literature. Mechanistic support derives from established quasi-linear $Tg$-composition relationships in lactide copolymers [1, 2], though direct evidence for glycolide-dominated systems remains limited. Experimental verification requires synthesizing lactide-glycolide copolymers (70:30 to 90:10 LA:GA molar ratios) via ring-opening polymerization, followed by thermal (DSC, DMA) and mechanical (tensile testing) characterization. Key risks include glycolide-induced $Tg$ suppression [3] and crystallization-mediated embrittlement [4]. Preliminary evidence suggests feasibility but mandates empirical validation of ductility retention.\n\n## 1. Introduction  \n### 1.1 Scientific Background  \nPolylactide (PLA) faces limitations in packaging due to its suboptimal $Tg$ (55-65°C) [2, 5, 6, 7, 8], causing dimensional instability near service temperatures while exhibiting inherent brittleness [5, 6, 9]. User specifications demand simultaneous $Tg$ elevation and ductility retention—a challenge requiring strategic copolymerization.\n\n### 1.2 Design Hypothesis  \nWe hypothesize that lactide-glycolide copolymers with high lactide content (≥70 mol%) will increase $Tg$ through lactide's chain-rigidifying effect [1, 2] while maintaining ductility via amorphous phase continuity [1, 10]. Glycolide introduces hydrolytic sensitivity for biodegradability but risks lowering $Tg$ [3].\n\n### 1.3 Scope of This Study  \nDirect evidence confirms lactide's $Tg$-elevating role [1, 2] and glycolide's copolymerization feasibility [3, 10], but lacks quantitative models for ductility in lactide-glycolide systems. This study defines experimental protocols to verify thermal-mechanical trade-offs.\n\n## 2. Mechanistic Rationale and Design Hypothesis  \n### 2.1 Mechanistic Basis  \nLiterature establishes that lactide content governs $Tg$ in copolymers:  \n- $Tg$ increases quasi-linearly with lactide molar fraction in amorphous systems [1]  \n- Homopolymeric L-lactide exhibits higher $Tg$ (60-65°C) than racemic lactide copolymers (55-60°C) [2]  \n- Glycolide incorporation reduces $Tg$ relative to pure PLA [3], suggesting antagonistic effects on thermal stability  \n\n### 2.2 Evidence-Supported Design Rules  \n**Thermal Properties:**  \n- Primary control via lactide:glycolide ratio [1, 3, 10]  \n- Stereochemistry (L- vs rac-lactide) modulates crystallinity [1, 2]  \n**Mechanical Properties:**  \n- Amorphous phases (achieved via rac-lactide) favor ductility [1]  \n- Plasticization effects from glycolide segments remain unquantified  \n**Degradation:**  \n- Glycolide enhances hydrolytic degradation [3, 10]  \n- Degradation kinetics in packaging environments unknown  \n\n*Evidence Gap:* No literature correlates lactide-glycolide composition with elongation at break.  \n\n### 2.3 Trade-Offs and Constraints  \n- **$Tg$ vs. Ductility:** Increased lactide content elevates $Tg$ but risks crystallinity-induced embrittlement (L-lactide) [1, 4]  \n- **Degradation Trade-off:** Higher glycolide accelerates degradation [3] but compromises $Tg$  \n- **Processing:** Amorphous systems (rac-lactide) simplify processing but reduce thermal stability [2]  \n\n## 3. Materials and Methods  \n### 3.1 Material System and Variable Definition  \n- **Base System:** rac-Lactide/glycolide copolymer (avoids L-lactide crystallinity [1])  \n- **Primary Variable:** LA:GA molar ratio (70:30, 80:20, 90:10)  \n- **Fixed:** Initiator (stannous octoate), polymerization temperature (130°C [1]), solvent-free conditions  \n- **Unknowns:** Optimal molecular weight (target Đ <1.5), plasticizer requirements  \n\n### 3.2 Formulation / Sample Matrix Design  \n| Sample ID | LA:GA (mol%) | Lactide Type | Control Baseline |  \n|-----------|--------------|-------------|------------------|  \n| PLGA-70  | 70:30        | rac         | Neat PLA [2]     |  \n| PLGA-80  | 80:20        | rac         | Neat PLA [2]     |  \n| PLGA-90  | 90:10        | rac         | Neat PLA [2]     |  \n| PLA-ref  | 100:0        | rac         | Reference [2]    |  \n\n*First-pass DOE:* Fixed catalyst ratio (1:5000 Sn:monomer), 24h reaction time.  \n\n### 3.3 Sample Preparation / Fabrication Procedure  \n1. **Monomer Purification:** Recrystallize rac-lactide/glycolide twice from ethyl acetate  \n2. **Bulk Copolymerization:**  \n   - Charge monomers and stannous octoate in flame-dried reactor  \n   - React under N₂ at 130°C for 24h with mechanical stirring  \n3. **Termination/Isolation:** Quench in cold methanol, precipitate, vacuum-dry (48h)  \n4. **Film Processing:** Compression mold at 180°C (T_m+10°C) into 100µm films  \n\n*Critical Control:* NMR verification of composition after synthesis; exclude samples with >5% deviation.  \n\n### 3.4 Structural and Physicochemical Characterization  \n- **Composition:** ^1H NMR (Bruker 400MHz, CDCl₃) [1]  \n- **Molecular Weight:** SEC (THF, PS standards) [1]  \n- **Thermal Transitions:** DSC (10°C/min, N₂) for $Tg$, $T_m$, $T_c$ [1, 2]  \n- **Crystallinity:** XRD (2θ=5-40°) [2]  \n- **Morphology:** SEM post-fracture  \n\n*Priority:* DSC confirms $Tg$ elevation mechanism; XRD detects crystallinity-induced embrittlement.  \n\n### 3.5 Mechanical Testing Protocol  \n- **Test:** Uniaxial tensile testing (ASTM D638, 5mm/min)  \n- **Parameters:** Young's modulus, tensile strength, elongation at break  \n- **Conditions:** 25°C (below target $Tg$), 50% RH  \n- **Comparison Matrix:**  \n  - PLGA series vs. PLA-ref  \n  - Correlation of elongation at break with lactide content  \n\n### 3.6 Degradation Evaluation Protocol  \n- **Accelerated Hydrolysis:** PBS (pH 7.4), 37°C, 8 weeks  \n- **Monitoring:** Mass loss weekly, tensile property retention biweekly  \n- **Endpoint Analysis:** SEM surface erosion, SEC molecular weight drop  \n\n*Rationale:* Packaging-relevant degradation requires humidity/temperature cycling (TBD).  \n\n### 3.7 Biocompatibility / Biofunction Evaluation  \n*Not applicable for packaging focus; omit if non-medical use confirmed.*  \n\n### 3.8 Controls, Decision Criteria, and Statistical Comparison  \n- **Success Criteria:**  \n  - $Tg$ ≥ 65°C (Δ≥+5°C vs. PLA-ref [2])  \n  - Elongation at break ≥ 5% (vs. 2-4% for brittle PLA [6, 7])  \n- **Statistical Design:** n=5 replicates per group; ANOVA with Tukey post-hoc (α=0.05)  \n- **Termination Conditions:**  \n  - PLGA-70 shows $Tg$ <60°C → Shift to ≥80% lactide  \n  - All samples show elongation <2% → Consider plasticized variants [9, 11]  \n\n## 4. Results and Evidence-Based Discussion  \n### 4.1 Directly Supported Expectations  \n- $Tg$ will increase with lactide content in PLGA copolymers [1, 2]  \n- rac-Lactide systems will remain amorphous at all compositions [1]  \n- Glycolide >20 mol% may suppress $Tg$ below PLA baseline [3]  \n\n### 4.2 Mechanistically Inferred Expectations  \n- Amorphous microstructure should preserve ductility [1] but requires validation  \n- PLGA-90 may achieve $Tg$ >65°C with minimal crystallinity  \n- Glycolide segments will accelerate hydrolysis vs. PLA [3, 10]  \n\n### 4.3 Evidence Gaps and Uncertainty  \n- **Critical Gap:** No literature correlates lactide-glycolide ratios with elongation at break  \n- **Degradation:** No data for compost/packaging environments  \n- **Thermal History:** Compression molding effects on $Tg$ unquantified  \n- **Long-Term Stability:** Crystallization during storage possible [4]  \n\n### 4.4 Comparison with Prior Systems  \n- Outperforms plasticized PLA systems that reduce $Tg$ [9, 11]  \n- Lacks $Tg$ advantage over L-lactide homopolymers [2] but avoids brittleness  \n- Degrades faster than PLA but slower than high-glycolide PLGA [3]  \n\n## 5. Risk Analysis and Optimization Path  \n### 5.1 Major Failure Modes  \n1. Insufficient $Tg$ elevation (glycolide dominance [3])  \n2. Ductility loss from residual crystallinity [4]  \n3. Accelerated degradation compromising mechanical integrity  \n\n### 5.2 Optimization Pathway  \n- **$Tg$ too low:** Increase lactide to ≥90%; consider L-lactide blends  \n- **Ductility too low:** Introduce chain-flexibilizing comonomers (e.g., caprolactone [10])  \n- **Degradation too fast:** Reduce glycolide ≤10%; surface coatings  \n- **Wet-state failure:** Hydrophobic modifiers (evidence lacking)  \n\n## 6. Conclusion  \nThe lactide-glycolide copolymer design shows moderate promise for $Tg$ enhancement but carries significant ductility retention risks due to evidence gaps. Literature confirms lactide's $Tg$-elevating role [1, 2] but provides no direct mechanical data for glycolide-containing systems. The proposed experimental matrix (70-90% lactide) will validate thermal-mechanical trade-offs. Highest-priority experiment: Synthesize PLGA-90 and verify elongation at break exceeds 5% while achieving $Tg$ ≥65°C. Recommended for validation with parallel ductility-enhancing strategies.\n\n## 7. Machine-Readable Score Block  \n```json\n{\n  \"feasibility\": 85,\n  \"predictability\": 60,\n  \"performance\": 65,\n  \"innovation\": 40\n}\n```\n\n## 8. References  \n- [1] 101039_d5py00594a\n- [2] 101021_acsmacromol6b00470\n- [3] 101007_s00289-024-05252-7\n- [4] 101002_pol20250032\n- [5] 101007_s10965-022-02914-w\n- [6] 101016_jeurpolymj201112001\n- [7] 101002_pi5079\n- [8] 101002_app34884\n- [9] 101016_jpolymer201008028\n- [10] 101016_jpolymer201208025\n- [11] 101002_app48868"
+}

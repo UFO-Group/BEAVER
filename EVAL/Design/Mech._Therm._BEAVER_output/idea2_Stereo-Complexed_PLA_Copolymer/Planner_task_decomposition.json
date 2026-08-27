@@ -1,0 +1,26 @@
+{
+  "query_structure": "single",
+  "steps": [
+    {
+      "id": "step1",
+      "type": "search_papers",
+      "description": "Retrieve literature on stereo-complexed PLA copolymers for enhanced Tg and ductility in packaging",
+      "inputs": {
+        "query": "Stereo-complexed PLA copolymer mechanism for increasing glass transition temperature while maintaining ductility in biodegradable packaging",
+        "top_k": 15,
+        "query_policy": "preserve_original",
+        "query_rewrite_mode": "none"
+      }
+    },
+    {
+      "id": "step2",
+      "type": "reason_over_evidence",
+      "description": "Evaluate feasibility and innovation of stereo-complexed PLA design based on literature evidence",
+      "inputs": {
+        "use_steps": [
+          "step1"
+        ]
+      }
+    }
+  ]
+}

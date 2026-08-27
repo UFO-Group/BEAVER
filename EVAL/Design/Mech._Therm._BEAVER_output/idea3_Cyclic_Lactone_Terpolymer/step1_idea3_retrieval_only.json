@@ -1,0 +1,167 @@
+[
+  {
+    "rank": 14,
+    "score": 0.0149,
+    "source": "101039_d3gc04140a_段37-38.txt",
+    "filename": "101039_d3gc04140a_段37-38.txt",
+    "topic": "Polymer Degradation and Glass Transition Temperature Dynamics",
+    "evidence": "significant decrease in the rate of mass loss and molecular weight loss. This led to a faster hydrolytic degradation that resulted in chain fragmentation into oligomers and later biodegradation by microorganisms. These results suggest that the composition and structure of copolymers can be altered to affect biodegradability. Furthermore, the biodegradable cyclic LnVm copolymers have greater thermal stability than PLA homopolymers.",
+    "rerank_score": 2,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Directly mentions cyclic LnVm copolymers with greater thermal stability than PLA, which is partially relevant."
+  },
+  {
+    "rank": 35,
+    "score": 0.013,
+    "source": "101002_pat4840_段27-29.txt",
+    "filename": "101002_pat4840_段27-29.txt",
+    "topic": "Biodegradable Aliphatic Polyesters for Biomedical Applications",
+    "evidence": "Aliphatic polyesters, such as polylactide (PLA), polyglycolide (PGA), polycaprolactone (PCL), and their copolymers are the best known biodegradable polymers mostly used in daily medical practice for their biocompatibility and biodegradability.1-6 Poly(L-lactide) (PLLA) is one of the most studied polymers for biomedical applications whose bioresorbable properties have been already studied. PLLA is brittle material with high glass transition temperature (Tg).7 The properties of PLLA can be modulated by copolymerization of L-lactide with lactone and trimethylene carbonate (TMC).2, 8, 9 Poly(ε-ca",
+    "rerank_score": 2,
+    "rerank_has_answer": false,
+    "rerank_rationale": "States PLLA properties can be modulated by copolymerization with lactone, partially related to the concept."
+  },
+  {
+    "rank": 37,
+    "score": 0.0128,
+    "source": "101002_pat4840_段55-57.txt",
+    "filename": "101002_pat4840_段55-57.txt",
+    "topic": "Biopolymer Cryogels for Transient Ecology-Drones",
+    "evidence": "Biopolymer Cryogels for Transient Ecology‐Drones Aliphatic polyesters, such as polylactide (PLA), polyglycolide (PGA), polycaprolactone (PCL), and their copolymers are the best known biodegradable polymers mostly used in daily medical practice for their biocompatibility and biodegradability.1-6 Poly(L-lactide) (PLLA) is one of the most studied polymers for biomedical applications whose bioresorbable properties have been already studied. PLLA is brittle material with high glass transition temperature (Tg).7 The properties of PLLA can be modulated by copolymerization of L-lactide with lactone a",
+    "rerank_score": 2,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Similar to passage 5, mentions modulation via copolymerization with lactone, partially related."
+  },
+  {
+    "rank": 2,
+    "score": 0.0268,
+    "source": "101007_s10965-022-02914-w_段15-17.txt",
+    "filename": "101007_s10965-022-02914-w_段15-17.txt",
+    "topic": "Biodegradable Polymers for Food Packaging",
+    "evidence": "which allows the use of conventional techniques and equipment [6, 7]. However PLA has some inherent problems due to its high glass transition temperature (Tg), in the range of 50-60 °C, which makes it a rigid and brittle polymer with low plastic deformation capacity at room temperature [8]. Unfortunately, such characteristics compromise its widespread applicability in the food packaging industry [9]. Several approaches have been used to improve the flexibility, ductility and toughness of PLA [10], for example, blending with other polymers/copolymers and copolymerization with other monomers,",
+    "rerank_score": 1,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Describes PLA's high Tg as a problem but does not address the specific modification."
+  },
+  {
+    "rank": 3,
+    "score": 0.0209,
+    "source": "101002_pi5613_段28-30.txt",
+    "filename": "101002_pi5613_段28-30.txt",
+    "topic": "Biodegradable Conductive Polymer Blends of PLA, LNR, and PANI",
+    "evidence": "of PANI content in PLA matrix increased the glass transition temperature (Tg) and melting temperature (Tm) values which indicates the restriction of the mobility of PLA chains and the improvement of thermal stability by the presence of PANI component in PLA matrix.7",
+    "rerank_score": 1,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Mentions Tg increase with PANI filler, not the cyclic lactone terpolymer."
+  },
+  {
+    "rank": 5,
+    "score": 0.0164,
+    "source": "101002_app42664_段22-24.txt",
+    "filename": "101002_app42664_段22-24.txt",
+    "topic": "PLA-PBSA blend modification for processability and ductility",
+    "evidence": "Poly(lactic acid) (PLA), a biosource, biodegradable polymer, is not suitable for some important polymer processing operations, such as film blowing and blow molding, due to its low melt strength. Moreover, while it has high tensile modulus and strength in the solid state, it exhibits low ductility. The present work is an extension of our earlier effort to improve the processability and mechanical properties of PLA by blending with poly[(butylene succinate)-co-adipate)] (PBSA), a biodegradable polymer with lower glass transition temperature. We evaluate the influences of incorporation of an epo",
+    "rerank_score": 1,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Discusses blending with PBSA for ductility, not the specified terpolymer modification."
+  },
+  {
+    "rank": 6,
+    "score": 0.0161,
+    "source": "101002_app46927_段57-59.txt",
+    "filename": "101002_app46927_段57-59.txt",
+    "topic": "Bio-based PLA Properties and Applications",
+    "evidence": "y increasing its glass-transition temperature. Reported strategies include the use of thermal treatments,4 addition of plasticizers, and nucleating agents,5 cocrystallization by stereocomplex formation,6 crosslinking,7 and chain extension reactions.8 Another potential method is to blend PLA with other polymers having better thermal resistance. Blends with polystyrene,9 polyamide,10 polycarbonate,11 polyoxymethylene,12 and polytrimethylene terephthalate13 have been investigated. However, these blends are immiscible and, in an immiscible blend, the glass-transition temperature of PLA remains unc",
+    "rerank_score": 1,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Lists general strategies for increasing Tg, not the specific cyclic lactone terpolymer."
+  },
+  {
+    "rank": 8,
+    "score": 0.0156,
+    "source": "101002_app46927_段20-22.txt",
+    "filename": "101002_app46927_段20-22.txt",
+    "topic": "PLA Properties, Applications, and Biodegradability",
+    "evidence": "y increasing its glass-transition temperature. Reported strategies include the use of thermal treatments,4 addition of plasticizers, and nucleating agents,5 cocrystallization by stereocomplex formation,6 crosslinking,7 and chain extension reactions.8 Another potential method is to blend PLA with other polymers having better thermal resistance. Blends with polystyrene,9 polyamide,10 polycarbonate,11 polyoxymethylene,12 and polytrimethylene terephthalate13 have been investigated. However, these blends are immiscible and, in an immiscible blend, the glass-transition temperature of PLA remains unc",
+    "rerank_score": 1,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Same as passage 6, lists general strategies, not the specific modification."
+  },
+  {
+    "rank": 10,
+    "score": 0.0154,
+    "source": "101007_s10965-020-02071-y_段15-17.txt",
+    "filename": "101007_s10965-020-02071-y_段15-17.txt",
+    "topic": "Environmental Impact of Plastic Packaging and Biodegradable Alternatives",
+    "evidence": "]. Stereo-complex crystals [9] and reactive polymeric modifiers having glycidyl functions [10,11,12] also have the capability to give strain-hardening in elongational viscosity. The improvement of mechanical toughness has been another major target for research and development because PLA is a brittle material. Besides the conventional method, i.e., rubber addition [13,14,15,16,17,18,19], a recent study of the annealing history should be mentioned. According to Huang et al., exposure to annealing near the glass transition temperature Tg improved the mechanical toughness greatly, even without ru",
+    "rerank_score": 1,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Mentions annealing for toughness, not the specified terpolymer modification for Tg."
+  },
+  {
+    "rank": 12,
+    "score": 0.0152,
+    "source": "101002_app43926_段71-73.txt",
+    "filename": "101002_app43926_段71-73.txt",
+    "topic": "PLA Biodegradable Packaging Alternative",
+    "evidence": "een poly[(+)-lactide] and poly[(-)-lactide] has proven to be a successful alternative method toward increasing the melting temperature (Tm) from 160 to 220 °C, therefore decreasing the heat distortion of the material.8 However, high enantiomeric purity of the two polymers is necessary to accomplish such a large increase in Tm. A more commercial approach to increasing the heat distortion and modulus of PLA is by reinforcement with high modulus materials such as glass fibers, cellulose, or flax.9, 10 These materials not only impart stiffness to the matrix but also induce a higher degree of cryst",
+    "rerank_score": 1,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Discusses stereocomplexation for Tm, not Tg increase via the specified terpolymer."
+  },
+  {
+    "rank": 13,
+    "score": 0.0152,
+    "source": "101002_app54956_段43-45.txt",
+    "filename": "101002_app54956_段43-45.txt",
+    "topic": "PLA CNC DCP Cross-Linking Toughening",
+    "evidence": "increased storage modulus and glass transition temperature, as indicated by DMA analysis. While the addition of DCP led to a decrease in the crystallization temperature and crystallinity of the PBS/PLA composite, its thermal stability was enhanced due to the cross-linking effect of DCP on the PBS/PLA matrix. Annealing is a thermal treatment process that involves subjecting polymer components to a precise temperature, maintaining this temperature for a specific duration, and subsequently gradually cooling the parts to ambient temperature.1 During annealing, PLA can crystallize between its glas",
+    "rerank_score": 1,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Mentions Tg increase via cross-linking with DCP, not the cyclic lactone terpolymer."
+  },
+  {
+    "rank": 15,
+    "score": 0.0149,
+    "source": "101002_app54956_段91-93.txt",
+    "filename": "101002_app54956_段91-93.txt",
+    "topic": "PLA CNC DCP Cross-Linking Toughening",
+    "evidence": "increased storage modulus and glass transition temperature, as indicated by DMA analysis. While the addition of DCP led to a decrease in the crystallization temperature and crystallinity of the PBS/PLA composite, its thermal stability was enhanced due to the cross-linking effect of DCP on the PBS/PLA matrix. Annealing is a thermal treatment process that involves subjecting polymer components to a precise temperature, maintaining this temperature for a specific duration, and subsequently gradually cooling the parts to ambient temperature.1 During annealing, PLA can crystallize between its glas",
+    "rerank_score": 1,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Same as passage 13, discusses cross-linking, not the specified terpolymer."
+  },
+  {
+    "rank": 16,
+    "score": 0.0147,
+    "source": "101002_app43926_段71-73.txt",
+    "filename": "101002_app43926_段71-73.txt",
+    "topic": "PLA Biodegradable Packaging Alternative",
+    "evidence": "ompared with, for example, PET (115 °C).2 One strategy to overcome these limitations has been to toughen of PLA through compatibilization with poly(ethylene), poly(glycolide), and poly(ε-caprolactone)3-5 or plasticization with natural oils (such as castor and soybean oils).6, 7 Such rubbery domains have successfully increased the elongation at break of PLA but at the cost of decreasing the modulus and the tensile strength. Stereocomplexation between poly[(+)-lactide] and poly[(-)-lactide] has proven to be a successful alternative method toward increasing the melting temperature (Tm) from 160 t",
+    "rerank_score": 1,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Discusses PLA toughening strategies but not cyclic lactone terpolymer modification."
+  },
+  {
+    "rank": 18,
+    "score": 0.0145,
+    "source": "101007_s00289-025-05999-7_段16-18.txt",
+    "filename": "101007_s00289-025-05999-7_段16-18.txt",
+    "topic": "Bioplastics, Environmental Impact, and Biodegradation",
+    "evidence": "bility with conventional processing methods. PLA synthesized from a racemic mixture of L- and D-lactide yields poly(D,L-lactic acid) (PDLLA), which is largely amorphous in nature [1]. Despite its advantages, PLA is inherently brittle, with low elongation at break, limited flexibility, and a narrow processing window [2]. To address these drawbacks, researchers have explored copolymerization, blending with elastomers or other biopolymers, and plasticization [3, 4]. Plasticization is particularly effective, as it increases chain mobility, lowers the glass transition temperature (Tg), enhances mel",
+    "rerank_score": 1,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Discusses general PLA drawbacks and plasticization, not the specific modification method."
+  },
+  {
+    "rank": 19,
+    "score": 0.0145,
+    "source": "101002_mame201200285_段24-26.txt",
+    "filename": "101002_mame201200285_段24-26.txt",
+    "topic": "PLA-PHBV co-extrusion for enhanced film ductility and barrier properties",
+    "evidence": "polyolefins, PET, PS). Its relatively low glass transition and melting temperatures make it also interesting in terms of processing. However, the main limitations of PLA as a packaging material are a high gas permeability (CO2, O2, and water vapor) and a low ductility.1-4",
+    "rerank_score": 1,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Mentions PLA limitations including low ductility but not the specific modification."
+  }
+]

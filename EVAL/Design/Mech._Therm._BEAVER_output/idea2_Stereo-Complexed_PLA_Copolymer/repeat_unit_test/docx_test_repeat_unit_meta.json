@@ -1,0 +1,389 @@
+{
+  "rendered": true,
+  "renderer": "rdkit_dictionary_smiles",
+  "image_path": "Mech._Therm._BEAVER_output\\idea2_Stereo-Complexed_PLA_Copolymer\\repeat_unit_test\\figures\\docx_test_idea2_Stereo-Complexed_PLA_Copolymer_repeat_unit.png",
+  "spec_path": "Mech._Therm._BEAVER_output\\idea2_Stereo-Complexed_PLA_Copolymer\\repeat_unit_test\\figures\\docx_test_idea2_Stereo-Complexed_PLA_Copolymer_repeat_unit_spec.json",
+  "spec": {
+    "should_draw": true,
+    "confidence": "high",
+    "polymer_name": "SC-PLA",
+    "architecture": "blend/composite",
+    "repeat_units": [
+      {
+        "extracted_name": "poly(L-lactide)",
+        "label": "PLLA",
+        "role": "L-enantiomer",
+        "lookup_candidates": [
+          "poly(L-lactide)",
+          "L-lactide",
+          "PLLA"
+        ],
+        "selected_lookup_candidate": "PLLA",
+        "canonical_name": "Poly(L-lactic acid)(PLLA)",
+        "database_name": "Poly(L-lactic acid)(PLLA)",
+        "mapped_smiles": "O=C([C@H](C)O[*])O[C@@H](C)C([*])=O",
+        "smiles": "O=C([C@H](C)O[*])O[C@@H](C)C([*])=O",
+        "rdkit_valid": true,
+        "rdkit_validation": {
+          "input_smiles": "O=C([C@H](C)O[*])O[C@@H](C)C([*])=O",
+          "rdkit_available": true,
+          "valid": true,
+          "canonical_smiles": "*O[C@@H](C)C(=O)O[C@@H](C)C(*)=O",
+          "error": ""
+        },
+        "name_resolution": {
+          "alias_status": {
+            "status": "matched",
+            "match_method": "alias_exact",
+            "matched_key": "plla",
+            "matched_variant": "PLLA",
+            "score": 1.0
+          },
+          "smiles_status": {
+            "status": "matched",
+            "match_method": "smiles_exact",
+            "matched_key": "poly(l-lactic acid)(plla)",
+            "score": 1.0
+          },
+          "candidate_trials": [
+            {
+              "candidate": "poly(L-lactide)",
+              "canonical_name": "poly(L-lactide)",
+              "database_name": "poly(L-lactide)",
+              "mapped_smiles": "",
+              "rdkit_valid": false,
+              "alias_status": {
+                "status": "unmapped_alias_used_raw_name",
+                "match_method": "raw_name",
+                "score": 0.0
+              },
+              "smiles_status": {
+                "status": "skipped_no_keyword_folder_match",
+                "match_method": "none",
+                "score": 0.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "",
+                "rdkit_available": true,
+                "valid": false,
+                "canonical_smiles": "",
+                "error": "empty_smiles"
+              }
+            },
+            {
+              "candidate": "L-lactide",
+              "canonical_name": "L-lactide",
+              "database_name": "L-lactide",
+              "mapped_smiles": "",
+              "rdkit_valid": false,
+              "alias_status": {
+                "status": "unmapped_alias_used_raw_name",
+                "match_method": "raw_name",
+                "score": 0.0
+              },
+              "smiles_status": {
+                "status": "skipped_no_keyword_folder_match",
+                "match_method": "none",
+                "score": 0.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "",
+                "rdkit_available": true,
+                "valid": false,
+                "canonical_smiles": "",
+                "error": "empty_smiles"
+              }
+            },
+            {
+              "candidate": "PLLA",
+              "canonical_name": "Poly(L-lactic acid)(PLLA)",
+              "database_name": "Poly(L-lactic acid)(PLLA)",
+              "mapped_smiles": "O=C([C@H](C)O[*])O[C@@H](C)C([*])=O",
+              "rdkit_valid": true,
+              "alias_status": {
+                "status": "matched",
+                "match_method": "alias_exact",
+                "matched_key": "plla",
+                "matched_variant": "PLLA",
+                "score": 1.0
+              },
+              "smiles_status": {
+                "status": "matched",
+                "match_method": "smiles_exact",
+                "matched_key": "poly(l-lactic acid)(plla)",
+                "score": 1.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "O=C([C@H](C)O[*])O[C@@H](C)C([*])=O",
+                "rdkit_available": true,
+                "valid": true,
+                "canonical_smiles": "*O[C@@H](C)C(=O)O[C@@H](C)C(*)=O",
+                "error": ""
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extracted_name": "poly(D-lactide)",
+        "label": "PDLA",
+        "role": "D-enantiomer",
+        "lookup_candidates": [
+          "poly(D-lactide)",
+          "D-lactide",
+          "PDLA"
+        ],
+        "selected_lookup_candidate": "PDLA",
+        "canonical_name": "Poly(D-lactic acid)(PDLA)",
+        "database_name": "Poly(D-lactic acid)(PDLA)",
+        "mapped_smiles": "[*]C([C@H](C)OC([C@H](C)O[*])=O)=O",
+        "smiles": "[*]C([C@H](C)OC([C@H](C)O[*])=O)=O",
+        "rdkit_valid": true,
+        "rdkit_validation": {
+          "input_smiles": "[*]C([C@H](C)OC([C@H](C)O[*])=O)=O",
+          "rdkit_available": true,
+          "valid": true,
+          "canonical_smiles": "*O[C@@H](C)C(=O)O[C@@H](C)C(*)=O",
+          "error": ""
+        },
+        "name_resolution": {
+          "alias_status": {
+            "status": "matched",
+            "match_method": "alias_exact",
+            "matched_key": "pdla",
+            "matched_variant": "PDLA",
+            "score": 1.0
+          },
+          "smiles_status": {
+            "status": "matched",
+            "match_method": "smiles_exact",
+            "matched_key": "poly(d-lactic acid)(pdla)",
+            "score": 1.0
+          },
+          "candidate_trials": [
+            {
+              "candidate": "poly(D-lactide)",
+              "canonical_name": "poly(D-lactide)",
+              "database_name": "poly(D-lactide)",
+              "mapped_smiles": "",
+              "rdkit_valid": false,
+              "alias_status": {
+                "status": "unmapped_alias_used_raw_name",
+                "match_method": "raw_name",
+                "score": 0.0
+              },
+              "smiles_status": {
+                "status": "skipped_no_keyword_folder_match",
+                "match_method": "none",
+                "score": 0.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "",
+                "rdkit_available": true,
+                "valid": false,
+                "canonical_smiles": "",
+                "error": "empty_smiles"
+              }
+            },
+            {
+              "candidate": "D-lactide",
+              "canonical_name": "D-lactide",
+              "database_name": "D-lactide",
+              "mapped_smiles": "",
+              "rdkit_valid": false,
+              "alias_status": {
+                "status": "unmapped_alias_used_raw_name",
+                "match_method": "raw_name",
+                "score": 0.0
+              },
+              "smiles_status": {
+                "status": "skipped_no_keyword_folder_match",
+                "match_method": "none",
+                "score": 0.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "",
+                "rdkit_available": true,
+                "valid": false,
+                "canonical_smiles": "",
+                "error": "empty_smiles"
+              }
+            },
+            {
+              "candidate": "PDLA",
+              "canonical_name": "Poly(D-lactic acid)(PDLA)",
+              "database_name": "Poly(D-lactic acid)(PDLA)",
+              "mapped_smiles": "[*]C([C@H](C)OC([C@H](C)O[*])=O)=O",
+              "rdkit_valid": true,
+              "alias_status": {
+                "status": "matched",
+                "match_method": "alias_exact",
+                "matched_key": "pdla",
+                "matched_variant": "PDLA",
+                "score": 1.0
+              },
+              "smiles_status": {
+                "status": "matched",
+                "match_method": "smiles_exact",
+                "matched_key": "poly(d-lactic acid)(pdla)",
+                "score": 1.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "[*]C([C@H](C)OC([C@H](C)O[*])=O)=O",
+                "rdkit_available": true,
+                "valid": true,
+                "canonical_smiles": "*O[C@@H](C)C(=O)O[C@@H](C)C(*)=O",
+                "error": ""
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extracted_name": "poly(ethylene-co-vinyl acetate)",
+        "label": "EVA",
+        "role": "rubber modifier",
+        "lookup_candidates": [
+          "poly(ethylene-co-vinyl acetate)",
+          "ethylene-co-vinyl acetate",
+          "EVA"
+        ],
+        "selected_lookup_candidate": "EVA",
+        "canonical_name": "Ethylene_Vinyl_Acetate(EVA)",
+        "database_name": "Ethylene_Vinyl_Acetate(EVA)",
+        "mapped_smiles": "[*]CCCC([*])OC(C)=O",
+        "smiles": "[*]CCCC([*])OC(C)=O",
+        "rdkit_valid": true,
+        "rdkit_validation": {
+          "input_smiles": "[*]CCCC([*])OC(C)=O",
+          "rdkit_available": true,
+          "valid": true,
+          "canonical_smiles": "*CCCC(*)OC(C)=O",
+          "error": ""
+        },
+        "name_resolution": {
+          "alias_status": {
+            "status": "matched",
+            "match_method": "alias_exact",
+            "matched_key": "eva",
+            "matched_variant": "EVA",
+            "score": 1.0
+          },
+          "smiles_status": {
+            "status": "matched",
+            "match_method": "smiles_exact",
+            "matched_key": "ethylene_vinyl_acetate(eva)",
+            "score": 1.0
+          },
+          "candidate_trials": [
+            {
+              "candidate": "poly(ethylene-co-vinyl acetate)",
+              "canonical_name": "poly(ethylene-co-vinyl acetate)",
+              "database_name": "poly(ethylene-co-vinyl acetate)",
+              "mapped_smiles": "",
+              "rdkit_valid": false,
+              "alias_status": {
+                "status": "unmapped_alias_used_raw_name",
+                "match_method": "raw_name",
+                "score": 0.0
+              },
+              "smiles_status": {
+                "status": "skipped_no_keyword_folder_match",
+                "match_method": "none",
+                "score": 0.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "",
+                "rdkit_available": true,
+                "valid": false,
+                "canonical_smiles": "",
+                "error": "empty_smiles"
+              }
+            },
+            {
+              "candidate": "ethylene-co-vinyl acetate",
+              "canonical_name": "ethylene-co-vinyl acetate",
+              "database_name": "ethylene-co-vinyl acetate",
+              "mapped_smiles": "",
+              "rdkit_valid": false,
+              "alias_status": {
+                "status": "unmapped_alias_used_raw_name",
+                "match_method": "raw_name",
+                "score": 0.0
+              },
+              "smiles_status": {
+                "status": "skipped_no_keyword_folder_match",
+                "match_method": "none",
+                "score": 0.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "",
+                "rdkit_available": true,
+                "valid": false,
+                "canonical_smiles": "",
+                "error": "empty_smiles"
+              }
+            },
+            {
+              "candidate": "EVA",
+              "canonical_name": "Ethylene_Vinyl_Acetate(EVA)",
+              "database_name": "Ethylene_Vinyl_Acetate(EVA)",
+              "mapped_smiles": "[*]CCCC([*])OC(C)=O",
+              "rdkit_valid": true,
+              "alias_status": {
+                "status": "matched",
+                "match_method": "alias_exact",
+                "matched_key": "eva",
+                "matched_variant": "EVA",
+                "score": 1.0
+              },
+              "smiles_status": {
+                "status": "matched",
+                "match_method": "smiles_exact",
+                "matched_key": "ethylene_vinyl_acetate(eva)",
+                "score": 1.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "[*]CCCC([*])OC(C)=O",
+                "rdkit_available": true,
+                "valid": true,
+                "canonical_smiles": "*CCCC(*)OC(C)=O",
+                "error": ""
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "functional_groups": [],
+    "composition_note": "PLLA:PDLA 1:1, EVA 0-15 wt%",
+    "non_polymer_components": [],
+    "caption": "Representative polymer-structure schematic of stereo-complexed PLA blend with EVA modifier.",
+    "polymer_level_priority_used": false,
+    "polymer_level_priority_skipped": true,
+    "name_mapping": {
+      "name_name_dict_path": "resources\\Polymer-关键词",
+      "alias_source_type": "keyword_txt_folder",
+      "name_smiles_csv_path": "resources\\字典-使用-只含聚合物.csv",
+      "alias_entries": 13650,
+      "smiles_entries": 509,
+      "allow_fuzzy": false,
+      "fuzzy_cutoff": 0.92,
+      "rdkit_available": true,
+      "valid_smiles_count": 3,
+      "total_units": 3,
+      "generic_name_guard": true,
+      "keyword_folder_match_required": true,
+      "polymer_level_priority_used": false,
+      "polymer_level_priority_skipped": true,
+      "prefer_overall_polymer_if_available": true,
+      "force_segment_level_schematic": false,
+      "overall_polymer_priority_attempted": false,
+      "overall_polymer_priority_blocked_reason": "explicit_independent_multi_component_architecture",
+      "overall_polymer_trials": [],
+      "architecture_requires_multiple_units": true,
+      "independent_multi_component": true,
+      "split_after_failed_overall_lookup": false
+    }
+  }
+}

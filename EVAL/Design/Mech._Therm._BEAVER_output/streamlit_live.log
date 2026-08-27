@@ -1,0 +1,108 @@
+DEBUG: --------------------------------------------------
+DEBUG: [System] 成功进入 run_one_step
+DEBUG: [System] 收到用户指令: Design a PLA-based copolymer that increases $T_g$ while maintaining ductility for biodegradable packaging.
+DEBUG: [Config] Output Dir: Mech._Therm._BEAVER_output
+DEBUG: --------------------------------------------------
+DEBUG: [Router] 正在调用 Router...
+
+[Router Debug] ===== TURN TAGS =====
+{
+  "is_chat": false,
+  "is_question": false,
+  "is_design": true,
+  "reason": "Explicitly asking to design a novel copolymer formulation with specific property modifications (increase Tg
+while maintaining ductility), which requires proposing new chemical strategies and interventions."
+}
+
+[Design Debug] Raw design-brief LLM output available.
+================= 大模型原始输出开始 =================
+```json
+{
+  "target_system": "PLA-based copolymer for biodegradable packaging",
+  "targets": [
+    {
+      "property": "glass transition temperature",
+      "target_value": null,
+      "unit": ""
+    }
+  ],
+  "constraints": [
+    "The copolymer must be based on polylactic acid (PLA)",
+    "Ductility must be maintained at levels suitable for packaging applications",
+    "Material must retain biodegradability"
+  ],
+  "context": "The design focuses on modifying PLA, a common biodegradable polymer, through copolymerization. The goal is to enhance thermal stability (via increased Tg) while preserving mechanical flexibility required for packaging. The application context is sustainable/biodegradable materials."
+}
+```
+================= 大模型原始输出结束 =================
+
+[Design Debug] Generated 8 ideas (Raw output received).
+[Design Debug] Successfully parsed 8 ideas (capped to 8).
+
+[Design Debug] ===== DIVERGENT IDEAS (raw) =====
+
+[Design Debug] Scoring completed. Attempt 1/2
+[Design Debug] Raw scoring output preview:
+[
+  {
+    "idea_name": "Lactide-Glycolide Copolymer",
+    "score_dimensions": {
+      "feasibility": 9.0,
+      "performance_potential": 7.5,
+      "controllability": 8.5,
+      "novelty": 4.0
+    },
+    "pros": [
+      "Well-established copolymerization chemistry (PLGA is FDA-approved).",
+      "Clear mechanism for Tg increase via glycolide's rigidity.",
+      "Biodegradability is inherently preserved.",
+      "Ductility can be tuned by controlling glycolide content."
+    ],
+    "cons": [
+      "Glycolide incorporation can significantly increase crystallinity and brittleness if not carefully controlled.",
+      "Potential for reduced hydrolytic stability compared to pure PLA.",
+      "Limited Tg enhancement range compared to more novel approaches."
+    ],
+    "summary": "A straightforward, highly feasible copolymer using established PLGA chemistry to moderately increase Tg while maintaining ductility through composition control."
+  },
+  {
+    "idea_name": "PLA-PHBV Block Copolymer",
+    "score_dimensions": {
+      "feasibility": 6.5,
+      "performance_potential": 8.0,
+      "controllability": 5.5,
+      "novelty": 6.5
+    },
+    "pros": [
+      "Potential for excellent toughness  ...[truncated]
+[Design Debug] ✅ Scoring schema validated for 8 ideas.
+
+[Design Debug] ===== CONVERGENT SCORED IDEAS (ranked) =====
+[DEBUG save_step_result] writing generic json -> Mech._Therm._BEAVER_output\step0_design_brief_design_brief.json
+[DEBUG save_step_result] saved generic json -> step0_design_brief_design_brief.json
+💾 通用数据已保存: step0_design_brief_design_brief.json
+[DEBUG save_step_result] writing csv -> Mech._Therm._BEAVER_output\step0_design_ideas_design_ideas.csv
+[DEBUG save_step_result] saved csv -> step0_design_ideas_design_ideas.csv
+[DEBUG save_step_result] writing json -> Mech._Therm._BEAVER_output\step0_design_ideas_design_ideas.json
+[DEBUG save_step_result] saved json -> step0_design_ideas_design_ideas.json
+💾 表格已保存: step0_design_ideas_design_ideas.csv
+[DEBUG save_step_result] writing csv -> Mech._Therm._BEAVER_output\step0_design_top_ideas_design_top_ideas.csv
+[DEBUG save_step_result] saved csv -> step0_design_top_ideas_design_top_ideas.csv
+[DEBUG save_step_result] writing json -> Mech._Therm._BEAVER_output\step0_design_top_ideas_design_top_ideas.json
+[DEBUG save_step_result] saved json -> step0_design_top_ideas_design_top_ideas.json
+💾 表格已保存: step0_design_top_ideas_design_top_ideas.csv
+[DEBUG save_step_result] writing csv -> Mech._Therm._BEAVER_output\step0_design_planner_view_design_planner_view.csv
+[DEBUG save_step_result] saved csv -> step0_design_planner_view_design_planner_view.csv
+[DEBUG save_step_result] writing json -> Mech._Therm._BEAVER_output\step0_design_planner_view_design_planner_view.json
+[DEBUG save_step_result] saved json -> step0_design_planner_view_design_planner_view.json
+💾 表格已保存: step0_design_planner_view_design_planner_view.csv
+
+[Router Debug] ===== DESIGN BRIEF & IDEAS Generated =====
+Router now stops at idea generation / ranking. Per-idea planner runs downstream only.
+[DEBUG save_step_result] writing generic json -> Mech._Therm._BEAVER_output\step0_router_final_router_result.json
+[DEBUG save_step_result] saved generic json -> step0_router_final_router_result.json
+💾 通用数据已保存: step0_router_final_router_result.json
+
+📊 Visualizing Data (4-Dimensions Local)...
+✔ Chart generated: 
+Mech._Therm._BEAVER_output\comparison_chart.png

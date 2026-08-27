@@ -1,0 +1,48 @@
+{
+  "overall_score": 58,
+  "scores_dict": {
+    "Feasibility": 40,
+    "Predictability": 50,
+    "Performance": 60,
+    "Innovation": 75,
+    "Chemical Validity": 68
+  },
+  "chemical_validity": {
+    "chemical_validity": 70,
+    "structure_mechanism_consistency": 65,
+    "property_pathway_plausibility": 60,
+    "evidence_claim_consistency": 75,
+    "overall_chemical_validity": 68,
+    "contradiction_detected": true,
+    "major_red_flags": [
+      "Core chemical contradiction: The report proposes using ε-caprolactone (PCL) and δ-valerolactone as 'rigid cyclic lactones' to increase Tg, but these are well-known flexible lactones that actually decrease Tg in PLA copolymers. This directly contradicts the stated design objective of increasing Tg while maintaining ductility.",
+      "Mechanistic inconsistency: The report acknowledges that lactone incorporation (e.g., ε-caprolactone) typically increases flexibility but decreases Tg, yet proceeds to use these same monomers for Tg elevation.",
+      "Evidence gap exploitation: The report cites general copolymerization literature but lacks specific evidence for using flexible lactones to increase Tg, creating a logical disconnect."
+    ],
+    "score_caps": {
+      "Feasibility": 40,
+      "Predictability": 50,
+      "Performance": 60,
+      "Innovation": 75
+    },
+    "rationale": "The report demonstrates good experimental design methodology and acknowledges evidence gaps, but contains a fundamental chemical contradiction: using flexible lactones (ε-CL, δ-VL) as rigid Tg-enhancing components. This directly undermines the central design objective. The structure-property logic is inconsistent, though the experimental plan is otherwise well-structured. The report correctly notes that no direct evidence exists for this specific terpolymer achieving simultaneous Tg elevation and ductility retention.",
+    "critic_status": "validated"
+  },
+  "report_category": {
+    "primary_category": "mechanical_design",
+    "primary_display_name": "力学性能设计",
+    "secondary_categories": [
+      "thermal_design"
+    ],
+    "secondary_display_names": [
+      "热学性能设计"
+    ],
+    "mode": "hybrid",
+    "score_breakdown": {
+      "mechanical_design": 36,
+      "thermal_design": 30,
+      "degradation_regulation": 15
+    },
+    "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 力学性能设计=36 | 热学性能设计=30 | 降解行为与结构调控=15"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "query_structure": "single",
+  "steps": [
+    {
+      "id": "step1",
+      "type": "search_papers",
+      "description": "Retrieve literature on cyclic lactone terpolymer modifications of PLA focusing on Tg enhancement and ductility retention",
+      "inputs": {
+        "query": "Cyclic lactone terpolymer modification of PLA for increased glass transition temperature while maintaining ductility in biodegradable packaging",
+        "top_k": 15,
+        "query_policy": "preserve_original",
+        "query_rewrite_mode": "none"
+      }
+    },
+    {
+      "id": "step2",
+      "type": "reason_over_evidence",
+      "description": "Synthesize evidence to verify feasibility and innovation, distinguishing direct experimental support from mechanistic theories",
+      "inputs": {
+        "use_steps": [
+          "step1"
+        ]
+      }
+    }
+  ]
+}
