@@ -1,0 +1,61 @@
+﻿Setting,Family,Candidate,Chemical_Feasibility,Scientific_Rigor,Mechanistic_Coherence,Property_Constraint_and_Tradeoff_Handling,Design_Completeness,Risk_and_Uncertainty_Awareness,Design_Innovation_and_Exploration,Overall
+Forward,BEAVER,BEAVER_Paper_1,8.225,8.1,7.25,7.575,8.825,8.7,6.725,7.906
+Forward,BEAVER,BEAVER_Paper_2,7.425,7.35,7.175,7.1,8.525,8.275,7.35,7.532
+Forward,BEAVER,BEAVER_Paper_3,7.15,7.325,7.0,7.275,8.35,8.15,7.475,7.467
+Forward,BEAVER,BEAVER_Mean,7.6,7.592,7.142,7.317,8.567,8.375,7.183,7.635
+Forward,GPT5.5,GPT5.5-1,7.875,7.3,7.8,7.775,7.5,6.425,6.5,7.426
+Forward,GPT5.5,GPT5.5-2,7.85,7.25,7.675,7.65,7.45,6.375,6.05,7.314
+Forward,GPT5.5,GPT5.5-3,7.625,7.1,7.55,7.525,7.325,6.3,6.025,7.184
+Forward,GPT5.5,GPT5.5_Mean,7.783,7.217,7.675,7.65,7.425,6.367,6.192,7.308
+Forward,Gemini3.1-pro,Gemini3.1-pro-1,7.075,6.075,6.875,6.875,6.875,5.125,6.675,6.594
+Forward,Gemini3.1-pro,Gemini3.1-pro-2,6.65,5.8,6.6,6.55,6.55,4.75,5.825,6.21
+Forward,Gemini3.1-pro,Gemini3.1-pro-3,7.25,6.225,7.15,6.95,6.775,5.1,5.85,6.604
+Forward,Gemini3.1-pro,Gemini3.1-pro_Mean,6.992,6.033,6.875,6.792,6.733,4.992,6.117,6.469
+Forward,DeepSeek-V4-pro,DeepSeek-V4-pro-1,7.35,6.55,7.225,7.15,6.95,5.65,7.0,6.914
+Forward,DeepSeek-V4-pro,DeepSeek-V4-pro-2,7.3,6.825,7.475,7.4,7.175,5.975,7.6,7.156
+Forward,DeepSeek-V4-pro,DeepSeek-V4-pro-3,7.275,6.65,7.525,7.325,7.15,6.0,7.65,7.123
+Forward,DeepSeek-V4-pro,DeepSeek-V4-pro_Mean,7.308,6.675,7.408,7.292,7.092,5.875,7.417,7.064
+Forward,Qwen3.5-Plus,Qwen3.5-Plus-1,7.25,6.625,7.3,7.2,7.25,6.3,6.45,6.979
+Forward,Qwen3.5-Plus,Qwen3.5-Plus-2,7.625,6.925,7.525,7.65,7.55,6.55,6.275,7.258
+Forward,Qwen3.5-Plus,Qwen3.5-Plus-3,7.05,6.525,7.2,7.075,6.75,5.825,6.25,6.757
+Forward,Qwen3.5-Plus,Qwen3.5-Plus_Mean,7.308,6.692,7.342,7.308,7.183,6.225,6.325,6.998
+Reverse,BEAVER,BEAVER_Paper_1,7.175,7.2,6.45,6.7,7.85,8.05,5.775,7.01
+Reverse,BEAVER,BEAVER_Paper_2,6.5,6.95,5.975,6.15,7.65,8.15,7.0,6.783
+Reverse,BEAVER,BEAVER_Paper_3,6.225,7.225,6.275,6.625,7.75,8.425,6.85,6.943
+Reverse,BEAVER,BEAVER_Mean,6.633,7.125,6.233,6.492,7.75,8.208,6.542,6.912
+Reverse,GPT5.5,GPT5.5-1,7.85,7.55,7.725,7.95,7.6,6.5,5.9,7.444
+Reverse,GPT5.5,GPT5.5-2,8.05,7.65,7.725,7.9,7.55,6.375,5.8,7.454
+Reverse,GPT5.5,GPT5.5-3,8.0,7.575,7.7,7.925,7.625,6.55,5.825,7.465
+Reverse,GPT5.5,GPT5.5_Mean,7.967,7.592,7.717,7.925,7.592,6.475,5.842,7.454
+Reverse,Gemini3.1-pro,Gemini3.1-pro-1,6.975,6.1,6.825,6.8,6.85,4.75,6.4,6.49
+Reverse,Gemini3.1-pro,Gemini3.1-pro-2,6.85,5.975,6.75,6.725,6.575,4.525,6.125,6.338
+Reverse,Gemini3.1-pro,Gemini3.1-pro-3,7.475,6.575,7.425,7.25,7.025,5.225,6.575,6.914
+Reverse,Gemini3.1-pro,Gemini3.1-pro_Mean,7.1,6.217,7.0,6.925,6.817,4.833,6.367,6.581
+Reverse,DeepSeek-V4-pro,DeepSeek-V4-pro-1,7.275,6.325,6.925,6.9,7.125,5.475,7.15,6.793
+Reverse,DeepSeek-V4-pro,DeepSeek-V4-pro-2,7.35,6.9,7.475,7.475,7.35,5.625,7.55,7.174
+Reverse,DeepSeek-V4-pro,DeepSeek-V4-pro-3,7.475,6.95,7.7,7.675,7.675,6.125,8.075,7.421
+Reverse,DeepSeek-V4-pro,DeepSeek-V4-pro_Mean,7.367,6.725,7.367,7.35,7.383,5.742,7.592,7.129
+Reverse,Qwen3.5-Plus,Qwen3.5-Plus-1,7.325,6.425,7.325,7.375,7.5,6.225,6.275,7.008
+Reverse,Qwen3.5-Plus,Qwen3.5-Plus-2,7.75,6.85,7.525,7.65,7.8,6.075,6.075,7.233
+Reverse,Qwen3.5-Plus,Qwen3.5-Plus-3,7.4,6.65,7.6,7.575,7.55,5.975,6.475,7.137
+Reverse,Qwen3.5-Plus,Qwen3.5-Plus_Mean,7.492,6.642,7.483,7.533,7.617,6.092,6.275,7.126
+Forward-Reverse Average,BEAVER,BEAVER_Paper_1,7.7,7.65,6.85,7.137,8.337,8.375,6.25,7.458
+Forward-Reverse Average,BEAVER,BEAVER_Paper_2,6.962,7.15,6.575,6.625,8.088,8.212,7.175,7.158
+Forward-Reverse Average,BEAVER,BEAVER_Paper_3,6.688,7.275,6.638,6.95,8.05,8.288,7.162,7.206
+Forward-Reverse Average,BEAVER,BEAVER_Mean,7.117,7.358,6.688,6.904,8.158,8.292,6.862,7.274
+Forward-Reverse Average,GPT5.5,GPT5.5-1,7.862,7.425,7.762,7.863,7.55,6.462,6.2,7.435
+Forward-Reverse Average,GPT5.5,GPT5.5-2,7.95,7.45,7.7,7.775,7.5,6.375,5.925,7.384
+Forward-Reverse Average,GPT5.5,GPT5.5-3,7.812,7.338,7.625,7.725,7.475,6.425,5.925,7.324
+Forward-Reverse Average,GPT5.5,GPT5.5_Mean,7.875,7.404,7.696,7.788,7.508,6.421,6.017,7.381
+Forward-Reverse Average,Gemini3.1-pro,Gemini3.1-pro-1,7.025,6.088,6.85,6.838,6.862,4.938,6.538,6.542
+Forward-Reverse Average,Gemini3.1-pro,Gemini3.1-pro-2,6.75,5.888,6.675,6.638,6.562,4.638,5.975,6.274
+Forward-Reverse Average,Gemini3.1-pro,Gemini3.1-pro-3,7.362,6.4,7.288,7.1,6.9,5.162,6.212,6.759
+Forward-Reverse Average,Gemini3.1-pro,Gemini3.1-pro_Mean,7.046,6.125,6.938,6.858,6.775,4.913,6.242,6.525
+Forward-Reverse Average,DeepSeek-V4-pro,DeepSeek-V4-pro-1,7.312,6.438,7.075,7.025,7.038,5.562,7.075,6.854
+Forward-Reverse Average,DeepSeek-V4-pro,DeepSeek-V4-pro-2,7.325,6.862,7.475,7.438,7.262,5.8,7.575,7.165
+Forward-Reverse Average,DeepSeek-V4-pro,DeepSeek-V4-pro-3,7.375,6.8,7.612,7.5,7.412,6.062,7.862,7.272
+Forward-Reverse Average,DeepSeek-V4-pro,DeepSeek-V4-pro_Mean,7.337,6.7,7.388,7.321,7.238,5.808,7.504,7.097
+Forward-Reverse Average,Qwen3.5-Plus,Qwen3.5-Plus-1,7.288,6.525,7.312,7.288,7.375,6.262,6.362,6.993
+Forward-Reverse Average,Qwen3.5-Plus,Qwen3.5-Plus-2,7.688,6.888,7.525,7.65,7.675,6.312,6.175,7.245
+Forward-Reverse Average,Qwen3.5-Plus,Qwen3.5-Plus-3,7.225,6.588,7.4,7.325,7.15,5.9,6.362,6.947
+Forward-Reverse Average,Qwen3.5-Plus,Qwen3.5-Plus_Mean,7.4,6.667,7.413,7.421,7.4,6.158,6.3,7.062

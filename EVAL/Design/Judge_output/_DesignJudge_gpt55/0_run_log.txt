@@ -1,0 +1,50 @@
+[2026-05-11 10:23:54] ================================================================================
+[2026-05-11 10:23:54] Start Design-mode 3-candidates-per-family LLM-as-a-Judge scoring
+[2026-05-11 10:23:54] ROOT_DIR = Judge_Input
+[2026-05-11 10:23:54] OUTPUT_DIR = Judge_output\_DesignJudge_gpt55
+[2026-05-11 10:23:54] Judge model = gpt-5.5
+[2026-05-11 10:23:54] Judge base_url = https://new.12ai.org/v1
+[2026-05-11 10:23:54] Judge api_key_present = True
+[2026-05-11 10:23:54] MAX_CHARS_PER_CANDIDATE = 10000
+[2026-05-11 10:23:54] Ignored output keywords = ['grok']
+[2026-05-11 10:23:54] Metrics = ['Chemical_Feasibility', 'Scientific_Rigor', 'Mechanistic_Coherence', 'Property_Constraint_and_Tradeoff_Handling', 'Design_Completeness', 'Risk_and_Uncertainty_Awareness', 'Design_Innovation_and_Exploration']
+[2026-05-11 10:23:54] Weights = {'Chemical_Feasibility': 0.17, 'Scientific_Rigor': 0.15, 'Mechanistic_Coherence': 0.15, 'Property_Constraint_and_Tradeoff_Handling': 0.2, 'Design_Completeness': 0.13, 'Risk_and_Uncertainty_Awareness': 0.1, 'Design_Innovation_and_Exploration': 0.1}
+[2026-05-11 10:23:54] === Discovered cases ===
+[2026-05-11 10:23:54] case_01 | 力学+热学 | n_candidates=15 | ordered=['BEAVER_Paper_1', 'BEAVER_Paper_2', 'BEAVER_Paper_3', 'GPT5.5-1', 'GPT5.5-2', 'GPT5.5-3', 'Gemini3.1-pro-1', 'Gemini3.1-pro-2', 'Gemini3.1-pro-3', 'DeepSeek-V4-pro-1', 'DeepSeek-V4-pro-2', 'DeepSeek-V4-pro-3', 'Qwen3.5-Plus-1', 'Qwen3.5-Plus-2', 'Qwen3.5-Plus-3'] | extra=[] | request=Design a PLA-based copolymer that increases Tg while maintaining ductility for biodegradable packaging.
+[2026-05-11 10:23:54] case_02 | 力学+热学+降解 | n_candidates=15 | ordered=['BEAVER_Paper_1', 'BEAVER_Paper_2', 'BEAVER_Paper_3', 'GPT5.5-1', 'GPT5.5-2', 'GPT5.5-3', 'Gemini3.1-pro-1', 'Gemini3.1-pro-2', 'Gemini3.1-pro-3', 'DeepSeek-V4-pro-1', 'DeepSeek-V4-pro-2', 'DeepSeek-V4-pro-3', 'Qwen3.5-Plus-1', 'Qwen3.5-Plus-2', 'Qwen3.5-Plus-3'] | extra=[] | request=Design a biodegradable copolymer that simultaneously increases Tg, preserves toughness, and maintains a clinically acceptable degradation rate.
+[2026-05-11 10:23:54] case_03 | 力学+降解 | n_candidates=15 | ordered=['BEAVER_Paper_1', 'BEAVER_Paper_2', 'BEAVER_Paper_3', 'GPT5.5-1', 'GPT5.5-2', 'GPT5.5-3', 'Gemini3.1-pro-1', 'Gemini3.1-pro-2', 'Gemini3.1-pro-3', 'DeepSeek-V4-pro-1', 'DeepSeek-V4-pro-2', 'DeepSeek-V4-pro-3', 'Qwen3.5-Plus-1', 'Qwen3.5-Plus-2', 'Qwen3.5-Plus-3'] | extra=[] | request=Design a biodegradable implant polymer that provides high initial mechanical support while retaining strength during early-stage hydrolytic degradation.
+[2026-05-11 10:23:54] case_04 | 热学+降解 | n_candidates=15 | ordered=['BEAVER_Paper_1', 'BEAVER_Paper_2', 'BEAVER_Paper_3', 'GPT5.5-1', 'GPT5.5-2', 'GPT5.5-3', 'Gemini3.1-pro-1', 'Gemini3.1-pro-2', 'Gemini3.1-pro-3', 'DeepSeek-V4-pro-1', 'DeepSeek-V4-pro-2', 'DeepSeek-V4-pro-3', 'Qwen3.5-Plus-1', 'Qwen3.5-Plus-2', 'Qwen3.5-Plus-3'] | extra=[] | request=Design a biodegradable polyester with improved heat resistance but without excessively suppressing degradation kinetics.
+[2026-05-11 10:24:41] ✅ API成功 [DesignJudge::forward] case=case_02 model=gpt-5.5 time=46.82s chars=10869 preview={   "Critique": "The strongest entries combine a concrete biodegradable architecture with credible tuning knobs and calibrated discussion of degradation uncerta...
+[2026-05-11 10:24:46] ✅ API成功 [DesignJudge::forward] case=case_01 model=gpt-5.5 time=51.48s chars=10349 preview={   "Critique": "The strongest proposals generally use a hard-soft segmented architecture with a rigid biobased comonomer such as isosorbide to raise the PLA-ri...
+[2026-05-11 10:24:46] 💾 Saved forward scores: 2/4 latest_ok=True
+[2026-05-11 10:25:27] ✅ API成功 [DesignJudge::forward] case=case_03 model=gpt-5.5 time=45.80s chars=10104 preview={   "Critique": "The strongest proposals are the stereocomplex/self-reinforced PLA or well-specified segmented systems that combine high crystallinity, orientat...
+[2026-05-11 10:25:34] ✅ API成功 [DesignJudge::forward] case=case_04 model=gpt-5.5 time=48.31s chars=10183 preview={   "Critique": "The strongest proposals are the more calibrated copolyester designs that explicitly tune rigid content, crystallinity, hydrophilicity, and degr...
+[2026-05-11 10:25:34] 💾 Saved forward scores: 4/4 latest_ok=True
+[2026-05-11 10:26:26] ✅ API成功 [DesignJudge::reverse] case=case_02 model=gpt-5.5 time=52.04s chars=11183 preview={   "Critique": "The strongest proposals are chemically concrete segmented or tyrosine-polycarbonate systems that explicitly decouple high-Tg hard domains from ...
+[2026-05-11 10:26:29] ✅ API成功 [DesignJudge::reverse] case=case_01 model=gpt-5.5 time=54.99s chars=11268 preview={   "Critique": "The strongest proposals use a segmented/block architecture to decouple heat resistance from toughness, typically combining a rigid isosorbide-c...
+[2026-05-11 10:26:29] 💾 Saved reverse scores: 2/4 latest_ok=True
+[2026-05-11 10:27:19] ✅ API成功 [DesignJudge::reverse] case=case_04 model=gpt-5.5 time=50.12s chars=12166 preview={   "Critique": "The strongest proposals are those that give a concrete copolyester composition, explain the thermal/degradation trade-off through crystallinity...
+[2026-05-11 10:27:26] ✅ API成功 [DesignJudge::reverse] case=case_03 model=gpt-5.5 time=59.96s chars=11184 preview={   "Critique": "The strongest proposals combine a chemically plausible high-crystallinity load-bearing phase with explicit toughness, buffering, morphology, pr...
+[2026-05-11 10:27:26] 💾 Saved reverse scores: 4/4 latest_ok=True
+[2026-05-11 10:27:28] 📊 heatmap saved: Judge_output\_DesignJudge_gpt55\9_metric_heatmap_by_candidate.png
+[2026-05-11 10:27:30] 📊 heatmap saved: Judge_output\_DesignJudge_gpt55\10_metric_heatmap_by_family_mean.png
+[2026-05-11 10:27:31] 📊 overall plot saved: Judge_output\_DesignJudge_gpt55\11_overall_bar_by_candidate.png
+[2026-05-11 10:27:32] 📊 overall plot saved: Judge_output\_DesignJudge_gpt55\12_overall_bar_by_family_mean.png
+[2026-05-11 10:27:32] ✅ discovered cases saved: Judge_output\_DesignJudge_gpt55\0_discovered_cases.csv
+[2026-05-11 10:27:32] ✅ raw outputs saved: Judge_output\_DesignJudge_gpt55\1_raw_design_outputs.csv
+[2026-05-11 10:27:32] ✅ forward scores saved: Judge_output\_DesignJudge_gpt55\2_item_scores_forward.csv
+[2026-05-11 10:27:32] ✅ reverse scores saved: Judge_output\_DesignJudge_gpt55\2_item_scores_reverse.csv
+[2026-05-11 10:27:32] ✅ average per-candidate scores saved: Judge_output\_DesignJudge_gpt55\3_item_scores_average_per_candidate.csv
+[2026-05-11 10:27:32] ✅ final by candidate saved: Judge_output\_DesignJudge_gpt55\4_final_scores_by_candidate.csv
+[2026-05-11 10:27:32] ✅ final by family mean saved: Judge_output\_DesignJudge_gpt55\5_final_scores_by_family_mean.csv
+[2026-05-11 10:27:32] ✅ final by family best saved: Judge_output\_DesignJudge_gpt55\6_final_scores_by_family_best.csv
+[2026-05-11 10:27:32] ✅ family similarity/exploration saved: Judge_output\_DesignJudge_gpt55\14_family_similarity_and_exploration.csv
+[2026-05-11 10:27:32] ✅ family mean with objective exploration saved: Judge_output\_DesignJudge_gpt55\15_final_scores_by_family_mean_with_exploration.csv
+[2026-05-11 10:27:32] ✅ overall candidate matrix saved: Judge_output\_DesignJudge_gpt55\7_case_candidate_overall_matrix.csv
+[2026-05-11 10:27:32] ✅ overall family mean matrix saved: Judge_output\_DesignJudge_gpt55\8_case_family_mean_overall_matrix.csv
+[2026-05-11 10:27:32] ✅ candidate heatmap saved: Judge_output\_DesignJudge_gpt55\9_metric_heatmap_by_candidate.png
+[2026-05-11 10:27:32] ✅ family mean heatmap saved: Judge_output\_DesignJudge_gpt55\10_metric_heatmap_by_family_mean.png
+[2026-05-11 10:27:32] ✅ candidate overall plot saved: Judge_output\_DesignJudge_gpt55\11_overall_bar_by_candidate.png
+[2026-05-11 10:27:32] ✅ family mean overall plot saved: Judge_output\_DesignJudge_gpt55\12_overall_bar_by_family_mean.png
+[2026-05-11 10:27:32] Finished
+[2026-05-11 10:27:32] ================================================================================

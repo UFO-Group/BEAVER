@@ -1,0 +1,6 @@
+﻿Family,Candidate,Overall,ScoredCases,JudgeParseOK(%),Chemical_Feasibility,Scientific_Rigor,Mechanistic_Coherence,Property_Constraint_and_Tradeoff_Handling,Design_Completeness,Risk_and_Uncertainty_Awareness,Design_Innovation_and_Exploration
+BEAVER,BEAVER_Best,7.577,4,100.0,7.638,7.562,7.113,7.35,8.4,8.338,6.813
+GPT5.5,GPT5.5_Best,7.592,4,100.0,8.025,7.588,7.95,8.013,7.75,6.612,6.262
+Gemini3.1-pro,Gemini3.1-pro_Best,6.777,4,100.0,7.3,6.375,7.225,7.113,6.962,5.2,6.487
+DeepSeek-V4-pro,DeepSeek-V4-pro_Best,7.54,4,100.0,7.938,7.2,7.75,7.688,7.8,6.288,7.675
+Qwen3.5-Plus,Qwen3.5-Plus_Best,7.345,4,100.0,7.712,7.0,7.663,7.75,7.775,6.525,6.212

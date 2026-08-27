@@ -1,0 +1,6 @@
+﻿Family_display,Overall,Chemical_Feasibility,Scientific_Rigor,Mechanistic_Coherence,Property_Constraint_and_Tradeoff_Handling,Design_Completeness,Risk_and_Uncertainty_Awareness,Design_Innovation_and_Exploration,ScoredCases,JudgeParseOK(%)
+BEAVER,7.274,7.117,7.358,6.688,6.904,8.158,8.292,6.863,4,100.0
+GPT-5.5,7.381,7.875,7.404,7.696,7.788,7.508,6.421,6.016,4,100.0
+Gemini 3.1 Pro,6.525,7.046,6.125,6.938,6.858,6.775,4.912,6.242,4,100.0
+DeepSeek-V4-Pro,7.097,7.338,6.7,7.388,7.321,7.238,5.808,7.504,4,100.0
+Qwen3.5-Plus,7.062,7.4,6.667,7.412,7.421,7.4,6.158,6.3,4,100.0
