@@ -1,0 +1,4 @@
+pbf
+poly (butylene fumarate) (pbf)
+pbfa
+poly (butylene furanoate) (pbf)

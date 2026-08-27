@@ -1,0 +1,22 @@
+sbs
+esbs
+sbs (styrene-butadiene-styrene)
+poly(styrene-b-butadiene-b-styrene) (sbs)
+sbs-g-rgo
+oil-extended sbs
+poly(styrene-butadiene-styrene) (sbs)
+sbs非弹性体
+sbs block copolymer
+sbs*
+esbs
+esbs35.8%
+esbs25.5%
+sbs-g-go
+styrene-butadiene-styrene (sbs)
+oil-extended sbs
+sbs弹性体
+sbs triblock copolymer
+sbs (styrene-butadiene-styrene)
+styrene-butadiene-styrene tri-block copolymer (sbs)
+sbs (styrene butadiene styrene)
+sbs-modified binder
