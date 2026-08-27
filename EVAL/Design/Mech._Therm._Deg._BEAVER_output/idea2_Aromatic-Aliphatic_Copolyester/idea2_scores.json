@@ -1,0 +1,50 @@
+{
+  "overall_score": 71,
+  "scores_dict": {
+    "Feasibility": 75,
+    "Predictability": 70,
+    "Performance": 65,
+    "Innovation": 60,
+    "Chemical Validity": 78
+  },
+  "chemical_validity": {
+    "chemical_validity": 85,
+    "structure_mechanism_consistency": 80,
+    "property_pathway_plausibility": 75,
+    "evidence_claim_consistency": 70,
+    "overall_chemical_validity": 78,
+    "contradiction_detected": false,
+    "major_red_flags": [
+      "The report claims aromatic segment lengths ≤2 units but proposes PBTS (poly(butylene terephthalate-co-succinate)) which inherently has aromatic units in single-unit segments due to terephthalic acid monomer structure, making the ≤2 unit constraint trivial and potentially misleading.",
+      "The design simultaneously targets increased Tg (>50°C) and preserved toughness (>200% elongation), which represents a significant materials challenge that may not be achievable through simple composition variation alone.",
+      "The degradation mechanism relies on enzymatic hydrolysis but provides insufficient detail on enzyme specificity for the proposed aliphatic ester bonds in this specific copolymer context."
+    ],
+    "score_caps": {
+      "Feasibility": null,
+      "Predictability": null,
+      "Performance": null,
+      "Innovation": null
+    },
+    "rationale": "The aromatic-aliphatic copolyester design is chemically plausible with established precedent in literature. Structure-property relationships are reasonably described with Tg increasing with aromatic content and degradation dependent on aliphatic content. However, there are inconsistencies: the ≤2 aromatic unit constraint is trivial for terephthalate-based systems, the simultaneous Tg increase and toughness preservation represents a challenging trade-off not fully addressed, and degradation evidence is extrapolated from different systems. The report acknowledges key evidence gaps appropriately.",
+    "critic_status": "validated"
+  },
+  "report_category": {
+    "primary_category": "degradation_regulation",
+    "primary_display_name": "降解行为与结构调控",
+    "secondary_categories": [
+      "mechanical_design",
+      "thermal_design"
+    ],
+    "secondary_display_names": [
+      "力学性能设计",
+      "热学性能设计"
+    ],
+    "mode": "hybrid",
+    "score_breakdown": {
+      "mechanical_design": 42,
+      "thermal_design": 39,
+      "degradation_regulation": 59
+    },
+    "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 降解行为与结构调控=59 | 力学性能设计=42 | 热学性能设计=39"
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "rendered": true,
+  "renderer": "rdkit_dictionary_smiles",
+  "image_path": "Mech._Therm._Deg._BEAVER_output\\idea3_Dynamic_Covalent_Network_Elast\\figures\\idea3_Dynamic_Covalent_Network_Elastomer_repeat_unit.png",
+  "spec_path": "Mech._Therm._Deg._BEAVER_output\\idea3_Dynamic_Covalent_Network_Elast\\figures\\idea3_Dynamic_Covalent_Network_Elastomer_repeat_unit_spec.json",
+  "spec": {
+    "should_draw": true,
+    "confidence": "high",
+    "polymer_name": "Dynamic Covalent Network Elastomer",
+    "architecture": "network",
+    "repeat_units": [
+      {
+        "extracted_name": "poly(ethylene glycol)-poly(lactic acid)",
+        "label": "PEG-PLA",
+        "role": "base polymer",
+        "lookup_candidates": [
+          "poly(ethylene glycol)-poly(lactic acid)",
+          "ethylene glycol",
+          "lactic acid",
+          "PEG-PLA",
+          "PEG",
+          "PLA",
+          "Dynamic Covalent Network Elastomer",
+          "Dynamic Covalent Elastomer"
+        ],
+        "selected_lookup_candidate": "PEG-PLA",
+        "canonical_name": "Polyethylene_glycol(PEG)",
+        "database_name": "Polyethylene_glycol(PEG)",
+        "mapped_smiles": "[*]OCC[*]",
+        "smiles": "[*]OCC[*]",
+        "rdkit_valid": true,
+        "rdkit_validation": {
+          "input_smiles": "[*]OCC[*]",
+          "rdkit_available": true,
+          "valid": true,
+          "canonical_smiles": "*CCO*",
+          "error": ""
+        },
+        "name_resolution": {
+          "alias_status": {
+            "status": "matched",
+            "match_method": "alias_exact",
+            "matched_key": "peg",
+            "matched_variant": "PEG",
+            "score": 1.0
+          },
+          "smiles_status": {
+            "status": "matched",
+            "match_method": "smiles_exact",
+            "matched_key": "polyethylene_glycol(peg)",
+            "score": 1.0
+          },
+          "candidate_trials": [
+            {
+              "candidate": "poly(ethylene glycol)-poly(lactic acid)",
+              "canonical_name": "poly(ethylene glycol)-poly(lactic acid)",
+              "database_name": "poly(ethylene glycol)-poly(lactic acid)",
+              "mapped_smiles": "",
+              "rdkit_valid": false,
+              "alias_status": {
+                "status": "unmapped_alias_used_raw_name",
+                "match_method": "raw_name",
+                "score": 0.0
+              },
+              "smiles_status": {
+                "status": "skipped_no_keyword_folder_match",
+                "match_method": "none",
+                "score": 0.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "",
+                "rdkit_available": true,
+                "valid": false,
+                "canonical_smiles": "",
+                "error": "empty_smiles"
+              }
+            },
+            {
+              "candidate": "ethylene glycol",
+              "canonical_name": "ethylene glycol",
+              "database_name": "ethylene glycol",
+              "mapped_smiles": "",
+              "rdkit_valid": false,
+              "alias_status": {
+                "status": "unmapped_alias_used_raw_name",
+                "match_method": "raw_name",
+                "score": 0.0
+              },
+              "smiles_status": {
+                "status": "skipped_no_keyword_folder_match",
+                "match_method": "none",
+                "score": 0.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "",
+                "rdkit_available": true,
+                "valid": false,
+                "canonical_smiles": "",
+                "error": "empty_smiles"
+              }
+            },
+            {
+              "candidate": "lactic acid",
+              "canonical_name": "lactic acid",
+              "database_name": "lactic acid",
+              "mapped_smiles": "",
+              "rdkit_valid": false,
+              "alias_status": {
+                "status": "unmapped_alias_used_raw_name",
+                "match_method": "raw_name",
+                "score": 0.0
+              },
+              "smiles_status": {
+                "status": "skipped_no_keyword_folder_match",
+                "match_method": "none",
+                "score": 0.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "",
+                "rdkit_available": true,
+                "valid": false,
+                "canonical_smiles": "",
+                "error": "empty_smiles"
+              }
+            },
+            {
+              "candidate": "PEG-PLA",
+              "canonical_name": "Polyethylene_glycol(PEG)",
+              "database_name": "Polyethylene_glycol(PEG)",
+              "mapped_smiles": "[*]OCC[*]",
+              "rdkit_valid": true,
+              "alias_status": {
+                "status": "matched",
+                "match_method": "alias_exact",
+                "matched_key": "peg",
+                "matched_variant": "PEG",
+                "score": 1.0
+              },
+              "smiles_status": {
+                "status": "matched",
+                "match_method": "smiles_exact",
+                "matched_key": "polyethylene_glycol(peg)",
+                "score": 1.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "[*]OCC[*]",
+                "rdkit_available": true,
+                "valid": true,
+                "canonical_smiles": "*CCO*",
+                "error": ""
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "functional_groups": [
+      {
+        "name": "imine bond",
+        "role": "dynamic crosslink"
+      },
+      {
+        "name": "urea bond",
+        "role": "dynamic crosslink"
+      }
+    ],
+    "composition_note": "4-arm star block copolymer, PLA:PEG ratio TBD",
+    "non_polymer_components": [],
+    "caption": "Representative polymer-structure schematic of a star-shaped PEG-PLA block copolymer crosslinked via dynamic covalent bonds (imine or urea) forming a network.",
+    "polymer_level_priority_used": false,
+    "name_mapping": {
+      "name_name_dict_path": "resources\\Polymer-关键词",
+      "alias_source_type": "keyword_txt_folder",
+      "name_smiles_csv_path": "resources\\字典-使用-只含聚合物.csv",
+      "alias_entries": 13653,
+      "smiles_entries": 509,
+      "allow_fuzzy": false,
+      "fuzzy_cutoff": 0.92,
+      "rdkit_available": true,
+      "valid_smiles_count": 1,
+      "total_units": 1,
+      "generic_name_guard": true,
+      "keyword_folder_match_required": true,
+      "polymer_level_priority_used": false
+    }
+  }
+}

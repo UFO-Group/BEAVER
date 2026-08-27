@@ -1,0 +1,65 @@
+[
+  {
+    "rank_index": 1,
+    "idea_name": "Rigid-Tough Block Copolymer",
+    "score_overall": 7.9,
+    "score_dimensions": {
+      "feasibility": 8.5,
+      "performance_potential": 8.0
+    },
+    "core_goal": "A block copolymer combining rigid poly(L-lactide) segments for high Tg with tough poly(ε-caprolactone) segments to preserve elasticity and fracture resistance.",
+    "mechanism_one_liner": "The crystalline poly(L-lactide) blocks elevate the overall Tg through chain rigidity while poly(ε-caprolactone) segments absorb mechanical energy via chain mobility, preserving toughness",
+    "risk_one_liner": "Potential phase separation issues leading to inconsistent mechanical properties",
+    "pros_short": [
+      "Well-established chemistry (PLLA/PCL) with predictable synthesis and degradation.",
+      "Clear structure-property relationship; block lengths easily tune Tg, toughness, and degradation rate."
+    ],
+    "cons_short": [
+      "Phase separation can lead to inconsistent mechanical properties if not well-controlled.",
+      "Degradation rate may be too slow for some applications due to PCL's hydrophobicity."
+    ],
+    "scoring_status": "validated"
+  },
+  {
+    "rank_index": 2,
+    "idea_name": "Aromatic-Aliphatic Copolyester",
+    "score_overall": 7.7,
+    "score_dimensions": {
+      "feasibility": 8.0,
+      "performance_potential": 8.0
+    },
+    "core_goal": "Alternating copolymer of rigid terephthalate units and flexible aliphatic diols, balancing stiffness with chain mobility.",
+    "mechanism_one_liner": "Aromatic rings restrict chain rotation to increase Tg while aliphatic spacers allow plastic deformation for toughness",
+    "risk_one_liner": "Crystallinity reduction from irregular sequences impairing mechanical properties",
+    "pros_short": [
+      "Classic copolyester design with well-understood synthesis and structure-property relationships.",
+      "Aromatic units effectively increase Tg; aliphatic spacers provide toughness."
+    ],
+    "cons_short": [
+      "Acidic degradation products (terephthalic acid) may cause inflammation.",
+      "Achieving the ideal alternating sequence for homogeneous properties can be synthetically challenging."
+    ],
+    "scoring_status": "validated"
+  },
+  {
+    "rank_index": 3,
+    "idea_name": "Dynamic Covalent Network Elastomer",
+    "score_overall": 7.5,
+    "score_dimensions": {
+      "feasibility": 6.5,
+      "performance_potential": 8.5
+    },
+    "core_goal": "Diels-Alder crosslinked network using furan/maleimide chemistry for reversible bonds that enhance Tg while allowing self-healing.",
+    "mechanism_one_liner": "Rigid bismaleimide crosslinks elevate Tg through restricted mobility, while reversible Diels-Alder bonds dissociate under stress to dissipate energy and preserve toughness",
+    "risk_one_liner": "Retro-Diels-Alder reactions occurring at body temperature altering properties",
+    "pros_short": [
+      "Dynamic bonds offer self-healing and excellent energy dissipation for toughness.",
+      "Rigid crosslinks can significantly elevate Tg."
+    ],
+    "cons_short": [
+      "Reversible Diels-Alder reaction equilibrium at body temperature could destabilize the network.",
+      "Synthesis of furan-functionalized PCL and control of crosslink density is complex."
+    ],
+    "scoring_status": "validated"
+  }
+]

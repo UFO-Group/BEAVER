@@ -1,0 +1,19 @@
+{
+  "primary_category": "degradation_regulation",
+  "primary_display_name": "降解行为与结构调控",
+  "secondary_categories": [
+    "mechanical_design",
+    "thermal_design"
+  ],
+  "secondary_display_names": [
+    "力学性能设计",
+    "热学性能设计"
+  ],
+  "mode": "hybrid",
+  "score_breakdown": {
+    "mechanical_design": 42,
+    "thermal_design": 42,
+    "degradation_regulation": 59
+  },
+  "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 降解行为与结构调控=59 | 力学性能设计=42 | 热学性能设计=42"
+}

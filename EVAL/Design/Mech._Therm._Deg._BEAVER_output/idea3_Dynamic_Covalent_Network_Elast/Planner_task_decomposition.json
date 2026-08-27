@@ -1,0 +1,26 @@
+{
+  "query_structure": "single",
+  "steps": [
+    {
+      "id": "step1",
+      "type": "search_papers",
+      "description": "Retrieve evidence on dynamic covalent network elastomers for biodegradable copolymers focusing on Tg enhancement, toughness preservation, and degradation rate control",
+      "inputs": {
+        "query": "Dynamic Covalent Network Elastomer biodegradable copolymer glass transition temperature toughness degradation rate clinical applications",
+        "top_k": 15,
+        "query_policy": "preserve_original",
+        "query_rewrite_mode": "none"
+      }
+    },
+    {
+      "id": "step2",
+      "type": "reason_over_evidence",
+      "description": "Synthesize evidence to verify feasibility and innovation of dynamic covalent networks for simultaneous Tg increase, toughness preservation, and controlled degradation",
+      "inputs": {
+        "use_steps": [
+          "step1"
+        ]
+      }
+    }
+  ]
+}

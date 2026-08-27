@@ -1,0 +1,237 @@
+{
+  "called_mech_table": false,
+  "idea_visuals": [],
+  "step1": {
+    "query": "Rigid-tough block copolymers for simultaneous enhancement of glass transition temperature, preservation of toughness, and controlled degradation rate in biodegradable polymers",
+    "enhanced_query": "Rigid-tough block copolymers for simultaneous enhancement of glass transition temperature, preservation of toughness, and controlled degradation rate in biodegradable polymers",
+    "query_policy": "preserve_original",
+    "query_rewrite_mode": "none",
+    "evidence_items": [
+      {
+        "rank": 37,
+        "score": 0.0127,
+        "source": "101039_d5gc02301g_段2-4.txt",
+        "filename": "101039_d5gc02301g_段2-4.txt",
+        "topic": "Sustainable Plastic Toughening with Block Polymers",
+        "evidence": "me a substitute for some engineering petrochemical plastics like high impact polystyrene (HIPS) or poly(acrylonitrile-butadiene-styrene) (ABS) which are not recyclable and cannot be easily defossilised. This study focusses on a series of new block polymers as rubber tougheners enabling such PLLA ductility. These block polymers are efficiently synthesised using controlled polymerizations. They are also fully chemically recyclable and biodegradable. The series of new poly(ester-alt-ethers)-b-PLLA show controllable monomer compositions, block ratios and molar mass. They are synthesised using a on",
+        "rerank_score": 3,
+        "rerank_has_answer": true,
+        "rerank_rationale": "Directly describes new block polymers as rubber tougheners for PLLA, addressing toughness and synthesis."
+      },
+      {
+        "rank": 4,
+        "score": 0.0161,
+        "source": "101016_jpolymer201707014_段44-46.txt",
+        "filename": "101016_jpolymer201707014_段44-46.txt",
+        "topic": "Dynamic Mechanical Analysis of PLLA-b-PBC-b-PLLA Triblock Copolymers",
+        "evidence": "which is also observed from fractured SEM images. AFM revealed that the triblock copolymer with 55% PLLA showed lamellar type of morphology which was also confirmed by SAXS. From DMA analysis, storage moduli were observed to be higher in the case of copolymers with high PLLA content due to higher crystallization and increase in PLLA block length. Glass transition temperature is also increased for PLLA segment due to partial miscibility of the adjacent blocks and enhancement of PLLA chain length. This study shows a green path for increase toughness of PLLA by using another biodegradable alipha",
+        "rerank_score": 2,
+        "rerank_has_answer": true,
+        "rerank_rationale": "Describes a triblock copolymer showing increased Tg and toughness for PLLA, partially addressing the question's goals."
+      },
+      {
+        "rank": 14,
+        "score": 0.0149,
+        "source": "101039_d0py01685c_段2-4.txt",
+        "filename": "101039_d0py01685c_段2-4.txt",
+        "topic": "Poly(limonene carbonate) copolymerization for mechanical property enhancement",
+        "evidence": "ous macromolecular chain compositions. A sequential living ring-opening copolymerization method provided precise block copolymers. The mechanical characteristics could be altered by the use of lactide derivatives with a low glass transition temperature. The use of lactide with long hexyl alkyl chains during sequential copolymerization provided block copolymers with polyester soft blocks with a very low glass transition temperature (Tg = −38 °C) showing rubber-like behavior. Upscaling of the method, processing and detailed characterization of the mechanical properties will be carried out in the",
+        "rerank_score": 2,
+        "rerank_has_answer": true,
+        "rerank_rationale": "Describes block copolymers with soft blocks of very low Tg for rubber-like behavior, partially related to toughness but not simultaneous Tg increase."
+      },
+      {
+        "rank": 23,
+        "score": 0.0139,
+        "source": "101039_d5gc02301g_段2-4.txt",
+        "filename": "101039_d5gc02301g_段2-4.txt",
+        "topic": "Sustainable Plastic Toughening with Block Polymers",
+        "evidence": "elasticity, resulting in significantly improved tensile toughness. The blends are fully chemically recycled, at low temperatures, to L-lactide monomer and the block copolymer. All blend components are enzymatically degradable at 37 °C.",
+        "rerank_score": 2,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Mentions improved tensile toughness and degradability in blends, partially related to toughness and degradation."
+      },
+      {
+        "rank": 28,
+        "score": 0.0135,
+        "source": "101039_d3py00932g_段3-5.txt",
+        "filename": "101039_d3py00932g_段3-5.txt",
+        "topic": "PLimC Graft Polymer Modification for Enhanced Degradation and Properties",
+        "evidence": "rovide additional functionality (biodegradability) to bio-based PLimC by the simultaneous copolymerization of LO and CO2 with cyclic esters, such as D,L-lactide (DLLA). Interestingly, the reaction resulted in block copolymers instead of the expected random copolymers.25 Sequential ring-opening polymerization is the conventional route to making block copolymers, as shown for the block copolymers of PLimC and PCHC.26 The block copolymers of PLimC and poly(D,L-lactide) (PDLLA) proved to be efficient compatibilizers for otherwise incompatible PLimC and PDLLA blends.25,27 In the present work, graf",
+        "rerank_score": 2,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Describes block copolymers from cyclic esters, partially related to biodegradable block copolymers."
+      },
+      {
+        "rank": 38,
+        "score": 0.0127,
+        "source": "101016_jpolymer2024127235_段15-17.txt",
+        "filename": "101016_jpolymer2024127235_段15-17.txt",
+        "topic": "Encapsulation for Degradation and Toughening in Biodegradable Polymers",
+        "evidence": "inability of the system. Using a similar technology, DelRe and colleagues found that dispersing protected enzymes into PLA resulted in breakdown of the material in a matter of days in elevated-temperature compost [50]. However, this work focused on solution casting at low temperatures, and did not target mechanical property enhancement. A multifunctional additive particle has been created for simultaneous enhancement of compostability and toughness of PLA. It is designed to enhance degradation of the composite polymer, allowing the plastic product to degrade outside of typically required cond",
+        "rerank_score": 2,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Describes a multifunctional additive for toughness and degradation but not block copolymers for Tg enhancement."
+      },
+      {
+        "rank": 40,
+        "score": 0.0123,
+        "source": "101002_app37932_段80-82.txt",
+        "filename": "101002_app37932_段80-82.txt",
+        "topic": "Peripheral Nerve Injury and Repair",
+        "evidence": "ents, by copolymerization or blending route, become advantageous for utilization in devices where high elasticity is essential. Moreover, biodegradation kinetics may be tailored to the need of particular application by choosing constituents of various degradation profile and altering their composition. Amorphous, highly flexible, poly(trimethylene carbonate) (PTMC) seems to be an interesting candidate to introduce modifications to rigid PLLA.17-20 This linear polymer of poly(alkylene carbonate)s family, with its glass transition temperature (Tg) of about −15 to −20°C is rubberry material at ro",
+        "rerank_score": 2,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Discusses modifying rigid PLLA with flexible polymers for tailored properties, partially relevant."
+      },
+      {
+        "rank": 1,
+        "score": 0.0328,
+        "source": "101002_pi5723_段24-26.txt",
+        "filename": "101002_pi5723_段24-26.txt",
+        "topic": "Biodegradable Polymers and Environmental Impact",
+        "evidence": "with glass transition temperature (Tg) below room temperature. For example, poly(butylene carbonate) has Tg of ca −36 °C with excellent impact strength and has already been used with PLA to improve its toughness.30-32 Hence, aliphatic polycarbonates have the potential to enhance the toughness of any brittle polymer when they are used together. ABA-type block copolymers as thermoplastic elastomers have been widely studied for improving the mechanical properties of brittle polymers due to their unique morphological characteristics.33-35 Styrene-based block copolymers are examples of some of the",
+        "rerank_score": 1,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Discusses toughening brittle polymers with block copolymers but does not address simultaneous Tg increase, toughness preservation, and controlled degradation."
+      },
+      {
+        "rank": 2,
+        "score": 0.0239,
+        "source": "101007_s00289-023-04928-w_段16-18.txt",
+        "filename": "101007_s00289-023-04928-w_段16-18.txt",
+        "topic": "Biodegradable Polyester Alternatives from Biomass",
+        "evidence": "lobutanediol (CBDO) to modify the strength and toughness of PPF [15]. The results showed glass transition temperature, Young’s modulus, and tensile strength increased accordingly, but the crystallinity decreased. Therefore, the polyester still meets the requirements for applications, such as food packaging. In order to improve the brittleness of PPF, Guidotti et al. synthesized block copolymers from PPF and poly(propylene cyclohexanedicarboxylate) (PPCE) by reactive blending [16]. It was found that the shorter block polyesters showed an increase in elongation at break and a reduced Young’s mo",
+        "rerank_score": 1,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Describes modifying a polymer's strength and toughness with increased Tg, but not in the context of rigid-tough block copolymers for simultaneous property enhancement."
+      },
+      {
+        "rank": 6,
+        "score": 0.0159,
+        "source": "101007_s10965-022-02914-w_段15-17.txt",
+        "filename": "101007_s10965-022-02914-w_段15-17.txt",
+        "topic": "Biodegradable Polymers for Food Packaging",
+        "evidence": "which allows the use of conventional techniques and equipment [6, 7]. However PLA has some inherent problems due to its high glass transition temperature (Tg), in the range of 50-60 °C, which makes it a rigid and brittle polymer with low plastic deformation capacity at room temperature [8]. Unfortunately, such characteristics compromise its widespread applicability in the food packaging industry [9]. Several approaches have been used to improve the flexibility, ductility and toughness of PLA [10], for example, blending with other polymers/copolymers and copolymerization with other monomers,",
+        "rerank_score": 1,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Discusses PLA's high Tg and brittleness and general toughening approaches, not the specific simultaneous enhancement strategy."
+      },
+      {
+        "rank": 7,
+        "score": 0.0156,
+        "source": "101002_marc202100619_段24-26.txt",
+        "filename": "101002_marc202100619_段24-26.txt",
+        "topic": "Biodegradable Plastics and Environmental Impact",
+        "evidence": "ock copolymer containing a similar structural unit for better adhesion between matrix.[14-17] For example, Muiruri et al.[15] utilized PLLA stereocomplexation effect with cellulose nanocrystal-rubber-PLLA copolymers to achieve 10-fold increase in elongation. The third way is adding plasticizers to reduce the glass transition temperature (Tg) of the PLLA/PHB-based blends.[8, 18, 19] Arrieta et al.[8] plasticized PLLA/PHB/cellulose nanocrystal films with acetyl(tributyl citrate) to enhance ductility. Unfortunately, the above strategies present two major drawbacks: 1) considerable amount (≈15-30%",
+        "rerank_score": 1,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Lists toughening strategies for PLLA/PHB blends, including drawbacks, but does not describe the successful rigid-tough block copolymer approach."
+      },
+      {
+        "rank": 9,
+        "score": 0.0154,
+        "source": "101002_pi5723_段66-68.txt",
+        "filename": "101002_pi5723_段66-68.txt",
+        "topic": "Synthesis of Biodegradable Triblock Copolymer Micelles",
+        "evidence": "ent biodegradability, non-toxicity and in vivo bioresorbability properties.26-29 Also, aliphatic carbonates with linear chains exhibit a flexible nature with glass transition temperature (Tg) below room temperature. For example, poly(butylene carbonate) has Tg of ca −36 °C with excellent impact strength and has already been used with PLA to improve its toughness.30-32 Hence, aliphatic polycarbonates have the potential to enhance the toughness of any brittle polymer when they are used together.",
+        "rerank_score": 1,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Discusses aliphatic polycarbonates for toughening brittle polymers but does not address simultaneous Tg increase or controlled degradation."
+      },
+      {
+        "rank": 13,
+        "score": 0.0149,
+        "source": "101002_marc202100619_段62-64.txt",
+        "filename": "101002_marc202100619_段62-64.txt",
+        "topic": "Enhancing Ductility in Biodegradable Polymers",
+        "evidence": "olymers to achieve 10-fold increase in elongation. The third way is adding plasticizers to reduce the glass transition temperature (Tg) of the PLLA/PHB-based blends.[8, 18, 19] Arrieta et al.[8] plasticized PLLA/PHB/cellulose nanocrystal films with acetyl(tributyl citrate) to enhance ductility. Unfortunately, the above strategies present two major drawbacks: 1) considerable amount (≈15-30%) of ductile filler (rubber, elastomer, reactive additives) is required for effective toughening, accompanied by loss of strength and stiffness compared to neat PLLA/PHB. 2) chemical modifications with hazard",
+        "rerank_score": 1,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Lists drawbacks of common toughening strategies, not the successful approach asked for."
+      },
+      {
+        "rank": 15,
+        "score": 0.0147,
+        "source": "101002_marc202100619_段62-64.txt",
+        "filename": "101002_marc202100619_段62-64.txt",
+        "topic": "Enhancing Ductility in Biodegradable Polymers",
+        "evidence": "giving a 200% increase of ductility compared to PLLA/PBS. Ma et al.[13] used in-situ reactive blending with EVA and starch to develop tougher PHB blends (elongation = 60%) with co-continuous morphology. The second strategy is to synthesize block copolymer containing a similar structural unit for better adhesion between matrix.[14-17] For example, Muiruri et al.[15] utilized PLLA stereocomplexation effect with cellulose nanocrystal-rubber-PLLA copolymers to achieve 10-fold increase in elongation. The third way is adding plasticizers to reduce the glass transition temperature (Tg) of the PLLA/PH",
+        "rerank_score": 1,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Lists general toughening strategies for PLLA/PHB, not the specific rigid-tough block copolymer approach."
+      },
+      {
+        "rank": 16,
+        "score": 0.0147,
+        "source": "101002_app39486_段22-24.txt",
+        "filename": "101002_app39486_段22-24.txt",
+        "topic": "Biodegradable Copolymers of ɛ-Caprolactone and p-Dioxanone",
+        "evidence": "ough both CL and PDO are crystalline components, only one crystalline phase could be present for each copolymer. The low limit of average block length for the copolymers that could crystallize is 3.22 for LCL and 3.43 for LPDO, respectively. The crystallinity and crystalline morphology of the copolymers are dependent on the crystalline component as well as its number average sequence length. Irrespective of composition, all the copolymers have good solubility in chloroform with glass transition temperature much below room temperature, implying good flexibility of the materials. The incorporati",
+        "rerank_score": 1,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Discusses glass transition temperature and flexibility but not block copolymers for simultaneous enhancement of properties."
+      }
+    ],
+    "mode": "hybrid",
+    "rag_answer": null
+  },
+  "step2_report_category": {
+    "primary_category": "mechanical_design",
+    "primary_display_name": "力学性能设计",
+    "secondary_categories": [
+      "degradation_regulation",
+      "thermal_design"
+    ],
+    "secondary_display_names": [
+      "降解行为与结构调控",
+      "热学性能设计"
+    ],
+    "mode": "hybrid",
+    "score_breakdown": {
+      "mechanical_design": 60,
+      "thermal_design": 39,
+      "degradation_regulation": 59
+    },
+    "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 力学性能设计=60 | 降解行为与结构调控=59 | 热学性能设计=39"
+  },
+  "final_design_profile": {
+    "primary_category": "mechanical_design",
+    "primary_display_name": "力学性能设计",
+    "secondary_categories": [
+      "degradation_regulation",
+      "thermal_design"
+    ],
+    "secondary_display_names": [
+      "降解行为与结构调控",
+      "热学性能设计"
+    ],
+    "mode": "hybrid",
+    "score_breakdown": {
+      "mechanical_design": 60,
+      "thermal_design": 39,
+      "degradation_regulation": 59
+    },
+    "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 力学性能设计=60 | 降解行为与结构调控=59 | 热学性能设计=39"
+  },
+  "final_design_report_category": {
+    "primary_category": "mechanical_design",
+    "primary_display_name": "力学性能设计",
+    "secondary_categories": [
+      "degradation_regulation",
+      "thermal_design"
+    ],
+    "secondary_display_names": [
+      "降解行为与结构调控",
+      "热学性能设计"
+    ],
+    "mode": "hybrid",
+    "score_breakdown": {
+      "mechanical_design": 60,
+      "thermal_design": 39,
+      "degradation_regulation": 59
+    },
+    "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 力学性能设计=60 | 降解行为与结构调控=59 | 热学性能设计=39"
+  },
+  "step2": "# Design and Verification of a Rigid-Tough Block Copolymer for Enhanced Thermal and Mechanical Performance with Controlled Degradation\n\n## Abstract  \nThis study proposes a biodegradable block copolymer architecture combining rigid high-Tg segments with tough elastomeric blocks to simultaneously elevate glass transition temperature (Tg), preserve toughness, and maintain clinically relevant degradation kinetics. The hypothesis posits that microphase-separated domains of poly(L-lactide) (PLLA) and aliphatic polycarbonates (e.g., poly(trimethylene carbonate), PTMC) can synergistically enhance thermomechanical properties while retaining enzymatic degradability. Literature evidence [1, 2, 3, 4] provides indirect mechanistic support for Tg elevation through chain confinement and toughness via rubbery phase energy dissipation, though direct evidence for simultaneous optimization remains limited. Experimental verification will synthesize ABA-type triblock copolymers with systematic variation of PLLA:PTMC ratios (70:30 to 50:50) using ring-opening polymerization. Key readouts include DMA-measured Tg, tensile toughness, and enzymatic degradation at 37°C. Major risks include undesirable miscibility suppressing Tg elevation and accelerated degradation compromising mechanical integrity. Conservative feasibility scoring reflects significant evidence gaps in degradation rate predictability.\n\n## 1. Introduction  \n### 1.1 Scientific Background  \nBiodegradable polymers face inherent trade-offs between thermal stability, mechanical robustness, and degradation kinetics. Poly(lactic acid) derivatives exhibit suitable degradation profiles but suffer from brittleness (elongation <10%) and suboptimal Tg (55-60°C) for many clinical applications [5]. Current toughening strategies—plasticization, blending, or rubber modification—typically depress Tg or accelerate degradation [6], necessitating designs that decouple these properties.\n\n### 1.2 Design Hypothesis  \nWe hypothesize that precisely sequenced block copolymers with rigid PLLA blocks and soft polycarbonate segments (e.g., PTMC, Tg ≈ -20°C [3]) will yield microphase-separated morphologies where:  \n- Rigid domains elevate overall Tg through chain confinement and reduced mobility [2]  \n- Rubbery domains dissipate energy to preserve toughness [4]  \n- Hydrolytically labile carbonate bonds maintain degradation rates within clinical thresholds  \n\nThis approach leverages the dual benefit of immiscible blocks: thermal enhancement without plasticization-induced Tg suppression.\n\n### 1.3 Scope of This Study  \nDirect evidence exists for individual mechanisms: Tg elevation in PLLA-rich blocks [2], toughness enhancement via polycarbonates [4], and enzymatic degradability of similar systems [1]. However, no literature directly reports the *simultaneous* optimization of these properties in one copolymer system. This study will experimentally verify interfacial effects on Tg, toughness degradation trade-offs, and hydrolysis kinetics.\n\n## 2. Mechanistic Rationale and Design Hypothesis  \n### 2.1 Mechanistic Basis  \nLiterature indicates two key mechanisms:  \n1. **Tg Elevation**: Partial miscibility at block interfaces restricts chain mobility in PLLA domains, increasing Tg beyond homopolymer values (e.g., +5-10°C) [2]. Lamellar morphologies in high-PLLA triblocks further enhance storage modulus [2].  \n2. **Toughness Preservation**: Rubbery polycarbonate blocks (Tg < 0°C) impart energy dissipation through reversible deformation [3, 4]. ABA architectures facilitate network-like behavior at 20-40 wt% soft phase [4].  \n3. **Degradation Control**: Enzymatic cleavage preferentially targets ester/carbonate bonds [1], with rate modulation possible via crystallinity adjustments [7].  \n\n### 2.2 Evidence-Supported Design Rules  \n| Property          | Key Variables                          | Evidence Support |  \n|-------------------|----------------------------------------|------------------|  \n| Mechanical        | PLLA block length, soft/hard ratio    | Strong [2, 4]     |  \n| Degradation       | Crystallinity, carbonate content      | Moderate [1, 3]   |  \n| Thermal           | Block immiscibility, interfacial area | Strong [2, 8]     |  \n*Biocompatibility evidence is currently insufficient for specific design rules.*\n\n### 2.3 Trade-Offs and Constraints  \nCritical trade-offs emerge from evidence:  \n- Increasing PLLA content elevates Tg but reduces elongation (>60% PLLA causes brittle fracture) [2, 5]  \n- Higher carbonate content accelerates hydrolysis but risks premature strength loss [3]  \n- Lamellar morphologies (55% PLLA) optimize stiffness-toughness balance but require precise block length control [2]  \nClinically acceptable degradation (weeks-months) remains undefined in literature, representing a key uncertainty.\n\n## 3. Materials and Methods  \n### 3.1 Material System and Variable Definition  \n- **Base System**: PLLA-b-PTMC-b-PLLA triblock copolymer  \n- **Primary Variables**:  \n  - PLLA:PTMC molar ratio (70:30, 60:40, 50:50)  \n  - PLLA block length (DPn = 50, 100 - TBD)  \n- **Fixed Parameters**:  \n  - PTMC Mn ≈ 10 kDa (Tg ≈ -20°C [3])  \n  - Initiator: Benzyl alcohol  \n- **Unknowns Requiring Optimization**:  \n  - Catalyst loading for minimal transesterification  \n  - Annealing conditions for crystallization control  \n\n### 3.2 Formulation / Sample Matrix Design  \n| Sample   | PLLA:PTMC | PLLA DPn | PTMC Mn (kDa) | Controls               |  \n|----------|-----------|----------|---------------|------------------------|  \n| PLLA100  | 100:0     | 100      | -             | Homopolymer control    |  \n| TBC70    | 70:30     | 100      | 10            | Primary test group     |  \n| TBC60    | 60:40     | 100      | 10            | Primary test group     |  \n| TBC50    | 50:50     | 100      | 10            | Primary test group     |  \n| PTMC100  | 0:100     | -        | 10            | Soft segment control   |  \n\n*First-pass DOE varies composition at fixed block length. Second phase will optimize DPn.*\n\n### 3.3 Sample Preparation / Fabrication Procedure  \n1. **Synthesis**: Sequential ring-opening polymerization [1, 4]  \n   - Step 1: PTMC macroinitiator synthesis from TMC monomer (Sn(Oct)₂ catalyst, 110°C, 24h)  \n   - Step 2: L-lactide addition (130°C, 48h) under argon  \n   - Step 3: Precipitation in cold methanol, vacuum drying  \n2. **Processing**: Solution casting (chloroform) followed by:  \n   - Annealing at 100°C (T < Tm,PLLA) for 1h to standardize crystallinity  \n   - Quenching to room temperature  \n\n*Thermal history standardization critical for Tg comparison [2].*\n\n### 3.4 Structural and Physicochemical Characterization  \n- **DSC**: Tg, Tm, crystallinity (10°C/min, N₂ atmosphere)  \n- **GPC**: Mn, Đ (vs. polystyrene standards)  \n- **SAXS/WAXS**: Phase separation distance, crystallite size [2]  \n- **ATR-FTIR**: Ester/carbonate bond quantification  \n\n*SAXS essential for verifying microphase separation critical to mechanism [2].*\n\n### 3.5 Mechanical Testing Protocol  \n- **Tensile Testing** (ASTM D638, dry state):  \n  - Young's modulus, tensile strength, elongation at break  \n  - Toughness calculation from stress-strain integral  \n- **Control Comparisons**:  \n  - TBC vs. PLLA100 (brittleness baseline)  \n  - TBC vs. PTMC100 (elasticity baseline)  \n- **Failure Analysis**: SEM of fracture surfaces  \n\n*Prioritize dry-state testing to isolate intrinsic properties before degradation.*\n\n### 3.6 Degradation Evaluation Protocol  \n- **Conditions**: PBS + Proteinase K (10 μg/mL, 37°C) [1]  \n- **Monitoring**:  \n  - Mass loss weekly (8 weeks)  \n  - GPC every 14 days (molecular weight decline)  \n  - Correlate mechanical retention (tensile tests at t=0,4,8 weeks)  \n- **Accelerated Testing**: 50°C for preliminary screening  \n\n*Enzymatic degradation preferred over hydrolytic for clinical relevance [1].*\n\n### 3.7 Biocompatibility / Biofunction Evaluation  \n*Provisional protocol due to limited evidence:*  \n- Cytotoxicity screening (ISO 10993-5) with L929 fibroblasts  \n- pH monitoring during degradation to assess autocatalysis risk  \n\n### 3.8 Controls, Decision Criteria, and Statistical Comparison  \n- **Success Criteria**:  \n  - Tg ≥ 65°C (ΔTg ≥ +5°C vs. PLLA100)  \n  - Toughness ≥ 50 MJ/m³ (2× PLLA100)  \n  - <30% mass loss at 4 weeks (enzymatic)  \n- **Statistical Design**:  \n  - n=5 for mechanical tests, n=3 for degradation  \n  - ANOVA with Tukey post-hoc (α=0.05) for composition effects  \n- **Termination Thresholds**:  \n  - Phase separation absence (SAXS)  \n  |Tg elevation| < 2°C  \n\n## 4. Results and Evidence-Based Discussion  \n### 4.1 Directly Supported Expectations  \n- Tg elevation of 5-10°C expected in TBC70/60 via PLLA chain confinement [2]  \n- Toughness enhancement (200-300% elongation) anticipated at 40-50% PTMC content [4]  \n- Enzymatic degradation within weeks confirmed for similar systems [1]  \n\n### 4.2 Mechanistically Inferred Expectations  \n- Optimal balance at ≈60:40 ratio: Lamellar morphology may provide simultaneous Tg elevation and toughness [2, 4]  \n- Degradation rate acceleration with increasing carbonate content [3], though kinetics remain unpredictable  \n- Possible reduction in crystallinity at high PTMC fractions affecting degradation homogeneity  \n\n### 4.3 Evidence Gaps and Uncertainty  \n- **Critical Gaps**:  \n  - No data on *simultaneous* Tg/toughness/degradation optimization  \n  - Clinically acceptable degradation rate undefined  \n  - Bulk erosion vs. surface erosion behavior unknown  \n  - Long-term (>8 week) mechanical retention unreported  \n- **Uncertainties**:  \n  |Parameter       | Confidence |  \n  |----------------|------------|  \n  |Tg elevation    | Medium [2] |  \n  |Toughness       | High [4]   |  \n  |Degradation rate| Low [1, 3]  |  \n\n### 4.4 Comparison with Prior Systems  \nCompared to plasticized PLA (Tg depression inevitable [6]) or rubber-toughened blends (strength loss [4]), this block copolymer approach offers superior thermomechanical control. However, it lacks the degradation predictability of homogeneous systems like PCL [3].\n\n## 5. Risk Analysis and Optimization Path  \n### 5.1 Major Failure Modes  \n1. **Phase mixing**: Eliminates Tg elevation mechanism (SAXS screening critical)  \n2. **Premature embrittlement**: Degradation-induced crystallinity changes  \n3. **Acidic byproduct accumulation**: Local pH drop accelerating autocatalysis  \n\n### 5.2 Optimization Pathway  \n- **Degradation too fast**: Reduce carbonate content; increase crystallinity via annealing  \n- **Tg too low**: Increase PLLA block length; enhance immiscibility with stereocomplexation  \n- **Toughness low**: Adjust soft block molecular weight; introduce gradient interfaces  \n- **Wet-state failure**: Hydrophobic surface modification; crystallinity optimization  \n\n## 6. Conclusion  \nThe rigid-tough block copolymer concept demonstrates moderate feasibility based on fragmentary mechanistic evidence. While literature strongly supports individual property enhancements [2, 4], simultaneous optimization of Tg, toughness, and degradation remains experimentally unverified. The proposed ABA triblock architecture warrants validation given its potential to overcome plasticization trade-offs. Highest risk lies in degradation rate control, necessitating enzymatic kinetics as the critical first experiment. Recommended next step: Synthesis and SAXS/DMA verification of TBC60 as the highest-potential composition.\n\n## 7. Machine-Readable Score Block  \n```json\n{\n  \"feasibility\": 65,\n  \"predictability\": 50,\n  \"performance\": 70,\n  \"innovation\": 75\n}\n```\n\n## 8. References  \n- [1] 101039_d5gc02301g\n- [2] 101016_jpolymer201707014\n- [3] 101002_app37932\n- [4] 101002_pi5723\n- [5] 101007_s10965-022-02914-w\n- [6] 101002_marc202100619\n- [7] 101016_jpolymer2024127235\n- [8] 101007_s00289-023-04928-w"
+}

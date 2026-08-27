@@ -1,0 +1,26 @@
+{
+  "query_structure": "single_with_facets",
+  "steps": [
+    {
+      "id": "step1",
+      "type": "search_papers",
+      "description": "Retrieve literature on rigid-tough block copolymer designs addressing simultaneous Tg enhancement, toughness preservation, and controlled degradation in biodegradable polymers",
+      "inputs": {
+        "query": "Rigid-tough block copolymers for simultaneous enhancement of glass transition temperature, preservation of toughness, and controlled degradation rate in biodegradable polymers",
+        "top_k": 15,
+        "query_policy": "preserve_original",
+        "query_rewrite_mode": "none"
+      }
+    },
+    {
+      "id": "step2",
+      "type": "reason_over_evidence",
+      "description": "Evaluate feasibility and innovation by synthesizing evidence on the mechanism, distinguishing direct/indirect support while addressing mechanical, thermal, and degradation requirements",
+      "inputs": {
+        "use_steps": [
+          "step1"
+        ]
+      }
+    }
+  ]
+}

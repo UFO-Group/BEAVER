@@ -1,0 +1,25 @@
+{
+  "target_system": "biodegradable copolymer",
+  "targets": [
+    {
+      "property": "glass transition temperature",
+      "target_value": null,
+      "unit": ""
+    },
+    {
+      "property": "toughness",
+      "target_value": null,
+      "unit": ""
+    },
+    {
+      "property": "degradation rate",
+      "target_value": null,
+      "unit": ""
+    }
+  ],
+  "constraints": [
+    "The copolymer must be biodegradable.",
+    "The degradation rate must be clinically acceptable."
+  ],
+  "context": "The design involves creating a biodegradable copolymer for potential clinical applications, focusing on improving thermal properties while ensuring mechanical integrity and controlled degradation. No specific materials or methods are detailed, but the copolymer must balance increased glass transition temperature with preserved toughness and a degradation profile suitable for medical use."
+}

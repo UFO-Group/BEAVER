@@ -1,0 +1,167 @@
+[
+  {
+    "rank": 29,
+    "score": 0.0133,
+    "source": "101002_admi202300066_段28-30.txt",
+    "filename": "101002_admi202300066_段28-30.txt",
+    "topic": "Self-Healable Degradable Elastomers for 3D-Printed Biomedical Devices",
+    "evidence": "eal at physiological temperature under a hydrated state. These unmet challenges are addressed in this work with degradable elastomeric networks based on dynamic imine bonds prepared from multi(aldehyde) and multi(amine) hydrophobic PEG-PLA star-shaped copolymers. The star topology of these copolymers is the key feature of the strategy as it allows the design of multifunctional high molecular weights pre-polymers that ensure an efficient dynamic chemical crosslinking while guaranteeing access to the FDM process generally restricted to thermoplastics. The proposed elastomeric networks combine hi",
+    "rerank_score": 3,
+    "rerank_has_answer": true,
+    "rerank_rationale": "Directly describes degradable dynamic covalent network elastomers from PEG-PLA star copolymers, addressing multiple query terms."
+  },
+  {
+    "rank": 30,
+    "score": 0.0133,
+    "source": "101039_d4ta09201e_段3-5.txt",
+    "filename": "101039_d4ta09201e_段3-5.txt",
+    "topic": "Dynamic Urea-Bonded Recyclable NBR",
+    "evidence": "od. The presence of urea bonds not only provides a large number of hydrogen bonding sites between the molecular chains but also exhibits the remarkable microphase separation properties of thermoplastic elastomers. This approach endows NBR with enhanced dynamic characteristics and significant recyclability. As a result, the as-synthesized multifunctional NBR elastomer (I-A0.5-P0.5) exhibits excellent tensile strength (19.9 MPa), toughness (93.7 MJ m−3), low glass transition temperature (−52 °C), and low compression cold resistance coefficient (0.15 at −55 °C), which are comparable to those of c",
+    "rerank_score": 3,
+    "rerank_has_answer": true,
+    "rerank_rationale": "Directly reports elastomer properties including toughness and low glass transition temperature with specific values."
+  },
+  {
+    "rank": 32,
+    "score": 0.0132,
+    "source": "101016_jpolymer201408027_段36-38.txt",
+    "filename": "101016_jpolymer201408027_段36-38.txt",
+    "topic": "P(TMC-co-CL) hydrolytic degradation rate",
+    "evidence": "uenced the Tg of the P(TMC-co-CL). On the one hand, the molecular weight of the P(TMC-co-CL) decreased with degradation time as shown by the in vitro hydrolytic degradation (Fig. 2B). The decrease in molecular weight decreases the Tg for all the extensively degraded polymers. On the other hand, the CL content in the composition of the P(TMC-co-CL) decreased during degradation (Fig. 2D) especially for the copolymer (30/70 mol%) that was rich in CL. The decrease in CL content for the copolymer compositions increases the glass transition temperature because the poly(ε-CL) has a glass transition t",
+    "rerank_score": 3,
+    "rerank_has_answer": true,
+    "rerank_rationale": "Directly discusses how composition and degradation influence the glass transition temperature (Tg) of a copolymer."
+  },
+  {
+    "rank": 38,
+    "score": 0.0127,
+    "source": "101002_app39486_段22-24.txt",
+    "filename": "101002_app39486_段22-24.txt",
+    "topic": "Biodegradable Copolymers of ɛ-Caprolactone and p-Dioxanone",
+    "evidence": "od solubility in chloroform with glass transition temperature much below room temperature, implying good flexibility of the materials. The incorporation of PDO component could significantly increase the water wettability of the copolymer surfaces and thereby accelerate the degradation rate of the materials. In conclusion, flexible biodegradable polymers with adjustable degradation and crystalline properties were acquired by random copolymerization of CL and PDO, which are expected to use in tissue engineering and drug delivery fields. © 2013 Wiley Periodicals, Inc. J. Appl. Polym. Sci. 130: 29",
+    "rerank_score": 3,
+    "rerank_has_answer": true,
+    "rerank_rationale": "Directly states copolymer's glass transition temperature below room temperature and how composition accelerates degradation rate."
+  },
+  {
+    "rank": 2,
+    "score": 0.0164,
+    "source": "101007_s00289-024-05252-7_段112-114.txt",
+    "filename": "101007_s00289-024-05252-7_段112-114.txt",
+    "topic": "Biodegradable Polymer Implants in Medical Applications",
+    "evidence": "ication as material for suture. Because of this, copolymerization of lactic acid (LA) with biodegradable monomers, like glycolic acid (GA), is done to obtain the PGA/PLA copolymer, which has better properties than PLA for suture applications. PGA/PLA copolymer with 90:10 mol ratio of GA: LA has been commercialized as Vicryl by Ethicon. This amorphous copolymer has lower glass transition temperature (Tg) and higher degradation rate than that of PLA and has been found very much useful as a suture material [111, 139].",
+    "rerank_score": 2,
+    "rerank_has_answer": true,
+    "rerank_rationale": "Directly provides glass transition temperature and degradation rate data for a specific biodegradable copolymer (PGA/PLA)."
+  },
+  {
+    "rank": 4,
+    "score": 0.0161,
+    "source": "101007_s00289-024-05252-7_段114-116.txt",
+    "filename": "101007_s00289-024-05252-7_段114-116.txt",
+    "topic": "PLA Suture Limitations and PGA/PLA Copolymerization",
+    "evidence": "A like high crystallinity (around 40%), and slow rate of degradation, impose restrictions on its application as material for suture. Because of this, copolymerization of lactic acid (LA) with biodegradable monomers, like glycolic acid (GA), is done to obtain the PGA/PLA copolymer, which has better properties than PLA for suture applications. PGA/PLA copolymer with 90:10 mol ratio of GA: LA has been commercialized as Vicryl by Ethicon. This amorphous copolymer has lower glass transition temperature (Tg) and higher degradation rate than that of PLA and has been found very much useful as a suture",
+    "rerank_score": 2,
+    "rerank_has_answer": true,
+    "rerank_rationale": "Directly provides glass transition temperature and degradation rate data for a specific biodegradable copolymer (PGA/PLA)."
+  },
+  {
+    "rank": 9,
+    "score": 0.0154,
+    "source": "101002_mame201100074_段68-70.txt",
+    "filename": "101002_mame201100074_段68-70.txt",
+    "topic": "Biodegradable Elastomers for Soft Tissue Engineering",
+    "evidence": "diameter vascular grafts due to their elasticity and hemocompatibility,27 poor load bearing capabilities, and inadequate suture retention strengths limit the utility of POC. To overcome the limitations of POC, we have recently reported on the synthesis and characterization of crosslinked urethane-doped polyester (CUPE) networks, a novel biodegradable and biocompatible elastomer with excellent mechanical properties.28 The superior mechanical strength of CUPE motivated the development tubular scaffolds, and further evaluation of the graft hemocompatibility.29 Our earlier work on CUPE focused o",
+    "rerank_score": 2,
+    "rerank_has_answer": true,
+    "rerank_rationale": "Directly describes a novel biodegradable elastomer (CUPE) with excellent mechanical properties, relevant to toughness."
+  },
+  {
+    "rank": 15,
+    "score": 0.0147,
+    "source": "101002_mame201100074_段29-31.txt",
+    "filename": "101002_mame201100074_段29-31.txt",
+    "topic": "Biodegradable Elastomers for Vascular Tissue Engineering",
+    "evidence": "diameter vascular grafts due to their elasticity and hemocompatibility,27 poor load bearing capabilities, and inadequate suture retention strengths limit the utility of POC. To overcome the limitations of POC, we have recently reported on the synthesis and characterization of crosslinked urethane-doped polyester (CUPE) networks, a novel biodegradable and biocompatible elastomer with excellent mechanical properties.28 The superior mechanical strength of CUPE motivated the development tubular scaffolds, and further evaluation of the graft hemocompatibility.29 Our earlier work on CUPE focused o",
+    "rerank_score": 2,
+    "rerank_has_answer": true,
+    "rerank_rationale": "Directly describes a novel biodegradable elastomer (CUPE) with excellent mechanical properties, relevant to toughness."
+  },
+  {
+    "rank": 18,
+    "score": 0.0145,
+    "source": "101002_app45644_段18-20.txt",
+    "filename": "101002_app45644_段18-20.txt",
+    "topic": "PLA/SEBS-g-MA Blends: Properties and Performance",
+    "evidence": "Poly(lactic acid) (PLA) was melt blended with thermoplastic elastomer (TPE) styrene-ethylene-butylene-styrene-g-maleic anhydride (SEBS-g-MA) copolymer using a micro compounder which used melt recirculation approach for efficient dispersion of SEBS-g-MA in PLA. The SEBS-g-MA volume fraction (Φd) was varied between 0.07 and 0.48. Dynamic mechanical analysis showed 10.4 °C decrease in glass transition temperature at Φd = 0.48. Differential scanning calorimetry results exhibited shift in cold crystallization temperature to a higher temperature in the presence of SEBS-g-MA. Thermogravimetric analys",
+    "rerank_score": 2,
+    "rerank_has_answer": true,
+    "rerank_rationale": "Directly reports a decrease in glass transition temperature for a PLA/elastomer blend."
+  },
+  {
+    "rank": 26,
+    "score": 0.0137,
+    "source": "101007_s10965-019-1999-7_段15-17.txt",
+    "filename": "101007_s10965-019-1999-7_段15-17.txt",
+    "topic": "Biodegradable Polymer Toughening with TPU",
+    "evidence": "gth [4, 5], but the application of PLA is limited by itself low toughness [6, 7]. Blending PLA with elastomers is an effective and convenient toughening method, and it has been widely applied [8,9,10]. Thermoplastic polyurethane (TPU) elastomer is a (AB)n-type block copolymer composing of diisocyanates as hard segment and polyester or polyether-based polyol as soft segment alternately [11]. TPU not only exhibits good biocompatibility and high flexibility but also possesses admirable shape memory property [12, 13]. In addition, the lower glass transition temperature and higher decomposition tem",
+    "rerank_score": 2,
+    "rerank_has_answer": true,
+    "rerank_rationale": "Directly states TPU elastomer has lower glass transition temperature and is used for toughening PLA."
+  },
+  {
+    "rank": 28,
+    "score": 0.0135,
+    "source": "101002_pat1672_段28-30.txt",
+    "filename": "101002_pat1672_段28-30.txt",
+    "topic": "Biodegradable Polymer Blend Fracture Toughness Enhancement",
+    "evidence": "tion of copolymer to PLLA/PBSL improved the fracture toughness of the blends as shown by mode I fracture energies. It was supported by morphological analysis where the brittle deformation behavior of PLLA changed to ductile deformation with the presence of elongated fibril structure in the blend with copolymer system. The glass transition temperature (Tg), melting temperature (Tm) of PLLA, and PBSL shift-closed together indicated that some compatibility exists in the blends. In short, PEO-PPO-PEO could be used as compatibilizer to improve the toughness and compatibility of the PLLA/PBSL blends",
+    "rerank_score": 2,
+    "rerank_has_answer": true,
+    "rerank_rationale": "Directly states copolymer improves fracture toughness and discusses glass transition temperature shift."
+  },
+  {
+    "rank": 36,
+    "score": 0.0128,
+    "source": "101021_ar500121d_段21-23.txt",
+    "filename": "101021_ar500121d_段21-23.txt",
+    "topic": "poly(menthide) triblock copolymer synthesis thermoplastic elastomer self-assembly",
+    "evidence": "er-based applications. Finding a temperature that allows for facile processing (i.e., above the ODT) but limits depolymerization, thermal degradation, and transesterification between blocks will be a key challenge going forward. Aliphatic polyester triblock copolymers with poly(lactide) end blocks, low glass transition temperature, and noncrystalline midblocks are attractive and practical alternatives to commodity block polymers based on poly(styrene) and poly(diene)s. The former are produced through melt polymerization of cyclic esters in a sequential addition manner under much less stringen",
+    "rerank_score": 2,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Mentions aliphatic polyester triblock copolymers with low glass transition temperature, related but lacks specific data on toughness or degradation."
+  },
+  {
+    "rank": 37,
+    "score": 0.0127,
+    "source": "101016_jeurpolymj201612035_段42-44.txt",
+    "filename": "101016_jeurpolymj201612035_段42-44.txt",
+    "topic": "Star-Shaped Polymer Drug Delivery Systems",
+    "evidence": "(d) adjustable degradation rate (to match the rate of tissue regeneration in vivo) [122], [123]. The microarchitecture of the device is also of importance as it influences the interconnection between the pores for cell proliferation. In addition, as scaffolds are subjected to remain in intimate contact with the cells for prolonged periods, the influence of the polymeric materials on viability, growth, and function of the attached or adjacent cells is of crucial importance [124], [125]. Different biodegradable polymers, including linear PLA, polylactide, polyglycolide and PLG have been employe",
+    "rerank_score": 2,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Discusses adjustable degradation rate for scaffolds and mentions biodegradable polymers, partially relevant."
+  },
+  {
+    "rank": 42,
+    "score": 0.0123,
+    "source": "101002_mame202100698_段65-67.txt",
+    "filename": "101002_mame202100698_段65-67.txt",
+    "topic": "Biodegradable Polymers, PLLA Properties, Material Limitations",
+    "evidence": "achieve highly crystallized PLLA products using common melt-processing technologies owing to its slow crystallization rate (the heat distortion temperature for amorphous PLLA is usually as low as 50-60 °C, near its glass transition temperature (Tg)[3]). Therefore, it is urgent to improve the fracture toughness and crystallization rate of PLLA simultaneously to compete with many commodity plastics (e.g., polypropylene (PP)) in multifarious applications. Melt-blending with some elastomers has been developed as the most robust and economic strategies to improve the toughness of PLLA. However, a",
+    "rerank_score": 2,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Discusses improving fracture toughness and crystallization rate of PLLA, mentioning its glass transition temperature, partially relevant."
+  },
+  {
+    "rank": 1,
+    "score": 0.0164,
+    "source": "101021_acsabm4c01871_段2-4.txt",
+    "filename": "101021_acsabm4c01871_段2-4.txt",
+    "topic": "Mesoporous Bioactive Glass Nanoparticles for Tissue Engineering",
+    "evidence": "been fully elucidated, particularly with respect to cytotoxicity, degradation behavior, biocompatibility, and structural integrity. In this context, biodegradable polymers are increasingly explored as matrices for bioactive scaffolds. The copolymer poly(propylene succinate-co-glycerol succinate) (PPSG), synthesized via an enzymatic route, has emerged as an innovative alternative due to its high hydrophilicity, biodegradability, and tunable mechanical properties. (18,19) These features make PPSG particularly promising for soft tissue applications, surpassing the limitations of widely used poly",
+    "rerank_score": 1,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Discusses biodegradable copolymer properties but does not address dynamic covalent networks, Tg, toughness, or specific degradation rates."
+  }
+]

@@ -1,0 +1,101 @@
+{
+  "rendered": true,
+  "renderer": "rdkit_dictionary_smiles",
+  "image_path": "Mech._Therm._Deg._BEAVER_output\\idea1_Rigid-Tough_Block_Copolymer\\figures\\idea1_Rigid-Tough_Block_Copolymer_repeat_unit.png",
+  "spec_path": "Mech._Therm._Deg._BEAVER_output\\idea1_Rigid-Tough_Block_Copolymer\\figures\\idea1_Rigid-Tough_Block_Copolymer_repeat_unit_spec.json",
+  "spec": {
+    "should_draw": true,
+    "confidence": "high",
+    "polymer_name": "PLLA-b-PTMC-b-PLLA",
+    "architecture": "block copolymer",
+    "repeat_units": [
+      {
+        "extracted_name": "PLLA-b-PTMC-b-PLLA",
+        "label": "PLLA-b-PTMC-b-PLLA",
+        "role": "main polymer-level structure",
+        "lookup_candidates": [
+          "PLLA-b-PTMC-b-PLLA",
+          "PLLA",
+          "PTMC"
+        ],
+        "selected_lookup_candidate": "PLLA-b-PTMC-b-PLLA",
+        "canonical_name": "Poly(L-lactic acid)(PLLA)",
+        "database_name": "Poly(L-lactic acid)(PLLA)",
+        "mapped_smiles": "O=C([C@H](C)O[*])O[C@@H](C)C([*])=O",
+        "smiles": "O=C([C@H](C)O[*])O[C@@H](C)C([*])=O",
+        "rdkit_valid": true,
+        "rdkit_validation": {
+          "input_smiles": "O=C([C@H](C)O[*])O[C@@H](C)C([*])=O",
+          "rdkit_available": true,
+          "valid": true,
+          "canonical_smiles": "*O[C@@H](C)C(=O)O[C@@H](C)C(*)=O",
+          "error": ""
+        },
+        "name_resolution": {
+          "alias_status": {
+            "status": "matched",
+            "match_method": "alias_exact",
+            "matched_key": "plla",
+            "matched_variant": "PLLA",
+            "score": 1.0
+          },
+          "smiles_status": {
+            "status": "matched",
+            "match_method": "smiles_exact",
+            "matched_key": "poly(l-lactic acid)(plla)",
+            "score": 1.0
+          },
+          "candidate_trials": [
+            {
+              "candidate": "PLLA-b-PTMC-b-PLLA",
+              "canonical_name": "Poly(L-lactic acid)(PLLA)",
+              "database_name": "Poly(L-lactic acid)(PLLA)",
+              "mapped_smiles": "O=C([C@H](C)O[*])O[C@@H](C)C([*])=O",
+              "rdkit_valid": true,
+              "alias_status": {
+                "status": "matched",
+                "match_method": "alias_exact",
+                "matched_key": "plla",
+                "matched_variant": "PLLA",
+                "score": 1.0
+              },
+              "smiles_status": {
+                "status": "matched",
+                "match_method": "smiles_exact",
+                "matched_key": "poly(l-lactic acid)(plla)",
+                "score": 1.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "O=C([C@H](C)O[*])O[C@@H](C)C([*])=O",
+                "rdkit_available": true,
+                "valid": true,
+                "canonical_smiles": "*O[C@@H](C)C(=O)O[C@@H](C)C(*)=O",
+                "error": ""
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "functional_groups": [],
+    "composition_note": "ABA triblock with variable PLLA:PTMC ratio",
+    "non_polymer_components": [],
+    "caption": "Representative polymer-structure schematic of the PLLA-b-PTMC-b-PLLA block copolymer with rigid poly(L-lactide) blocks and tough poly(trimethylene carbonate) blocks.",
+    "polymer_level_priority_used": true,
+    "name_mapping": {
+      "name_name_dict_path": "resources\\Polymer-关键词",
+      "alias_source_type": "keyword_txt_folder",
+      "name_smiles_csv_path": "resources\\字典-使用-只含聚合物.csv",
+      "alias_entries": 13653,
+      "smiles_entries": 509,
+      "allow_fuzzy": false,
+      "fuzzy_cutoff": 0.92,
+      "rdkit_available": true,
+      "valid_smiles_count": 1,
+      "total_units": 1,
+      "generic_name_guard": true,
+      "keyword_folder_match_required": true,
+      "polymer_level_priority_used": true
+    }
+  }
+}

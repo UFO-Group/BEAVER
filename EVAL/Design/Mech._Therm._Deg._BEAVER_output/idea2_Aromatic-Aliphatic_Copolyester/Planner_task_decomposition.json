@@ -1,0 +1,38 @@
+{
+  "query_structure": "single_with_facets",
+  "steps": [
+    {
+      "id": "step1",
+      "type": "search_papers",
+      "description": "Retrieve evidence on aromatic-aliphatic copolyesters for simultaneous Tg enhancement, toughness preservation, and controlled degradation",
+      "inputs": {
+        "query": "Design a biodegradable copolymer that simultaneously increases Tg, preserves toughness, and maintains a clinically acceptable degradation rate using aromatic-aliphatic copolyester",
+        "top_k": 15,
+        "query_policy": "preserve_original",
+        "query_rewrite_mode": "none"
+      }
+    },
+    {
+      "id": "step2",
+      "type": "search_papers",
+      "description": "Supplementary search focusing on degradation kinetics of aromatic-aliphatic copolyesters in clinical contexts",
+      "inputs": {
+        "query": "degradation rate kinetics of aromatic-aliphatic copolyesters in clinical applications",
+        "top_k": 15,
+        "query_policy": "supplementary_facet",
+        "query_rewrite_mode": "domain_append"
+      }
+    },
+    {
+      "id": "step3",
+      "type": "reason_over_evidence",
+      "description": "Synthesize evidence to verify feasibility and innovation, emphasizing degradation regulation as primary and mechanical/thermal as secondary",
+      "inputs": {
+        "use_steps": [
+          "step1",
+          "step2"
+        ]
+      }
+    }
+  ]
+}

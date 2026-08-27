@@ -1,0 +1,207 @@
+{
+  "rendered": true,
+  "renderer": "rdkit_dictionary_smiles",
+  "image_path": "Mech._Therm._Deg._BEAVER_output\\idea1_Rigid-Tough_Block_Copolymer\\repeat_unit_test\\figures\\docx_test_idea1_Rigid-Tough_Block_Copolymer_repeat_unit.png",
+  "spec_path": "Mech._Therm._Deg._BEAVER_output\\idea1_Rigid-Tough_Block_Copolymer\\repeat_unit_test\\figures\\docx_test_idea1_Rigid-Tough_Block_Copolymer_repeat_unit_spec.json",
+  "spec": {
+    "should_draw": true,
+    "confidence": "high",
+    "polymer_name": "PLLA-b-PTMC-b-PLLA",
+    "architecture": "block copolymer",
+    "repeat_units": [
+      {
+        "extracted_name": "PLLA",
+        "label": "PLLA segment",
+        "role": "block copolymer segment",
+        "inferred_from_failed_overall_name": "PLLA-b-PTMC-b-PLLA",
+        "lookup_candidates": [
+          "PLLA",
+          "PLLA segment"
+        ],
+        "selected_lookup_candidate": "PLLA",
+        "canonical_name": "Poly(L-lactic acid)(PLLA)",
+        "database_name": "Poly(L-lactic acid)(PLLA)",
+        "mapped_smiles": "O=C([C@H](C)O[*])O[C@@H](C)C([*])=O",
+        "smiles": "O=C([C@H](C)O[*])O[C@@H](C)C([*])=O",
+        "rdkit_valid": true,
+        "rdkit_validation": {
+          "input_smiles": "O=C([C@H](C)O[*])O[C@@H](C)C([*])=O",
+          "rdkit_available": true,
+          "valid": true,
+          "canonical_smiles": "*O[C@@H](C)C(=O)O[C@@H](C)C(*)=O",
+          "error": ""
+        },
+        "name_resolution": {
+          "alias_status": {
+            "status": "matched",
+            "match_method": "alias_exact",
+            "matched_key": "plla",
+            "matched_variant": "PLLA",
+            "score": 1.0
+          },
+          "smiles_status": {
+            "status": "matched",
+            "match_method": "smiles_exact",
+            "matched_key": "poly(l-lactic acid)(plla)",
+            "score": 1.0
+          },
+          "candidate_trials": [
+            {
+              "candidate": "PLLA",
+              "canonical_name": "Poly(L-lactic acid)(PLLA)",
+              "database_name": "Poly(L-lactic acid)(PLLA)",
+              "mapped_smiles": "O=C([C@H](C)O[*])O[C@@H](C)C([*])=O",
+              "rdkit_valid": true,
+              "alias_status": {
+                "status": "matched",
+                "match_method": "alias_exact",
+                "matched_key": "plla",
+                "matched_variant": "PLLA",
+                "score": 1.0
+              },
+              "smiles_status": {
+                "status": "matched",
+                "match_method": "smiles_exact",
+                "matched_key": "poly(l-lactic acid)(plla)",
+                "score": 1.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "O=C([C@H](C)O[*])O[C@@H](C)C([*])=O",
+                "rdkit_available": true,
+                "valid": true,
+                "canonical_smiles": "*O[C@@H](C)C(=O)O[C@@H](C)C(*)=O",
+                "error": ""
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extracted_name": "PTMC",
+        "label": "PTMC segment",
+        "role": "block copolymer segment",
+        "inferred_from_failed_overall_name": "PLLA-b-PTMC-b-PLLA",
+        "lookup_candidates": [
+          "PTMC",
+          "PTMC segment"
+        ],
+        "selected_lookup_candidate": "PTMC",
+        "canonical_name": "PTMC",
+        "database_name": "PTMC",
+        "mapped_smiles": "[*]C(OCCCO[*])=O",
+        "smiles": "[*]C(OCCCO[*])=O",
+        "rdkit_valid": true,
+        "rdkit_validation": {
+          "input_smiles": "[*]C(OCCCO[*])=O",
+          "rdkit_available": true,
+          "valid": true,
+          "canonical_smiles": "*OCCCOC(*)=O",
+          "error": ""
+        },
+        "name_resolution": {
+          "alias_status": {
+            "status": "matched",
+            "match_method": "alias_exact",
+            "matched_key": "ptmc",
+            "matched_variant": "PTMC",
+            "score": 1.0
+          },
+          "smiles_status": {
+            "status": "matched",
+            "match_method": "smiles_exact",
+            "matched_key": "ptmc",
+            "score": 1.0
+          },
+          "candidate_trials": [
+            {
+              "candidate": "PTMC",
+              "canonical_name": "PTMC",
+              "database_name": "PTMC",
+              "mapped_smiles": "[*]C(OCCCO[*])=O",
+              "rdkit_valid": true,
+              "alias_status": {
+                "status": "matched",
+                "match_method": "alias_exact",
+                "matched_key": "ptmc",
+                "matched_variant": "PTMC",
+                "score": 1.0
+              },
+              "smiles_status": {
+                "status": "matched",
+                "match_method": "smiles_exact",
+                "matched_key": "ptmc",
+                "score": 1.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "[*]C(OCCCO[*])=O",
+                "rdkit_available": true,
+                "valid": true,
+                "canonical_smiles": "*OCCCOC(*)=O",
+                "error": ""
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "functional_groups": [],
+    "composition_note": "ABA triblock, PLLA:PTMC ratio variable",
+    "non_polymer_components": [],
+    "caption": "Representative polymer-structure schematic of the PLLA-b-PTMC-b-PLLA block copolymer with rigid poly(L-lactide) blocks and tough poly(trimethylene carbonate) blocks.",
+    "architecture_unit_inference_used": true,
+    "split_after_failed_overall_lookup": true,
+    "polymer_level_priority_used": false,
+    "polymer_level_priority_skipped": true,
+    "name_mapping": {
+      "name_name_dict_path": "resources\\Polymer-关键词",
+      "alias_source_type": "keyword_txt_folder",
+      "name_smiles_csv_path": "resources\\字典-使用-只含聚合物.csv",
+      "alias_entries": 13650,
+      "smiles_entries": 509,
+      "allow_fuzzy": false,
+      "fuzzy_cutoff": 0.92,
+      "rdkit_available": true,
+      "valid_smiles_count": 2,
+      "total_units": 2,
+      "generic_name_guard": true,
+      "keyword_folder_match_required": true,
+      "polymer_level_priority_used": false,
+      "polymer_level_priority_skipped": true,
+      "prefer_overall_polymer_if_available": true,
+      "force_segment_level_schematic": false,
+      "overall_polymer_priority_attempted": true,
+      "overall_polymer_priority_blocked_reason": "overall_polymer_name_not_resolved_to_valid_dictionary_smiles",
+      "overall_polymer_trials": [
+        {
+          "candidate": "PLLA-b-PTMC-b-PLLA",
+          "canonical_name": "PLLA-b-PTMC-b-PLLA",
+          "database_name": "PLLA-b-PTMC-b-PLLA",
+          "mapped_smiles": "",
+          "rdkit_valid": false,
+          "alias_status": {
+            "status": "full_alias_not_found",
+            "match_method": "strict_alias_exact",
+            "matched_variant": "PLLA-b-PTMC-b-PLLA",
+            "score": 0.0
+          },
+          "smiles_status": {
+            "status": "skipped_no_strict_full_name_alias_match",
+            "match_method": "none",
+            "score": 0.0
+          },
+          "rdkit_validation": {
+            "input_smiles": "",
+            "rdkit_available": true,
+            "valid": false,
+            "canonical_smiles": "",
+            "error": "empty_smiles"
+          },
+          "strict_full_name_match": true
+        }
+      ],
+      "architecture_requires_multiple_units": true,
+      "independent_multi_component": false,
+      "split_after_failed_overall_lookup": true
+    }
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "rendered": true,
+  "renderer": "rdkit_dictionary_smiles",
+  "image_path": "Mech._Therm._Deg._BEAVER_output\\idea3_Dynamic_Covalent_Network_Elast\\repeat_unit_test\\figures\\docx_test_idea3_Dynamic_Covalent_Network_Elast_repeat_unit.png",
+  "spec_path": "Mech._Therm._Deg._BEAVER_output\\idea3_Dynamic_Covalent_Network_Elast\\repeat_unit_test\\figures\\docx_test_idea3_Dynamic_Covalent_Network_Elast_repeat_unit_spec.json",
+  "spec": {
+    "should_draw": true,
+    "confidence": "high",
+    "polymer_name": "star-PEG-PLA",
+    "architecture": "network",
+    "repeat_units": [
+      {
+        "extracted_name": "PEG",
+        "label": "PEG segment",
+        "role": "polymeric segment",
+        "inferred_from_failed_overall_name": "PEG-PLA",
+        "lookup_candidates": [
+          "PEG",
+          "PEG segment",
+          "star-PEG-PLA",
+          "PLA"
+        ],
+        "selected_lookup_candidate": "PEG",
+        "canonical_name": "Polyethylene_glycol(PEG)",
+        "database_name": "Polyethylene_glycol(PEG)",
+        "mapped_smiles": "[*]OCC[*]",
+        "smiles": "[*]OCC[*]",
+        "rdkit_valid": true,
+        "rdkit_validation": {
+          "input_smiles": "[*]OCC[*]",
+          "rdkit_available": true,
+          "valid": true,
+          "canonical_smiles": "*CCO*",
+          "error": ""
+        },
+        "name_resolution": {
+          "alias_status": {
+            "status": "matched",
+            "match_method": "alias_exact",
+            "matched_key": "peg",
+            "matched_variant": "PEG",
+            "score": 1.0
+          },
+          "smiles_status": {
+            "status": "matched",
+            "match_method": "smiles_exact",
+            "matched_key": "polyethylene_glycol(peg)",
+            "score": 1.0
+          },
+          "candidate_trials": [
+            {
+              "candidate": "PEG",
+              "canonical_name": "Polyethylene_glycol(PEG)",
+              "database_name": "Polyethylene_glycol(PEG)",
+              "mapped_smiles": "[*]OCC[*]",
+              "rdkit_valid": true,
+              "alias_status": {
+                "status": "matched",
+                "match_method": "alias_exact",
+                "matched_key": "peg",
+                "matched_variant": "PEG",
+                "score": 1.0
+              },
+              "smiles_status": {
+                "status": "matched",
+                "match_method": "smiles_exact",
+                "matched_key": "polyethylene_glycol(peg)",
+                "score": 1.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "[*]OCC[*]",
+                "rdkit_available": true,
+                "valid": true,
+                "canonical_smiles": "*CCO*",
+                "error": ""
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extracted_name": "PLA",
+        "label": "PLA segment",
+        "role": "polymeric segment",
+        "inferred_from_failed_overall_name": "PEG-PLA",
+        "lookup_candidates": [
+          "PLA",
+          "PLA segment",
+          "star-PEG-PLA",
+          "PEG"
+        ],
+        "selected_lookup_candidate": "PLA",
+        "canonical_name": "Polylactic_Acid(PLA)",
+        "database_name": "Polylactic_Acid(PLA)",
+        "mapped_smiles": "O=C([*])C(C)O[*]",
+        "smiles": "O=C([*])C(C)O[*]",
+        "rdkit_valid": true,
+        "rdkit_validation": {
+          "input_smiles": "O=C([*])C(C)O[*]",
+          "rdkit_available": true,
+          "valid": true,
+          "canonical_smiles": "*OC(C)C(*)=O",
+          "error": ""
+        },
+        "name_resolution": {
+          "alias_status": {
+            "status": "matched",
+            "match_method": "alias_exact",
+            "matched_key": "pla",
+            "matched_variant": "PLA",
+            "score": 1.0
+          },
+          "smiles_status": {
+            "status": "matched",
+            "match_method": "smiles_exact",
+            "matched_key": "polylactic_acid(pla)",
+            "score": 1.0
+          },
+          "candidate_trials": [
+            {
+              "candidate": "PLA",
+              "canonical_name": "Polylactic_Acid(PLA)",
+              "database_name": "Polylactic_Acid(PLA)",
+              "mapped_smiles": "O=C([*])C(C)O[*]",
+              "rdkit_valid": true,
+              "alias_status": {
+                "status": "matched",
+                "match_method": "alias_exact",
+                "matched_key": "pla",
+                "matched_variant": "PLA",
+                "score": 1.0
+              },
+              "smiles_status": {
+                "status": "matched",
+                "match_method": "smiles_exact",
+                "matched_key": "polylactic_acid(pla)",
+                "score": 1.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "O=C([*])C(C)O[*]",
+                "rdkit_available": true,
+                "valid": true,
+                "canonical_smiles": "*OC(C)C(*)=O",
+                "error": ""
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "functional_groups": [
+      {
+        "name": "imine",
+        "role": "dynamic covalent linkage"
+      },
+      {
+        "name": "urea",
+        "role": "dynamic covalent linkage"
+      }
+    ],
+    "composition_note": "PLA:PEG ratio TBD",
+    "non_polymer_components": [],
+    "caption": "Representative polymer-structure schematic of a star-shaped PEG-PLA block copolymer crosslinked via dynamic covalent bonds (imine or urea) forming a network.",
+    "split_after_failed_unit_lookup": true,
+    "split_after_failed_overall_lookup": true,
+    "polymer_level_priority_used": false,
+    "polymer_level_priority_skipped": true,
+    "name_mapping": {
+      "name_name_dict_path": "resources\\Polymer-关键词",
+      "alias_source_type": "keyword_txt_folder",
+      "name_smiles_csv_path": "resources\\字典-使用-只含聚合物.csv",
+      "alias_entries": 13650,
+      "smiles_entries": 509,
+      "allow_fuzzy": false,
+      "fuzzy_cutoff": 0.92,
+      "rdkit_available": true,
+      "valid_smiles_count": 2,
+      "total_units": 2,
+      "generic_name_guard": true,
+      "keyword_folder_match_required": true,
+      "polymer_level_priority_used": false,
+      "polymer_level_priority_skipped": true,
+      "prefer_overall_polymer_if_available": true,
+      "force_segment_level_schematic": false,
+      "overall_polymer_priority_attempted": true,
+      "overall_polymer_priority_blocked_reason": "overall_polymer_name_not_resolved_to_valid_dictionary_smiles",
+      "overall_polymer_trials": [
+        {
+          "candidate": "star-PEG-PLA",
+          "canonical_name": "star-PEG-PLA",
+          "database_name": "star-PEG-PLA",
+          "mapped_smiles": "",
+          "rdkit_valid": false,
+          "alias_status": {
+            "status": "full_alias_not_found",
+            "match_method": "strict_alias_exact",
+            "matched_variant": "star-PEG-PLA",
+            "score": 0.0
+          },
+          "smiles_status": {
+            "status": "skipped_no_strict_full_name_alias_match",
+            "match_method": "none",
+            "score": 0.0
+          },
+          "rdkit_validation": {
+            "input_smiles": "",
+            "rdkit_available": true,
+            "valid": false,
+            "canonical_smiles": "",
+            "error": "empty_smiles"
+          },
+          "strict_full_name_match": true
+        }
+      ],
+      "architecture_requires_multiple_units": false,
+      "independent_multi_component": false,
+      "split_after_failed_overall_lookup": true
+    }
+  }
+}

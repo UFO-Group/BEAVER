@@ -1,0 +1,50 @@
+{
+  "primary_category": "degradation_regulation",
+  "primary_display_name": "降解行为与结构调控",
+  "secondary_categories": [
+    "mechanical_design",
+    "thermal_design"
+  ],
+  "secondary_display_names": [
+    "力学性能设计",
+    "热学性能设计"
+  ],
+  "mode": "hybrid",
+  "score_breakdown": {
+    "mechanical_design": 42,
+    "thermal_design": 42,
+    "degradation_regulation": 59
+  },
+  "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 降解行为与结构调控=59 | 力学性能设计=42 | 热学性能设计=42",
+  "active_categories": [
+    "degradation_regulation",
+    "mechanical_design",
+    "thermal_design"
+  ],
+  "active_display_names": [
+    "降解行为与结构调控",
+    "力学性能设计",
+    "热学性能设计"
+  ],
+  "extra_searches": [
+    {
+      "name": "thermal_mechanical_tradeoff",
+      "description": "Search trade-off evidence linking Tg/crystallinity/processing window to modulus/toughness/ductility.",
+      "query": "Design a biodegradable copolymer that simultaneously increases $T_g$, preserves toughness, and maintains a clinically acceptable degradation rate. Dynamic Covalent Network Elastomer biodegradable polymer Tg toughness modulus ductility crystallinity trade-off processing window",
+      "top_k": 15
+    },
+    {
+      "name": "degradation_mechanical_retention",
+      "description": "Search evidence on mechanical retention during hydrolytic degradation / wet-state support.",
+      "query": "Design a biodegradable copolymer that simultaneously increases $T_g$, preserves toughness, and maintains a clinically acceptable degradation rate. Dynamic Covalent Network Elastomer biodegradable polymer mechanical retention during hydrolytic degradation wet-state support strength retention",
+      "top_k": 15
+    },
+    {
+      "name": "thermal_degradation_coupling",
+      "description": "Search coupling among Tg/crystallinity/water uptake/hydrolysis/degradation.",
+      "query": "Design a biodegradable copolymer that simultaneously increases $T_g$, preserves toughness, and maintains a clinically acceptable degradation rate. Dynamic Covalent Network Elastomer biodegradable polymer crystallinity Tg water uptake hydrolysis degradation coupling",
+      "top_k": 15
+    }
+  ],
+  "max_total_search_steps": 4
+}
