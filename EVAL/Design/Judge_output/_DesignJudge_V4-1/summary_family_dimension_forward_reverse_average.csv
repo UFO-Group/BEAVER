@@ -1,0 +1,16 @@
+﻿Setting,Family,Chemical_Feasibility,Scientific_Rigor,Mechanistic_Coherence,Property_Constraint_and_Tradeoff_Handling,Design_Completeness,Risk_and_Uncertainty_Awareness,Design_Innovation_and_Exploration,Overall
+Forward,BEAVER,7.375,7.375,7.125,6.917,8.083,7.75,6.417,7.28
+Forward,GPT5.5,8.042,7.292,7.792,7.667,7.667,6.417,5.917,7.393
+Forward,Gemini3.1-pro,7.792,7.375,7.875,7.625,7.5,6.75,7.167,7.504
+Forward,DeepSeek-V4-pro,8.0,8.0,8.208,7.958,8.0,7.5,8.208,7.994
+Forward,Qwen3.5-Plus,7.875,7.583,8.0,7.75,7.917,7.208,6.833,7.66
+Reverse,BEAVER,6.708,6.542,6.667,6.375,7.25,7.125,6.125,6.664
+Reverse,GPT5.5,7.458,6.875,7.25,7.125,7.25,6.208,5.833,6.958
+Reverse,Gemini3.1-pro,7.542,7.083,7.667,7.292,7.25,6.333,7.125,7.241
+Reverse,DeepSeek-V4-pro,7.917,7.75,8.083,7.708,7.708,7.042,7.625,7.731
+Reverse,Qwen3.5-Plus,8.292,7.708,8.25,7.875,7.917,7.042,7.042,7.816
+Forward-Reverse Average,BEAVER,7.042,6.958,6.896,6.646,7.667,7.438,6.271,6.972
+Forward-Reverse Average,GPT5.5,7.75,7.083,7.521,7.396,7.458,6.312,5.875,7.176
+Forward-Reverse Average,Gemini3.1-pro,7.667,7.229,7.771,7.458,7.375,6.542,7.146,7.373
+Forward-Reverse Average,DeepSeek-V4-pro,7.958,7.875,8.146,7.833,7.854,7.271,7.917,7.862
+Forward-Reverse Average,Qwen3.5-Plus,8.083,7.646,8.125,7.812,7.917,7.125,6.938,7.738

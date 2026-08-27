@@ -1,0 +1,61 @@
+﻿Setting,case_name,Family,Overall
+Forward,力学+热学,BEAVER,6.147
+Forward,力学+热学,GPT5.5,7.542
+Forward,力学+热学,Gemini3.1-pro,7.343
+Forward,力学+热学,DeepSeek-V4-pro,7.662
+Forward,力学+热学,Qwen3.5-Plus,8.068
+Forward,力学+热学+降解,BEAVER,8.388
+Forward,力学+热学+降解,GPT5.5,6.995
+Forward,力学+热学+降解,Gemini3.1-pro,8.075
+Forward,力学+热学+降解,DeepSeek-V4-pro,8.29
+Forward,力学+热学+降解,Qwen3.5-Plus,6.977
+Forward,力学+降解,BEAVER,6.823
+Forward,力学+降解,GPT5.5,7.808
+Forward,力学+降解,Gemini3.1-pro,7.777
+Forward,力学+降解,DeepSeek-V4-pro,8.415
+Forward,力学+降解,Qwen3.5-Plus,8.063
+Forward,热学+降解,BEAVER,7.76
+Forward,热学+降解,GPT5.5,7.227
+Forward,热学+降解,Gemini3.1-pro,6.82
+Forward,热学+降解,DeepSeek-V4-pro,7.608
+Forward,热学+降解,Qwen3.5-Plus,7.53
+Reverse,力学+热学,BEAVER,5.86
+Reverse,力学+热学,GPT5.5,7.41
+Reverse,力学+热学,Gemini3.1-pro,7.227
+Reverse,力学+热学,DeepSeek-V4-pro,7.297
+Reverse,力学+热学,Qwen3.5-Plus,8.032
+Reverse,力学+热学+降解,BEAVER,7.437
+Reverse,力学+热学+降解,GPT5.5,6.21
+Reverse,力学+热学+降解,Gemini3.1-pro,7.393
+Reverse,力学+热学+降解,DeepSeek-V4-pro,7.647
+Reverse,力学+热学+降解,Qwen3.5-Plus,7.052
+Reverse,力学+降解,BEAVER,5.652
+Reverse,力学+降解,GPT5.5,6.697
+Reverse,力学+降解,Gemini3.1-pro,7.07
+Reverse,力学+降解,DeepSeek-V4-pro,8.21
+Reverse,力学+降解,Qwen3.5-Plus,8.342
+Reverse,热学+降解,BEAVER,7.708
+Reverse,热学+降解,GPT5.5,7.517
+Reverse,热学+降解,Gemini3.1-pro,7.275
+Reverse,热学+降解,DeepSeek-V4-pro,7.772
+Reverse,热学+降解,Qwen3.5-Plus,7.838
+Forward-Reverse Average,力学+热学,BEAVER,6.004
+Forward-Reverse Average,力学+热学,GPT5.5,7.476
+Forward-Reverse Average,力学+热学,Gemini3.1-pro,7.285
+Forward-Reverse Average,力学+热学,DeepSeek-V4-pro,7.479
+Forward-Reverse Average,力学+热学,Qwen3.5-Plus,8.05
+Forward-Reverse Average,力学+热学+降解,BEAVER,7.913
+Forward-Reverse Average,力学+热学+降解,GPT5.5,6.602
+Forward-Reverse Average,力学+热学+降解,Gemini3.1-pro,7.734
+Forward-Reverse Average,力学+热学+降解,DeepSeek-V4-pro,7.968
+Forward-Reverse Average,力学+热学+降解,Qwen3.5-Plus,7.014
+Forward-Reverse Average,力学+降解,BEAVER,6.237
+Forward-Reverse Average,力学+降解,GPT5.5,7.253
+Forward-Reverse Average,力学+降解,Gemini3.1-pro,7.424
+Forward-Reverse Average,力学+降解,DeepSeek-V4-pro,8.313
+Forward-Reverse Average,力学+降解,Qwen3.5-Plus,8.203
+Forward-Reverse Average,热学+降解,BEAVER,7.734
+Forward-Reverse Average,热学+降解,GPT5.5,7.372
+Forward-Reverse Average,热学+降解,Gemini3.1-pro,7.048
+Forward-Reverse Average,热学+降解,DeepSeek-V4-pro,7.69
+Forward-Reverse Average,热学+降解,Qwen3.5-Plus,7.685

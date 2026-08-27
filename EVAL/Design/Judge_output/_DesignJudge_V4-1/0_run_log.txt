@@ -1,0 +1,69 @@
+[2026-05-11 10:47:07] ================================================================================
+[2026-05-11 10:47:07] Start Design-mode 3-candidates-per-family LLM-as-a-Judge scoring
+[2026-05-11 10:47:07] ROOT_DIR = Judge_Input
+[2026-05-11 10:47:07] OUTPUT_DIR = Judge_output\_DesignJudge_V4-1
+[2026-05-11 10:47:07] Judge model = DeepSeek-V4-Pro
+[2026-05-11 10:47:07] Judge base_url = https://llmapi.paratera.com/v1
+[2026-05-11 10:47:07] Judge api_key_present = True
+[2026-05-11 10:47:07] MAX_CHARS_PER_CANDIDATE = 10000
+[2026-05-11 10:47:07] Ignored output keywords = ['grok']
+[2026-05-11 10:47:07] Metrics = ['Chemical_Feasibility', 'Scientific_Rigor', 'Mechanistic_Coherence', 'Property_Constraint_and_Tradeoff_Handling', 'Design_Completeness', 'Risk_and_Uncertainty_Awareness', 'Design_Innovation_and_Exploration']
+[2026-05-11 10:47:07] Weights = {'Chemical_Feasibility': 0.17, 'Scientific_Rigor': 0.15, 'Mechanistic_Coherence': 0.15, 'Property_Constraint_and_Tradeoff_Handling': 0.2, 'Design_Completeness': 0.13, 'Risk_and_Uncertainty_Awareness': 0.1, 'Design_Innovation_and_Exploration': 0.1}
+[2026-05-11 10:47:08] === Discovered cases ===
+[2026-05-11 10:47:08] case_01 | 力学+热学 | n_candidates=15 | ordered=['BEAVER_Paper_1', 'BEAVER_Paper_2', 'BEAVER_Paper_3', 'GPT5.5-1', 'GPT5.5-2', 'GPT5.5-3', 'Gemini3.1-pro-1', 'Gemini3.1-pro-2', 'Gemini3.1-pro-3', 'DeepSeek-V4-pro-1', 'DeepSeek-V4-pro-2', 'DeepSeek-V4-pro-3', 'Qwen3.5-Plus-1', 'Qwen3.5-Plus-2', 'Qwen3.5-Plus-3'] | extra=[] | request=Design a PLA-based copolymer that increases Tg while maintaining ductility for biodegradable packaging.
+[2026-05-11 10:47:08] case_02 | 力学+热学+降解 | n_candidates=15 | ordered=['BEAVER_Paper_1', 'BEAVER_Paper_2', 'BEAVER_Paper_3', 'GPT5.5-1', 'GPT5.5-2', 'GPT5.5-3', 'Gemini3.1-pro-1', 'Gemini3.1-pro-2', 'Gemini3.1-pro-3', 'DeepSeek-V4-pro-1', 'DeepSeek-V4-pro-2', 'DeepSeek-V4-pro-3', 'Qwen3.5-Plus-1', 'Qwen3.5-Plus-2', 'Qwen3.5-Plus-3'] | extra=[] | request=Design a biodegradable copolymer that simultaneously increases Tg, preserves toughness, and maintains a clinically acceptable degradation rate.
+[2026-05-11 10:47:08] case_03 | 力学+降解 | n_candidates=15 | ordered=['BEAVER_Paper_1', 'BEAVER_Paper_2', 'BEAVER_Paper_3', 'GPT5.5-1', 'GPT5.5-2', 'GPT5.5-3', 'Gemini3.1-pro-1', 'Gemini3.1-pro-2', 'Gemini3.1-pro-3', 'DeepSeek-V4-pro-1', 'DeepSeek-V4-pro-2', 'DeepSeek-V4-pro-3', 'Qwen3.5-Plus-1', 'Qwen3.5-Plus-2', 'Qwen3.5-Plus-3'] | extra=[] | request=Design a biodegradable implant polymer that provides high initial mechanical support while retaining strength during early-stage hydrolytic degradation.
+[2026-05-11 10:47:08] case_04 | 热学+降解 | n_candidates=15 | ordered=['BEAVER_Paper_1', 'BEAVER_Paper_2', 'BEAVER_Paper_3', 'GPT5.5-1', 'GPT5.5-2', 'GPT5.5-3', 'Gemini3.1-pro-1', 'Gemini3.1-pro-2', 'Gemini3.1-pro-3', 'DeepSeek-V4-pro-1', 'DeepSeek-V4-pro-2', 'DeepSeek-V4-pro-3', 'Qwen3.5-Plus-1', 'Qwen3.5-Plus-2', 'Qwen3.5-Plus-3'] | extra=[] | request=Design a biodegradable polyester with improved heat resistance but without excessively suppressing degradation kinetics.
+[2026-05-11 10:52:29] ✅ API成功 [DesignJudge::forward] case=case_01 model=DeepSeek-V4-Pro time=321.30s chars=11204 preview={   "Critique": "The candidates span a range of design strategies from simple random copolymers to sophisticated multiblock architectures. The strongest designs...
+[2026-05-11 10:52:56] ❌ API失败 [DesignJudge::forward] case=case_03 attempt=1/3 time=27.43s error=Connection error.
+[2026-05-11 10:52:56] ❌ API失败 [DesignJudge::forward] case=case_02 attempt=1/3 time=348.78s error=peer closed connection without sending complete message body (incomplete chunked read)
+[2026-05-11 10:53:35] ================================================================================
+[2026-05-11 10:53:35] Start Design-mode 3-candidates-per-family LLM-as-a-Judge scoring
+[2026-05-11 10:53:35] ROOT_DIR = Judge_Input
+[2026-05-11 10:53:35] OUTPUT_DIR = Judge_output\_DesignJudge_V4-1
+[2026-05-11 10:53:35] Judge model = DeepSeek-V4-Pro
+[2026-05-11 10:53:35] Judge base_url = https://llmapi.paratera.com/v1
+[2026-05-11 10:53:35] Judge api_key_present = True
+[2026-05-11 10:53:35] MAX_CHARS_PER_CANDIDATE = 10000
+[2026-05-11 10:53:35] Ignored output keywords = ['grok']
+[2026-05-11 10:53:35] Metrics = ['Chemical_Feasibility', 'Scientific_Rigor', 'Mechanistic_Coherence', 'Property_Constraint_and_Tradeoff_Handling', 'Design_Completeness', 'Risk_and_Uncertainty_Awareness', 'Design_Innovation_and_Exploration']
+[2026-05-11 10:53:35] Weights = {'Chemical_Feasibility': 0.17, 'Scientific_Rigor': 0.15, 'Mechanistic_Coherence': 0.15, 'Property_Constraint_and_Tradeoff_Handling': 0.2, 'Design_Completeness': 0.13, 'Risk_and_Uncertainty_Awareness': 0.1, 'Design_Innovation_and_Exploration': 0.1}
+[2026-05-11 10:53:35] === Discovered cases ===
+[2026-05-11 10:53:35] case_01 | 力学+热学 | n_candidates=15 | ordered=['BEAVER_Paper_1', 'BEAVER_Paper_2', 'BEAVER_Paper_3', 'GPT5.5-1', 'GPT5.5-2', 'GPT5.5-3', 'Gemini3.1-pro-1', 'Gemini3.1-pro-2', 'Gemini3.1-pro-3', 'DeepSeek-V4-pro-1', 'DeepSeek-V4-pro-2', 'DeepSeek-V4-pro-3', 'Qwen3.5-Plus-1', 'Qwen3.5-Plus-2', 'Qwen3.5-Plus-3'] | extra=[] | request=Design a PLA-based copolymer that increases Tg while maintaining ductility for biodegradable packaging.
+[2026-05-11 10:53:35] case_02 | 力学+热学+降解 | n_candidates=15 | ordered=['BEAVER_Paper_1', 'BEAVER_Paper_2', 'BEAVER_Paper_3', 'GPT5.5-1', 'GPT5.5-2', 'GPT5.5-3', 'Gemini3.1-pro-1', 'Gemini3.1-pro-2', 'Gemini3.1-pro-3', 'DeepSeek-V4-pro-1', 'DeepSeek-V4-pro-2', 'DeepSeek-V4-pro-3', 'Qwen3.5-Plus-1', 'Qwen3.5-Plus-2', 'Qwen3.5-Plus-3'] | extra=[] | request=Design a biodegradable copolymer that simultaneously increases Tg, preserves toughness, and maintains a clinically acceptable degradation rate.
+[2026-05-11 10:53:35] case_03 | 力学+降解 | n_candidates=15 | ordered=['BEAVER_Paper_1', 'BEAVER_Paper_2', 'BEAVER_Paper_3', 'GPT5.5-1', 'GPT5.5-2', 'GPT5.5-3', 'Gemini3.1-pro-1', 'Gemini3.1-pro-2', 'Gemini3.1-pro-3', 'DeepSeek-V4-pro-1', 'DeepSeek-V4-pro-2', 'DeepSeek-V4-pro-3', 'Qwen3.5-Plus-1', 'Qwen3.5-Plus-2', 'Qwen3.5-Plus-3'] | extra=[] | request=Design a biodegradable implant polymer that provides high initial mechanical support while retaining strength during early-stage hydrolytic degradation.
+[2026-05-11 10:53:35] case_04 | 热学+降解 | n_candidates=15 | ordered=['BEAVER_Paper_1', 'BEAVER_Paper_2', 'BEAVER_Paper_3', 'GPT5.5-1', 'GPT5.5-2', 'GPT5.5-3', 'Gemini3.1-pro-1', 'Gemini3.1-pro-2', 'Gemini3.1-pro-3', 'DeepSeek-V4-pro-1', 'DeepSeek-V4-pro-2', 'DeepSeek-V4-pro-3', 'Qwen3.5-Plus-1', 'Qwen3.5-Plus-2', 'Qwen3.5-Plus-3'] | extra=[] | request=Design a biodegradable polyester with improved heat resistance but without excessively suppressing degradation kinetics.
+[2026-05-11 11:00:36] ✅ API成功 [DesignJudge::forward] case=case_02 model=DeepSeek-V4-Pro time=421.36s chars=10171 preview={   "Critique": "The candidates span a wide range of design philosophies, from well-established block copolymer strategies to more innovative dynamic covalent n...
+[2026-05-11 11:01:04] ✅ API成功 [DesignJudge::forward] case=case_01 model=DeepSeek-V4-Pro time=448.45s chars=11192 preview={   "Critique": "The candidates span a wide range of design strategies, from simple random copolymers to sophisticated multiblock architectures. The strongest p...
+[2026-05-11 11:01:04] 💾 Saved forward scores: 2/4 latest_ok=True
+[2026-05-11 11:05:47] ✅ API成功 [DesignJudge::forward] case=case_03 model=DeepSeek-V4-Pro time=310.21s chars=10256 preview={   "Critique": "The candidates span a range of design strategies from block copolymers with mineral buffers to stereocomplexed nanocomposites and segmented pol...
+[2026-05-11 11:06:20] ✅ API成功 [DesignJudge::forward] case=case_04 model=DeepSeek-V4-Pro time=316.81s chars=9125 preview={   "Critique": "The candidates span a range of design strategies from aromatic-aliphatic copolymers to sterically hindered monomers, hydrolyzable crosslinks, a...
+[2026-05-11 11:06:20] 💾 Saved forward scores: 4/4 latest_ok=True
+[2026-05-11 11:12:18] ✅ API成功 [DesignJudge::reverse] case=case_01 model=DeepSeek-V4-Pro time=357.97s chars=10113 preview={   "Critique": "The candidates span a range from chemically concrete multiblock designs to more speculative or generic proposals. The strongest designs (e.g., ...
+[2026-05-11 11:12:48] ✅ API成功 [DesignJudge::reverse] case=case_02 model=DeepSeek-V4-Pro time=387.86s chars=15275 preview={   "Critique": "The candidates span a range from well-defined segmented block copolymers to more exploratory dynamic covalent networks and aromatic-aliphatic c...
+[2026-05-11 11:12:48] 💾 Saved reverse scores: 2/4 latest_ok=True
+[2026-05-11 11:17:12] ✅ API成功 [DesignJudge::reverse] case=case_03 model=DeepSeek-V4-Pro time=293.29s chars=10641 preview={   "Critique": "The candidates span a range from chemically detailed, mechanism-rich designs (e.g., Qwen3.5-Plus-3, DeepSeek-V4-pro-3) to more generic or liter...
+[2026-05-11 11:18:12] ✅ API成功 [DesignJudge::reverse] case=case_04 model=DeepSeek-V4-Pro time=323.25s chars=11836 preview={   "Critique": "The candidates span a range of design strategies from random copolyesters to block copolymers, crosslinked networks, and sterically hindered mo...
+[2026-05-11 11:18:12] 💾 Saved reverse scores: 4/4 latest_ok=True
+[2026-05-11 11:18:14] 📊 heatmap saved: Judge_output\_DesignJudge_V4-1\9_metric_heatmap_by_candidate.png
+[2026-05-11 11:18:15] 📊 heatmap saved: Judge_output\_DesignJudge_V4-1\10_metric_heatmap_by_family_mean.png
+[2026-05-11 11:18:16] 📊 overall plot saved: Judge_output\_DesignJudge_V4-1\11_overall_bar_by_candidate.png
+[2026-05-11 11:18:17] 📊 overall plot saved: Judge_output\_DesignJudge_V4-1\12_overall_bar_by_family_mean.png
+[2026-05-11 11:18:17] ✅ discovered cases saved: Judge_output\_DesignJudge_V4-1\0_discovered_cases.csv
+[2026-05-11 11:18:17] ✅ raw outputs saved: Judge_output\_DesignJudge_V4-1\1_raw_design_outputs.csv
+[2026-05-11 11:18:17] ✅ forward scores saved: Judge_output\_DesignJudge_V4-1\2_item_scores_forward.csv
+[2026-05-11 11:18:17] ✅ reverse scores saved: Judge_output\_DesignJudge_V4-1\2_item_scores_reverse.csv
+[2026-05-11 11:18:17] ✅ average per-candidate scores saved: Judge_output\_DesignJudge_V4-1\3_item_scores_average_per_candidate.csv
+[2026-05-11 11:18:17] ✅ final by candidate saved: Judge_output\_DesignJudge_V4-1\4_final_scores_by_candidate.csv
+[2026-05-11 11:18:17] ✅ final by family mean saved: Judge_output\_DesignJudge_V4-1\5_final_scores_by_family_mean.csv
+[2026-05-11 11:18:17] ✅ final by family best saved: Judge_output\_DesignJudge_V4-1\6_final_scores_by_family_best.csv
+[2026-05-11 11:18:17] ✅ family similarity/exploration saved: Judge_output\_DesignJudge_V4-1\14_family_similarity_and_exploration.csv
+[2026-05-11 11:18:17] ✅ family mean with objective exploration saved: Judge_output\_DesignJudge_V4-1\15_final_scores_by_family_mean_with_exploration.csv
+[2026-05-11 11:18:17] ✅ overall candidate matrix saved: Judge_output\_DesignJudge_V4-1\7_case_candidate_overall_matrix.csv
+[2026-05-11 11:18:17] ✅ overall family mean matrix saved: Judge_output\_DesignJudge_V4-1\8_case_family_mean_overall_matrix.csv
+[2026-05-11 11:18:17] ✅ candidate heatmap saved: Judge_output\_DesignJudge_V4-1\9_metric_heatmap_by_candidate.png
+[2026-05-11 11:18:17] ✅ family mean heatmap saved: Judge_output\_DesignJudge_V4-1\10_metric_heatmap_by_family_mean.png
+[2026-05-11 11:18:17] ✅ candidate overall plot saved: Judge_output\_DesignJudge_V4-1\11_overall_bar_by_candidate.png
+[2026-05-11 11:18:17] ✅ family mean overall plot saved: Judge_output\_DesignJudge_V4-1\12_overall_bar_by_family_mean.png
+[2026-05-11 11:18:17] Finished
+[2026-05-11 11:18:17] ================================================================================
