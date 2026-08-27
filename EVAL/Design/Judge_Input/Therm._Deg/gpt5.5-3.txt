@@ -1,0 +1,153 @@
+A good design target is a **semi-crystalline aliphatic–aromatic biodegradable copolyester** that raises heat resistance via limited rigid/ordered segments, while retaining enough hydrolysable aliphatic ester content and amorphous accessibility for degradation.
+
+## Proposed polymer
+
+### **P(BS-co-BF-co-BA) with controlled aromatic content**
+A random or lightly blocky copolyester based on:
+
+- **Succinic acid or dimethyl succinate**  
+- **1,4-butanediol**
+- A moderate fraction of **2,5-furandicarboxylic acid** or dimethyl 2,5-furandicarboxylate  
+- A small fraction of **adipic acid** or another flexible aliphatic diacid
+
+Conceptually:
+
+\[
+\text{poly(butylene succinate-co-butylene furanoate-co-butylene adipate)}
+\]
+
+or abbreviated:
+
+\[
+\mathrm{P(BS\text{-}co\text{-}BF\text{-}co\text{-}BA)}
+\]
+
+A useful starting composition could be approximately:
+
+- **60–75 mol% butylene succinate units**
+- **15–30 mol% butylene furanoate units**
+- **5–15 mol% butylene adipate units**
+
+relative to total diacid-derived units.
+
+## Why this design works
+
+### 1. Improved heat resistance
+Poly(butylene succinate), PBS, is biodegradable but has only moderate thermal performance. Introducing **butylene furanoate units** increases chain rigidity because the furan ring is stiff and polar. This can:
+
+- Increase **glass transition temperature, Tg**
+- Increase modulus at elevated temperature
+- Improve dimensional stability
+- Potentially improve crystallization behavior if composition is optimized
+
+Furan-based aromatic units are also attractive because they can be bio-based and generally less persistent than highly aromatic terephthalate-rich structures.
+
+### 2. Avoiding excessive suppression of degradation
+If too many rigid aromatic units are added, water uptake and chain mobility decrease, slowing hydrolysis and microbial degradation. To avoid this, the design keeps the furan content moderate and retains a high fraction of **aliphatic ester units**, especially succinate and adipate.
+
+The **adipate comonomer** helps by:
+
+- Increasing chain flexibility
+- Reducing overly high crystallinity
+- Increasing amorphous fraction accessibility
+- Maintaining hydrolytic and enzymatic degradability
+
+This balances the heat-resistance gain from furan units with degradation accessibility from flexible aliphatic segments.
+
+## Recommended composition window
+
+A practical first formulation would be:
+
+\[
+\mathrm{P(BS_{70}\text{-}BF_{20}\text{-}BA_{10})}
+\]
+
+where the subscripts represent approximate molar percentages of diacid-derived units.
+
+This composition should give better heat resistance than PBS while avoiding the large degradation slowdown expected from high aromatic content.
+
+If more heat resistance is needed, increase BF to 25–30 mol%.  
+If degradation is too slow, reduce BF to 10–15 mol% or increase BA to 15–20 mol%.
+
+## Structural features to control
+
+### Keep the copolymer mostly random
+A highly blocky structure may form long rigid crystalline domains that resist water penetration. A more random architecture helps maintain biodegradable amorphous regions.
+
+### Avoid excessive molecular weight
+Very high molecular weight improves mechanical strength but slows degradation. A moderate number-average molecular weight, for example:
+
+\[
+M_n \approx 40{,}000\text{–}80{,}000 \ \mathrm{g/mol}
+\]
+
+is a reasonable target for films, molded parts, or packaging applications.
+
+### Avoid high crosslink density
+Crosslinking improves heat resistance but strongly suppresses degradation. If crosslinking is used, it should be very light and preferably hydrolysable or reversible.
+
+## Possible synthesis route
+
+A standard two-step melt polycondensation can be used:
+
+1. **Esterification or transesterification**
+   - Dimethyl succinate
+   - Dimethyl 2,5-furandicarboxylate
+   - Dimethyl adipate
+   - 1,4-butanediol excess
+
+2. **Polycondensation**
+   - Reduced pressure
+   - Elevated temperature
+   - Titanium butoxide, zinc acetate, or tin-based catalyst, depending on regulatory constraints
+
+The final composition can be tuned by feed ratio and verified by NMR.
+
+## Expected property changes
+
+Compared with PBS:
+
+| Property | Expected change |
+|---|---|
+| Tg | Increases |
+| Heat deflection temperature | Increases |
+| Modulus at elevated temperature | Increases |
+| Crystallinity | Moderate, depending on composition |
+| Hydrolytic degradation | Slightly slower than PBS |
+| Enzymatic degradation | Retained if aliphatic content remains high |
+| Compostability | More likely retained at moderate BF content |
+
+## Characterization plan
+
+To confirm the design:
+
+- **DSC**: Tg, Tm, crystallinity, crystallization rate  
+- **TGA**: thermal stability  
+- **DMA**: modulus retention near use temperature  
+- **WAXD/SAXS**: crystal structure and lamellar morphology  
+- **GPC/SEC**: molecular weight and degradation kinetics  
+- **NMR**: copolymer composition and randomness  
+- **Hydrolysis tests**: buffered water at 37–60°C  
+- **Compost or enzymatic degradation tests**: mass loss, molecular-weight loss, CO₂ evolution  
+- **Mechanical testing**: tensile strength, elongation, toughness before and after aging
+
+## Alternative design options
+
+### PLA-based option
+Use a stereocomplex PLA-rich material with a small amount of degradable flexible copolyester. PLA stereocomplexes have improved heat resistance, but crystallinity can strongly slow degradation, so this must be carefully controlled.
+
+### PBS/PBF blend or copolymer
+A PBS blended or copolymerized with a limited amount of poly(butylene furanoate) can improve thermal properties, but a random copolymer is preferable if degradation retention is important.
+
+### PBS-co-PBT-type materials
+Terephthalate units improve heat resistance strongly, as in PBAT-type materials, but high terephthalate content can reduce biodegradation. Furan units are generally a better choice for a more bio-based and potentially more degradable design.
+
+## Final recommendation
+
+Use a **random poly(butylene succinate-co-butylene furanoate-co-butylene adipate)** with approximately:
+
+\[
+\boxed{\mathrm{BS/BF/BA = 70/20/10}}
+\]
+
+This design increases heat resistance through moderate furan-ring incorporation while preserving degradation kinetics through dominant aliphatic ester content, flexible adipate units, moderate crystallinity, and a non-crosslinked hydrolysable backbone.

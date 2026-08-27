@@ -1,0 +1,24 @@
+**Copolymer design:**  
+A PLA-based **ABA triblock copolymer** with hard “A” blocks composed of a **poly(L-lactic acid‑co‑isosorbide succinate)** random copolyester and a soft “B” block of **poly(butylene succinate)** (PBS). The hard blocks raise the glass transition temperature (\(T_g\)), while the immiscible, rubbery PBS domains provide ductility without plasticising the matrix.
+
+---
+
+### Rationale for increased \(T_g\)
+- **Isosorbide** is a rigid, bicyclic diol derived from starch. When melt‑condensed with succinic acid and L‑lactic acid, it disrupts chain packing and strongly restricts segmental motion.
+- The isosorbide‑succinate units increase the \(T_g\) of the hard phase to **75–85 °C** (vs. ~55–60 °C for neat PLA), as the fused rings create a stiffer backbone.  
+- The hard blocks constitute >60 wt% of the copolymer, so the continuous matrix exhibits this elevated \(T_g\), giving the material improved heat resistance for packaging.
+
+### Rationale for maintained ductility
+- The PBS middle block (\(T_g\) ≈ –30 °C, \(T_m\) ≈ 115 °C) is a highly ductile, biodegradable polyester.  
+- Because PBS is immiscible with the PLA/isosorbide‑based phase, the triblock chains microphase‑separate into **nanoscale rubbery domains** (10–50 nm) dispersed in the glassy hard matrix.  
+- Under stress, these domains **cavitate** and relieve triaxial constraint, triggering **massive shear yielding** in the surrounding matrix. This toughening mechanism raises elongation at break to >150 % while preserving a high yield strength, effectively decoupling stiffness/heat resistance from brittleness.
+
+### Biodegradability assurance
+All components (L‑lactic acid, isosorbide, succinic acid, 1,4‑butanediol) are bio‑based and susceptible to hydrolytic or enzymatic degradation. The ester linkages in the hard and soft blocks ensure the entire copolymer remains compostable under industrial conditions, meeting packaging standards (e.g., EN 13432).
+
+### Synthesis feasibility
+1. Synthesize \(\alpha,\omega\)-dihydroxy PBS via condensation of 1,4-butanediol and succinic acid.  
+2. Prepare the hard‑block prepolymer by melt polycondensation of L‑lactic acid, isosorbide, and succinic acid, terminated with –COOH groups.  
+3. Chain‑extend the two macromers with a non‑toxic diisocyanate (or, for a fully ester‑based system, a diacid chloride) to form the final ABA triblock.
+
+By tuning the isosorbide/lactic acid ratio and the hard/soft block lengths, \(T_g\) and ductility can be precisely balanced for specific packaging applications.

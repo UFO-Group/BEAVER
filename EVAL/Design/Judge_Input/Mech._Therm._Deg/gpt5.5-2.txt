@@ -1,0 +1,114 @@
+A good design is a **lactide-rich, segmented biodegradable copolymer** toughened with a small amount of flexible carbonate/caprolactone units and degradation-tuned with glycolide.
+
+## Proposed copolymer
+
+\[
+\textbf{P[(L-lactide-co-glycolide)-b-(trimethylene carbonate-co-}\varepsilon\textbf{-caprolactone)-b-(L-lactide-co-glycolide)]}
+\]
+
+A practical starting composition would be:
+
+- **L-lactide: 65–75 mol%**
+- **glycolide: 15–25 mol%**
+- **trimethylene carbonate, TMC: 5–10 mol%**
+- **ε-caprolactone: 0–5 mol%**
+
+For example:
+
+\[
+\textbf{P(LLA}_{70}\textbf{-co-GA}_{20}\textbf{)-b-P(TMC}_{7}\textbf{-co-CL}_{3}\textbf{)-b-P(LLA}_{70}\textbf{-co-GA}_{20}\textbf{)}
+\]
+
+## Why this design works
+
+### 1. Increased \(T_g\)
+
+The **lactide-rich hard segments** provide a relatively high glass-transition temperature.
+
+- PLLA has \(T_g \approx 55–65^\circ\text{C}\)
+- PLGA typically has \(T_g \approx 40–55^\circ\text{C}\), depending on composition
+- Keeping lactide as the majority component helps maintain \(T_g\) above body temperature.
+
+Target:
+
+\[
+T_g \approx 45–55^\circ\text{C}
+\]
+
+which is clinically useful because the polymer remains dimensionally stable at \(37^\circ\text{C}\).
+
+### 2. Preserved toughness
+
+Pure lactide-rich polymers can be brittle. To avoid that, introduce a small amount of flexible soft segment:
+
+- **TMC** increases elasticity and ductility.
+- **ε-caprolactone** improves toughness and elongation at break.
+- A **segmented/block architecture** is better than a fully random copolymer because it allows soft domains to dissipate energy without excessively lowering the bulk \(T_g\).
+
+The soft segment should be limited to roughly **5–15 mol% total** so that toughness improves without depressing \(T_g\) too much.
+
+Expected mechanical effect:
+
+- Higher elongation at break than PLLA or lactide-rich PLGA
+- Improved impact resistance
+- Reduced brittle fracture
+- Retained tensile strength from the lactide/glycolide hard phase
+
+### 3. Clinically acceptable degradation rate
+
+Degradation can be tuned by the glycolide content.
+
+- **Lactide**: slower-degrading, hydrophobic, maintains strength longer
+- **Glycolide**: faster hydrolysis, increases water uptake
+- **TMC/CL**: improves toughness but can slow degradation if used in excess
+
+A composition with **15–25 mol% glycolide** should give a degradation profile in the clinically useful range for many temporary implants, roughly:
+
+\[
+\text{bulk degradation/resorption: } 3–12 \text{ months}
+\]
+
+depending on molecular weight, crystallinity, implant geometry, and processing.
+
+## Recommended molecular/processing targets
+
+Suggested specifications:
+
+| Property | Target |
+|---|---|
+| \(T_g\) | \(45–55^\circ\text{C}\) |
+| Number-average molecular weight, \(M_n\) | 50–120 kDa |
+| Dispersity, Đ | 1.5–2.2 |
+| Soft-segment content | 5–15 mol% |
+| Glycolide content | 15–25 mol% |
+| Crystallinity | low to moderate |
+| Degradation time | 3–12 months |
+
+Lower crystallinity is desirable because highly crystalline PLLA can degrade too slowly and become brittle. A mostly amorphous or weakly semicrystalline morphology is preferable for balanced toughness and degradation.
+
+## Summary design rationale
+
+Use:
+
+\[
+\boxed{
+\text{lactide-rich PLGA hard segments + minor TMC/CL soft segments}
+}
+\]
+
+This gives:
+
+- **Higher \(T_g\)** from lactide-rich domains  
+- **Toughness** from flexible carbonate/caprolactone segments  
+- **Controlled clinical degradation** from glycolide-driven hydrolysis  
+- **Biodegradability** through hydrolysable ester/carbonate linkages  
+
+A strong starting formulation would be approximately:
+
+\[
+\boxed{
+70\% \text{ L-lactide} / 20\% \text{ glycolide} / 7\% \text{ TMC} / 3\% \varepsilon\text{-caprolactone}
+}
+\]
+
+in a **segmented triblock or multiblock architecture**.

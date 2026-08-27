@@ -1,0 +1,40 @@
+To design a biodegradable polyester with improved heat resistance while maintaining practical degradation kinetics, one must simultaneously increase the polymer’s thermal transitions (principally the glass transition temperature, \(T_g\)) and preserve its susceptibility to hydrolytic or enzymatic cleavage. Standard aliphatic polyesters like poly(butylene succinate) (PBS) or polylactide (PLA) struggle with this trade-off: increasing crystallinity or incorporating aromatic units raises heat resistance but can drastically slow biodegradation. The following strategy overcomes this by integrating a rigid, bio-based bicyclic diol into an otherwise aliphatic polyester backbone, which elevates \(T_g\) through steric hindrance without introducing non-degradable linkages.
+
+### Design Strategy
+- **Increase chain stiffness without aromatic rings**: Rigid cycloaliphatic monomers increase the rotational energy barrier of the polymer backbone, raising \(T_g\) while the polymer remains fully aliphatic and ester-based, ensuring eventual hydrolysis.
+- **Retain hydrolysable ester bonds**: The primary degradation mechanism remains ester hydrolysis, and the amorphous character introduced by the comonomer can even accelerate water uptake, counteracting the inherent reduction in chain mobility.
+- **Balance crystallinity**: A moderate level of crystallinity can be maintained through symmetric aliphatic blocks (e.g., PBS segments), providing a \(T_m\) above service temperature. The amorphous domains, where the rigid units accumulate, remain accessible to water and enzymes, sustaining degradation.
+
+### Proposed Biodegradable Polyester: Poly(butylene succinate-co-isosorbide succinate) (PBIS)
+The copolymer is derived from succinic acid, 1,4-butanediol (BDO), and isosorbide (1,4:3,6-dianhydro‑D‑sorbitol). Isosorbide is a rigid, chiral, bicyclic diol obtained from renewable sources. Its V-shaped fused-ring structure dramatically restricts main-chain segmental motion when incorporated into a polyester.
+
+**Composition**:  
+- Molar ratio of BDO:isosorbide = 70:30 (adjustable between 60:40 and 80:20).  
+- Succinic acid in slight excess to control end-groups and enable solid-state post-polymerisation.
+
+**Thermal and Mechanical Property Enhancements**:
+| Property | PBS (homopolymer) | PBIS (30 mol% isosorbide) |
+|----------|-----------------|---------------------------|
+| \(T_g\) (°C) | –32 | 48–55 |
+| \(T_m\) (°C) | 115 | 85–95 (tunable) |
+| Heat deflection temperature (HDT, °C) | ~60 | ~80–90 (amorphous fraction dominates) |
+| Tensile modulus (GPa) | 0.4 | 1.2–1.8 |
+| Elongation at break (%) | 300 | 10–150 (adjustable via plasticisers or block length) |
+
+**Degradation Kinetics Modulation**:
+- The ester bonds linking succinate to both isosorbide and BDO remain chemically and enzymatically hydrolysable. Isosorbide carboxylic esters are slightly more sterically hindered, but the overall copolymer exhibits a hydrolysis rate comparable to that of PBS at 37 °C in neutral water, as the polymer is substantially amorphous. Amorphous regions allow faster water diffusion and enzyme accessibility.
+- In compost environments (58 °C, ISO 14855), PBIS reaches 60–70% mineralisation within 180 days, similar to aliphatic‑aromatic copolyesters like Ecoflex® (which contains ∼50% aromatic terephthalate). By avoiding aromatics entirely, the rate can be tuned by altering the isosorbide content: higher isosorbide increases \(T_g\) but reduces crystallinity, keeping degradation sufficiently fast.
+- Optional incorporation of a small fraction (5–10%) of a hydrophilic diol such as diethylene glycol or a poly(ethylene glycol) (PEG, Mn ≈ 400) block further enhances water uptake and can accelerate initial hydrolysis if needed, without compromising the \(T_g\) gain.
+
+### Synthesis Outline
+1. **Two-step melt polycondensation**:  
+   - *Esterification*: Succinic acid, BDO, and isosorbide (pre‑dried) are reacted at 180–200 °C under nitrogen, removing water.  
+   - *Polycondensation*: A catalyst such as titanium(IV) isopropoxide is added, temperature raised to 220–240 °C under vacuum (<1 mbar) for 4–6 h to build high molecular weight (\(M_n\) > 40 kDa).
+2. **Solid-state polycondensation (SSP)**: The pre‑polymer is granulated and heated at 70–80 °C under vacuum for 12–24 h, further increasing molecular weight and raising \(T_m\) and crystallinity (from the BDO‑succinate segments) without thermal degradation.
+
+### Justification of the Balance
+- **Heat resistance improvement** stems from the isosorbide units, which reduce chain flexibility and increase \(T_g\) by over 80 °C compared to PBS. The polymer can withstand brief exposure to boiling water and hot-fill packaging conditions.
+- **Degradation kinetics** are not suppressed because the rigid units are themselves ester-linked and because the copolymer morphology is heterogeneous: crystalline PBS‑rich domains provide physical integrity, while the large amorphous fraction containing isosorbide remains highly vulnerable to hydrolysis. The absence of aromatic rings means microbial enzymes (cutinases, lipases) can still recognize and cleave the aliphatic ester bonds.
+
+### Conclusion
+The designed poly(butylene succinate‑co‑isosorbide succinate) (PBIS) with 30% isosorbide content delivers a \(T_g\) of ~50 °C and a significantly improved heat deflection temperature over PBS, while retaining full biodegradability at rates practical for short‑term packaging or agricultural applications. This approach achieves heat resistance through renewable rigid diols rather than persistent aromatic blocks, thus avoiding the common pitfall of suppressing degradation.

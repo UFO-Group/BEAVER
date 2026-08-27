@@ -1,0 +1,28 @@
+**Design: Segmented Biodegradable Poly(ester urethane) with a High‑Tg Hard Segment and a Tunable Soft Segment**
+
+### Chemical Architecture
+The copolymer is a multi‑block polyurethane containing:
+- **Hard segment:** Isosorbide (1,4:3,6‑dianhydro‑D‑glucitol) chain‑extended with an aliphatic diisocyanate – here, lysine‑diisocyanate (LDI) – to form rigid, hydrogen‑bonded urethane blocks.
+- **Soft segment:** A random copolyester diol of ε‑caprolactone and glycolide (e.g., 50:50 molar ratio; poly(CL‑co‑GA)-diol, M ∼ 2000 g/mol).
+
+The overall structure is [–hard–]–[–soft–]–[–hard–]…, synthesised by a two‑step prepolymer method (soft diol + excess LDI → prepolymer → chain extension with isosorbide).
+
+### How the Design Meets the Three Requirements
+
+1. **Increases Glass Transition Temperature (Tg)**  
+   The rigid, bicyclic isosorbide units, combined with strong inter‑chain hydrogen‑bonding from the urethane linkages, segregate into nano‑scale hard domains with a Tg typically between 120 °C and 180 °C (measured by DSC or DMA). This represents a substantial increase over the ∼60 °C Tg of the most common biodegradable polyester, poly(L‑lactide). The high hard‑segment Tg elevates the material’s upper service temperature while the soft phase remains flexible.
+
+2. **Preserves Toughness**  
+   The microphase‑separated morphology imparts elastomeric behaviour: the soft poly(CL‑co‑GA) domains (Tg ≈ ‑30 °C) provide high elongation and energy dissipation, while the hard domains act as physical cross‑links that prevent plastic flow. Tensile tests of similar systems typically show elongations at break > 300%, notched Izod impact strengths > 500 J/m, and excellent resistance to crack propagation. Toughness is thus preserved or even enhanced compared to brittle PLA homopolymer.
+
+3. **Clinically Acceptable Degradation Rate**  
+   The soft segment’s random ester linkages hydrolyse at a predictable rate. A 50:50 poly(CL‑co‑GA) soft segment loses mass over ∼6–8 weeks in buffered saline at 37 °C (pH 7.4), a window considered clinically viable for temporary implants. Degradation products – glycolic acid, ε‑hydroxycaproic acid, isosorbide, and L‑lysine – are all endogenous or metabolizable, avoiding toxic accumulation. The urethane bonds degrade more slowly but eventually yield the same benign molecules. By adjusting the soft‑segment composition (e.g., increasing glycolide fraction) or the hard/soft ratio, the degradation profile can be fine‑tuned to match a specific clinical requirement (e.g., 3–12 months).
+
+### Summary of Key Features
+| Requirement           | How the Design Addresses It |
+|-----------------------|-----------------------------|
+| Elevated Tg           | Isosorbide‑based hard domains with Tg > 120 °C |
+| Toughness             | Microphase separation into rigid hard domains and soft, ductile domains |
+| Clinically acceptable degradation | Hydrolysable copolyester soft segment; non‑toxic degradation products; tunable rate |
+
+This segmented poly(ester urethane) therefore decouples the typical trade‑off between Tg, toughness, and degradation rate, making it an attractive platform for biodegradable implants where elevated thermal stability and mechanical robustness are required.

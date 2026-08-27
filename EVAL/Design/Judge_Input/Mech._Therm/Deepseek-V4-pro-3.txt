@@ -1,0 +1,36 @@
+A poly(lactide)-based triblock copolymer with stereocomplex-forming end blocks and a flexible midblock offers a viable solution. The design combines an elevated glass transition temperature, due to stereocomplex crystallization, with excellent ductility provided by the rubbery segment, while maintaining full biodegradability for packaging.
+
+## Copolymer Design
+
+**Structure:** PLLA-*b*-PCL-*b*-PDLA  
+A symmetrical A-B-A triblock copolymer where:
+- **A block:** Poly(L-lactide) (PLLA) and Poly(D-lactide) (PDLA) – enantiomeric semicrystalline segments that co‑crystallize into a stereocomplex (scPLA).
+- **B block:** Poly(ε‑caprolactone) (PCL) – an aliphatic polyester with a very low `T_g` (~‑60 °C), providing high flexibility and biodegradability.
+
+**Synthesis route:** Sequential ring‑opening polymerisation (ROP).  
+1. Initiate ε‑caprolactone with a di‑functional alcohol (e.g., 1,4‑butanediol) and a catalyst (Sn(Oct)₂) to form HO‑PCL‑OH.  
+2. Use the telechelic HO‑PCL‑OH as macro‑initiator for the ROP of L‑lactide to grow PLLA blocks at both ends, yielding PLLA‑*b*‑PCL‑*b*‑PLLA.  
+3. Replace half of the macro‑initiator with D‑lactide to obtain PDLA‑*b*‑PCL‑*b*‑PDLA.  
+4. Blend the two triblocks in a 1:1 mass ratio; the enantiomeric PLA end‑blocks rapidly co‑crystallise into stereocomplex domains.
+
+## How It Increases `T_g` While Maintaining Ductility
+
+**Increased `T_g`:**  
+The stereocomplex formed between PLLA and PDLA segments has a higher `T_g` (≈75 °C) than either PLLA or PDLA alone (≈55–60 °C). The dense chain packing and strong CH₃···O=C hydrogen‑bonding in the scPLA crystal lattice restrict segmental motion of the surrounding amorphous PLA chains, pushing the glass transition upward. This imparts better heat resistance to the material.
+
+**Maintained ductility:**  
+The PCL mid‑block remains above its `T_g` at room temperature, acting as a soft, rubbery phase. Under stress, the PCL domains undergo large elastic deformation, cavitation, and shear yielding, which effectively dissipate energy and stop crack propagation. The scPLA hard domains serve as physical cross‑links that preserve dimensional stability, while the continuous or co‑continuous PCL phase imparts high elongation at break (often >300%). Thus, ductility is retained or even enhanced compared to neat PLA.
+
+**Biodegradability:**  
+Both PLA and PCL are well‑known biodegradable polyesters that degrade via hydrolysis and enzymatic attack in compost, soil, and marine environments. The stereocomplex domains disintegrate once the polyester backbone hydrolyses, leaving no persistent microplastics.
+
+## Material Properties Summary
+| Property | Homopolymer PLA | scPLA-*b*-PCL-*b*-scPLA Triblock |
+|----------|-----------------|----------------------------------|
+| `T_g` (DSC) | 55–60 °C (PLLA) | ≈75 °C (scPLA phase) |
+| Phase morphology | Amorphous/semi‑crystalline | Microphase‑separated: scPLA hard domains + PCL soft matrix |
+| Tensile elongation | 5–10% (brittle) | 200–500% (ductile) |
+| Modulus | ~3 GPa | Adjustable (0.1–1 GPa) |
+| Degradation | Industrial compost | Home/industrial compost |
+
+This design elegantly resolves the `T_g`–ductility trade‑off by engineering a nanophase‑separated structure where the high‑`T_g` stereocomplex domains coexist with a low‑`T_g` biodegradable elastomer, yielding packaging that is both heat‑tolerant and tough.

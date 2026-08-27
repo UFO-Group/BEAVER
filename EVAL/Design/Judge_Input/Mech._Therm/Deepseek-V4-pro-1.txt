@@ -1,0 +1,16 @@
+To design a PLA-based copolymer that simultaneously increases glass transition temperature (\(T_g\)) and maintains ductility for biodegradable packaging, a random terpolymer based on L‑lactide, isosorbide, and succinic acid is proposed:
+
+**Poly(L‑lactide‑co‑isosorbide‑co‑succinate) – P(LLA‑co‑IS‑co‑SA)**
+
+### Rationale
+- **Increased \(T_g\):** Isosorbide is a rigid, bicyclic diol derived from starch. Its fused ring system stiffens the polymer backbone, raising \(T_g\) above that of pure PLA (~55–60 °C). By adjusting the isosorbide content, \(T_g\) can be tuned into the 70–90 °C range, enabling the packaging to withstand higher service temperatures (e.g., hot‑fill applications).
+- **Maintained ductility:**  
+  - The random incorporation of isosorbide and succinic acid disrupts the crystallinity of L‑lactide segments, yielding a fully amorphous material. Amorphous PLA itself is brittle, but the kinked, asymmetric shape of isosorbide introduces excess free volume, facilitating local segmental motions and shear yielding.  
+  - Succinic acid linkages add flexible aliphatic units that lower the stress required for plastic flow and promote energy dissipation through shear banding, giving the material appreciable elongation at break (>10–50 %) without the need for low‑\(T_g\) plasticisers.  
+  - The combination of hindered crystallization, free‑volume, and distributed flexible units allows the copolymer to remain tough and flexible even well below its elevated \(T_g\).
+- **Biodegradability:** All ester linkages (lactide, isosorbide‑succinate) are hydrolytically degradable. The random sequence and amorphous morphology further enhance enzyme and water accessibility, ensuring compostability suitable for packaging.
+
+### Synthesis
+A one‑step melt polycondensation of L‑lactic acid, isosorbide, and succinic acid (e.g., molar ratio 70:15:15) using a tin(II) octoate or enzymatic catalyst, followed by solid‑state post‑polymerisation to reach sufficiently high molecular weight for film extrusion.
+
+This precise molecular design leverages a single, bio‑based rigid comonomer to push \(T_g\) upward while the inherent architectural disorder and mixed‑linkage flexibility keep the copolymer ductile – a property combination not achievable with PLA homopolymer or simple plasticised blends.
