@@ -1,0 +1,410 @@
+go
+rgo
+rgo
+reduced graphene oxide (rgo)
+lcgo
+sgo
+sgo
+lgo
+gopts
+go (graphene oxide)
+β-go
+liquid crystalline graphene oxide (lcgo)
+ngo
+pgl-g-rgo
+reduced graphene oxide (rgo)
+go-pgma
+sulfonated graphene oxide (sgo)
+hbn-go
+graphene oxide
+Graphene oxide (GO)
+Graphene Oxide (GO)
+Graphene Oxide (GO)
+Graphene_Oxide(GO)
+Graphene oxide (GO)
+Graphene Oxide (GO)
+Polyethylene_Oxide(PEO)
+Sodium hydroxide
+Graphene oxide
+Zinc Oxide
+Graphene Oxide
+Sodium hydroxide (NaOH)
+Methyl ethyl ketone peroxide (MEKP)
+Zinc oxide
+Zinc Oxide (ZnO)
+Methyl ethyl ketone peroxide
+Sodium Hydroxide (NaOH)
+Reduced Graphene Oxide (RGO)
+Methyl Ethyl Ketone Peroxide (MEKP)
+Dicumyl peroxide (DCP)
+Dicumyl peroxide
+Titanium dioxide (TiO2)
+Benzoyl peroxide
+graphene oxide
+Zinc oxide nanoparticles
+Reduced graphene oxide (RGO)
+Titanium dioxide
+Sodium Hydroxide
+Reduced Graphene Oxide (rGO)
+Zinc oxide (ZnO)
+Dimethyl sulfoxide (DMSO)
+Reduced graphene oxide (rGO)
+Benzoyl peroxide (BPO)
+Magnesium hydroxide
+Hydrogen peroxide
+Hydrogen Peroxide (H2O2)
+Methyl Ethyl Ketone Peroxide
+Hydrogen peroxide (H2O2)
+Aluminum Trihydroxide (ATH)
+zinc oxide
+Magnesium oxide
+Titanium Dioxide
+zinc oxide nanoparticles
+graphene oxide (GO)
+Titanium Dioxide (TiO2)
+Dicumyl Peroxide (DCP)
+Benzoyl Peroxide (BPO)
+Silicon dioxide
+reduced graphene oxide (rGO)
+Antimony trioxide (Sb2O3)
+Benzoyl Peroxide
+Antimony trioxide
+dicumyl peroxide (DCP)
+Dibenzoyl Peroxide (BPO)
+Magnesium Oxide (MgO)
+MEKP (Methyl Ethyl Ketone Peroxide)
+Iron Oxide
+Iron (III) Oxide
+Silicon dioxide (SiO2)
+Magnesium Hydroxide (MH)
+Dicumyl Peroxide
+bis (a, a-dimethylbenzyl) peroxide
+Iron oxide nanoparticles
+Metal oxide
+Potassium hydroxide (KOH)
+Benzoyl peroxide (BP)
+Iron oxide red
+Methylethyl-ketone-peroxide
+Iron oxide (Fe2O3)
+Functionalized graphene oxide (fGO)
+Titanium oxide
+titanium dioxide
+Magnesium hydroxide whiskers (MH)
+Tetramethylammonium hydroxide (TMAH)
+Magnesium oxide (MgO)
+Modified peroxide
+Indium Tin Oxide (ITO)
+Potassium Hydroxide (KOH)
+Iron oxide yellow
+Graphene Oxide (IrGO)
+Magnesium hydroxide (Mg(OH)2)
+Zinc Oxide Nanoparticles (ZnO NPs)
+Dimethyl sulfoxide
+Titanium dioxide nanoparticles
+Anodic aluminium oxide (AAO)
+sodium hydroxide
+Reduced Graphene Oxide
+Nanotitanium dioxide (TiO2)
+Methylethyl ketone peroxide
+benzoyl peroxide
+Methylethylketone peroxide (MEKP)
+Magnesium Hydroxide (Mg(OH)2)
+Aluminum hydroxide
+Sulfonated graphene oxide (SGO)
+Reduced graphene oxide
+Dimethylsulfoxide (DMSO)
+HM (magnesium hydroxide)
+Aluminum Oxide (Al2O3)
+Graphene oxide nanosheets
+Potassium hydroxide
+Supercritical carbon dioxide
+Zinc oxide (ZnO) nanoparticles
+Fluorine-functionalized graphene oxide
+Functionalized graphene oxide (FGO)
+dimethyl sulfoxide (DMSO)
+Ammonium hydroxide
+Zinc Oxide nanoparticles
+Reduced graphene oxide-app (rGO-APP)
+Zinc oxide nanoparticles (ZnO)
+Zirconium oxide
+Layered double hydroxides
+Graphene oxide (GO) nanosheets
+Boron oxide
+methyl ethyl ketone peroxide (MEKP)
+zinc oxide (ZnO)
+Sodium hydroxide solution
+Dibenzoyl peroxide (BPO)
+Cerium dioxide nanoparticles
+Iron oxide (α-Fe2O3)
+Manganese Dioxide (MnO2)
+Nano-titanium dioxide
+Titanium dioxide nanoparticles (TiO2-NPs)
+Reduced Functionalized Graphene Oxide (R (GO-PCL))
+DCP (Di-Cumene peroxide)
+Silicon dioxide (SiO2) nanoparticles
+Zirconium propoxide (ZTP)
+Yellow Iron Oxide
+Di-cumyl peroxide (DCP)
+Zinc oxide-silver nanoparticles (ZnO-AgNPs)
+Methylethylketone Peroxide
+Sodium Hydroxide Pellets
+Dicumyl Peroxide (DP)
+silanized silica-graphene oxide hybrid
+Dibutyltin oxide (DBTO)
+Dilauroyl peroxide (DLP)
+Silicon Oxide (SiO2)
+DCP (Di-Cumyl Peroxide)
+Iron Oxide (Fe3O4) nanoparticles
+methyl-ethyl-ketone peroxide catalyst
+Antimonous oxide (AO)
+Hydrogen Peroxide (HP)
+Titanium oxide particles
+1 wt% bis (2,4,6-trimethylbenzoyl)-phenylphosphineoxide
+Polyisocyanate (PI)-grafted Graphene Oxide (PI-GO)
+Iron Oxide (Fe2O3)
+Zinc Oxide (ZnO) Nanoparticles
+Hydrogen Peroxide
+Dimethyl Sulfoxide (DMSO)
+Bimetallic Oxides (BMO)
+bwGO (base-washed graphene oxide)
+MEKP (Methylethyl ketone peroxide)
+Modified graphene oxide (MGO)
+Ferroferric oxide (Fe3O4)
+4 wt% sodium hydroxide (NaOH) solution
+DCP (Dicumyl peroxide)
+Sulfonated Graphene Oxide (SGO)
+Methyl ether ketone peroxide (MEKP)
+Metal oxide nanoparticles
+ammonium hydroxide
+Butyltin Oxide
+NT (Nanotitanium Dioxide)
+Indium tin oxide (ITO)
+Metal oxides
+ZnO (Zinc Oxide)
+boric dioxide
+Poly(tetramethylene_oxide)(PTMO)
+zinc oxide (ZnO) and zinc stearate (ZnSt)
+Poly(ethylene oxide) (PEO)
+zinc oxide (nano ZnO)
+Ammonia functionalized graphene oxide (AGO)
+Di (4-methylbenzoyl) peroxide
+antimony trioxide (Sb2O3)
+Modified Layered Double Hydroxide (m.LDH)
+2,5-dimethyl-2,5-di(tert-butyl peroxide) hexane (DBPH)
+Iron (II, III) oxide (Fe3O4) nanoparticles
+Reduced Octadecyl Isocyanate-Functionalized Graphene Oxide (R (GO-ISO))
+Super paramagnetic iron oxide nanoparticles
+Rutile titanium dioxide
+Antimony trioxide (ATO)
+AO (Alkali oxide)
+Zinc oxide whiskers
+Bismuth Oxide (Bi2O3)
+Bismuth oxide (Bi2O3)
+Reduced graphene oxide-NH (rGO-NH)
+Tri-(2-methy-1-aziridinyl) phosphine oxide (MAPO)
+antimony trioxide
+Layered Double Hydroxides
+Silicon dioxide nanofiller
+methyl ethyl ketone peroxide
+Dibenzoyl peroxide
+Phosphorus pentoxide
+Methyl Ether Ketone Peroxide (MEKP)
+Aluminum oxide (Al2O3)
+Nano-graphene oxide (nGO)
+Iron oxide pigment
+Benzoil peroxide (BPO)
+reduced graphene oxide (RGO)
+Zinc oxide (ZO2)
+Decabromodiphenyl oxide (DECA)
+MEKP (Methyl ethyl ketone peroxide)
+Graphene Oxide-Carbon Nanotube Hybrid (GCNT)
+Tetracycline hydroxide
+Zirconium dioxide
+cerium oxide NPs
+Silicon dioxide nanoparticles
+Trigonox B (di-tert-butyl peroxide)
+BD (butylene oxide)
+titanium tetra-n-butoxide
+Reduced graphene oxide-tetraethylene pentamine (rGO-TEPA)
+Diethylenetriamine/Nitric Oxide Adduct (DETA/NO)
+titanium dioxide (TiO2)
+Graphene oxide (TrGO)
+Titanium dioxide rutile
+Methyl-Ethyl-Ketone Peroxide
+Zirconium Oxide
+Nitric oxide (NO)
+Reduced ultra-large graphene oxide (rUGO)
+Graphene oxide nanoplatelets (GO)
+Titanium isopropoxide
+Multi-layer reduced graphene oxide (m-rGO)
+Dibenzoyl peroxide (DBP)
+Ethyl Ketone Peroxide 50% Solution
+ZnO (Zinc oxide)
+nano-titanium dioxide (TiO2)
+Methyl-ethyl-ketone-peroxide (MEKP)
+Titanium dioxide (50 nm)
+Titanium oxides
+Sodium hydroxide (SH)
+Amidated Graphene Oxide (AGO)
+Methylethylketone peroxide
+Cerium oxide (CeO2) nanoparticles
+DCP (Cumyl peroxide)
+Ethylene oxide
+Hydrous zirconium oxide
+reduced graphene oxide foam
+5% Sodium Hydroxide
+Magnesium Oxide
+methylethylketone peroxide (MEKP)
+Fire retardants (magnesium hydroxide and zinc borate)
+Zirconium oxide (ZrO2)
+Zirconium Dioxide (ZrO2)
+Iron oxide
+Benzoyl peroxide modified cereal straw
+methylethyl ketone peroxide
+Dicumyl peroxide modified cereal straw
+Aniline oligomer-functionalized graphene oxide (AOFG)
+Vanadium pentoxide (V O)
+Zincoxide
+Cerium Oxide Nanoparticles (CeNPs)
+nanomagnesium oxide
+Amine functionalized graphene oxide (GO-PPD)
+Graphene oxide (UGO)
+Methyl-ethyl-ketone peroxide (MEK)
+Dilauroyl peroxide
+Nanographene oxide (NGO)
+Indium-Tin-Oxide (ITO)
+zirconium dioxide
+Sulfonated graphite oxide (SGO)
+Methyl Ethyl Ketone Peroxide (MEKPO)
+cyclohexanone peroxide
+Benzoyl Peroxide (BOP)
+benzoyl peroxide (BPO)
+Microwave-exfoliated graphite oxide (MEGO)
+nano-Magnesium Oxide (MgO)
+Amine-functionalized graphene oxide (AGO)
+Bismuth Oxide Nanowires
+Graphite Oxide (GO)
+Silver nanoparticles decorated graphene oxide (Ag-GO)
+Large Size Reduced Graphene Oxide (LRGO)
+Metal/metal oxide nanoparticles
+Zinc Oxide Nanoparticles
+Methyl-ethyl-ketone peroxide (MEKP)
+iron oxide nanoparticles (Fe3O4)
+Molybdenum oxide nanoparticles
+iron oxide nanoparticles
+Cu oxides
+Functionalised graphene oxide (iGO)
+Methy1 Ethy1 Keton peroxide
+Large Area Reduced Graphene Oxide
+Magnesium hydroxide (MH)
+Iron oxide (Fe3O4) nanoparticles
+Modified yttrium hydroxide
+Functional Graphene Oxide (FGO)
+Titanium dioxide (TiO2) nanoparticles
+Bismuth oxide (Bi2O3) nanowires
+Titanium Oxide (TiO2)
+aGO (as-prepared graphene oxide)
+modified graphene oxide
+Alkylamine-grafted graphene oxide (GO)
+Graphene oxide solution
+Titanium (IV) isopropoxide
+Manganese dioxide (MnO)
+Thermally Reduced Graphene Oxide (TRGO)
+Titanium (IV) butoxide (TBT)
+Ferrosoferric oxide (Fe3O4) oxidized multiwalled carbon nanotubes
+Nano titanium dioxide (TiO2)
+Zinc oxide nanowires
+Di (2,4-dichlorobenzoyl) peroxide
+functionalized graphene oxide (f-GO)
+TPDAP (tri-propyldiaminephosphine oxide)
+Ammonium hydroxide (NH4OH)
+Layered Double Hydroxide (LDH)
+Hydroxy Iron Oxide (HIO)
+Poly(tetramethylene oxide glycol) (PTMG)
+BPO (Benzoic acid peroxide)
+Methyl ethylketone peroxide (MEKP)
+Manganese dioxide (MnO2)
+Iron oxide (Fe3O4)
+Thermally Reduced Graphene Oxide (TRG)
+BP (butyl peroxide)
+Methyl ethyl ketone peroxide (MKP 60)
+Titanium butoxide (TBT)
+Reduced Graphene Oxide (rGO-g)
+Tripropyldiamine Phosphine Oxide (TPDAP)
+Laproxide
+Fluid-like graphene oxide (FL-GO)
+functionalized graphene oxide
+Lanthanide-doped strontium aluminate oxide pigment
+Iron Oxide Nanoparticles
+NTD (Titanium Dioxide Nanoparticles)
+Graphene Oxide with Hexadecyl Chains (GO-HD)
+Tetrabutyl ammonium hydroxide (TBAOH)
+dicumyl peroxide (Luperox DCP)
+Graphene oxide sheets (GOSs)
+Ti (IV) alkoxides
+Titanium Dioxide (TiO2) nanoparticles
+Cumene Hydroperoxide (CHP)
+nano-cerium oxide
+Superoxide dismutase (SOD)
+Poly(ethylene oxide)-co-poly(propylene oxide)-co-poly(ethylene oxide) (PEO-PPO-PEO)
+Sodium hydroxide treated pineapple leaf fiber (TPALF)
+DCP (Dicumyl Peroxide)
+Green chromium oxide
+Vanadium pentoxide (V2O5)
+N-methylmorpholine-N-oxide (NMMO)
+Photoinitiator (2,4,6-trimethylbenzoyl phosphine oxide and 2-hydroxy-2-methylpropiophenone blend)
+Methyl ethyl ketone peroxide (MEKPO)
+Cumene hydroperoxide (CHP)
+6% Sodium Hydroxide (NaOH)
+Graphite oxide (GO)
+Lithium cobalt oxide (LiCoO2)
+Nanosilicon dioxide (nSiO2)
+Graphene oxide (PGO)
+Hydroxide
+Methyl-ethyl-kato peroxide
+Benzoyl_peroxide
+Silanized Graphene Oxide Nanoplatelets (S-GONPs)
+supercritical carbon dioxide (scCO2)
+nano silicon dioxide (SiO2)
+Ultra-large graphene oxide (UGO)
+Niobium Pentoxide
+Indium-tin-oxide (ITO)
+Iron/manganese oxide
+Cerium oxide
+Oxide-coated zirconia
+dicumyl peroxide
+Oxide layer
+poly(ethylene oxide) (PEO)
+Titanium nanodioxide (R-25)
+Functionalized Graphene Oxide (FGO)
+Tea polyphenol-reduced graphene oxide (TPG)
+Zirconium oxide nanoparticles
+Layered double hydroxide
+Sulfonated graphene oxide (SGO50)
+Sulfonated graphene oxide (SGO25)
+Octadecylamine-functionalized graphene oxide (ODA-fGO)
+Graphene oxide (GO) nanoparticles
+nano silicon dioxide
+Zinc Oxide (ZnO) nanowires
+Ag-ZnO-reduced graphene oxide
+graphene oxide-silver nanohybrid
+β-Aluminium Hydroxide (β-ATH)
+Nano Zinc Oxide (ZnO)
+Layered hydroxide salts
+Methyl-ethyl-ketone-peroxide
+Layered Double Hydroxides (LDH-SDS)
+Silica oxides
+Large Area Graphene Oxide
+Nanosized zinc oxide
+Tungsten oxide (WO3)
+Sulfonated graphene oxide (SGO100)
+nano-silicon dioxide
+Sodium methoxide
+Niobium oxide
+Aluminum hydroxide (Al(OH)3)
+Laproxide 301G (LX)
+Graphene oxide (GrO)
+Titanium dioxide (TO)
+Hydrogen peroxide solution
+layered double hydroxides
+APTS functionalized graphene oxide (GO-APTS)
