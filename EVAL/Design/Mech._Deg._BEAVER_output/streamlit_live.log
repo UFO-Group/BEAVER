@@ -1,0 +1,179 @@
+🔄 [DeepSeek] 正在配置 Client...
+   -> Base URL: https://llmapi.paratera.com/v1
+   -> Key: sk-4x7******
+✅ Client 配置成功！
+DEBUG: --------------------------------------------------
+DEBUG: [System] 成功进入 run_one_step
+DEBUG: [System] 收到用户指令: Design a biodegradable implant polymer that provides high initial mechanical support while retaining strength during early-stage hydrolytic degradation.
+DEBUG: [Config] Output Dir: Mech._Deg._BEAVER_output
+DEBUG: --------------------------------------------------
+DEBUG: [Router] 正在调用 Router...
+
+🧩 Step 0: Router + Design (Generating Ideas)...
+
+[Router Debug] ===== TURN TAGS =====
+{
+  "is_chat": false,
+  "is_question": false,
+  "is_design": true,
+  "reason": "User explicitly asks to 'design a biodegradable implant polymer' with specific performance requirements, 
+which constitutes creating a new formulation strategy rather than selecting/ranking existing options."
+}
+
+[Design Debug] Raw design-brief LLM output available.
+================= 大模型原始输出开始 =================
+{
+  "target_system": "biodegradable implant polymer",
+  "targets": [
+    {
+      "property": "initial mechanical strength",
+      "target_value": null,
+      "unit": ""
+    },
+    {
+      "property": "strength retention during hydrolytic degradation",
+      "target_value": null,
+      "unit": ""
+    }
+  ],
+  "constraints": [
+    "Biodegradable",
+    "Hydrolytic degradation mechanism",
+    "Suitable for implant applications"
+  ],
+  "context": "The polymer is intended for medical implants and must degrade over time via hydrolysis. It requires high mechanical support at implantation and must maintain strength in the early stages of degradation to ensure functionality during healing."
+}
+================= 大模型原始输出结束 =================
+
+[Design Debug] Generated 8 ideas (Raw output received).
+[Design Debug] Successfully parsed 8 ideas (capped to 8).
+
+[Design Debug] ===== DIVERGENT IDEAS (raw) =====
+
+[Design Debug] Scoring completed. Attempt 1/2
+[Design Debug] Raw scoring output preview:
+[
+  {
+    "idea_name": "Core-Shell Polyester Blend",
+    "score_dimensions": {
+      "feasibility": 8.0,
+      "performance_potential": 7.5,
+      "controllability": 6.0,
+      "novelty": 5.0
+    },
+    "pros": [
+      "Uses well-established, biocompatible polymers (PLLA, PGA)",
+      "Clear staged degradation mechanism",
+      "High initial strength from crystalline PLLA core"
+    ],
+    "cons": [
+      "Delamination risk at core-shell interface under cyclic loading",
+      "Manufacturing complexity for uniform shell coating",
+      "Potential for inconsistent degradation due to shell thickness variations"
+    ],
+    "summary": "A practical core-shell design using established polyesters to delay core hydrolysis and maintain early strength, though interfacial adhesion and manufacturing control are challenges."
+  },
+  {
+    "idea_name": "Dual-Crosslink Hydrogel Network",
+    "score_dimensions": {
+      "feasibility": 6.5,
+      "performance_potential": 8.0,
+      "controllability": 7.0,
+      "novelty": 7.5
+    },
+    "pros": [
+      "Progressive degradation via labile ionic crosslinks preserves integrity",
+      "pH control mitigates autocatalytic degradation",
+      "Good potentia ...[truncated]
+[Design Debug] ✅ Scoring schema validated for 8 ideas.
+
+[Design Debug] ===== CONVERGENT SCORED IDEAS (ranked) =====
+[DEBUG save_step_result] writing generic json -> Mech._Deg._BEAVER_output\step0_design_brief_design_brief.json
+[DEBUG save_step_result] saved generic json -> step0_design_brief_design_brief.json
+💾 通用数据已保存: step0_design_brief_design_brief.json
+[DEBUG save_step_result] writing csv -> Mech._Deg._BEAVER_output\step0_design_ideas_design_ideas.csv
+[DEBUG save_step_result] saved csv -> step0_design_ideas_design_ideas.csv
+[DEBUG save_step_result] writing json -> Mech._Deg._BEAVER_output\step0_design_ideas_design_ideas.json
+[DEBUG save_step_result] saved json -> step0_design_ideas_design_ideas.json
+💾 表格已保存: step0_design_ideas_design_ideas.csv
+[DEBUG save_step_result] writing csv -> Mech._Deg._BEAVER_output\step0_design_top_ideas_design_top_ideas.csv
+[DEBUG save_step_result] saved csv -> step0_design_top_ideas_design_top_ideas.csv
+[DEBUG save_step_result] writing json -> Mech._Deg._BEAVER_output\step0_design_top_ideas_design_top_ideas.json
+[DEBUG save_step_result] saved json -> step0_design_top_ideas_design_top_ideas.json
+💾 表格已保存: step0_design_top_ideas_design_top_ideas.csv
+[DEBUG save_step_result] writing csv -> Mech._Deg._BEAVER_output\step0_design_planner_view_design_planner_view.csv
+[DEBUG save_step_result] saved csv -> step0_design_planner_view_design_planner_view.csv
+[DEBUG save_step_result] writing json -> Mech._Deg._BEAVER_output\step0_design_planner_view_design_planner_view.json
+[DEBUG save_step_result] saved json -> step0_design_planner_view_design_planner_view.json
+💾 表格已保存: step0_design_planner_view_design_planner_view.csv
+
+[Router Debug] ===== DESIGN BRIEF & IDEAS Generated =====
+Router now stops at idea generation / ranking. Per-idea planner runs downstream only.
+[DEBUG save_step_result] writing generic json -> Mech._Deg._BEAVER_output\step0_router_final_router_result.json
+[DEBUG save_step_result] saved generic json -> step0_router_final_router_result.json
+💾 通用数据已保存: step0_router_final_router_result.json
+📊 Generating initial screening chart for 8 ideas...
+🧭 Route type: design
+
+🚀 Detected Design Mode. Pipelining 3 ideas (Isolated Execution)...
+📊 Generating initial screening chart for 8 ideas...
+DEBUG: [Parallel] 正在提交线程任务...
+⚠️ [System] Switching logs to Background Terminal to prevent UI Crash...
+✅ All 3 parallel tasks completed!
+📊 Generating final radar chart for Top 3 ideas...
+                            💡 Design Verification Summary                            
+┏━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━┓
+┃  ID   ┃ Idea Name                               ┃ Status                   ┃ Score ┃
+┡━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━┩
+│ idea1 │ Block Copolymer with Hydrolytic Buffers │ ✅ Report + Score Parsed │    70 │
+│ idea2 │ Dual-Crosslink Hydrogel Network         │ ✅ Report + Score Parsed │    60 │
+│ idea3 │ Core-Shell Polyester Blend              │ ✅ Report + Score Parsed │    61 │
+└───────┴─────────────────────────────────────────┴──────────────────────────┴───────┘
+DEBUG: [Chart] 正在生成对比图表 (Local 3D)...
+
+📊 Visualizing Data (4-Dimensions Local)...
+✔ Chart generated: 
+Mech._Deg._BEAVER_output\comparison_chart.png
+DEBUG: [Done] Design Mode 流程结束。
+
+🧩 Step 0: Router + Design (Generating Ideas)...
+📊 Generating initial screening chart for 8 ideas...
+🧭 Route type: design
+
+🚀 Detected Design Mode. Pipelining 3 ideas (Isolated Execution)...
+📊 Generating initial screening chart for 8 ideas...
+DEBUG: [Parallel] 正在提交线程任务...
+⚠️ [System] Switching logs to Background Terminal to prevent UI Crash...
+✅ All 3 parallel tasks completed!
+📊 Generating final radar chart for Top 3 ideas...
+                       💡 Design Verification Summary                        
+┏━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━┓
+┃  ID   ┃ Idea Name                      ┃ Status                   ┃ Score ┃
+┡━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━┩
+│ idea1 │ Lactide-Glycolide Copolymer    │ ✅ Report + Score Parsed │    55 │
+│ idea2 │ Stereo-Complexed PLA Copolymer │ ✅ Report + Score Parsed │    78 │
+│ idea3 │ Cyclic Lactone Terpolymer      │ ✅ Report + Score Parsed │    58 │
+└───────┴────────────────────────────────┴──────────────────────────┴───────┘
+DEBUG: [Chart] 正在生成对比图表 (Local 3D)...
+DEBUG: [Done] Design Mode 流程结束。
+
+🧩 Step 0: Router + Design (Generating Ideas)...
+📊 Generating initial screening chart for 8 ideas...
+🧭 Route type: design
+
+🚀 Detected Design Mode. Pipelining 3 ideas (Isolated Execution)...
+📊 Generating initial screening chart for 8 ideas...
+DEBUG: [Parallel] 正在提交线程任务...
+⚠️ [System] Switching logs to Background Terminal to prevent UI Crash...
+✅ All 3 parallel tasks completed!
+📊 Generating final radar chart for Top 3 ideas...
+                         💡 Design Verification Summary                          
+┏━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━┓
+┃  ID   ┃ Idea Name                          ┃ Status                   ┃ Score ┃
+┡━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━┩
+│ idea1 │ Rigid-Tough Block Copolymer        │ ✅ Report + Score Parsed │    68 │
+│ idea2 │ Aromatic-Aliphatic Copolyester     │ ✅ Report + Score Parsed │    71 │
+│ idea3 │ Dynamic Covalent Network Elastomer │ ✅ Report + Score Parsed │    62 │
+└───────┴────────────────────────────────────┴──────────────────────────┴───────┘
+DEBUG: [Chart] 正在生成对比图表 (Local 3D)...
+DEBUG: [Done] Design Mode 流程结束。

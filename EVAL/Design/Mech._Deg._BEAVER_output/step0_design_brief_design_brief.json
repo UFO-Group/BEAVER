@@ -1,0 +1,21 @@
+{
+  "target_system": "biodegradable implant polymer",
+  "targets": [
+    {
+      "property": "initial mechanical strength",
+      "target_value": null,
+      "unit": ""
+    },
+    {
+      "property": "strength retention during hydrolytic degradation",
+      "target_value": null,
+      "unit": ""
+    }
+  ],
+  "constraints": [
+    "Biodegradable",
+    "Hydrolytic degradation mechanism",
+    "Suitable for implant applications"
+  ],
+  "context": "The polymer is intended for medical implants and must degrade over time via hydrolysis. It requires high mechanical support at implantation and must maintain strength in the early stages of degradation to ensure functionality during healing."
+}

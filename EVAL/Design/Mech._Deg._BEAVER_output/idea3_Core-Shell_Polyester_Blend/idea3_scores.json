@@ -1,0 +1,49 @@
+{
+  "overall_score": 61,
+  "scores_dict": {
+    "Feasibility": 40,
+    "Predictability": 50,
+    "Performance": 70,
+    "Innovation": 80,
+    "Chemical Validity": 68
+  },
+  "chemical_validity": {
+    "chemical_validity": 75,
+    "structure_mechanism_consistency": 70,
+    "property_pathway_plausibility": 65,
+    "evidence_claim_consistency": 60,
+    "overall_chemical_validity": 68,
+    "contradiction_detected": true,
+    "major_red_flags": [
+      "The report proposes a 'core-shell polyester blend' but the described fabrication method (melt blending of pre-formed core-shell particles into a matrix polymer) would result in a particulate composite, not a true core-shell architecture at the implant scale. The 'shell' material (PEBA, PBAT, PMMA) is blended into the bulk, negating the proposed barrier mechanism for controlled water ingress.",
+      "The core is defined as a 'PGA/PLLA blend', yet PGA is known for rapid hydrolysis and acidic degradation products, which directly contradicts the goal of 'retaining strength during early-stage hydrolytic degradation' and would likely overwhelm any shell barrier, accelerating degradation.",
+      "The proposed shell materials (PEBA - polyether block amide, PBAT - aromatic-aliphatic copolyester, rubber-grafted PMMA) have vastly different chemical structures, degradation mechanisms, and compatibilities with the polyester core, making the unified 'shell' concept chemically inconsistent. PEBA and PMMA are not typically considered biodegradable in implant timeframes.",
+      "The mechanism relies on a 'barrier effect' from a shell, but the proposed testing involves submersion in PBS, which would expose the entire surface area of the blended material, not a protected core. The design does not logically create a macroscopic diffusion barrier."
+    ],
+    "score_caps": {
+      "Feasibility": 40,
+      "Predictability": 50,
+      "Performance": 70,
+      "Innovation": 80
+    },
+    "rationale": "The core chemical concept has a fundamental contradiction: using a rapidly degrading, acid-producing PGA core is antithetical to the goal of retained early-stage strength. The proposed 'core-shell' structure is misapplied; the fabrication method yields a conventional blend/composite, not a functional core-shell device that can modulate water diffusion. Therefore, the central barrier mechanism is not plausibly realized. Claims about degradation modulation are inconsistent with the proposed material system and processing. However, the general approach of using blend components to tailor degradation profiles has a basis in polymer science, and the experimental plan is detailed, leading to moderate scores in some categories but mandatory caps due to the central contradiction.",
+    "critic_status": "validated"
+  },
+  "report_category": {
+    "primary_category": "mechanical_design",
+    "primary_display_name": "力学性能设计",
+    "secondary_categories": [
+      "degradation_regulation"
+    ],
+    "secondary_display_names": [
+      "降解行为与结构调控"
+    ],
+    "mode": "hybrid",
+    "score_breakdown": {
+      "mechanical_design": 73,
+      "thermal_design": 0,
+      "degradation_regulation": 47
+    },
+    "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 力学性能设计=73 | 降解行为与结构调控=47"
+  }
+}

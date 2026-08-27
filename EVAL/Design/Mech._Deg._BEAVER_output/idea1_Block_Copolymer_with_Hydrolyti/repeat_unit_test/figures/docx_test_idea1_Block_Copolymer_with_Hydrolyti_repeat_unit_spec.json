@@ -1,0 +1,209 @@
+{
+  "rendered": true,
+  "renderer": "rdkit_dictionary_smiles",
+  "image_path": "Mech._Deg._BEAVER_output\\idea1_Block_Copolymer_with_Hydrolyti\\repeat_unit_test\\figures\\docx_test_idea1_Block_Copolymer_with_Hydrolyti_repeat_unit.png",
+  "spec_path": "Mech._Deg._BEAVER_output\\idea1_Block_Copolymer_with_Hydrolyti\\repeat_unit_test\\figures\\docx_test_idea1_Block_Copolymer_with_Hydrolyti_repeat_unit_spec.json",
+  "spec": {
+    "should_draw": true,
+    "confidence": "high",
+    "polymer_name": "PBS-b-PEG",
+    "architecture": "block copolymer",
+    "repeat_units": [
+      {
+        "extracted_name": "PBS",
+        "label": "PBS segment",
+        "role": "biodegradable polyester block",
+        "inferred_from_failed_overall_name": "PBS-b-PEG",
+        "lookup_candidates": [
+          "PBS",
+          "PBS segment"
+        ],
+        "selected_lookup_candidate": "PBS",
+        "canonical_name": "Poly(butylene succinate)(PBS)",
+        "database_name": "Poly(butylene succinate)(PBS)",
+        "mapped_smiles": "[*]OCCCCOC(CCC([*])=O)=O",
+        "smiles": "[*]OCCCCOC(CCC([*])=O)=O",
+        "rdkit_valid": true,
+        "rdkit_validation": {
+          "input_smiles": "[*]OCCCCOC(CCC([*])=O)=O",
+          "rdkit_available": true,
+          "valid": true,
+          "canonical_smiles": "*OCCCCOC(=O)CCC(*)=O",
+          "error": ""
+        },
+        "name_resolution": {
+          "alias_status": {
+            "status": "matched",
+            "match_method": "alias_exact",
+            "matched_key": "pbs",
+            "matched_variant": "PBS",
+            "score": 1.0
+          },
+          "smiles_status": {
+            "status": "matched",
+            "match_method": "smiles_exact",
+            "matched_key": "poly(butylene succinate)(pbs)",
+            "score": 1.0
+          },
+          "candidate_trials": [
+            {
+              "candidate": "PBS",
+              "canonical_name": "Poly(butylene succinate)(PBS)",
+              "database_name": "Poly(butylene succinate)(PBS)",
+              "mapped_smiles": "[*]OCCCCOC(CCC([*])=O)=O",
+              "rdkit_valid": true,
+              "alias_status": {
+                "status": "matched",
+                "match_method": "alias_exact",
+                "matched_key": "pbs",
+                "matched_variant": "PBS",
+                "score": 1.0
+              },
+              "smiles_status": {
+                "status": "matched",
+                "match_method": "smiles_exact",
+                "matched_key": "poly(butylene succinate)(pbs)",
+                "score": 1.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "[*]OCCCCOC(CCC([*])=O)=O",
+                "rdkit_available": true,
+                "valid": true,
+                "canonical_smiles": "*OCCCCOC(=O)CCC(*)=O",
+                "error": ""
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extracted_name": "PEG",
+        "label": "PEG segment",
+        "role": "hydrophilic soft block",
+        "inferred_from_failed_overall_name": "PBS-b-PEG",
+        "lookup_candidates": [
+          "PEG",
+          "PEG segment"
+        ],
+        "selected_lookup_candidate": "PEG",
+        "canonical_name": "Polyethylene_glycol(PEG)",
+        "database_name": "Polyethylene_glycol(PEG)",
+        "mapped_smiles": "[*]OCC[*]",
+        "smiles": "[*]OCC[*]",
+        "rdkit_valid": true,
+        "rdkit_validation": {
+          "input_smiles": "[*]OCC[*]",
+          "rdkit_available": true,
+          "valid": true,
+          "canonical_smiles": "*CCO*",
+          "error": ""
+        },
+        "name_resolution": {
+          "alias_status": {
+            "status": "matched",
+            "match_method": "alias_exact",
+            "matched_key": "peg",
+            "matched_variant": "PEG",
+            "score": 1.0
+          },
+          "smiles_status": {
+            "status": "matched",
+            "match_method": "smiles_exact",
+            "matched_key": "polyethylene_glycol(peg)",
+            "score": 1.0
+          },
+          "candidate_trials": [
+            {
+              "candidate": "PEG",
+              "canonical_name": "Polyethylene_glycol(PEG)",
+              "database_name": "Polyethylene_glycol(PEG)",
+              "mapped_smiles": "[*]OCC[*]",
+              "rdkit_valid": true,
+              "alias_status": {
+                "status": "matched",
+                "match_method": "alias_exact",
+                "matched_key": "peg",
+                "matched_variant": "PEG",
+                "score": 1.0
+              },
+              "smiles_status": {
+                "status": "matched",
+                "match_method": "smiles_exact",
+                "matched_key": "polyethylene_glycol(peg)",
+                "score": 1.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "[*]OCC[*]",
+                "rdkit_available": true,
+                "valid": true,
+                "canonical_smiles": "*CCO*",
+                "error": ""
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "functional_groups": [],
+    "composition_note": "PBS:PEG ratio",
+    "non_polymer_components": [
+      "hydroxyapatite nanoparticles"
+    ],
+    "caption": "Representative polymer-structure schematic of the PBS-b-PEG block copolymer with hydroxyapatite nanoparticles.",
+    "architecture_unit_inference_used": true,
+    "split_after_failed_overall_lookup": true,
+    "polymer_level_priority_used": false,
+    "polymer_level_priority_skipped": true,
+    "name_mapping": {
+      "name_name_dict_path": "resources\\Polymer-关键词",
+      "alias_source_type": "keyword_txt_folder",
+      "name_smiles_csv_path": "resources\\字典-使用-只含聚合物.csv",
+      "alias_entries": 13650,
+      "smiles_entries": 509,
+      "allow_fuzzy": false,
+      "fuzzy_cutoff": 0.92,
+      "rdkit_available": true,
+      "valid_smiles_count": 2,
+      "total_units": 2,
+      "generic_name_guard": true,
+      "keyword_folder_match_required": true,
+      "polymer_level_priority_used": false,
+      "polymer_level_priority_skipped": true,
+      "prefer_overall_polymer_if_available": true,
+      "force_segment_level_schematic": false,
+      "overall_polymer_priority_attempted": true,
+      "overall_polymer_priority_blocked_reason": "overall_polymer_name_not_resolved_to_valid_dictionary_smiles",
+      "overall_polymer_trials": [
+        {
+          "candidate": "PBS-b-PEG",
+          "canonical_name": "PBS-b-PEG",
+          "database_name": "PBS-b-PEG",
+          "mapped_smiles": "",
+          "rdkit_valid": false,
+          "alias_status": {
+            "status": "full_alias_not_found",
+            "match_method": "strict_alias_exact",
+            "matched_variant": "PBS-b-PEG",
+            "score": 0.0
+          },
+          "smiles_status": {
+            "status": "skipped_no_strict_full_name_alias_match",
+            "match_method": "none",
+            "score": 0.0
+          },
+          "rdkit_validation": {
+            "input_smiles": "",
+            "rdkit_available": true,
+            "valid": false,
+            "canonical_smiles": "",
+            "error": "empty_smiles"
+          },
+          "strict_full_name_match": true
+        }
+      ],
+      "architecture_requires_multiple_units": true,
+      "independent_multi_component": false,
+      "split_after_failed_overall_lookup": true
+    }
+  }
+}

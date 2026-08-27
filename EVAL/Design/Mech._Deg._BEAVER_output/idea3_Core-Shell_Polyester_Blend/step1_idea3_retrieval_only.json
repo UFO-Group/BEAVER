@@ -1,0 +1,167 @@
+[
+  {
+    "rank": 8,
+    "score": 0.0156,
+    "source": "101016_jpolymdegradstab2025111531_段67-69.txt",
+    "filename": "101016_jpolymdegradstab2025111531_段67-69.txt",
+    "topic": "Hydrolysis Monitoring in Compatibilized Polyester Blends",
+    "evidence": "atibilized PGA/PBS blend, increasing its tensile strength retention time by 66.7%, and doubling its lifetime. The compatibilization and hydrolysis degradation of the polyester blends were innovatively investigated using oscillatory shear rheology, by assessing the transitions of dynamic moduli, complex viscosity, and the relationship of phase angle with complex modulus. It demonstrated that the rheology method can provide a comprehensive understanding of polyester chain structural evolution during hydrolytic degradation, simultaneously capturing changes in both tensile strength and flexibility",
+    "rerank_score": 3,
+    "rerank_has_answer": true,
+    "rerank_rationale": "Directly discusses compatibilized polyester blend, tensile strength retention, and hydrolytic degradation mechanism using rheology."
+  },
+  {
+    "rank": 6,
+    "score": 0.0159,
+    "source": "101002_mame201100109_段55-57.txt",
+    "filename": "101002_mame201100109_段55-57.txt",
+    "topic": "Biodegradable Polyester Blends: Processing and Hydrolytic Degradation",
+    "evidence": "Melt-processed biodegradable polyester blends of poly(L-lactic acid) and poly(ε-caprolactone): Effects of processing conditions on biodegradation Hydrolytic Degradation of Amorphous Films of L-Lactide Copolymers with Glycolide and D-Lactide",
+    "rerank_score": 2,
+    "rerank_has_answer": true,
+    "rerank_rationale": "Directly mentions biodegradable polyester blends and hydrolytic degradation, but lacks core-shell and implant mechanical support details."
+  },
+  {
+    "rank": 18,
+    "score": 0.0145,
+    "source": "101007_s10853-024-09786-z_段11-13.txt",
+    "filename": "101007_s10853-024-09786-z_段11-13.txt",
+    "topic": "Biodegradable Metal Implants for Bone Healing",
+    "evidence": "de initial mechanical support and gradually dissolve in the body without causing any harm. The temporary implant experiences a gradual decrease in mechanical strength and integrity due to deterioration. This process also allows for a gradual transfer of load from implant to bone, hence reducing the stress shielding effect [4, 5]. Zinc, iron and magnesium are the biodegradable metals that have been studied the most. Notably iron has been identified as suitable material with high strength, formability and slow corrosion rate. However, degradation rate can be improved by fabrication of porous sca",
+    "rerank_score": 2,
+    "rerank_has_answer": true,
+    "rerank_rationale": "Describes biodegradable implants with initial support and gradual strength loss, but not specifically core-shell polyester."
+  },
+  {
+    "rank": 20,
+    "score": 0.0143,
+    "source": "101016_jpolymer2025128330_段62-64.txt",
+    "filename": "101016_jpolymer2025128330_段62-64.txt",
+    "topic": "PLA Blend Mechanical Properties Impact Strength Modulus",
+    "evidence": "weight profiles of pure PLA and different PLA blends overtime during enzymatic degradation, with PLA fixed at 80 wt% for the PLA blends. The core-shell weight ratio for PEBA/PBAT and PEBA-GMA3/PBAT is 1:1.",
+    "rerank_score": 2,
+    "rerank_has_answer": true,
+    "rerank_rationale": "Mentions core-shell weight ratio in PLA blends and enzymatic degradation, partially relevant to the question."
+  },
+  {
+    "rank": 33,
+    "score": 0.013,
+    "source": "101002_pol20210858_段54-56.txt",
+    "filename": "101002_pol20210858_段54-56.txt",
+    "topic": "Biodegradable Polymer Microparticles for Drug Encapsulation and Release",
+    "evidence": "and external surfaces. Therefore, there are no self-agglomeration and clogging of injection needles, securing the easiness of handling. More importantly, the hydrogel shell serves as a diffusion barrier for degradation of PLA and release of lipophilic encapsulants, prolonging the sustained release. Moreover, it is expected that the hydrogel shell improves the consistency of the release profiles when implanted in tissues by avoiding the direct PLA microsphere-to-tissue or microsphere-to-microsphere contacts.",
+    "rerank_score": 2,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Describes a core-shell hydrogel system for controlled release, related to the concept but not polyester blends for implants."
+  },
+  {
+    "rank": 36,
+    "score": 0.0128,
+    "source": "101002_mame202100021_段67-69.txt",
+    "filename": "101002_mame202100021_段67-69.txt",
+    "topic": "Poly(l-lactide) crystallization degradation blends block length",
+    "evidence": "atibilizers, in recent years, toughening PLLA with core-shell rubber nanoparticles has attracted much more attention due to their good interfacial modification effect, low cost, and easy industrialized production.[24-31] Generally, core-shell rubber nanoparticles contain a cross-linked rubbery core to enhance the toughness of polymer and a hard plastic shell (grafted to the rubbery core) to impart good compatibility to polymer/rubber blend and then improve interfacial interaction.[27-32] The prominent feature of core-shell rubber nanoparticles is that their particle size, composition, structur",
+    "rerank_score": 2,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Discusses core-shell rubber nanoparticles for toughening PLLA, relevant to core-shell polymer blends."
+  },
+  {
+    "rank": 42,
+    "score": 0.0123,
+    "source": "101002_app42554_段16-18.txt",
+    "filename": "101002_app42554_段16-18.txt",
+    "topic": "Core-Shell Copolymer Toughening of Polymer Blends",
+    "evidence": "The core-shell copolymer is very effective toughening agent for polymer, its core is “locked in” by slight crosslinking and grafting with its shell to keep them the physical combination with polymer matrix during mechanical blending.1, 2 The interaction between core-shell polymer and polymer matrix strongly depends on the miscibility of the shell layer of the core shell polymer with the polymer matrix. In general, the partial miscibility of the shell layer and polymer matrix is used to obtain polymer blends of desired modified impact properties.3, 4 For example, Methyl methacrylate-butadiene-s",
+    "rerank_score": 2,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Describes core-shell copolymers as toughening agents for polymer blends, relevant to the core-shell concept."
+  },
+  {
+    "rank": 44,
+    "score": 0.0122,
+    "source": "101016_jcolsurfb201708056_段29-31.txt",
+    "filename": "101016_jcolsurfb201708056_段29-31.txt",
+    "topic": "PLA Starch Wood Flour Soil Degradation Mechanism",
+    "evidence": "As previously reported, the PLA undergoes bulk degradation during hydrolytic degradation [13]. When the blends were buried in soil, the PLA component preferred to hydrolyze at the core of the materials, while starch and wood flour components in the blends preferred to degradation from the surface of blends to the inner of blends. This phenomenon will lead to a heterogeneous degradation which implies the complex of the degradation mechanism of starch/wood flour/PLA blends in soil. With the burial in soil, the fracture surface of blends ranged from smooth to rugged as a result of degradation. Fo",
+    "rerank_score": 2,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Describes hydrolytic degradation mechanism of PLA blends with starch/wood flour, partially relevant."
+  },
+  {
+    "rank": 1,
+    "score": 0.0164,
+    "source": "101002_mabi202100177_段38-40.txt",
+    "filename": "101002_mabi202100177_段38-40.txt",
+    "topic": "Core-Sheath Scaffolds for Bone Tissue Engineering",
+    "evidence": "iodegradability and biocompatibility.[9, 25, 26] PCL is a highly hydrophobic biopolymer which exhibits excellent mechanical properties, however it lacks cell recognition sites and shows reduced cellular attachment.[27-30] PVA is hydrophilic and has a greater affinity for cell seeding and cell adhesion.[21, 31] Hydroxyapatite, an inorganic substance which is an essential component of bone, demonstrates superior biocompatibility and, is osteoconductive; due to its osteointegration properties, it is used in bone tissue engineering and bone implants.[32-36] The construction of a core-sheath fibrou",
+    "rerank_score": 1,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Discusses biodegradable polymers and mechanical properties but not core-shell polyester blends for implants."
+  },
+  {
+    "rank": 5,
+    "score": 0.0159,
+    "source": "101002_mabi202100177_段80-82.txt",
+    "filename": "101002_mabi202100177_段80-82.txt",
+    "topic": "Core-Sheath Scaffolds for Bone Tissue Engineering",
+    "evidence": "iodegradability and biocompatibility.[9, 25, 26] PCL is a highly hydrophobic biopolymer which exhibits excellent mechanical properties, however it lacks cell recognition sites and shows reduced cellular attachment.[27-30] PVA is hydrophilic and has a greater affinity for cell seeding and cell adhesion.[21, 31] Hydroxyapatite, an inorganic substance which is an essential component of bone, demonstrates superior biocompatibility and, is osteoconductive; due to its osteointegration properties, it is used in bone tissue engineering and bone implants.[32-36] The construction of a core-sheath fibrou",
+    "rerank_score": 1,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Same as passage 1; discusses biodegradable polymers and mechanical properties but not core-shell polyester blends for implants."
+  },
+  {
+    "rank": 7,
+    "score": 0.0156,
+    "source": "101002_mame202000230_段45-47.txt",
+    "filename": "101002_mame202000230_段45-47.txt",
+    "topic": "Electrospinning Jet Force and Fiber Crystallinity",
+    "evidence": "bers. To improve the mechanical properties of the materials, researchers added excellent strengthening and toughening materials to the core of the fibers. Wei et al. prepared a non-woven wound dressing with core-shell structure fibers. The primary raw materials of the shell-core part are collagen and polycaprolactone, respectively. In this way, they can maintain the mechanical strength and biocompatibility of the dressing.[48] Their result showed that the as-prepared fiber has significantly improved mechanical properties, and its swelling rate and other biological characteristics have also rea",
+    "rerank_score": 1,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Mentions core-shell fibers for wound dressing with mechanical strength, but not polyester blends for implants."
+  },
+  {
+    "rank": 9,
+    "score": 0.0154,
+    "source": "101002_app47599_段16-18.txt",
+    "filename": "101002_app47599_段16-18.txt",
+    "topic": "Biomedical Polymer Composites for Tissue Engineering",
+    "evidence": "nable compressive strength, while balancing the rate of resorption with the rate of tissue construction.3 In the same line, the biomimetic scaffolds need to have the right microstructure that provides structural support, as well as pathways for mass transport to guide tissue regeneration. High porosity, pore interconnectivity, and adequate pore size are necessary to facilitate cell seeding and diffusion of cells and nutrients throughout the structure.4-7 Emulsion freeze-drying, fiber bonding, solvent casting or particulate leaching, thermal phase separation, gas foaming, electrospinning, and u",
+    "rerank_score": 1,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Discusses scaffold requirements like compressive strength and resorption, but not core-shell polyester blends."
+  },
+  {
+    "rank": 11,
+    "score": 0.0152,
+    "source": "101002_app47599_段63-65.txt",
+    "filename": "101002_app47599_段63-65.txt",
+    "topic": "Biomedical Polymer Composites for Tissue Engineering",
+    "evidence": "nable compressive strength, while balancing the rate of resorption with the rate of tissue construction.3 In the same line, the biomimetic scaffolds need to have the right microstructure that provides structural support, as well as pathways for mass transport to guide tissue regeneration. High porosity, pore interconnectivity, and adequate pore size are necessary to facilitate cell seeding and diffusion of cells and nutrients throughout the structure.4-7 Emulsion freeze-drying, fiber bonding, solvent casting or particulate leaching, thermal phase separation, gas foaming, electrospinning, and u",
+    "rerank_score": 1,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Same as passage 9; discusses scaffold requirements but not core-shell polyester blends."
+  },
+  {
+    "rank": 14,
+    "score": 0.0149,
+    "source": "101039_b9py00226j_段2-4.txt",
+    "filename": "101039_b9py00226j_段2-4.txt",
+    "topic": "Biodegradable Polyester Elastomers for Tissue Engineering",
+    "evidence": "eriod.8 Alternatively, thermosets can be designed from completely amorphous precursors, allowing for linear degradation and a predictable loss of mechanical strength.7 Polyester thermosets degrade by a combination of bulk and surface erosion, which often results in the retention of the 3D structure throughout the hydrolytic process.8",
+    "rerank_score": 1,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Mentions polyester thermoset degradation and mechanical strength retention, but not core-shell blends or implants."
+  },
+  {
+    "rank": 15,
+    "score": 0.0147,
+    "source": "101088_1748-605x_ac20a0_段152-154.txt",
+    "filename": "101088_1748-605x_ac20a0_段152-154.txt",
+    "topic": "Tissue Engineering and Regenerative Medicine Applications",
+    "evidence": "ling, rigidity, compliance, and cytocompatibility are needed to develop for tailoring an appropriate scaffold. Different synthetic (both nondegradable and biodegradable) and natural polymers are used widely to fabricate constructs of different dimensions and compositions (Jagur-Grodzinski 2006). They are the most diverse class of biomaterials, whose surface property can be physically, chemically or biochemically modified. They are formattable in any size and in complex shapes according to the application (Dhandayuthapani et al 2011). Due to the high mechanical strength, semi-crysta",
+    "rerank_score": 1,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Discusses polymer properties for scaffolds including mechanical strength, but not core-shell polyester blends."
+  }
+]

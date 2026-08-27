@@ -1,0 +1,26 @@
+{
+  "query_structure": "single",
+  "steps": [
+    {
+      "id": "step1",
+      "type": "search_papers",
+      "description": "Retrieve literature on hydrolytic buffer mechanisms in block copolymers for biodegradable implants",
+      "inputs": {
+        "query": "Block copolymer hydrolytic buffers for biodegradable implants maintaining mechanical strength during early degradation",
+        "top_k": 15,
+        "query_policy": "preserve_original",
+        "query_rewrite_mode": "none"
+      }
+    },
+    {
+      "id": "step2",
+      "type": "reason_over_evidence",
+      "description": "Evaluate feasibility by analyzing degradation regulation mechanisms and mechanical retention evidence",
+      "inputs": {
+        "use_steps": [
+          "step1"
+        ]
+      }
+    }
+  ]
+}

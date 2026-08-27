@@ -1,0 +1,180 @@
+{
+  "rendered": false,
+  "renderer": "none",
+  "image_path": "",
+  "spec_path": "Mech._Deg._BEAVER_output\\idea2_Dual-Crosslink_Hydrogel_Networ\\figures\\idea2_Dual-Crosslink_Hydrogel_Network_repeat_unit_spec.json",
+  "spec": {
+    "should_draw": false,
+    "confidence": "low",
+    "polymer_name": "Dual-Crosslink Hydrogel",
+    "architecture": "network",
+    "repeat_units": [
+      {
+        "extracted_name": "oxidized alginate",
+        "label": "OxAlg",
+        "role": "primary network",
+        "lookup_candidates": [
+          "oxidized alginate",
+          "OxAlg",
+          "Dual-Crosslink Hydrogel"
+        ],
+        "selected_lookup_candidate": "oxidized alginate",
+        "canonical_name": "oxidized alginate",
+        "database_name": "oxidized alginate",
+        "mapped_smiles": "",
+        "smiles": "",
+        "rdkit_valid": false,
+        "rdkit_validation": {
+          "input_smiles": "",
+          "rdkit_available": true,
+          "valid": false,
+          "canonical_smiles": "",
+          "error": "empty_smiles"
+        },
+        "name_resolution": {
+          "alias_status": {
+            "status": "ambiguous_alias_ignored_used_raw_name",
+            "match_method": "raw_name",
+            "score": 0.0,
+            "ambiguous_hits": [
+              {
+                "matched_key": "oxidized alginate",
+                "matched_variant": "oxidized alginate",
+                "match_method": "alias_exact"
+              },
+              {
+                "matched_key": "oxidizedalginate",
+                "matched_variant": "oxidized alginate",
+                "match_method": "alias_exact_compact"
+              }
+            ]
+          },
+          "smiles_status": {
+            "status": "skipped_no_keyword_folder_match",
+            "match_method": "none",
+            "score": 0.0
+          },
+          "candidate_trials": [
+            {
+              "candidate": "oxidized alginate",
+              "canonical_name": "oxidized alginate",
+              "database_name": "oxidized alginate",
+              "mapped_smiles": "",
+              "rdkit_valid": false,
+              "alias_status": {
+                "status": "ambiguous_alias_ignored_used_raw_name",
+                "match_method": "raw_name",
+                "score": 0.0,
+                "ambiguous_hits": [
+                  {
+                    "matched_key": "oxidized alginate",
+                    "matched_variant": "oxidized alginate",
+                    "match_method": "alias_exact"
+                  },
+                  {
+                    "matched_key": "oxidizedalginate",
+                    "matched_variant": "oxidized alginate",
+                    "match_method": "alias_exact_compact"
+                  }
+                ]
+              },
+              "smiles_status": {
+                "status": "skipped_no_keyword_folder_match",
+                "match_method": "none",
+                "score": 0.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "",
+                "rdkit_available": true,
+                "valid": false,
+                "canonical_smiles": "",
+                "error": "empty_smiles"
+              }
+            },
+            {
+              "candidate": "OxAlg",
+              "canonical_name": "OxAlg",
+              "database_name": "OxAlg",
+              "mapped_smiles": "",
+              "rdkit_valid": false,
+              "alias_status": {
+                "status": "unmapped_alias_used_raw_name",
+                "match_method": "raw_name",
+                "score": 0.0
+              },
+              "smiles_status": {
+                "status": "skipped_no_keyword_folder_match",
+                "match_method": "none",
+                "score": 0.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "",
+                "rdkit_available": true,
+                "valid": false,
+                "canonical_smiles": "",
+                "error": "empty_smiles"
+              }
+            },
+            {
+              "candidate": "Dual-Crosslink Hydrogel",
+              "canonical_name": "Dual-Crosslink Hydrogel",
+              "database_name": "Dual-Crosslink Hydrogel",
+              "mapped_smiles": "",
+              "rdkit_valid": false,
+              "alias_status": {
+                "status": "unmapped_alias_used_raw_name",
+                "match_method": "raw_name",
+                "score": 0.0
+              },
+              "smiles_status": {
+                "status": "skipped_no_keyword_folder_match",
+                "match_method": "none",
+                "score": 0.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "",
+                "rdkit_available": true,
+                "valid": false,
+                "canonical_smiles": "",
+                "error": "empty_smiles"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "functional_groups": [
+      {
+        "name": "Schiff base",
+        "role": "dynamic crosslink"
+      },
+      {
+        "name": "methacrylate",
+        "role": "covalent crosslink"
+      }
+    ],
+    "composition_note": "oxidized alginate : methacrylated polymer (1:1 to 3:1)",
+    "non_polymer_components": [
+      "diamine linker",
+      "photo-initiator"
+    ],
+    "caption": "Representative polymer-structure schematic of Dual-Crosslink Hydrogel, showing oxidized alginate primary network crosslinked via Schiff bases and a secondary network of methacrylate-functionalized polymer (base polymer not specified).",
+    "polymer_level_priority_used": false,
+    "name_mapping": {
+      "name_name_dict_path": "resources\\Polymer-关键词",
+      "alias_source_type": "keyword_txt_folder",
+      "name_smiles_csv_path": "resources\\字典-使用-只含聚合物.csv",
+      "alias_entries": 13628,
+      "smiles_entries": 509,
+      "allow_fuzzy": false,
+      "fuzzy_cutoff": 0.92,
+      "rdkit_available": true,
+      "valid_smiles_count": 0,
+      "total_units": 1,
+      "generic_name_guard": true,
+      "keyword_folder_match_required": true,
+      "polymer_level_priority_used": false
+    },
+    "mapping_error": "No extracted polymer name could be resolved to an RDKit-valid dictionary SMILES."
+  }
+}

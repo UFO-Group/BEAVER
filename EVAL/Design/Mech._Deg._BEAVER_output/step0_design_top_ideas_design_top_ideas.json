@@ -1,0 +1,239 @@
+[
+  {
+    "idea_name": "Block Copolymer with Hydrolytic Buffers",
+    "score_overall": 7.4,
+    "score_dimensions": {
+      "feasibility": 8.5,
+      "performance_potential": 7.0,
+      "controllability": 7.5,
+      "novelty": 6.0
+    },
+    "pros": [
+      "Well-understood block copolymer chemistry and degradation",
+      "Hydrophobic PCL segments effectively shield ester bonds",
+      "Citrate additives help control degradation rate and byproducts"
+    ],
+    "cons": [
+      "Risk of phase separation affecting mechanical homogeneity",
+      "Very slow degradation of PCL may hinder complete absorption",
+      "Molecular architecture control is synthetically demanding"
+    ],
+    "summary": "A chemically elegant block copolymer design with built-in hydrolysis barriers, but phase behavior and the slow degradation of PCL are significant considerations.",
+    "scoring_status": "validated",
+    "original_idea": {
+      "idea_name": "Block Copolymer with Hydrolytic Buffers",
+      "core_idea": "PCL-PGA block copolymer designed with hydrophobic PCL segments acting as hydrolysis barriers around degradable PGA blocks.",
+      "components": [
+        {
+          "name": "PCL blocks",
+          "role": "Hydrolysis-resistant structural units"
+        },
+        {
+          "name": "PGA blocks",
+          "role": "Controllably degradable segments"
+        },
+        {
+          "name": "Citrate additives",
+          "role": "Degradation rate modifiers"
+        }
+      ],
+      "mechanism": "The semicrystalline PCL domains maintain mechanical coherence as PGA degrades. Hydrophobic PCL regions shield adjacent ester bonds, slowing chain scission. Citrate buffers neutralize acidic byproducts that accelerate degradation. This molecular architecture creates localized degradation zones that preserve overall strength for 6-10 weeks, with PCL providing residual support after PGA dissolution.",
+      "risks": [
+        "Phase separation may compromise mechanical homogeneity",
+        "Slow PCL degradation could impede complete absorption"
+      ]
+    },
+    "design_profile": {
+      "primary_category": "degradation_regulation",
+      "primary_display_name": "降解行为与结构调控",
+      "secondary_categories": [
+        "mechanical_design"
+      ],
+      "secondary_display_names": [
+        "力学性能设计"
+      ],
+      "mode": "hybrid",
+      "score_breakdown": {
+        "mechanical_design": 70,
+        "thermal_design": 0,
+        "degradation_regulation": 80
+      },
+      "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 降解行为与结构调控=80 | 力学性能设计=70",
+      "active_categories": [
+        "degradation_regulation",
+        "mechanical_design"
+      ],
+      "active_display_names": [
+        "降解行为与结构调控",
+        "力学性能设计"
+      ],
+      "extra_searches": [
+        {
+          "name": "degradation_mechanical_retention",
+          "description": "Search evidence on mechanical retention during hydrolytic degradation / wet-state support.",
+          "query": "Design a biodegradable implant polymer that provides high initial mechanical support while retaining strength during early-stage hydrolytic degradation. Block Copolymer with Hydrolytic Buffers biodegradable polymer mechanical retention during hydrolytic degradation wet-state support strength retention",
+          "top_k": 15
+        }
+      ],
+      "max_total_search_steps": 4
+    }
+  },
+  {
+    "idea_name": "Dual-Crosslink Hydrogel Network",
+    "score_overall": 7.2,
+    "score_dimensions": {
+      "feasibility": 6.5,
+      "performance_potential": 8.0,
+      "controllability": 7.0,
+      "novelty": 7.5
+    },
+    "pros": [
+      "Progressive degradation via labile ionic crosslinks preserves integrity",
+      "pH control mitigates autocatalytic degradation",
+      "Good potential for strength retention in early healing window"
+    ],
+    "cons": [
+      "Risk of ion leaching causing inflammation",
+      "Complex synthesis requiring precise stoichiometry",
+      "Hydrogels typically have lower initial mechanical strength than solid polymers"
+    ],
+    "summary": "An innovative dual-network hydrogel offering controlled, progressive degradation, but faces challenges in manufacturing precision and potential biological responses to leached ions.",
+    "scoring_status": "validated",
+    "original_idea": {
+      "idea_name": "Dual-Crosslink Hydrogel Network",
+      "core_idea": "Combining permanent covalent crosslinks for stability with hydrolyzable ionic crosslinks that gradually break to control degradation rate while preserving integrity.",
+      "components": [
+        {
+          "name": "Methacrylated hyaluronic acid",
+          "role": "Covalently crosslinked matrix"
+        },
+        {
+          "name": "Ca²⁺ ions",
+          "role": "Hydrolytically labile ionic crosslinker"
+        },
+        {
+          "name": "Degradation modulators",
+          "role": "pH buffers to control hydrolysis kinetics"
+        }
+      ],
+      "mechanism": "Covalent crosslinks maintain structural integrity throughout degradation. Ionic crosslinks preferentially break first via hydrolysis, allowing controlled stress redistribution without sudden strength loss. The buffered environment prevents autocatalytic degradation. This dual-network design retains >70% compressive strength during the critical 4-8 week healing window through progressive rather than abrupt bond cleavage.",
+      "risks": [
+        "Ion leaching may cause local tissue inflammation",
+        "Complex manufacturing requires precise stoichiometry control"
+      ]
+    },
+    "design_profile": {
+      "primary_category": "mechanical_design",
+      "primary_display_name": "力学性能设计",
+      "secondary_categories": [
+        "degradation_regulation"
+      ],
+      "secondary_display_names": [
+        "降解行为与结构调控"
+      ],
+      "mode": "hybrid",
+      "score_breakdown": {
+        "mechanical_design": 64,
+        "thermal_design": 0,
+        "degradation_regulation": 50
+      },
+      "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 力学性能设计=64 | 降解行为与结构调控=50",
+      "active_categories": [
+        "mechanical_design",
+        "degradation_regulation"
+      ],
+      "active_display_names": [
+        "力学性能设计",
+        "降解行为与结构调控"
+      ],
+      "extra_searches": [
+        {
+          "name": "degradation_mechanical_retention",
+          "description": "Search evidence on mechanical retention during hydrolytic degradation / wet-state support.",
+          "query": "Design a biodegradable implant polymer that provides high initial mechanical support while retaining strength during early-stage hydrolytic degradation. Dual-Crosslink Hydrogel Network biodegradable polymer mechanical retention during hydrolytic degradation wet-state support strength retention",
+          "top_k": 15
+        }
+      ],
+      "max_total_search_steps": 4
+    }
+  },
+  {
+    "idea_name": "Core-Shell Polyester Blend",
+    "score_overall": 7.1,
+    "score_dimensions": {
+      "feasibility": 8.0,
+      "performance_potential": 7.5,
+      "controllability": 6.0,
+      "novelty": 5.0
+    },
+    "pros": [
+      "Uses well-established, biocompatible polymers (PLLA, PGA)",
+      "Clear staged degradation mechanism",
+      "High initial strength from crystalline PLLA core"
+    ],
+    "cons": [
+      "Delamination risk at core-shell interface under cyclic loading",
+      "Manufacturing complexity for uniform shell coating",
+      "Potential for inconsistent degradation due to shell thickness variations"
+    ],
+    "summary": "A practical core-shell design using established polyesters to delay core hydrolysis and maintain early strength, though interfacial adhesion and manufacturing control are challenges.",
+    "scoring_status": "validated",
+    "original_idea": {
+      "idea_name": "Core-Shell Polyester Blend",
+      "core_idea": "A core of slow-degrading high-crystallinity PLLA for structural support, coated with a fast-degrading PGA shell that delays water penetration to the core during early stages.",
+      "components": [
+        {
+          "name": "PLLA core",
+          "role": "Matrix for sustained mechanical strength"
+        },
+        {
+          "name": "PGA shell",
+          "role": "Protective barrier against rapid hydrolysis"
+        },
+        {
+          "name": "Plasticizer",
+          "role": "Interface modifier to prevent delamination"
+        }
+      ],
+      "mechanism": "The crystalline PLLA core provides high initial stiffness and strength. The PGA outer layer sacrificially degrades first, shielding the core from immediate hydrolytic attack. This staged degradation allows the core to maintain >80% strength during early healing phases. The plasticizer ensures interfacial adhesion to prevent mechanical failure at the core-shell boundary.",
+      "risks": [
+        "Potential delamination under cyclic loading stresses",
+        "Inconsistent shell thickness may cause uneven degradation"
+      ]
+    },
+    "design_profile": {
+      "primary_category": "mechanical_design",
+      "primary_display_name": "力学性能设计",
+      "secondary_categories": [
+        "degradation_regulation"
+      ],
+      "secondary_display_names": [
+        "降解行为与结构调控"
+      ],
+      "mode": "hybrid",
+      "score_breakdown": {
+        "mechanical_design": 73,
+        "thermal_design": 0,
+        "degradation_regulation": 47
+      },
+      "rationale": "Primary emphasis selected from weighted query/domain/evidence signals. 力学性能设计=73 | 降解行为与结构调控=47",
+      "active_categories": [
+        "mechanical_design",
+        "degradation_regulation"
+      ],
+      "active_display_names": [
+        "力学性能设计",
+        "降解行为与结构调控"
+      ],
+      "extra_searches": [
+        {
+          "name": "degradation_mechanical_retention",
+          "description": "Search evidence on mechanical retention during hydrolytic degradation / wet-state support.",
+          "query": "Design a biodegradable implant polymer that provides high initial mechanical support while retaining strength during early-stage hydrolytic degradation. Core-Shell Polyester Blend biodegradable polymer mechanical retention during hydrolytic degradation wet-state support strength retention",
+          "top_k": 15
+        }
+      ],
+      "max_total_search_steps": 4
+    }
+  }
+]

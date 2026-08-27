@@ -1,0 +1,26 @@
+{
+  "query_structure": "single",
+  "steps": [
+    {
+      "id": "step1",
+      "type": "search_papers",
+      "description": "Retrieve literature on core-shell polyester blends for biodegradable implants, focusing on mechanical support and degradation mechanisms.",
+      "inputs": {
+        "query": "Core-shell polyester blends biodegradable implant high initial mechanical support strength retention hydrolytic degradation mechanism",
+        "top_k": 15,
+        "query_policy": "preserve_original",
+        "query_rewrite_mode": "none"
+      }
+    },
+    {
+      "id": "step2",
+      "type": "reason_over_evidence",
+      "description": "Synthesize evidence to verify feasibility and innovation, distinguishing direct evidence from indirect mechanistic support.",
+      "inputs": {
+        "use_steps": [
+          "step1"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "rendered": false,
+  "renderer": "none",
+  "image_path": "",
+  "spec_path": "Mech._Deg._BEAVER_output\\idea2_Dual-Crosslink_Hydrogel_Networ\\repeat_unit_test\\figures\\docx_test_idea2_Dual-Crosslink_Hydrogel_Networ_repeat_unit_spec.json",
+  "spec": {
+    "should_draw": false,
+    "confidence": "low",
+    "polymer_name": "",
+    "architecture": "network",
+    "repeat_units": [],
+    "functional_groups": [
+      {
+        "name": "Schiff base",
+        "role": "dynamic crosslink"
+      },
+      {
+        "name": "methacrylate",
+        "role": "covalent crosslink"
+      }
+    ],
+    "composition_note": "No specific polymer/repeat-unit name was extracted; generic polymer-class terms were skipped.",
+    "non_polymer_components": [
+      "diamine linker",
+      "photo-initiator",
+      "PBS buffer"
+    ],
+    "caption": "Representative polymer-structure schematic of the dual-crosslink hydrogel network (not drawn due to unspecified methacrylated polymer).",
+    "multi_unit_warning": "Architecture 'network' normally requires 2 or more polymeric units, but only 0 unit(s) were extracted/resolved.",
+    "mapping_warning": "No specific polymer name was extracted; generic class terms such as polyester/polymer are not sent to the SMILES dictionary.",
+    "name_mapping": {
+      "name_name_dict_path": "resources\\Polymer-关键词",
+      "name_smiles_csv_path": "resources\\字典-使用-只含聚合物.csv",
+      "rdkit_available": true,
+      "valid_smiles_count": 0,
+      "total_units": 0,
+      "generic_name_guard": true
+    }
+  }
+}

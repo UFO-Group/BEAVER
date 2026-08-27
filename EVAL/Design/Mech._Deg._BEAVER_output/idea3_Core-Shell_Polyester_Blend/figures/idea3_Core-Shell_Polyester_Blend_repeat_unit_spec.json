@@ -1,0 +1,426 @@
+{
+  "rendered": true,
+  "renderer": "rdkit_dictionary_smiles",
+  "image_path": "Mech._Deg._BEAVER_output\\idea3_Core-Shell_Polyester_Blend\\figures\\idea3_Core-Shell_Polyester_Blend_repeat_unit.png",
+  "spec_path": "Mech._Deg._BEAVER_output\\idea3_Core-Shell_Polyester_Blend\\figures\\idea3_Core-Shell_Polyester_Blend_repeat_unit_spec.json",
+  "spec": {
+    "should_draw": true,
+    "confidence": "high",
+    "polymer_name": "Core-Shell Polyester Blend",
+    "architecture": "blend/composite",
+    "repeat_units": [
+      {
+        "extracted_name": "PGA",
+        "label": "PGA",
+        "role": "core polymer",
+        "lookup_candidates": [
+          "PGA"
+        ],
+        "selected_lookup_candidate": "PGA",
+        "canonical_name": "Polyglutamic acid(PGA)",
+        "database_name": "Polyglutamic acid(PGA)",
+        "mapped_smiles": "[*]NC(C(O)=O)CCC([*])=O",
+        "smiles": "[*]NC(C(O)=O)CCC([*])=O",
+        "rdkit_valid": true,
+        "rdkit_validation": {
+          "input_smiles": "[*]NC(C(O)=O)CCC([*])=O",
+          "rdkit_available": true,
+          "valid": true,
+          "canonical_smiles": "*NC(CCC(*)=O)C(=O)O",
+          "error": ""
+        },
+        "name_resolution": {
+          "alias_status": {
+            "status": "matched",
+            "match_method": "alias_exact",
+            "matched_key": "pga",
+            "matched_variant": "PGA",
+            "score": 1.0
+          },
+          "smiles_status": {
+            "status": "matched",
+            "match_method": "smiles_exact",
+            "matched_key": "polyglutamic acid(pga)",
+            "score": 1.0
+          },
+          "candidate_trials": [
+            {
+              "candidate": "PGA",
+              "canonical_name": "Polyglutamic acid(PGA)",
+              "database_name": "Polyglutamic acid(PGA)",
+              "mapped_smiles": "[*]NC(C(O)=O)CCC([*])=O",
+              "rdkit_valid": true,
+              "alias_status": {
+                "status": "matched",
+                "match_method": "alias_exact",
+                "matched_key": "pga",
+                "matched_variant": "PGA",
+                "score": 1.0
+              },
+              "smiles_status": {
+                "status": "matched",
+                "match_method": "smiles_exact",
+                "matched_key": "polyglutamic acid(pga)",
+                "score": 1.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "[*]NC(C(O)=O)CCC([*])=O",
+                "rdkit_available": true,
+                "valid": true,
+                "canonical_smiles": "*NC(CCC(*)=O)C(=O)O",
+                "error": ""
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extracted_name": "PLLA",
+        "label": "PLLA",
+        "role": "core polymer",
+        "lookup_candidates": [
+          "PLLA"
+        ],
+        "selected_lookup_candidate": "PLLA",
+        "canonical_name": "Poly(L-lactic acid)(PLLA)",
+        "database_name": "Poly(L-lactic acid)(PLLA)",
+        "mapped_smiles": "O=C([C@H](C)O[*])O[C@@H](C)C([*])=O",
+        "smiles": "O=C([C@H](C)O[*])O[C@@H](C)C([*])=O",
+        "rdkit_valid": true,
+        "rdkit_validation": {
+          "input_smiles": "O=C([C@H](C)O[*])O[C@@H](C)C([*])=O",
+          "rdkit_available": true,
+          "valid": true,
+          "canonical_smiles": "*O[C@@H](C)C(=O)O[C@@H](C)C(*)=O",
+          "error": ""
+        },
+        "name_resolution": {
+          "alias_status": {
+            "status": "matched",
+            "match_method": "alias_exact",
+            "matched_key": "plla",
+            "matched_variant": "PLLA",
+            "score": 1.0
+          },
+          "smiles_status": {
+            "status": "matched",
+            "match_method": "smiles_exact",
+            "matched_key": "poly(l-lactic acid)(plla)",
+            "score": 1.0
+          },
+          "candidate_trials": [
+            {
+              "candidate": "PLLA",
+              "canonical_name": "Poly(L-lactic acid)(PLLA)",
+              "database_name": "Poly(L-lactic acid)(PLLA)",
+              "mapped_smiles": "O=C([C@H](C)O[*])O[C@@H](C)C([*])=O",
+              "rdkit_valid": true,
+              "alias_status": {
+                "status": "matched",
+                "match_method": "alias_exact",
+                "matched_key": "plla",
+                "matched_variant": "PLLA",
+                "score": 1.0
+              },
+              "smiles_status": {
+                "status": "matched",
+                "match_method": "smiles_exact",
+                "matched_key": "poly(l-lactic acid)(plla)",
+                "score": 1.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "O=C([C@H](C)O[*])O[C@@H](C)C([*])=O",
+                "rdkit_available": true,
+                "valid": true,
+                "canonical_smiles": "*O[C@@H](C)C(=O)O[C@@H](C)C(*)=O",
+                "error": ""
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extracted_name": "PEBA",
+        "label": "PEBA",
+        "role": "shell polymer",
+        "lookup_candidates": [
+          "PEBA"
+        ],
+        "selected_lookup_candidate": "PEBA",
+        "canonical_name": "PEBA",
+        "database_name": "PEBA",
+        "mapped_smiles": "",
+        "smiles": "",
+        "rdkit_valid": false,
+        "rdkit_validation": {
+          "input_smiles": "",
+          "rdkit_available": true,
+          "valid": false,
+          "canonical_smiles": "",
+          "error": "empty_smiles"
+        },
+        "name_resolution": {
+          "alias_status": {
+            "status": "unmapped_alias_used_raw_name",
+            "match_method": "raw_name",
+            "score": 0.0
+          },
+          "smiles_status": {
+            "status": "skipped_no_keyword_folder_match",
+            "match_method": "none",
+            "score": 0.0
+          },
+          "candidate_trials": [
+            {
+              "candidate": "PEBA",
+              "canonical_name": "PEBA",
+              "database_name": "PEBA",
+              "mapped_smiles": "",
+              "rdkit_valid": false,
+              "alias_status": {
+                "status": "unmapped_alias_used_raw_name",
+                "match_method": "raw_name",
+                "score": 0.0
+              },
+              "smiles_status": {
+                "status": "skipped_no_keyword_folder_match",
+                "match_method": "none",
+                "score": 0.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "",
+                "rdkit_available": true,
+                "valid": false,
+                "canonical_smiles": "",
+                "error": "empty_smiles"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extracted_name": "PEBA-g-GMA",
+        "label": "PEBA-g-GMA",
+        "role": "shell polymer",
+        "lookup_candidates": [
+          "PEBA-g-GMA",
+          "PEBA",
+          "GMA"
+        ],
+        "selected_lookup_candidate": "PEBA-g-GMA",
+        "canonical_name": "Glycidyl_methacrylate(GMA)",
+        "database_name": "Glycidyl_methacrylate(GMA)",
+        "mapped_smiles": "",
+        "smiles": "",
+        "rdkit_valid": false,
+        "rdkit_validation": {
+          "input_smiles": "",
+          "rdkit_available": true,
+          "valid": false,
+          "canonical_smiles": "",
+          "error": "empty_smiles"
+        },
+        "name_resolution": {
+          "alias_status": {
+            "status": "matched",
+            "match_method": "alias_exact",
+            "matched_key": "gma",
+            "matched_variant": "GMA",
+            "score": 1.0
+          },
+          "smiles_status": {
+            "status": "smiles_not_found",
+            "match_method": "none",
+            "score": 0.0
+          },
+          "candidate_trials": [
+            {
+              "candidate": "PEBA-g-GMA",
+              "canonical_name": "Glycidyl_methacrylate(GMA)",
+              "database_name": "Glycidyl_methacrylate(GMA)",
+              "mapped_smiles": "",
+              "rdkit_valid": false,
+              "alias_status": {
+                "status": "matched",
+                "match_method": "alias_exact",
+                "matched_key": "gma",
+                "matched_variant": "GMA",
+                "score": 1.0
+              },
+              "smiles_status": {
+                "status": "smiles_not_found",
+                "match_method": "none",
+                "score": 0.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "",
+                "rdkit_available": true,
+                "valid": false,
+                "canonical_smiles": "",
+                "error": "empty_smiles"
+              }
+            },
+            {
+              "candidate": "PEBA",
+              "canonical_name": "PEBA",
+              "database_name": "PEBA",
+              "mapped_smiles": "",
+              "rdkit_valid": false,
+              "alias_status": {
+                "status": "unmapped_alias_used_raw_name",
+                "match_method": "raw_name",
+                "score": 0.0
+              },
+              "smiles_status": {
+                "status": "skipped_no_keyword_folder_match",
+                "match_method": "none",
+                "score": 0.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "",
+                "rdkit_available": true,
+                "valid": false,
+                "canonical_smiles": "",
+                "error": "empty_smiles"
+              }
+            },
+            {
+              "candidate": "GMA",
+              "canonical_name": "Glycidyl_methacrylate(GMA)",
+              "database_name": "Glycidyl_methacrylate(GMA)",
+              "mapped_smiles": "",
+              "rdkit_valid": false,
+              "alias_status": {
+                "status": "matched",
+                "match_method": "alias_exact",
+                "matched_key": "gma",
+                "matched_variant": "GMA",
+                "score": 1.0
+              },
+              "smiles_status": {
+                "status": "smiles_not_found",
+                "match_method": "none",
+                "score": 0.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "",
+                "rdkit_available": true,
+                "valid": false,
+                "canonical_smiles": "",
+                "error": "empty_smiles"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extracted_name": "PBAT",
+        "label": "PBAT",
+        "role": "shell polymer",
+        "lookup_candidates": [
+          "PBAT"
+        ],
+        "selected_lookup_candidate": "PBAT",
+        "canonical_name": "PBAT",
+        "database_name": "PBAT",
+        "mapped_smiles": "",
+        "smiles": "",
+        "rdkit_valid": false,
+        "rdkit_validation": {
+          "input_smiles": "",
+          "rdkit_available": true,
+          "valid": false,
+          "canonical_smiles": "",
+          "error": "empty_smiles"
+        },
+        "name_resolution": {
+          "alias_status": {
+            "status": "ambiguous_alias_ignored_used_raw_name",
+            "match_method": "raw_name",
+            "score": 0.0,
+            "ambiguous_hits": [
+              {
+                "matched_key": "pbat",
+                "matched_variant": "PBAT",
+                "match_method": "alias_exact"
+              },
+              {
+                "matched_key": "pbat",
+                "matched_variant": "PBAT",
+                "match_method": "alias_exact_compact"
+              }
+            ]
+          },
+          "smiles_status": {
+            "status": "skipped_no_keyword_folder_match",
+            "match_method": "none",
+            "score": 0.0
+          },
+          "candidate_trials": [
+            {
+              "candidate": "PBAT",
+              "canonical_name": "PBAT",
+              "database_name": "PBAT",
+              "mapped_smiles": "",
+              "rdkit_valid": false,
+              "alias_status": {
+                "status": "ambiguous_alias_ignored_used_raw_name",
+                "match_method": "raw_name",
+                "score": 0.0,
+                "ambiguous_hits": [
+                  {
+                    "matched_key": "pbat",
+                    "matched_variant": "PBAT",
+                    "match_method": "alias_exact"
+                  },
+                  {
+                    "matched_key": "pbat",
+                    "matched_variant": "PBAT",
+                    "match_method": "alias_exact_compact"
+                  }
+                ]
+              },
+              "smiles_status": {
+                "status": "skipped_no_keyword_folder_match",
+                "match_method": "none",
+                "score": 0.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "",
+                "rdkit_available": true,
+                "valid": false,
+                "canonical_smiles": "",
+                "error": "empty_smiles"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "functional_groups": [
+      {
+        "name": "GMA",
+        "role": "compatibilizer"
+      }
+    ],
+    "composition_note": "Core: PGA:PLLA 50:50; shell polymer variable",
+    "non_polymer_components": [],
+    "caption": "Representative polymer-structure schematic of the core-shell blend with PGA/PLLA core and degradation-regulating shell polymers.",
+    "polymer_level_priority_used": false,
+    "name_mapping": {
+      "name_name_dict_path": "resources\\Polymer-关键词",
+      "alias_source_type": "keyword_txt_folder",
+      "name_smiles_csv_path": "resources\\字典-使用-只含聚合物.csv",
+      "alias_entries": 13628,
+      "smiles_entries": 509,
+      "allow_fuzzy": false,
+      "fuzzy_cutoff": 0.92,
+      "rdkit_available": true,
+      "valid_smiles_count": 2,
+      "total_units": 5,
+      "generic_name_guard": true,
+      "keyword_folder_match_required": true,
+      "polymer_level_priority_used": false
+    }
+  }
+}

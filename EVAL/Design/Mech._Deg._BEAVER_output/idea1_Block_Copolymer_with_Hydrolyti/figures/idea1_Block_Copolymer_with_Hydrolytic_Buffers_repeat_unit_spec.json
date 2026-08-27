@@ -1,0 +1,103 @@
+{
+  "rendered": true,
+  "renderer": "rdkit_dictionary_smiles",
+  "image_path": "Mech._Deg._BEAVER_output\\idea1_Block_Copolymer_with_Hydrolyti\\figures\\idea1_Block_Copolymer_with_Hydrolytic_Buffers_repeat_unit.png",
+  "spec_path": "Mech._Deg._BEAVER_output\\idea1_Block_Copolymer_with_Hydrolyti\\figures\\idea1_Block_Copolymer_with_Hydrolytic_Buffers_repeat_unit_spec.json",
+  "spec": {
+    "should_draw": true,
+    "confidence": "high",
+    "polymer_name": "PBS-b-PEG",
+    "architecture": "block copolymer",
+    "repeat_units": [
+      {
+        "extracted_name": "PBS-b-PEG",
+        "label": "PBS-b-PEG",
+        "role": "main polymer-level structure",
+        "lookup_candidates": [
+          "PBS-b-PEG",
+          "PBS",
+          "PEG"
+        ],
+        "selected_lookup_candidate": "PBS-b-PEG",
+        "canonical_name": "Polyethylene_glycol(PEG)",
+        "database_name": "Polyethylene_glycol(PEG)",
+        "mapped_smiles": "[*]OCC[*]",
+        "smiles": "[*]OCC[*]",
+        "rdkit_valid": true,
+        "rdkit_validation": {
+          "input_smiles": "[*]OCC[*]",
+          "rdkit_available": true,
+          "valid": true,
+          "canonical_smiles": "*CCO*",
+          "error": ""
+        },
+        "name_resolution": {
+          "alias_status": {
+            "status": "matched",
+            "match_method": "alias_exact",
+            "matched_key": "peg",
+            "matched_variant": "PEG",
+            "score": 1.0
+          },
+          "smiles_status": {
+            "status": "matched",
+            "match_method": "smiles_exact",
+            "matched_key": "polyethylene_glycol(peg)",
+            "score": 1.0
+          },
+          "candidate_trials": [
+            {
+              "candidate": "PBS-b-PEG",
+              "canonical_name": "Polyethylene_glycol(PEG)",
+              "database_name": "Polyethylene_glycol(PEG)",
+              "mapped_smiles": "[*]OCC[*]",
+              "rdkit_valid": true,
+              "alias_status": {
+                "status": "matched",
+                "match_method": "alias_exact",
+                "matched_key": "peg",
+                "matched_variant": "PEG",
+                "score": 1.0
+              },
+              "smiles_status": {
+                "status": "matched",
+                "match_method": "smiles_exact",
+                "matched_key": "polyethylene_glycol(peg)",
+                "score": 1.0
+              },
+              "rdkit_validation": {
+                "input_smiles": "[*]OCC[*]",
+                "rdkit_available": true,
+                "valid": true,
+                "canonical_smiles": "*CCO*",
+                "error": ""
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "functional_groups": [],
+    "composition_note": "PBS:PEG (varying ratios)",
+    "non_polymer_components": [
+      "hydroxyapatite"
+    ],
+    "caption": "Representative polymer-structure schematic of the PBS-b-PEG block copolymer with hydroxyapatite nanoparticles.",
+    "polymer_level_priority_used": true,
+    "name_mapping": {
+      "name_name_dict_path": "resources\\Polymer-关键词",
+      "alias_source_type": "keyword_txt_folder",
+      "name_smiles_csv_path": "resources\\字典-使用-只含聚合物.csv",
+      "alias_entries": 13628,
+      "smiles_entries": 509,
+      "allow_fuzzy": false,
+      "fuzzy_cutoff": 0.92,
+      "rdkit_available": true,
+      "valid_smiles_count": 1,
+      "total_units": 1,
+      "generic_name_guard": true,
+      "keyword_folder_match_required": true,
+      "polymer_level_priority_used": true
+    }
+  }
+}

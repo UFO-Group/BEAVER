@@ -1,0 +1,167 @@
+[
+  {
+    "rank": 1,
+    "score": 0.0164,
+    "source": "101039_d5tb01938a_段10-12.txt",
+    "filename": "101039_d5tb01938a_段10-12.txt",
+    "topic": "Dual-Network Hydrogel Crosslinking Mechanism",
+    "evidence": "(365 nm, 60 s), this design yielded a hydrogel with two synergistic networks: a primary dynamic network (Schiff bases enabling self-healing/injectability) and a secondary covalent network (photo-crosslinking ensuring stability). Such dual crosslinking reconciles ECM-like adaptability with structural robustness, establishing a versatile platform for neural regeneration. Degradation studies (PBS, 37 °C) revealed time-dependent mass loss profiles that align with neural regeneration timelines, and with the mass loss rate decreasing as the oxidation degree increased (50%-MS-gel mass retaining 84.",
+    "rerank_score": 3,
+    "rerank_has_answer": true,
+    "rerank_rationale": "Directly describes a dual-crosslink hydrogel with primary/secondary networks, degradation studies, and specific mass retention data."
+  },
+  {
+    "rank": 4,
+    "score": 0.0161,
+    "source": "101002_pat6546_段95-97.txt",
+    "filename": "101002_pat6546_段95-97.txt",
+    "topic": "Hydrolytic Degradation of Hydrogels in Tissue Engineering",
+    "evidence": "om sequential crosslinking enhances water retention which causes the hydrolytic degradation rate reduction. The secondary network acts as a barrier, limiting water ingress to the primary network and protecting it from rapid hydrolytic breakdown.13, 34 The stability is crucial for biomedical applications where prolonged mechanical support and gradual degradation are necessary. Thus, sequential crosslinking in IPN hydrogels leverages the advanced properties of each polymer component, offering novel materials with unique characteristics compared to individual polymers. Combining synthetic and nat",
+    "rerank_score": 2,
+    "rerank_has_answer": true,
+    "rerank_rationale": "Explains how sequential crosslinking reduces hydrolytic degradation rate and provides prolonged mechanical support, partially answering."
+  },
+  {
+    "rank": 6,
+    "score": 0.0159,
+    "source": "101002_pat6546_段35-37.txt",
+    "filename": "101002_pat6546_段35-37.txt",
+    "topic": "Hydrolytic Degradation of Hydrogels in Tissue Engineering",
+    "evidence": "om sequential crosslinking enhances water retention which causes the hydrolytic degradation rate reduction. The secondary network acts as a barrier, limiting water ingress to the primary network and protecting it from rapid hydrolytic breakdown.13, 34 The stability is crucial for biomedical applications where prolonged mechanical support and gradual degradation are necessary. Thus, sequential crosslinking in IPN hydrogels leverages the advanced properties of each polymer component, offering novel materials with unique characteristics compared to individual polymers. Combining synthetic and nat",
+    "rerank_score": 2,
+    "rerank_has_answer": true,
+    "rerank_rationale": "Explains how sequential crosslinking reduces hydrolytic degradation rate and provides prolonged mechanical support, partially answering."
+  },
+  {
+    "rank": 12,
+    "score": 0.0152,
+    "source": "101039_d5tb01938a_段10-12.txt",
+    "filename": "101039_d5tb01938a_段10-12.txt",
+    "topic": "Dual-Network Hydrogel Crosslinking Mechanism",
+    "evidence": "ps in SF and resulting in a higher crosslinking degree, yielding denser polymer networks. This inverse correlation between crosslinking density and degradation rate carries critical clinical implications for CP treatment. The 50%-MS-gel maintains structural integrity during the critical initial 7-day period (<13% degradation), providing stable support for stem cell engraftment. Importantly, degradation products only neuro-compatible oligomers (alginate disaccharides and SF peptides) with no cytotoxic effects. This slow degradation behavior, combined with the material's swelling properties, add",
+    "rerank_score": 2,
+    "rerank_has_answer": true,
+    "rerank_rationale": "Discusses crosslinking density inversely affecting degradation rate and maintaining integrity for initial support, partially answering."
+  },
+  {
+    "rank": 28,
+    "score": 0.0135,
+    "source": "101002_pat5439_段105-107.txt",
+    "filename": "101002_pat5439_段105-107.txt",
+    "topic": "Mechanical Property Retention of PTMC Implants During Degradation",
+    "evidence": "As an important indicator of material performance, mechanical property retention can determine the service life of the implants. Figure 10 showed the change in the tensile strength of the samples during degradation. One interesting finding was the tensile strength of the PTMC network was increased in PBS compared with that before degradation. In the first week, the tensile strength of the PTMC network was also increased in CE. It can be explained from the following aspects. The most likely causes were the sol part of the PTMC network and the low molecular weight polymer chains had entered the",
+    "rerank_score": 2,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Partially answers by discussing mechanical property retention (strength) during degradation of a polymer network, though not a dual-crosslink hydrogel."
+  },
+  {
+    "rank": 30,
+    "score": 0.0133,
+    "source": "101016_jijbiomac202211173_段4-6.txt",
+    "filename": "101016_jijbiomac202211173_段4-6.txt",
+    "topic": "PVA/CNF Ionic Hydrogel Strain Sensor Fabrication",
+    "evidence": "ystallites and aforementioned two kinds of chemical crosslinks, were constructed. The sample with triple crosslinks has superior mechanical strength and resistance to fatigue, and the polydopamine/Fe3+ ratio act as key to tune final performance because double-network structure prefers to form as Fe3+ is superfluous, while dual-crosslink one forms in the case of insufficient Fe3+. As-optimized ionic conductive hydrogel is suitable as strain sensor for probing human motions. This work provides an interesting insight into the network structure and property regulation for PVA/CNF composite hydroge",
+    "rerank_score": 2,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Partially answers by explicitly mentioning a dual-crosslink hydrogel structure and its role in mechanical strength, though not specifically for biodegradable implants or hydrolytic degradation."
+  },
+  {
+    "rank": 35,
+    "score": 0.0128,
+    "source": "101016_jijbiomac201902046_段8-10.txt",
+    "filename": "101016_jijbiomac201902046_段8-10.txt",
+    "topic": "Hydrogel Mechanical Properties Adsorption Applications",
+    "evidence": "s of tissue engineering, drug delivery systems, and adsorptions [[4], [5], [6], [7]]. However, the conventional hydrogels with single cross-linking network have poor mechanical strength and low recoverability with weak or brittle structures in which limits their further application [8]. To this end, during the past decades, a sea of attempts has been dedicated to develop novel hydrogels with remarkable strength and toughness using various strategies such as slide-ring hydrogels, triblock copolymer hydrogels, tetra-PEG gels, nanocomposite hydrogels, hydrophobic modified hydrogels and macromolec",
+    "rerank_score": 2,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Mentions limitations of single-network hydrogels and strategies for strength, relevant but not specific to dual-crosslink."
+  },
+  {
+    "rank": 39,
+    "score": 0.0125,
+    "source": "101016_jeurpolymj2023111826_段9-11.txt",
+    "filename": "101016_jeurpolymj2023111826_段9-11.txt",
+    "topic": "Hydrogel Mechanical Enhancement Strategies",
+    "evidence": "al cross-linking hydrogel [16], [17], host-guest hydrogel [18], [19], slide-ring hydrogel [20], microsphere composite hydrogel [21]. Especially, Double network hydrogel is a hydrogel based on two interpenetrating and cross-linked polymer network. Double network hydrogels are composed of rigid and brittle polymer as first network and soft and stretchable polymer as second network have gained significant development since Gong et al. first proposed the concept of double network hydrogel [22]. DN is an especially interpenetrating polymer network exhibited excellent mechanical properties due to th",
+    "rerank_score": 2,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Describes double-network hydrogels with excellent mechanical properties, relevant but not explicitly about hydrolytic degradation."
+  },
+  {
+    "rank": 42,
+    "score": 0.0123,
+    "source": "101088_1748-605x_abe6d9_段192-194.txt",
+    "filename": "101088_1748-605x_abe6d9_段192-194.txt",
+    "topic": "Scaffold Crosslinking and Mechanical Properties",
+    "evidence": "se scaffolds with only 2.0 ± 0.5 kPa (figure 5(A)). To determine the ability of the scaffolds to retract back to their original shape, strain change during loading and unloading as a function of time was measured, as shown in figure 5(B). Viscoelastic properties, strain change during loading and unloading as a function of time was measured, as shown in figure 5(B). By applying stress for 15 min, DHT scaffolds showed the lowest strain (53%), whereas 58% and 62% strain values were observed for ribose and dual-crosslinked groups, respectively. The high degree of crosslinking of the dual-crosslink",
+    "rerank_score": 2,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Explicitly mentions dual-crosslinked scaffolds and mechanical strain data, relevant but lacks hydrolytic degradation context."
+  },
+  {
+    "rank": 2,
+    "score": 0.0164,
+    "source": "101021_acsabm5c00815_段9-11.txt",
+    "filename": "101021_acsabm5c00815_段9-11.txt",
+    "topic": "CMC Hydrogel Mechanical Strength Enhancement via Dual-Network Structure",
+    "evidence": "hanges (Figure 4b). (51) For example, Capanema (52) used CMC and poly(ethylene glycol) (PEG) to form a dual-network hydrogel, where CMC acts as a rigid network for stable support to maintain drug loading stability and PEG acts as a flexible network for higher toughness and tensile properties with hydrophilic chains that accelerate drug diffusion during swelling. Similarly, as shown in Figure 4c, Guo (53) built a dual-network hydrogel system comprising CMC and chitosan. In this composite structure, the flexible CMC network maintains 159% water absorption and excellent swelling performance throu",
+    "rerank_score": 1,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Describes a dual-network hydrogel for drug delivery, not directly addressing high initial support and strength retention during hydrolytic degradation."
+  },
+  {
+    "rank": 5,
+    "score": 0.0159,
+    "source": "101039_d4tb00716f_段14-16.txt",
+    "filename": "101039_d4tb00716f_段14-16.txt",
+    "topic": "Injectable Hydrogel Crosslinking Strategies",
+    "evidence": "addition, these crosslinks can be reversible or irreversible, which affects their biodegradability, as well as their mechanical properties.25 This section briefly explores current advances in physical and chemical crosslinking strategies before exploring the rapidly growing field of dual-network crosslinking. Physical, thermal, and ionic crosslinking are forms of reversible (non-covalent) crosslinking mechanisms, and chemical crosslinking is irreversible (covalent). A dual network crosslinked network is one that uses one or more types of crosslinking to form the hydrogel. Despite their limita",
+    "rerank_score": 1,
+    "rerank_has_answer": false,
+    "rerank_rationale": "General background on crosslinking types and dual networks, no direct link to biodegradable implants or strength retention."
+  },
+  {
+    "rank": 8,
+    "score": 0.0156,
+    "source": "101002_pol20250673_段165-167.txt",
+    "filename": "101002_pol20250673_段165-167.txt",
+    "topic": "Hydrogel Mechanical Properties for Fire Sensing",
+    "evidence": "operties. The first network provided shape retention and mechanical support, while the second dissipated energy under stress [116]. For example, Zhao et al. [117] developed a multifunctional hydrogel dressing PEGSD/GTU (polyglycerol sebacate-co-polyethylene glycol grafted with catechol/gelatin modified with ureido-thiouronium groups) based on dual dynamic physical crosslinking involving catechol-Fe3+ (Figure 13). This system demonstrated rapid self-healing and shear-thinning behavior, enabling injectable shaping and conformal contact with irregular surfaces. Moreover, the hydrogel exhibited ex",
+    "rerank_score": 1,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Describes a dual-network hydrogel dressing with self-healing, not directly addressing biodegradable implants or hydrolytic degradation."
+  },
+  {
+    "rank": 10,
+    "score": 0.0154,
+    "source": "101002_pol20250673_段92-94.txt",
+    "filename": "101002_pol20250673_段92-94.txt",
+    "topic": "Hydrogel Mechanical Properties for Fire Sensing",
+    "evidence": "operties. The first network provided shape retention and mechanical support, while the second dissipated energy under stress [116]. For example, Zhao et al. [117] developed a multifunctional hydrogel dressing PEGSD/GTU (polyglycerol sebacate-co-polyethylene glycol grafted with catechol/gelatin modified with ureido-thiouronium groups) based on dual dynamic physical crosslinking involving catechol-Fe3+ (Figure 13). This system demonstrated rapid self-healing and shear-thinning behavior, enabling injectable shaping and conformal contact with irregular surfaces. Moreover, the hydrogel exhibited ex",
+    "rerank_score": 1,
+    "rerank_has_answer": false,
+    "rerank_rationale": "Describes a dual-network hydrogel dressing with self-healing, not directly addressing biodegradable implants or hydrolytic degradation."
+  },
+  {
+    "rank": 11,
+    "score": 0.0152,
+    "source": "101002_app57529_段97-99.txt",
+    "filename": "101002_app57529_段97-99.txt",
+    "topic": "Double-Network Hydrogel Mechanical Enhancement",
+    "evidence": "mpared to single-network hydrogels. Dual-network hydrogels, due to their design flexibility, outstanding mechanical properties, and sensitivity to environmental changes, have an extremely broad application prospect in the field of biomedicine. The crosslinking methods of dual-network hydrogels are mainly divided into three categories: physically crosslinked hydrogels, chemically crosslinked hydrogels, and hybrid hydrogels. Physically crosslinked hydrogels are formed by noncovalent bonds or physical interactions such as hydrogen bonds, hydrophobic interactions, π-π stacking, and chain entangl",
+    "rerank_score": 1,
+    "rerank_has_answer": false,
+    "rerank_rationale": "General overview of dual-network hydrogel types and applications, no specific link to biodegradable implants or degradation."
+  },
+  {
+    "rank": 13,
+    "score": 0.0149,
+    "source": "101002_app57529_段140-142.txt",
+    "filename": "101002_app57529_段140-142.txt",
+    "topic": "Double-Network Hydrogel Mechanical Enhancement",
+    "evidence": "mpared to single-network hydrogels. Dual-network hydrogels, due to their design flexibility, outstanding mechanical properties, and sensitivity to environmental changes, have an extremely broad application prospect in the field of biomedicine. The crosslinking methods of dual-network hydrogels are mainly divided into three categories: physically crosslinked hydrogels, chemically crosslinked hydrogels, and hybrid hydrogels. Physically crosslinked hydrogels are formed by noncovalent bonds or physical interactions such as hydrogen bonds, hydrophobic interactions, π-π stacking, and chain entangl",
+    "rerank_score": 1,
+    "rerank_has_answer": false,
+    "rerank_rationale": "General overview of dual-network hydrogel types and applications, no specific link to biodegradable implants or degradation."
+  }
+]

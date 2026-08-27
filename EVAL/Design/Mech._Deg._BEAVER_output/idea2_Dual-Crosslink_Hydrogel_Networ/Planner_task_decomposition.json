@@ -1,0 +1,26 @@
+{
+  "query_structure": "single",
+  "steps": [
+    {
+      "id": "step1",
+      "type": "search_papers",
+      "description": "Retrieve literature on dual-crosslink hydrogels for biodegradable implants and degradation-regulated mechanical retention",
+      "inputs": {
+        "query": "Dual-Crosslink Hydrogel Network for biodegradable implants with high initial mechanical support and strength retention during hydrolytic degradation",
+        "top_k": 15,
+        "query_policy": "preserve_original",
+        "query_rewrite_mode": "none"
+      }
+    },
+    {
+      "id": "step2",
+      "type": "reason_over_evidence",
+      "description": "Evaluate feasibility of dual-network hydrogels for implant applications, distinguishing direct evidence and mechanistic plausibility",
+      "inputs": {
+        "use_steps": [
+          "step1"
+        ]
+      }
+    }
+  ]
+}
