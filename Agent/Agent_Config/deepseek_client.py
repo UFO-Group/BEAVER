@@ -33,8 +33,8 @@ def update_client_settings(api_key: str, base_url: str):
         return False
 
     print(f"🔄 [DeepSeek] 正在配置 Client...")
-    print(f"   -> Base URL: {base_url}")
-    print(f"   -> Key: {api_key[:6]}******")
+    print("   -> API endpoint: configured")
+    print("   -> API Key: configured")
     
     try:
         # 🔥🔥🔥 [核心修复] 设置超长超时时间 (600秒/10分钟)
