@@ -1,0 +1,446 @@
+[
+  {
+    "question": "What is the primary mechanism of ring-opening polymerization (ROP) for synthesizing high molecular weight polylactic acid (PLA), and why is the coordination-insertion mechanism preferred?",
+    "ground_truth": "ROP typically proceeds via a coordination-insertion mechanism, often catalyzed by metal alkoxides like Tin(II) 2-ethylhexanoate (Sn(Oct)2). This route is preferred because it avoids the formation of water byproducts associated with polycondensation, allowing for the synthesis of high molecular weight polymers (Mn > 100,000 Da) with controlled stereochemistry and narrow polydispersity."
+  },
+  {
+    "question": "How does the biodegradation rate of Poly(lactic-co-glycolic acid) (PLGA) copolymers vary with the lactide-to-glycolide (L/G) ratio?",
+    "ground_truth": "The biodegradation rate of PLGA is non-linear relative to the L/G ratio. A 50:50 ratio exhibits the fastest degradation (typically 1–2 months) due to its amorphous morphology and high hydrophilicity. Increasing the proportion of either monomer (e.g., 85:15 or 15:85) increases crystallinity or block length, thereby extending the degradation time to 5–6 months."
+  },
+  {
+    "question": "What is the 'supercooling window' in the context of Selective Laser Sintering (SLS) of Polycaprolactone (PCL), and why is it critical?",
+    "ground_truth": "The supercooling window is the temperature difference between the melting point (Tm) and the crystallization temperature (Tc). For PCL in SLS, a wide window is critical to prevent the crystallization of sintered layers before the print is complete, thereby minimizing curling, warping, and residual thermal stresses in the final part."
+  },
+  {
+    "question": "What distinguishes 'Bulk Erosion' from 'Surface Erosion' in the degradation of aliphatic polyesters?",
+    "ground_truth": "Bulk erosion occurs when the rate of water diffusion into the polymer matrix exceeds the rate of hydrolysis, causing a uniform decrease in molecular weight throughout the material before mass loss occurs (e.g., PLA, PLGA). Surface erosion occurs when hydrolysis is faster than water diffusion, resulting in material loss only from the exterior surface while maintaining the structural integrity of the core (e.g., polyanhydrides)."
+  },
+  {
+    "question": "In the context of PLA/PBAT blends, what is the specific role of epoxy-functionalized chain extenders like Joncryl®?",
+    "ground_truth": "Epoxy-functionalized chain extenders act as reactive compatibilizers by reacting with the hydroxyl and carboxyl end groups of both PLA and PBAT during melt blending. This in-situ reaction reduces interfacial tension, stabilizes the morphology by reducing the dispersed phase particle size to sub-micron levels, and significantly enhances toughness and elongation at break."
+  },
+  {
+    "question": "What are the specific requirements for a polymer to be certified as 'compostable' under ISO 14855 or EN 13432 standards?",
+    "ground_truth": "These standards require that under controlled industrial composting conditions (typically 58 ± 2°C), at least 90% of the organic carbon in the material must be converted to CO2 within 6 months. Furthermore, the material must disintegrate such that less than 10% of the original mass remains on a >2mm sieve, and it must not exhibit ecotoxicity to plant growth."
+  },
+  {
+    "question": "How does the incorporation of multi-walled carbon nanotubes (MWCNTs) affect the mechanical properties and degradation of PLA/PHBV blends?",
+    "ground_truth": "The addition of MWCNTs (e.g., 2 wt%) to PLA/PHBV blends can increase the ultimate tensile strength by over 190% and strain at break by 200% due to efficient load transfer and crack bridging. However, MWCNTs can also alter degradation rates by acting as nucleating agents (increasing crystallinity) or by disrupting the matrix to facilitate water ingress, depending on dispersion quality."
+  },
+  {
+    "question": "Why is chemical recycling of PLA via alcoholysis to alkyl lactates considered advantageous over thermal hydrolysis?",
+    "ground_truth": "Alcoholysis (e.g., with methanol or ethanol) converts PLA directly into alkyl lactates (like methyl or ethyl lactate), which are valuable green solvents or platform chemicals that can be purified and reconverted to lactide. This avoids the energy-intensive concentration and prepolymerization steps required when recycling PLA to lactic acid via simple thermal hydrolysis."
+  },
+  {
+    "question": "What is the typical glass transition temperature (Tg) of Poly(butylene succinate) (PBS) and how does it influence its application compared to PLA?",
+    "ground_truth": "PBS has a Tg of approximately -32°C to -45°C, whereas PLA has a Tg of ~55-60°C. This low Tg gives PBS superior ductility and flexibility at room temperature, making it a suitable drop-in replacement for polyolefins (like polypropylene) in flexible packaging and films, where PLA would be too brittle."
+  },
+  {
+    "question": "What is the function of the 'catalytic triad' in PHA depolymerases secreted by microorganisms?",
+    "ground_truth": "The catalytic triad, typically composed of Serine, Histidine, and Aspartate (Ser-His-Asp), is the active site in PHA depolymerases. It facilitates the cleavage of ester bonds in the polymer chain via a nucleophilic attack (usually by the serine hydroxyl), breaking down the polymer into water-soluble monomers or oligomers."
+  },
+  {
+    "question": "What is the effect of 'stereocomplexation' between PLLA and PDLA on the thermal properties of Polylactic acid?",
+    "ground_truth": "Stereocomplexation involves the co-crystallization of enantiomeric PLLA (L-lactide) and PDLA (D-lactide) chains, usually in a 1:1 ratio. This forms a crystal structure with stronger intermolecular van der Waals forces, increasing the melting temperature (Tm) by approximately 50°C (up to ~220–230°C) compared to homopolymer PLLA, thereby improving thermal stability."
+  },
+  {
+    "question": "In Fused Deposition Modeling (FDM), why is the bed temperature for PLA typically set between 50°C and 60°C?",
+    "ground_truth": "This temperature range is selected to be near the glass transition temperature (Tg ~55-60°C) of PLA. Maintaining the bed at this temperature ensures the first layer remains slightly tacky for adhesion while keeping the deposited material in a rubbery state to minimize thermal stress and warping during the build process."
+  },
+  {
+    "question": "What is the 'Norrish Type II' mechanism in the photodegradation of polymers containing carbonyl groups?",
+    "ground_truth": "Norrish Type II is a photochemical intramolecular reaction where a gamma-hydrogen is abstracted by an excited carbonyl oxygen. This leads to the cleavage of the C-C bond alpha to the carbonyl group, resulting in the formation of a vinyl end group and a methyl ketone, effectively reducing the polymer's molecular weight."
+  },
+  {
+    "question": "How does the addition of starch to a PLA matrix affect the water vapor barrier properties?",
+    "ground_truth": "Starch is inherently hydrophilic. Its addition to a hydrophobic PLA matrix generally increases the water vapor permeability of the composite due to the high affinity of starch granules for moisture and the potential formation of micro-voids at the starch-PLA interface if interfacial adhesion is poor."
+  },
+  {
+    "question": "What is the significance of the 'autocatalytic effect' in the hydrolytic degradation of thick PLA implants?",
+    "ground_truth": "In thick PLA sections (>2mm), acidic oligomers generated by ester hydrolysis cannot diffuse out of the matrix fast enough. Their accumulation lowers the internal pH, which catalyzes further hydrolysis. This leads to accelerated degradation of the core compared to the surface, potentially causing sudden structural failure or the formation of hollow structures."
+  },
+  {
+    "question": "What are 'transient batteries' and how are biodegradable polymers utilized in their construction?",
+    "ground_truth": "Transient batteries are energy storage devices designed to operate for a predefined period and then fully degrade/dissolve. Biodegradable polymers like succinonitrile-based electrolytes or cellulose-based separators are used to ensure the device leaves no toxic residue, minimizing electronic waste (e-waste) accumulation."
+  },
+  {
+    "question": "How does plasma immersion ion implantation (PIII) improve the surface properties of biodegradable polymers?",
+    "ground_truth": "PIII modifies the surface by bombarding it with energetic ions, which can induce cross-linking, increase surface roughness, and introduce functional groups. This treatment significantly enhances surface hardness, wear resistance, and hydrophilicity, improving cell adhesion and proliferation in biomedical applications."
+  },
+  {
+    "question": "Why is Polyglycolic acid (PGA) often used for surgical sutures but rarely for long-term tissue scaffolds?",
+    "ground_truth": "PGA has high tensile strength (6–7 GPa modulus) but degrades rapidly via hydrolysis, losing ~50% of its strength within 2 weeks and resorbing completely in 6–12 months. This rapid degradation is ideal for sutures that need to hold tissue only until healing occurs but is too fast for scaffolds requiring long-term structural support."
+  },
+  {
+    "question": "What role do nucleating agents like talc or zinc phenylphosphonate play in the injection molding of PLA?",
+    "ground_truth": "PLA suffers from slow crystallization kinetics. Nucleating agents reduce the free energy barrier for crystal growth, significantly decreasing the crystallization half-time ($t_{1/2}$) from minutes to seconds. This allows for faster cycle times and improved heat deflection temperatures (HDT) in injection molded parts."
+  },
+  {
+    "question": "What is the estimated global production volume of fossil-based plastics versus bio-based plastics as of 2022?",
+    "ground_truth": "In 2022, global plastic production was approximately 400 million tonnes. Fossil-based plastics accounted for over 90% of this volume, while bio-based plastics represented only about 0.5% (approx. 2.2 million tonnes), highlighting a massive gap in production scale."
+  },
+  {
+    "question": "How does the 'isostrain' condition in polymer blends affect the mechanical model prediction of tensile strength?",
+    "ground_truth": "Under the isostrain assumption (Voigt model), both phases in a blend undergo the same elongation. This model predicts the upper bound of mechanical properties, suggesting that the blend's modulus is a volume-fraction-weighted average of the components. Deviations from this indicate poor interfacial adhesion or phase separation."
+  },
+  {
+    "question": "What is the primary environmental risk associated with the degradation of biodegradable polymers in anaerobic landfills?",
+    "ground_truth": "In anaerobic landfill conditions, the microbial degradation of biodegradable polymers (like PLA or PHAs) generates methane (CH4) rather than just CO2. Methane is a potent greenhouse gas with a global warming potential ~25-30 times higher than CO2, necessitating methane capture systems to mitigate climate impact."
+  },
+  {
+    "question": "What are 'smart biodegradable polymers' in the context of drug delivery systems?",
+    "ground_truth": "Smart biodegradable polymers are stimuli-responsive materials that undergo physicochemical changes (e.g., swelling, degradation, solubility change) in response to external triggers like pH, temperature, or enzymes. This allows for the targeted or controlled release of therapeutic agents at specific sites (e.g., low pH in tumor microenvironments)."
+  },
+  {
+    "question": "How does the molecular weight (Mn) of PLA influence its transition from a ductile to a brittle material during degradation?",
+    "ground_truth": "As PLA degrades, its molecular weight decreases. When the number-average molecular weight (Mn) drops below a critical entanglement molecular weight (typically ~40,000 Da), the polymer chain entanglements are insufficient to sustain plastic deformation, causing the material to lose structural integrity and become brittle."
+  },
+  {
+    "question": "What is the specific advantage of using lipase enzymes in the chemical recycling of polyesters?",
+    "ground_truth": "Lipases (e.g., from Candida antarctica) can catalyze the hydrolysis or alcoholysis of polyesters under mild conditions (low temperature, neutral pH). This enzymatic recycling is highly selective, minimizing side reactions and energy consumption compared to high-temperature chemical depolymerization."
+  },
+  {
+    "question": "What is the 'percolation threshold' in conductive biodegradable nanocomposites?",
+    "ground_truth": "The percolation threshold is the critical concentration of conductive fillers (e.g., graphene, carbon nanotubes) within the polymer matrix at which a continuous conductive network is formed. Below this threshold, the material is insulating; above it, electrical conductivity increases by several orders of magnitude."
+  },
+  {
+    "question": "Why is Poly(butylene adipate-co-terephthalate) (PBAT) often blended with PLA for packaging applications?",
+    "ground_truth": "PLA is rigid and brittle with low elongation at break (<10%). PBAT is a flexible, tough copolyester with high elongation at break (>700%). Blending PBAT with PLA complements PLA's high strength with PBAT's toughness, resulting in a material suitable for flexible films that require both durability and biodegradability."
+  },
+  {
+    "question": "What is the typical time frame for the complete biodegradation of PLA in marine environments compared to industrial composting?",
+    "ground_truth": "PLA degrades very slowly in marine environments, often showing negligible degradation over one year due to low temperatures and insufficient hydrolytic attack. In contrast, under industrial composting conditions (58°C, high moisture), PLA can degrade significantly within 30–60 days and mineralize completely within 6 months."
+  },
+  {
+    "question": "How do 'compatibilizers' like maleic anhydride-grafted PLA (PLA-g-MA) function in starch/PLA blends?",
+    "ground_truth": "Compatibilizers reduce the interfacial tension between the hydrophilic starch and hydrophobic PLA phases. The anhydride group reacts with starch hydroxyls, while the PLA chain entangles with the matrix. This strengthens interfacial adhesion, improves dispersion, and enhances the mechanical properties (strength and ductility) of the blend."
+  },
+  {
+    "question": "What is the role of 'chain extenders' in the recycling of biodegraded polyesters?",
+    "ground_truth": "During the service life and reprocessing, biodegradable polyesters suffer molecular weight reduction due to hydrolysis and thermal degradation. Chain extenders (e.g., diisocyanates, multi-functional epoxides) react with chain end groups to reconnect cleaved chains, restoring molecular weight and mechanical properties (viscosity, strength) for reuse."
+  },
+  {
+    "question": "What is the specific advantage of using supercritical carbon dioxide (scCO2) in the processing of biodegradable scaffolds?",
+    "ground_truth": "scCO2 acts as a plasticizer and foaming agent that allows for the processing of thermal-sensitive biodegradable polymers at lower temperatures. It enables the fabrication of highly porous scaffolds with interconnected pores (critical for tissue engineering) without using toxic organic solvents."
+  },
+  {
+    "question": "What is the difference between 'hydro-biodegradation' and 'oxo-biodegradation'?",
+    "ground_truth": "Hydro-biodegradation is initiated by hydrolysis of ester/ether bonds followed by microbial assimilation (typical of polyesters like PLA). Oxo-biodegradation involves additives (transition metal salts) that catalyze oxidative chain scission under UV/heat, fracturing the polymer into microplastics which are claimed to be biodegradable, though this claim is controversial and often leads to persistent microplastics."
+  },
+  {
+    "question": "How does the crystalline structure of Poly(3-hydroxybutyrate) (PHB) contribute to its brittleness?",
+    "ground_truth": "PHB forms large, spherulitic crystals with a high degree of crystallinity (50–80%). These large spherulites often contain inter-spherulitic cracks and amorphous regions that are constrained by the rigid crystals. This morphology, combined with a Tg near 0°C (limiting chain mobility), results in high stiffness but very low elongation at break and high brittleness."
+  },
+  {
+    "question": "What is the function of 1,4-butanediol in the synthesis of Poly(butylene succinate) (PBS)?",
+    "ground_truth": "1,4-butanediol is the diol monomer that reacts with succinic acid (or dimethyl succinate) via polycondensation to form PBS. The four-carbon chain of the diol provides flexibility to the polymer backbone, contributing to PBS's ductility and lower melting point compared to shorter-chain analogs."
+  },
+  {
+    "question": "What are 'Triboelectric Nanogenerators' (TENGs) and why are biodegradable polymers suitable for them?",
+    "ground_truth": "TENGs convert mechanical energy into electricity via the triboelectric effect and electrostatic induction. Biodegradable polymers (like PLA, chitosan, cellulose) are suitable because they have distinct electron-donating or accepting tendencies, are flexible, and allow for the creation of transient, eco-friendly power sources for implantable or disposable electronics."
+  },
+  {
+    "question": "What is the typical tensile modulus of cortical bone, and how does unreinforced PLLA compare?",
+    "ground_truth": "Cortical bone has a tensile modulus of approximately 12–18 GPa. Unreinforced PLLA has a modulus of roughly 3–4 GPa. While PLLA is weaker, this lower modulus can be advantageous in reducing stress shielding, although reinforcement (e.g., with hydroxyapatite) is often used to match bone properties more closely."
+  },
+  {
+    "question": "How does the 'solvent casting and particulate leaching' method control pore size in tissue scaffolds?",
+    "ground_truth": "In this method, a polymer solution is mixed with porogen particles (e.g., salt or sugar crystals) of a specific size range. After the solvent evaporates and the polymer solidifies, the porogen is leached out with water. The size of the pores in the final scaffold is directly determined by the size of the porogen particles used."
+  },
+  {
+    "question": "What is the environmental impact of 'Greenwashing' in the context of biodegradable plastics?",
+    "ground_truth": "Greenwashing involves misleading claims about biodegradability (e.g., labeling oxo-degradable plastics as biodegradable). This leads to the contamination of composting streams with non-compostable plastics, improper disposal in the environment (littering), and consumer confusion, ultimately hindering legitimate organic recycling efforts."
+  },
+  {
+    "question": "What is the 'glass transition temperature' (Tg) of Polyglycolic acid (PGA) and how does it affect its degradation?",
+    "ground_truth": "PGA has a Tg of approximately 35–40°C. Since this is close to or slightly above physiological body temperature (37°C), the polymer chains have limited mobility, but the hydrophilic nature drives rapid water uptake. The high crystallinity initially resists hydrolysis, but once degradation starts, the loss of strength is rapid."
+  },
+  {
+    "question": "Why is 'melt processing' of PHB challenging without plasticizers?",
+    "ground_truth": "PHB has a melting temperature (Tm) of around 175–180°C, which is very close to its thermal degradation temperature. Processing pure PHB often leads to rapid thermal degradation (molecular weight drop, discoloration) before the material can be effectively molded, necessitating plasticizers to lower the processing temperature."
+  },
+  {
+    "question": "What is the primary source of 'chitosan' and how is it converted from chitin?",
+    "ground_truth": "Chitosan is derived primarily from the shells of crustaceans (shrimp, crab) which contain chitin. It is produced by the deacetylation of chitin (removing acetyl groups) using strong alkaline treatment (e.g., NaOH). The degree of deacetylation (typically >50%) determines the solubility and biological properties of the resulting chitosan."
+  },
+  {
+    "question": "How do 'bio-based' and 'biodegradable' terms differ in polymer classification?",
+    "ground_truth": "'Bio-based' refers to the origin of the carbon source (derived from renewable biomass), whereas 'biodegradable' refers to the end-of-life capability to be microbial decomposed. A polymer can be bio-based but non-biodegradable (e.g., Bio-PE), or fossil-based but biodegradable (e.g., PBAT, PCL)."
+  },
+  {
+    "question": "What is the 'enzymatic degradation mechanism' of Poly(trimethylene carbonate) (PTMC) in vivo?",
+    "ground_truth": "Unlike polyesters that degrade primarily via bulk hydrolysis, PTMC degrades in vivo primarily via surface erosion mediated by enzymes (lipases and esterases) secreted by macrophages and foreign body giant cells. This leads to linear mass loss with time while maintaining molecular weight, making it useful for drug delivery."
+  },
+  {
+    "question": "What is the typical elongation at break for pure PLA versus PLA/PBAT (70/30) blends?",
+    "ground_truth": "Pure PLA is brittle with an elongation at break of typically 3–6%. Blending with 30% PBAT can increase the elongation at break significantly, often reaching values of 200% or more, depending on the effectiveness of compatibilization."
+  },
+  {
+    "question": "How does 'reactive extrusion' utilizing peroxides (e.g., Dicumyl Peroxide) improve PLA/PBAT blends?",
+    "ground_truth": "Reactive extrusion with peroxides generates free radicals that abstract hydrogen atoms from polymer chains, creating macro-radicals. These macro-radicals recombine to form graft copolymers (e.g., PLA-g-PBAT) or branched structures at the interface. This improves interfacial adhesion, compatibility, and melt strength."
+  },
+  {
+    "question": "What is the role of 'gelatin' in electrospun PLA scaffolds for wound healing?",
+    "ground_truth": "Gelatin is derived from collagen and contains RGD (Arginine-Glycine-Aspartic acid) peptide sequences that promote cell attachment and proliferation. Blending gelatin with PLA in electrospun fibers improves the hydrophilicity and biological activity of the scaffold, enhancing wound healing compared to pure hydrophobic PLA."
+  },
+  {
+    "question": "What is the 'Life Cycle Assessment' (LCA) advantage of bio-based PE over fossil-based PE?",
+    "ground_truth": "Bio-based PE (e.g., from sugarcane ethanol) has a 'negative' carbon footprint at the factory gate (cradle-to-gate) because the growing plants sequester CO2 from the atmosphere. It removes approximately 2.1 to 2.5 kg of CO2 equivalent per kg of polymer produced, whereas fossil-based PE emits CO2."
+  },
+  {
+    "question": "What is the significance of the 'contact angle' in assessing biodegradable polymer films?",
+    "ground_truth": "The contact angle measures the wettability of a surface. For biodegradable polymers, a lower contact angle (<90°) indicates hydrophilicity, which generally correlates with faster hydrolytic degradation onset and better cell adhesion. High contact angles (>90°) indicate hydrophobicity, often requiring surface modification for biomedical use."
+  },
+  {
+    "question": "How does 'gamma irradiation' sterilization affect the properties of PLGA implants?",
+    "ground_truth": "Gamma irradiation, while effective for sterilization, causes chain scission in PLGA via free radical mechanisms. This results in an immediate reduction in molecular weight, which can accelerate the subsequent degradation rate and potentially compromise the mechanical strength of the implant earlier than intended."
+  },
+  {
+    "question": "What is the typical 'processing window' temperature for Thermoplastic Starch (TPS)?",
+    "ground_truth": "TPS is processed after disrupting the native starch granules with plasticizers (water, glycerol) and heat. The processing temperature is typically between 120°C and 160°C. Exceeding this can cause thermal degradation (decomposition) of the starch, while lower temperatures may result in incomplete gelatinization."
+  },
+  {
+    "question": "What is the mechanism of 'chain scission' in the hydrolysis of ester bonds?",
+    "ground_truth": "Hydrolytic chain scission involves the cleavage of the ester linkage by a water molecule. The water oxygen attacks the carbonyl carbon, leading to the formation of a carboxylic acid end group and a hydroxyl end group. The reaction is often acid-catalyzed, meaning the generated carboxylic acid can accelerate further degradation (autocatalysis)."
+  },
+  {
+    "question": "Why are 'zinc' or 'magnesium' alloys sometimes grouped with biodegradable materials for implants?",
+    "ground_truth": "Zinc and Magnesium alloys are biodegradable metals. They corrode/degrade in the physiological environment to form non-toxic ions ($Mg^{2+}$, $Zn^{2+}$) that are metabolized or excreted. They provide higher initial load-bearing capacity than polymers for orthopedic applications (bone screws) and degrade as the bone heals."
+  },
+  {
+    "question": "What is the role of 'plasticizers' like Citrate esters in PLA formulations?",
+    "ground_truth": "Plasticizers (e.g., Acetyl Tributyl Citrate) insert themselves between polymer chains, increasing free volume and chain mobility. For PLA, this lowers the glass transition temperature (Tg), reduces brittleness, and improves flexibility and elongation at break, making the material suitable for flexible films."
+  },
+  {
+    "question": "What is the primary challenge in using 'lignin' as a filler in biodegradable polymers?",
+    "ground_truth": "Lignin is a complex, heterogeneous aromatic polymer that is difficult to disperse uniformly in aliphatic polyester matrices (like PLA) due to poor interfacial compatibility. Large lignin aggregates can act as stress concentrators, reducing the tensile strength of the composite unless surface modification or compatibilizers are used."
+  },
+  {
+    "question": "How does '3D bioprinting' utilize biodegradable hydrogels?",
+    "ground_truth": "3D bioprinting uses 'bio-inks' composed of biodegradable hydrogels (like alginate, gelatin, PEG) loaded with living cells. The hydrogel provides a temporary extracellular matrix that protects cells during printing and supports their growth and organization into tissue constructs before degrading."
+  },
+  {
+    "question": "What is the 'tensile strength' range of commercial PLA compared to Polypropylene (PP)?",
+    "ground_truth": "Commercial PLA typically has a tensile strength of 50–70 MPa, which is higher than that of Polypropylene (PP), which is typically 30–40 MPa. However, PLA is much stiffer and more brittle, whereas PP is tougher and more ductile."
+  },
+  {
+    "question": "What is the effect of 'moisture content' on the processing of PHBV?",
+    "ground_truth": "PHBV is sensitive to hydrolytic degradation at high processing temperatures. Even small amounts of moisture (>0.05%) can cause severe molecular weight reduction during extrusion or injection molding due to hydrolysis. Therefore, rigorous drying of the resin before processing is mandatory."
+  },
+  {
+    "question": "What is the 'Shape Memory Effect' in biodegradable polyurethanes?",
+    "ground_truth": "The Shape Memory Effect allows the polymer to be deformed and fixed in a temporary shape and then recover its original permanent shape upon heating above a transition temperature (Ttrans, usually Tg or Tm). In biodegradable polyurethanes, this is driven by the phase separation between hard segments (permanent shape fixation) and soft segments (switching transition)."
+  },
+  {
+    "question": "How does 'layer thickness' influence the degradation of 3D printed PLA scaffolds?",
+    "ground_truth": "Layer thickness affects the surface roughness and porosity of 3D printed objects. Thinner layers generally result in denser structures with lower porosity, which may slow down water penetration and degradation compared to thicker layers or designs with intentional porosity that increase the surface area available for hydrolysis."
+  },
+  {
+    "question": "What is the role of 'stratification' in the degradation of blends like PCL/PLA?",
+    "ground_truth": "In immiscible blends like PCL/PLA, phase separation occurs. If PCL forms a continuous phase shielding the PLA, degradation may be slowed. Conversely, if the faster-degrading PLA is continuous or accessible, its degradation can leave a porous PCL scaffold. Stratification describes the layer-by-layer morphology that can dictate the overall erosion profile."
+  },
+  {
+    "question": "What is the 'oxygen barrier' property of PLA compared to PET?",
+    "ground_truth": "PLA has a permeation coefficient for oxygen that is approximately 10 times higher than that of PET (Polyethylene terephthalate). This relatively poor oxygen barrier makes neat PLA less suitable for packaging oxygen-sensitive foods (like carbonated beverages or meats) without barrier coatings or additives."
+  },
+  {
+    "question": "How does 'enzymatic recycling' of PET (and potentially bio-polyesters) contribute to the circular economy?",
+    "ground_truth": "Enzymatic recycling (e.g., using engineered PETase) breaks down polymers into their constituent monomers (TPA and EG) with high purity, even from mixed or contaminated waste streams. These monomers can be re-polymerized to create virgin-quality plastic, closing the loop indefinitely, unlike mechanical recycling which leads to down-cycling."
+  },
+  {
+    "question": "What is the typical 'heat deflection temperature' (HDT) of amorphous PLA?",
+    "ground_truth": "Amorphous PLA has a low HDT, typically around 55°C (near its Tg). This limits its use in applications requiring thermal resistance (e.g., hot coffee cups) unless it is crystallized (raising HDT to ~100°C) or composited with heat-resistant fillers."
+  },
+  {
+    "question": "What is the 'sol-gel' transition in injectable biodegradable hydrogels?",
+    "ground_truth": "Injectable hydrogels (e.g., PEG-PLGA-PEG triblocks) exist as a flowing solution (sol) at room temperature/low temperature but undergo a physical phase transition to a solid gel (gel) upon warming to body temperature (37°C). This allows for minimally invasive injection of the material, which then solidifies in situ to form a depot or scaffold."
+  },
+  {
+    "question": "How does 'stereochemistry' (L vs D isomers) affect the degradation rate of PLA?",
+    "ground_truth": "Poly(L-lactide) (PLLA) is semi-crystalline and degrades slower due to the difficulty of water penetrating the crystalline regions. Poly(D,L-lactide) (PDLLA) is amorphous (due to the random distribution of L and D isomers inhibiting crystallization) and therefore degrades much faster due to higher water uptake and easier hydrolysis."
+  },
+  {
+    "question": "What is the role of 'glycerol' in the production of thermoplastic starch (TPS)?",
+    "ground_truth": "Glycerol acts as a non-volatile plasticizer. It forms hydrogen bonds with starch molecules, disrupting the strong intermolecular hydrogen bonding between starch chains. This reduces the friction between chains, lowers the glass transition temperature, and allows the starch to flow and be processed like a thermoplastic."
+  },
+  {
+    "question": "What is the 'lag phase' in the biodegradation of plastics in compost?",
+    "ground_truth": "The lag phase is the initial period where no significant mineralization (CO2 evolution) occurs. During this time, microorganisms colonize the surface and secrete extracellular enzymes to begin fragmenting the polymer chain. Only after the molecular weight drops sufficiently to produce water-soluble intermediates does rapid assimilation and mineralization begin."
+  },
+  {
+    "question": "Why is 'Polyhydroxybutyrate-co-valerate' (PHBV) preferred over pure PHB?",
+    "ground_truth": "Copolymerizing 3-hydroxybutyrate with 3-hydroxyvalerate disrupts the high crystallinity of PHB. This lowers the melting point (widening the processing window) and reduces the stiffness and brittleness, making PHBV tougher and more impact-resistant than the homopolymer PHB."
+  },
+  {
+    "question": "What is the 'resorption time' of Magnesium-based biodegradable screws compared to PLA?",
+    "ground_truth": "Magnesium-based screws typically degrade/corrode over a period of 1–2 years, depending on the alloy and coating. This is generally comparable to or slightly faster than high-molecular-weight PLLA (which can take 2–5 years for complete resorption), but Mg offers superior initial mechanical strength."
+  },
+  {
+    "question": "How do 'bioactive glass' fillers enhance the function of biodegradable bone scaffolds?",
+    "ground_truth": "Bioactive glass particles release ions (Ca, P, Si) as they degrade. These ions interact with physiological fluids to form a hydroxyapatite layer on the scaffold surface, which bonds to bone. Additionally, the ions (especially Si) can stimulate osteoblast gene expression, actively promoting bone regeneration (osteoconduction and osteoinduction)."
+  },
+  {
+    "question": "What is the 'carbon footprint' reduction of using PLA compared to fossil-based polymers?",
+    "ground_truth": "Producing 1 kg of PLA emits approximately 0.5 to 0.8 kg of CO2 equivalent (cradle-to-gate), whereas producing 1 kg of fossil-based polymer like PET or PS emits typically 2.0 to 3.0 kg of CO2. This represents a reduction in greenhouse gas emissions of roughly 75%."
+  },
+  {
+    "question": "What is the 'enzymatic mechanism' of degradation for natural polymers like starch?",
+    "ground_truth": "Starch is degraded by amylases (alpha and beta). Alpha-amylase acts as an endo-enzyme, randomly cleaving alpha-1,4-glycosidic bonds in the interior of the chain. Beta-amylase acts as an exo-enzyme, removing maltose units from the non-reducing end. This synergistic action rapidly reduces molecular weight and produces metabolizable sugars."
+  },
+  {
+    "question": "What is the 'printability' challenge of PCL in Fused Deposition Modeling (FDM)?",
+    "ground_truth": "PCL has a very low melting point (~60°C) and retains heat for a long time (slow crystallization). In FDM, this can lead to poor dimensional accuracy as deposited layers may not solidify quickly enough to support subsequent layers, causing sagging or structural collapse unless active cooling is used."
+  },
+  {
+    "question": "How does 'surface modification' with RGD peptides improve synthetic biodegradable polymers?",
+    "ground_truth": "Synthetic polymers like PLA and PCL are hydrophobic and biologically inert, lacking cell recognition sites. Grafting RGD (Arginine-Glycine-Aspartic acid) peptides onto the surface mimics the extracellular matrix (fibronectin), providing specific binding sites for cell integrins, which significantly improves cell adhesion, spreading, and survival."
+  },
+  {
+    "question": "What is the 'toxicology' concern regarding Tin catalysts in biomedical PLGA?",
+    "ground_truth": "Tin(II) 2-ethylhexanoate is the standard catalyst for PLGA synthesis. Residual tin is potentially neurotoxic and cytotoxic. Therefore, regulatory standards (like FDA) strictly limit the residual tin content in medical-grade polymers (often <20 ppm), requiring rigorous purification post-polymerization."
+  },
+  {
+    "question": "What is the role of 'oxidized maize starch' (OMS) as a binder in 3D printing?",
+    "ground_truth": "OMS serves as a biodegradable binder in powder-based 3D printing (like binder jetting). The oxidation introduces carboxyl and carbonyl groups, increasing hydrophilicity and binding capacity. When water-based ink is jetted, the OMS swells and bonds the ceramic or polymer powder particles together to form the green body."
+  },
+  {
+    "question": "What is the 'Young's Modulus' of a typical 30% glass fiber reinforced PLA composite?",
+    "ground_truth": "Reinforcing PLA with 30% glass fibers typically increases its Young's Modulus from ~3.5 GPa (neat PLA) to approximately 8–10 GPa. This significant stiffening makes it suitable for semi-structural applications where neat PLA would be too compliant."
+  },
+  {
+    "question": "How does 'gamma-irradiation' affect the molecular weight of PCL?",
+    "ground_truth": "Gamma irradiation causes random chain scission in the amorphous regions of PCL. This leads to a dose-dependent decrease in molecular weight ($M_n$ and $M_w$). While PCL is more radiation-resistant than degradable polyethers, high doses (>25 kGy) used for sterilization can still significantly compromise its mechanical toughness."
+  },
+  {
+    "question": "What is the 'barrier property' trade-off in biodegradable packaging films?",
+    "ground_truth": "Most biodegradable polymers (PLA, starch, PBAT) have relatively poor gas and water vapor barrier properties compared to conventional laminates. Improving biodegradability (hydrophilicity) often intrinsically reduces water barrier performance. This trade-off is often managed via multilayer structures or high-barrier coatings (like SiOx or nanoclays)."
+  },
+  {
+    "question": "What is the specific role of 'succinic acid' in the synthesis of PBS?",
+    "ground_truth": "Succinic acid acts as the dicarboxylic acid monomer. It reacts with 1,4-butanediol. Succinic acid can be produced via fermentation of glucose (bio-succinic acid), making PBS a potentially 100% bio-based polymer. Its structure provides the ester linkages susceptible to hydrolysis."
+  },
+  {
+    "question": "How does 'electrospinning' create scaffolds that mimic the Extracellular Matrix (ECM)?",
+    "ground_truth": "Electrospinning produces ultrafine polymer fibers (diameters ranging from tens of nanometers to microns) by drawing a charged polymer solution. These nanofibers physically mimic the scale and arrangement of natural collagen fibrils in the ECM, providing a high surface area and porosity that supports cell attachment and nutrient transport."
+  },
+  {
+    "question": "What is the 'hydrophilic-hydrophobic balance' in amphiphilic block copolymers for drug delivery?",
+    "ground_truth": "In block copolymers (e.g., PEG-PLA), the ratio of the hydrophilic block (PEG) to the hydrophobic block (PLA) dictates the self-assembly into micelles or vesicles. A balance is crucial: too much hydrophobicity leads to precipitation; too much hydrophilicity prevents stable micelle formation. The core serves as a reservoir for hydrophobic drugs."
+  },
+  {
+    "question": "What is the 'thermal stability' limit of PHA during processing?",
+    "ground_truth": "PHAs are thermally unstable and degrade via random chain scission (cis-elimination) at temperatures just above their melting point (approx 180°C). This narrow processing window means residence times in extruders must be minimized, and temperatures must be strictly controlled to prevent severe loss of molecular weight."
+  },
+  {
+    "question": "What is the 'tensile strength' of spider silk compared to synthetic biodegradable polymers?",
+    "ground_truth": "Spider silk (dragline) has a tensile strength of roughly 1.1–1.5 GPa, which is significantly higher than most synthetic biodegradable polymers (PLA ~60 MPa, PCL ~20 MPa). This exceptional strength combined with biodegradability drives research into recombinant silk proteins for high-performance sutures and fibers."
+  },
+  {
+    "question": "How does 'plasma treatment' utilizing oxygen enhance PCL surfaces?",
+    "ground_truth": "Oxygen plasma treatment introduces polar oxygen-containing functional groups (hydroxyl, carbonyl, carboxyl) onto the PCL surface. This increases the surface energy and wettability (reducing contact angle), which enhances the adsorption of proteins and subsequent attachment of cells without altering the bulk properties."
+  },
+  {
+    "question": "What is the 'degradation product' of Poly(ortho esters) and why is it beneficial?",
+    "ground_truth": "Poly(ortho esters) degrade into acidic byproducts, but they are often designed to degrade via surface erosion. Importantly, some formulations include basic excipients to neutralize the acidic degradation products, or they degrade into neutral products, preventing the acidic autocatalysis seen in polyesters and reducing inflammation in surrounding tissue."
+  },
+  {
+    "question": "What is the 'drug loading capacity' of PLGA microspheres typically?",
+    "ground_truth": "The drug loading capacity depends on the drug and method but is typically in the range of 1% to 20% by weight. Higher loadings often lead to a high 'burst release' (rapid initial release of surface drug) and can affect the degradation rate of the polymer matrix."
+  },
+  {
+    "question": "What is the role of 'citric acid' in crosslinking starch-based films?",
+    "ground_truth": "Citric acid acts as a non-toxic crosslinking agent. It has multiple carboxyl groups that can react with the hydroxyl groups of starch to form ester linkages (inter-chain crosslinks). This crosslinking reinforces the starch network, reducing water sensitivity (swelling) and improving tensile strength while maintaining biodegradability."
+  },
+  {
+    "question": "What is the 'crystallinity' percentage of PCL and how does it affect permeability?",
+    "ground_truth": "PCL has a high degree of crystallinity, typically around 50–60%. The crystalline regions are impermeable to small molecules. Therefore, higher crystallinity reduces the permeability of the polymer to water and drugs, slowing down the degradation rate and slowing drug release diffusion compared to amorphous polymers."
+  },
+  {
+    "question": "How does 'fused filament fabrication' (FFF) orientation affect the mechanical strength of PLA parts?",
+    "ground_truth": "FFF parts are anisotropic. The tensile strength is highest along the direction of filament deposition (raster angle 0°) and lowest in the build direction (Z-axis) or transverse to rasters (90°). The bond strength between layers (Z-strength) is typically only 50-70% of the strength of the filament itself due to incomplete diffusion/fusion at the interface."
+  },
+  {
+    "question": "What is the 'market price' difference roughly between PLA and conventional PE?",
+    "ground_truth": "Historically, PLA has traded at a premium, often 1.5 to 2.5 times the price of commodity polyethylene (PE). While PE might cost $1.00-$1.50/kg, PLA has often been in the $2.00-$3.00+/kg range. This economic gap is a primary barrier to widespread substitution in low-margin packaging applications."
+  },
+  {
+    "question": "What is the 'biocompatibility' mechanism of Poly(ethylene glycol) (PEG) coatings?",
+    "ground_truth": "PEG is highly hydrophilic and flexible (high steric repulsion). When coated on a surface (PEGylation), it forms a hydration layer that repels protein adsorption (the 'stealth' effect). By preventing opsonization (protein tagging), it reduces immune system recognition and phagocytosis, prolonging the circulation time of nanoparticles."
+  },
+  {
+    "question": "What is the 'fatigue life' of biodegradable Magnesium stents compared to stainless steel?",
+    "ground_truth": "Magnesium alloys have lower fatigue strength than stainless steel (316L). While stainless steel has a fatigue limit of ~250-300 MPa, Mg alloys are often ~100-150 MPa. This necessitates careful stent strut design to ensure they can withstand the millions of cardiac cycles required before the stent degrades."
+  },
+  {
+    "question": "How does 'porosity' affect the degradation rate of ceramic/polymer composite scaffolds?",
+    "ground_truth": "Higher porosity increases the surface area-to-volume ratio, allowing greater water infiltration. This accelerates the hydrolytic degradation of the polymer matrix. Additionally, acidic degradation products can diffuse out more easily from porous structures, potentially reducing the autocatalytic effect compared to solid blocks."
+  },
+  {
+    "question": "What is the 'piezoelectric' property of PLLA and its biomedical relevance?",
+    "ground_truth": "PLLA (in its shear piezoelectric form) generates an electrical charge under mechanical stress (piezoelectric coefficient d14 ~ 10 pC/N). This is relevant for bone scaffolds because natural bone is also piezoelectric. The stress-generated potential can stimulate osteoblasts and enhance bone growth, mimicking the physiological environment."
+  },
+  {
+    "question": "What is the 'viscosity' reduction of PLA during melt processing indicative of?",
+    "ground_truth": "A reduction in melt viscosity (or increase in Melt Flow Index, MFI) indicates a reduction in molecular weight due to thermal or hydrolytic degradation. Since viscosity is related to molecular weight by a power law, even a small drop in molecular weight causes a noticeable drop in viscosity, signaling process-induced degradation."
+  },
+  {
+    "question": "What is the 'burst release' phenomenon in drug delivery microspheres?",
+    "ground_truth": "Burst release is the uncontrolled, rapid release of a significant portion of the loaded drug (often 20-50%) immediately upon administration. It occurs due to drug trapped on the surface or in pores connected to the surface dissolving before the polymer matrix degrades. This is often undesirable as it can lead to toxicity."
+  },
+  {
+    "question": "What is the 'hydrolysis half-life' of anhydride bonds compared to ester bonds?",
+    "ground_truth": "Anhydride bonds are much more hydrolytically unstable than ester bonds. The half-life of an anhydride bond can be minutes to hours, leading to rapid surface erosion of polyanhydrides (days to weeks). In contrast, ester bonds (in PLA, PCL) have half-lives of months to years, leading to slower bulk erosion."
+  },
+  {
+    "question": "How does 'blending' with Poly(ethylene oxide) (PEO) affect the electrospinning of Chitosan?",
+    "ground_truth": "Pure chitosan is difficult to electrospin due to its rigid cationic backbone and high viscosity/surface tension behavior. Blending with PEO (a flexible, non-ionic polymer) improves chain entanglement and processability, allowing for the formation of continuous, uniform nanofibers rather than beads or droplets."
+  },
+  {
+    "question": "What is the 'tensile elongation' of PBAT?",
+    "ground_truth": "PBAT is an extremely flexible copolymer with a tensile elongation at break typically exceeding 700% (often 700–1000%). This rubber-like ductility makes it an ideal blending partner to toughen brittle biopolymers like PLA."
+  },
+  {
+    "question": "What is the 'sterilization' method of choice for heat-sensitive biodegradable polymers?",
+    "ground_truth": "Ethylene Oxide (EtO) gas sterilization is often preferred for heat-sensitive polymers (like PLLA, PLGA) because it operates at low temperatures (<60°C). However, degassing is required to remove toxic residues. Gamma radiation is an alternative but degrades molecular weight; autoclaving is generally not suitable due to hydrolytic damage."
+  },
+  {
+    "question": "What is the 'critical solution temperature' (LCST) of PNIPAM and why is it relevant to biodegradability?",
+    "ground_truth": "PNIPAM has an LCST of ~32°C. While not biodegradable itself, it is often grafted onto biodegradable backbones (like gelatin or chitosan) to create thermo-responsive hydrogels. The system is liquid below 32°C and gels at body temperature (37°C), useful for injectable scaffolds."
+  },
+  {
+    "question": "What is the 'energy density' contribution of biodegradable separators in batteries?",
+    "ground_truth": "Biodegradable separators (e.g., cellulose nanofiber mats) can be thinner and more porous than conventional PP/PE separators while maintaining thermal stability. This allows for closer electrode spacing and better ion transport, potentially improving the volumetric energy density and power capability of the battery."
+  },
+  {
+    "question": "How does 'alkaline hydrolysis' differ from acid hydrolysis for polyesters?",
+    "ground_truth": "Alkaline hydrolysis (saponification) is generally much faster than acid hydrolysis. Hydroxide ions ($OH^-$) are stronger nucleophiles than water, rapidly attacking the ester carbonyl. This leads to surface erosion phenomena even in bulk-eroding polymers, as the degradation at the surface is faster than diffusion of the base into the bulk."
+  },
+  {
+    "question": "What is the 'dielectric constant' of PLA and its implication for electronics?",
+    "ground_truth": "PLA has a dielectric constant of approximately 3.1–3.3 (at 1 kHz). This is comparable to many conventional polymers, making it suitable as a dielectric insulating layer in transient electronics or biodegradable organic field-effect transistors (OFETs)."
+  },
+  {
+    "question": "What is the 'vicat softening temperature' of PCL?",
+    "ground_truth": "The Vicat softening temperature of PCL is very low, typically around 45–50°C. This means PCL parts lose mechanical stability and begin to deform at temperatures well below the boiling point of water, restricting their use to low-temperature biomedical or room-temperature applications."
+  },
+  {
+    "question": "What is the 'yield strength' of Magnesium alloy WE43?",
+    "ground_truth": "The biodegradable Magnesium alloy WE43 (containing Yttrium and Rare Earths) has a yield strength of approximately 160–200 MPa. This provides sufficient mechanical support for bone fixation devices (screws/plates) during the initial healing phase, significantly higher than pure Mg (~70 MPa)."
+  },
+  {
+    "question": "How does 'layer-by-layer' (LbL) assembly create functional coatings on biodegradable films?",
+    "ground_truth": "LbL assembly involves the alternate deposition of oppositely charged polyelectrolytes (e.g., chitosan (+) and alginate (-)) onto a substrate. This creates a nanostructured, ultra-thin coating. It can vastly improve gas barrier properties (creating a 'tortuous path') or allow for the loading of antimicrobial agents on the surface of packaging films."
+  },
+  {
+    "question": "What is the 'mineralization' rate requirement for home composting certification?",
+    "ground_truth": "Home composting standards (like OK compost HOME) are stricter than industrial ones because temperatures are lower (<30°C). They typically require 90% biodegradation within 12 months (double the time of industrial), proving the material can degrade in a less aggressive, ambient biological environment."
+  },
+  {
+    "question": "What is the 'microplastic' generation risk of oxo-degradable plastics?",
+    "ground_truth": "Oxo-degradable plastics fragment rapidly due to oxidative additives, but the resulting fragments (microplastics) may have molecular weights too high for immediate microbial assimilation. This leads to the accumulation of persistent microplastics in the environment, which is why the EU and other jurisdictions have moved to ban them."
+  },
+  {
+    "question": "What is the 'drug release mechanism' from a surface-eroding polyanhydride wafer?",
+    "ground_truth": "In surface-eroding polymers (like Polyanhydrides), the drug is released proportionally to the mass loss of the polymer. As the polymer erodes layer by layer from the outside in, the drug entrapped in those layers is released. This allows for near zero-order (constant rate) release kinetics, which is difficult to achieve with bulk-eroding polyesters."
+  }
+]
