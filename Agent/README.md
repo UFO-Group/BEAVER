@@ -103,16 +103,16 @@ Before running BEAVER, place the extracted files under a common corpus root usin
     |-- RSC/
     |   |-- Embeddings_label/
     |   |   |-- file_embeddings.npy
-    |   |   `-- file_metadata_cleaned.csv
-    |   `-- PARA_CORPUS/
+    |   |   |-- file_metadata_cleaned.csv
+    |   |-- PARA_CORPUS/
     |       |-- file_embeddings.npy
-    |       `-- file_metadata.csv
+    |       |-- file_metadata.csv
     |-- Wiley/
     |-- AIP/
     |-- IOP/
     |-- Elsevier/
     |-- Springer/
-    `-- ACS/
+    |-- ACS/
 For each publisher, move the extracted files according to the following rule:
     chunk/<publisher>/*  ->  BEAVER_Corpus/<publisher>/Embeddings_label/
     para/<publisher>/*   ->  BEAVER_Corpus/<publisher>/PARA_CORPUS/
