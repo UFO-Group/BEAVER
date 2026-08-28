@@ -478,6 +478,6 @@ def answer_with_router(user_input: str, verbose: bool = True, save_path: str = N
 if __name__ == "__main__": 
     q = input("Question:\n> ").strip() 
     # 测试路径
-    test_path = r"D:\FXR\Agent\TEST_ROUTER"
+    test_path = os.path.join(agent_dir, "Session_Runs", "TEST_ROUTER")
     result = answer_with_router(q, verbose=True, save_path=test_path) 
     print("\nDone.")
