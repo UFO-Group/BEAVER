@@ -1,0 +1,6 @@
+﻿Model,Total,OK,Error,AgentError,Empty,SuccessRate(%)
+BEAVER_NoQualityLoop,111,111,0,0,0,100.0
+Raw_DeepSeek-V3,111,111,0,0,0,100.0
+Raw_DeepSeek-R1,111,111,0,0,0,100.0
+Constrained_DeepSeek-V3,111,111,0,0,0,100.0
+Constrained_DeepSeek-R1,111,111,0,0,0,100.0
