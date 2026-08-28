@@ -99,6 +99,7 @@ The Zenodo archives are organized by retrieval granularity:
     chunk/<publisher>/...
     para/<publisher>/...
 Before running BEAVER, place the extracted files under a common corpus root using the directory structure expected by `Agent_Config/agent_config.py`:
+```bash
     BEAVER_Corpus/
     |-- RSC/
     |   |-- Embeddings_label/
@@ -113,6 +114,7 @@ Before running BEAVER, place the extracted files under a common corpus root usin
     |-- Elsevier/
     |-- Springer/
     |-- ACS/
+```
 For each publisher, move the extracted files according to the following rule:
     chunk/<publisher>/*  ->  BEAVER_Corpus/<publisher>/Embeddings_label/
     para/<publisher>/*   ->  BEAVER_Corpus/<publisher>/PARA_CORPUS/
