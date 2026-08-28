@@ -323,10 +323,10 @@ The plotting scripts expect positive values on the original linear scale when ge
 
 ## Grid-search results
 
-The complete grid-search CSV and JSON outputs are archived on Zenodo as
-`BEAVER_ML_grid_results.zip`. Serialized `.pkl` and `.joblib` models are not
-included because they can be regenerated from the deposited training data and
-source code.
+The grid-search CSV and JSON outputs used in this study are archived on Zenodo
+as `BEAVER_ML_grid_results.zip`. Serialized `.pkl` and `.joblib` models are not
+included because the deposited files are intended to support verification of
+the reported hyperparameter-search results.
 
 ## Final cross-validation results
 
@@ -337,7 +337,7 @@ polymer properties and eight candidate models.
 
 ## Data availability
 
-Large training datasets, grid-search outputs, final cross-validation metrics,
-and the property database are available from Zenodo:
+The grid-search outputs and final cross-validation metrics supporting the
+machine-learning model comparison are available from Zenodo:
 
 https://doi.org/10.5281/zenodo.22135808
