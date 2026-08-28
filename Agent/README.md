@@ -96,11 +96,13 @@ the first run and are therefore not included in the Zenodo archive.
 
 ### Corpus directory layout
 The Zenodo archives are organized by retrieval granularity:
-    chunk/<publisher>/...
-    para/<publisher>/...
+```bash
+chunk/<publisher>/...
+para/<publisher>/...
+```
 Before running BEAVER, place the extracted files under a common corpus root using the directory structure expected by `Agent_Config/agent_config.py`:
 ```bash
-    BEAVER_Corpus/
+BEAVER_Corpus/
     |-- RSC/
     |   |-- Embeddings_label/
     |   |   |-- file_embeddings.npy
@@ -117,25 +119,25 @@ Before running BEAVER, place the extracted files under a common corpus root usin
 ```
 For each publisher, move the extracted files according to the following rule:
 ```bash
-    chunk/<publisher>/*  ->  BEAVER_Corpus/<publisher>/Embeddings_label/
-    para/<publisher>/*   ->  BEAVER_Corpus/<publisher>/PARA_CORPUS/
+chunk/<publisher>/*  ->  BEAVER_Corpus/<publisher>/Embeddings_label/
+para/<publisher>/*   ->  BEAVER_Corpus/<publisher>/PARA_CORPUS/
 ```
 The original filenames must be retained. In particular, the ACS and Elsevier archives use the cleaned filenames:
 ```bash
-    file_embeddings.cleaned.npy
-    file_metadata.cleaned_cleaned.csv
-    file_metadata.cleaned.csv
+file_embeddings.cleaned.npy
+file_metadata.cleaned_cleaned.csv
+file_metadata.cleaned.csv
 ```
 After arranging the files, set `BEAVER_CORPUS_ROOT` to the common `BEAVER_Corpus` directory.
 Windows Command Prompt:
 ```bat
-    set "BEAVER_CORPUS_ROOT=C:\path\to\BEAVER_Corpus"
-    set "BEAVER_CORPUS_GRANULARITY=chunk"
+set "BEAVER_CORPUS_ROOT=C:\path\to\BEAVER_Corpus"
+set "BEAVER_CORPUS_GRANULARITY=chunk"
 ```
 Linux:
 ```bash
-    export BEAVER_CORPUS_ROOT="/path/to/BEAVER_Corpus"
-    export BEAVER_CORPUS_GRANULARITY="chunk"
+export BEAVER_CORPUS_ROOT="/path/to/BEAVER_Corpus"
+export BEAVER_CORPUS_GRANULARITY="chunk"
 ```
 Set `BEAVER_CORPUS_GRANULARITY=paras` to use the paragraph-level corpus. The BM25 cache is generated automatically during the first run.
 
