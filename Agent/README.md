@@ -66,9 +66,33 @@ Users must provide their own API endpoint and API key. API credentials are retai
 
 ## External resources
 
-The complete workflow requires external resources including the literature corpus metadata, Dense embeddings, BM25 cache, polymer-property database, polymer-name keyword dictionary, and polymer-name/SMILES dictionary. Their locations are configured through `Agent_Config/agent_config.py` and the repeat-unit resource settings in `Planner/pipeline_worker.py`.
+The large literature embedding arrays (`.npy`) and their associated metadata
+files are not included in this GitHub repository. They are archived on Zenodo:
 
-Large data resources should be downloaded separately from the data repository associated with the project.
+https://doi.org/10.5281/zenodo.22135808
+
+Download and extract the chunk-level and/or paragraph-level corpus archives
+before launching the Agent. Set the extracted corpus location through the
+`BEAVER_CORPUS_ROOT` environment variable.
+
+Windows Command Prompt:
+
+```bat
+set "BEAVER_CORPUS_ROOT=C:\path\to\BEAVER_Corpus"
+set "BEAVER_CORPUS_GRANULARITY=chunk"
+```
+
+Linux:
+
+```bash
+export BEAVER_CORPUS_ROOT="/path/to/BEAVER_Corpus"
+export BEAVER_CORPUS_GRANULARITY="chunk"
+```
+
+Set `BEAVER_CORPUS_GRANULARITY` to `paras` to use the paragraph-level corpus.
+
+The BM25 index and other retrieval caches are generated automatically during
+the first run and are therefore not included in the Zenodo archive.
 
 ## Folder structure
 
@@ -88,3 +112,13 @@ Large data resources should be downloaded separately from the data repository as
 ## Security
 
 Do not place real API keys, service credentials, tunnel tokens, or populated user databases in the source-code package. Reviewers should use their own API credentials or access a separately hosted demonstration instance.
+
+## Data availability
+
+The large literature embeddings and associated metadata required by the
+BEAVER retrieval workflow are available from Zenodo:
+
+https://doi.org/10.5281/zenodo.22135808
+
+The source code and configuration instructions are provided in this GitHub
+repository.
