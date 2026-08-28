@@ -1,0 +1,195 @@
+🔄 [DeepSeek] 正在配置 Client...
+   -> Base URL: https://llmapi.paratera.com/v1
+   -> Key: sk-4x7******
+✅ Client 配置成功！
+DEBUG: --------------------------------------------------
+DEBUG: [System] 成功进入 run_one_step
+DEBUG: [System] 收到用户指令: First explain why crystallinity affects degradation, then discuss how processing changes crystallinity, and finally evaluate the implications for implant lifetime.
+DEBUG: [Config] Output Dir: D:\FXR\Agent\1219\2\Run_20260423_190857\First_explain_why_crystallinity_affects_degradatio
+DEBUG: --------------------------------------------------
+DEBUG: [Router] 正在调用 Router...
+
+🧩 Step 0: Router + Design (Generating Ideas)...
+
+[Router Debug] ===== TURN TAGS =====
+{
+  "is_chat": false,
+  "is_question": true,
+  "is_design": false,
+  "reason": "The user is asking to explain, discuss, and evaluate existing scientific knowledge about 
+crystallinity-degradation relationships and processing effects. This requires retrieving and synthesizing established 
+knowledge rather than designing new interventions or formulations."
+}
+
+[Router Debug] ===== QUERY STRUCTURE =====
+{
+  "label": "multi_part",
+  "reason": "Detected sequential or separable sub-tasks."
+}
+
+🧠 Calling Planner to decompose the task...
+🔍 [Planner Raw Output]: {
+  "query_structure": "multi_part",
+  "steps": [
+    {
+      "id": "step1",
+      "type": "search_papers",
+      "description": "Retrieve literature on the relationship between crystallinity and degr...
+
+✅ Task decomposition completed. Plan:
+
+                                            🧩 Task Plan – Decomposed Steps                                             
+┏━━━━━━━┳━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Index ┃ Step ID ┃         Type         ┃ Description                          ┃ Inputs                               ┃
+┡━━━━━━━╇━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│   1   │  step1  │    search_papers     │ Retrieve literature on the           │ {                                    │
+│       │         │                      │ relationship between                 │   "query": "Why does crystallinity   │
+│       │         │                      │ crystallinity and degradation        │ affect degradation in biodegradable  │
+│       │         │                      │ mechanisms                           │ polymers?",                          │
+│       │         │                      │                                      │   "top_k": 15,                       │
+│       │         │                      │                                      │   "query_policy":                    │
+│       │         │                      │                                      │ "split_subquestion",                 │
+│       │         │                      │                                      │   "query_rewrite_mode": "none"       │
+│       │         │                      │                                      │ }                                    │
+│   2   │  step2  │    search_papers     │ Gather evidence on processing        │ {                                    │
+│       │         │                      │ techniques                           │   "query": "How do processing        │
+│       │         │                      │ influencing crystallinity            │ methods change crystallinity in      │
+│       │         │                      │                                      │ biodegradable polymers?",            │
+│       │         │                      │                                      │   "top_k": 15,                       │
+│       │         │                      │                                      │   "query_policy":                    │
+│       │         │                      │                                      │ "split_subquestion",                 │
+│       │         │                      │                                      │   "query_rewrite_mode": "none"       │
+│       │         │                      │                                      │ }                                    │
+│   3   │  step3  │    search_papers     │ Collect studies linking              │ {                                    │
+│       │         │                      │ crystallinity and                    │   "query": "Implications of          │
+│       │         │                      │ degradation to implant performance   │ crystallinity-induced degradation    │
+│       │         │                      │                                      │ for biodegradable implant lifetime", │
+│       │         │                      │                                      │   "top_k": 15,                       │
+│       │         │                      │                                      │   "query_policy":                    │
+│       │         │                      │                                      │ "split_subquestion",                 │
+│       │         │                      │                                      │   "query_rewrite_mode":              │
+│       │         │                      │                                      │ "domain_append"                      │
+│       │         │                      │                                      │ }                                    │
+│   4   │  step4  │ reason_over_evidence │ Synthesize evidence to address all   │ {                                    │
+│       │         │                      │ three sub-                           │   "use_steps": [                     │
+│       │         │                      │ questions comprehensively            │     "step1",                         │
+│       │         │                      │                                      │     "step2",                         │
+│       │         │                      │                                      │     "step3"                          │
+│       │         │                      │                                      │   ]                                  │
+│       │         │                      │                                      │ }                                    │
+└───────┴─────────┴──────────────────────┴──────────────────────────────────────┴──────────────────────────────────────┘
+
+[DEBUG save_step_result] writing generic json -> D:\FXR\Agent\1219\2\Run_20260423_190857\First_explain_why_crystallinity_affects_degradatio\Planner_task_decomposition.json
+[DEBUG save_step_result] saved generic json -> Planner_task_decomposition.json
+💾 通用数据已保存: Planner_task_decomposition.json
+[DEBUG save_step_result] writing generic json -> D:\FXR\Agent\1219\2\Run_20260423_190857\First_explain_why_crystallinity_affects_degradatio\step0_router_final_router_result.json
+[DEBUG save_step_result] saved generic json -> step0_router_final_router_result.json
+💾 通用数据已保存: step0_router_final_router_result.json
+🧭 Route type: question
+❓ Standard Question Mode.
+[DEBUG save_step_result] writing generic json -> D:\FXR\Agent\1219\2\Run_20260423_190857\First_explain_why_crystallinity_affects_degradatio\step1_plan_plan.json
+[DEBUG save_step_result] saved generic json -> step1_plan_plan.json
+💾 通用数据已保存: step1_plan_plan.json
+
+🔧 🚀 开始执行 Plan (Main)...
+📂 Results will be saved to: D:\FXR\Agent\1219\2\Run_20260423_190857\First_explain_why_crystallinity_affects_degradatio
+─────────────────────────────────────────── ➡ Running: step1 (search_papers) ───────────────────────────────────────────
+🔍 检索文献: Why does crystallinity affect degradation in biodegradable polymers?
+🔧 retrieval_mode = hybrid | query_policy = split_subquestion | query_rewrite_mode = none
+[DEBUG] step1: before retrieve_and_rerank_evidence
+
+🔍 Retrieval Only (candidate pool)
+   Base query      : Why does crystallinity affect degradation in biodegradable polymers?
+   Enhanced query  : Why does crystallinity affect degradation in biodegradable polymers?
+   retrieve_top_k  : 45
+   rerank_top_n    : 15
+
+
+🧪 Reranking 45 passages via Score model...
+✔ Rerank done. Keeping Top 15 passages.
+[DEBUG] A: rerank returned
+[DEBUG] B: before save retrieval_only
+[DEBUG save_step_result] writing csv -> D:\FXR\Agent\1219\2\Run_20260423_190857\First_explain_why_crystallinity_affects_degradatio\step1_retrieval_only.csv
+[DEBUG save_step_result] saved csv -> step1_retrieval_only.csv
+[DEBUG save_step_result] writing json -> D:\FXR\Agent\1219\2\Run_20260423_190857\First_explain_why_crystallinity_affects_degradatio\step1_retrieval_only.json
+[DEBUG save_step_result] saved json -> step1_retrieval_only.json
+[DEBUG] C: after save retrieval_only
+[DEBUG] D: before save rerank_scored_all
+[DEBUG save_step_result] writing csv -> D:\FXR\Agent\1219\2\Run_20260423_190857\First_explain_why_crystallinity_affects_degradatio\step1_rerank_scored_all.csv
+[DEBUG save_step_result] saved csv -> step1_rerank_scored_all.csv
+[DEBUG save_step_result] writing json -> D:\FXR\Agent\1219\2\Run_20260423_190857\First_explain_why_crystallinity_affects_degradatio\step1_rerank_scored_all.json
+[DEBUG save_step_result] saved json -> step1_rerank_scored_all.json
+[DEBUG] E: after save rerank_scored_all
+[DEBUG] F: before return retrieval_pack
+[DEBUG] step1: after retrieve_and_rerank_evidence -> <class 'dict'>
+[DEBUG] step1: evidence_items_len = 15
+─────────────────────────────────────────── ➡ Running: step2 (search_papers) ───────────────────────────────────────────
+🔍 检索文献: How do processing methods change crystallinity in biodegradable polymers?
+🔧 retrieval_mode = hybrid | query_policy = split_subquestion | query_rewrite_mode = none
+[DEBUG] step2: before retrieve_and_rerank_evidence
+
+🔍 Retrieval Only (candidate pool)
+   Base query      : How do processing methods change crystallinity in biodegradable polymers?
+   Enhanced query  : How do processing methods change crystallinity in biodegradable polymers?
+   retrieve_top_k  : 45
+   rerank_top_n    : 15
+
+
+🧪 Reranking 45 passages via Score model...
+✔ Rerank done. Keeping Top 15 passages.
+[DEBUG] A: rerank returned
+[DEBUG] B: before save retrieval_only
+[DEBUG save_step_result] writing csv -> D:\FXR\Agent\1219\2\Run_20260423_190857\First_explain_why_crystallinity_affects_degradatio\step2_retrieval_only.csv
+[DEBUG save_step_result] saved csv -> step2_retrieval_only.csv
+[DEBUG save_step_result] writing json -> D:\FXR\Agent\1219\2\Run_20260423_190857\First_explain_why_crystallinity_affects_degradatio\step2_retrieval_only.json
+[DEBUG save_step_result] saved json -> step2_retrieval_only.json
+[DEBUG] C: after save retrieval_only
+[DEBUG] D: before save rerank_scored_all
+[DEBUG save_step_result] writing csv -> D:\FXR\Agent\1219\2\Run_20260423_190857\First_explain_why_crystallinity_affects_degradatio\step2_rerank_scored_all.csv
+[DEBUG save_step_result] saved csv -> step2_rerank_scored_all.csv
+[DEBUG save_step_result] writing json -> D:\FXR\Agent\1219\2\Run_20260423_190857\First_explain_why_crystallinity_affects_degradatio\step2_rerank_scored_all.json
+[DEBUG save_step_result] saved json -> step2_rerank_scored_all.json
+[DEBUG] E: after save rerank_scored_all
+[DEBUG] F: before return retrieval_pack
+[DEBUG] step2: after retrieve_and_rerank_evidence -> <class 'dict'>
+[DEBUG] step2: evidence_items_len = 15
+─────────────────────────────────────────── ➡ Running: step3 (search_papers) ───────────────────────────────────────────
+🔍 检索文献: Implications of crystallinity-induced degradation for biodegradable implant lifetime
+🔧 retrieval_mode = hybrid | query_policy = split_subquestion | query_rewrite_mode = domain_append
+[DEBUG] step3: before retrieve_and_rerank_evidence
+
+🔍 Retrieval Only (candidate pool)
+   Base query      : Implications of crystallinity-induced degradation for biodegradable implant lifetime
+   Enhanced query  : Implications of crystallinity-induced degradation for biodegradable implant lifetime Degradation 
+Rate
+   retrieve_top_k  : 45
+   rerank_top_n    : 15
+
+
+🧪 Reranking 45 passages via Score model...
+✔ Rerank done. Keeping Top 15 passages.
+[DEBUG] A: rerank returned
+[DEBUG] B: before save retrieval_only
+[DEBUG save_step_result] writing csv -> D:\FXR\Agent\1219\2\Run_20260423_190857\First_explain_why_crystallinity_affects_degradatio\step3_retrieval_only.csv
+[DEBUG save_step_result] saved csv -> step3_retrieval_only.csv
+[DEBUG save_step_result] writing json -> D:\FXR\Agent\1219\2\Run_20260423_190857\First_explain_why_crystallinity_affects_degradatio\step3_retrieval_only.json
+[DEBUG save_step_result] saved json -> step3_retrieval_only.json
+[DEBUG] C: after save retrieval_only
+[DEBUG] D: before save rerank_scored_all
+[DEBUG save_step_result] writing csv -> D:\FXR\Agent\1219\2\Run_20260423_190857\First_explain_why_crystallinity_affects_degradatio\step3_rerank_scored_all.csv
+[DEBUG save_step_result] saved csv -> step3_rerank_scored_all.csv
+[DEBUG save_step_result] writing json -> D:\FXR\Agent\1219\2\Run_20260423_190857\First_explain_why_crystallinity_affects_degradatio\step3_rerank_scored_all.json
+[DEBUG save_step_result] saved json -> step3_rerank_scored_all.json
+[DEBUG] E: after save rerank_scored_all
+[DEBUG] F: before return retrieval_pack
+[DEBUG] step3: after retrieve_and_rerank_evidence -> <class 'dict'>
+[DEBUG] step3: evidence_items_len = 15
+─────────────────────────────────────── ➡ Running: step4 (reason_over_evidence) ────────────────────────────────────────
+📝 LLM 正在进行深度推理与最终生成 (QA)...
+[DEBUG save_step_result] writing text -> D:\FXR\Agent\1219\2\Run_20260423_190857\First_explain_why_crystallinity_affects_degradatio\step4_reason_over_evidence_result.txt
+[DEBUG save_step_result] saved text -> step4_reason_over_evidence_result.txt
+💾 文本已保存: step4_reason_over_evidence_result.txt
+🧾 execution_context saved: 
+D:\FXR\Agent\1219\2\Run_20260423_190857\First_explain_why_crystallinity_affects_degradatio\execution_context.json
+⚪ Memory storage skipped (disabled).
+DEBUG: [Done] Standard Mode 流程结束。

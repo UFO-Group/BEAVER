@@ -1,0 +1,73 @@
+{
+  "route_type": "question",
+  "tags": {
+    "is_chat": false,
+    "is_question": true,
+    "is_design": false,
+    "reason": "The user is asking to explain, discuss, and evaluate existing scientific knowledge about crystallinity-degradation relationships and processing effects. This requires retrieving and synthesizing established knowledge rather than designing new interventions or formulations."
+  },
+  "domain": {
+    "material_family": "unknown",
+    "modification_type": "unknown",
+    "target_property": "Degradation Rate",
+    "degradation_environment": "in vivo",
+    "mechanism_type": "unknown",
+    "method_type": "unknown",
+    "reason": "Mapped 'degradation' to target_property: Degradation Rate. Mapped 'implant' to degradation_environment: in vivo. Material unspecified per constraint. No processing method or degradation mechanism explicitly stated."
+  },
+  "original_input": "First explain why crystallinity affects degradation, then discuss how processing changes crystallinity, and finally evaluate the implications for implant lifetime.",
+  "query_structure": {
+    "label": "multi_part",
+    "reason": "Detected sequential or separable sub-tasks."
+  },
+  "plan": {
+    "query_structure": "multi_part",
+    "steps": [
+      {
+        "id": "step1",
+        "type": "search_papers",
+        "description": "Retrieve literature on the relationship between crystallinity and degradation mechanisms",
+        "inputs": {
+          "query": "Why does crystallinity affect degradation in biodegradable polymers?",
+          "top_k": 15,
+          "query_policy": "split_subquestion",
+          "query_rewrite_mode": "none"
+        }
+      },
+      {
+        "id": "step2",
+        "type": "search_papers",
+        "description": "Gather evidence on processing techniques influencing crystallinity",
+        "inputs": {
+          "query": "How do processing methods change crystallinity in biodegradable polymers?",
+          "top_k": 15,
+          "query_policy": "split_subquestion",
+          "query_rewrite_mode": "none"
+        }
+      },
+      {
+        "id": "step3",
+        "type": "search_papers",
+        "description": "Collect studies linking crystallinity and degradation to implant performance",
+        "inputs": {
+          "query": "Implications of crystallinity-induced degradation for biodegradable implant lifetime",
+          "top_k": 15,
+          "query_policy": "split_subquestion",
+          "query_rewrite_mode": "domain_append"
+        }
+      },
+      {
+        "id": "step4",
+        "type": "reason_over_evidence",
+        "description": "Synthesize evidence to address all three sub-questions comprehensively",
+        "inputs": {
+          "use_steps": [
+            "step1",
+            "step2",
+            "step3"
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,530 @@
+{
+  "called_mech_table": false,
+  "idea_visuals": [],
+  "step1": {
+    "query": "Why does crystallinity affect degradation in biodegradable polymers?",
+    "enhanced_query": "Why does crystallinity affect degradation in biodegradable polymers?",
+    "query_policy": "split_subquestion",
+    "query_rewrite_mode": "none",
+    "evidence_items": [
+      {
+        "rank": 1,
+        "score": 0.0164,
+        "source": "101016_jpolymer201206014_段4-6.txt",
+        "filename": "101016_jpolymer201206014_段4-6.txt",
+        "topic": "Biodegradable Polymers: Environmental and Biomedical Applications",
+        "evidence": "mechanism. It has already been proven that the biodegradation rate is inversely proportional to the degree of crystallinity since the molecules in the amorphous region are loosely packed and thus make it more susceptible to degradation [4]. Again, the higher the melting temperature the lower the biodegradation rate of the biodegradable polymers [4].",
+        "rerank_score": 3,
+        "rerank_has_answer": true,
+        "rerank_rationale": "Directly states biodegradation rate is inversely proportional to crystallinity and explains the mechanism."
+      },
+      {
+        "rank": 5,
+        "score": 0.0159,
+        "source": "101016_jpolymer201206014_段4-6.txt",
+        "filename": "101016_jpolymer201206014_段4-6.txt",
+        "topic": "Biodegradable Polymers: Environmental and Biomedical Applications",
+        "evidence": "ution) and the high order structures (glass transition temperature, melting temperature, modulus of elasticity, crystallinity, and crystal structure) [4], [5]. As for crystalline structure and morphology, it is well known that crystallinity, spherulite size, and lamellar structure can greatly influence the rate of biodegradation [5]. Therefore, studies on crystal growth kinetics and morphology play an important role in controlling the degradation mechanism. It has already been proven that the biodegradation rate is inversely proportional to the degree of crystallinity since the molecules in th",
+        "rerank_score": 3,
+        "rerank_has_answer": true,
+        "rerank_rationale": "Directly states crystallinity influences biodegradation rate and repeats the inverse proportionality mechanism."
+      },
+      {
+        "rank": 17,
+        "score": 0.0145,
+        "source": "101002_app31932_段73-75.txt",
+        "filename": "101002_app31932_段73-75.txt",
+        "topic": "Biodegradable Aliphatic Polyesters for Environmental Sustainability",
+        "evidence": "Lately, the degree of crystallinity15 has been singled out as the factor that affects mostly biodegradation of polymers, because biodegradation firstly takes place in the amorphous region, such that the erosion proceeds at a higher rate in the amorphous region than in the crystalline region.16, 17 Hence, research on the relationship among structure, crystallization kinetics and morphology must precede research on degradation behavior, and the results thus obtained will help elucidate the degradation mechanism, supporting the design and development of various practical degradable polymers.",
+        "rerank_score": 3,
+        "rerank_has_answer": true,
+        "rerank_rationale": "Directly states biodegradation occurs first in the amorphous region, explaining the effect."
+      },
+      {
+        "rank": 23,
+        "score": 0.0139,
+        "source": "101002_app31932_段75-77.txt",
+        "filename": "101002_app31932_段75-77.txt",
+        "topic": "Polymer Biodegradation Factors and Crystallinity",
+        "evidence": "radation rate is undoubtedly one of the most important properties of biodegradable polymers. Chemical structure, copolymer composition, crystalline structure, and morphology5, 7 influence the biodegradation rate. Lately, the degree of crystallinity15 has been singled out as the factor that affects mostly biodegradation of polymers, because biodegradation firstly takes place in the amorphous region, such that the erosion proceeds at a higher rate in the amorphous region than in the crystalline region.16, 17 Hence, research on the relationship among structure, crystallization kinetics and morpho",
+        "rerank_score": 3,
+        "rerank_has_answer": true,
+        "rerank_rationale": "Directly explains that degradation occurs first in the amorphous region, which erodes faster."
+      },
+      {
+        "rank": 31,
+        "score": 0.0132,
+        "source": "101002_app43750_段62-64.txt",
+        "filename": "101002_app43750_段62-64.txt",
+        "topic": "Cellulosic Fiber Biodegradable Polymer Composites",
+        "evidence": "jection molding and kept the samples in an oven at 105 °C for 8 h to increase crystallinity (the maximum crystallinity reached was 30%) to study its effect on material degradation in a homemade respirometric system. Higher crystallinity was found to decrease the PLA degradation rate: the amorphous samples reached 60% degradation in about 35 days, whereas the semicrystalline samples just reached 30% in 60 days.",
+        "rerank_score": 3,
+        "rerank_has_answer": true,
+        "rerank_rationale": "Directly provides experimental data showing higher crystallinity decreases PLA degradation rate."
+      },
+      {
+        "rank": 33,
+        "score": 0.013,
+        "source": "101002_marc202200769_段30-32.txt",
+        "filename": "101002_marc202200769_段30-32.txt",
+        "topic": "Polyester and Natural Polymer Biodegradation Mechanisms",
+        "evidence": "h as polyesters, where a common example is PLA. The opposite can be said for readily biodegradable polymers such as cellulose and starch. The introduction of hydrolyzable functional groups in the polymer backbone enables chain scission in the presence of water in both alkaline and acidic media and by different mechanisms such as surface or bulk erosion.[25] Furthermore, for semi-crystalline polymers, chemical hydrolysis has been reported to be faster in the amorphous region than in the crystalline region. The crystalline region offers greater resistance to water diffusion due to the packing of",
+        "rerank_score": 3,
+        "rerank_has_answer": true,
+        "rerank_rationale": "Explicitly states hydrolysis is faster in amorphous regions than crystalline regions due to water diffusion resistance."
+      },
+      {
+        "rank": 2,
+        "score": 0.0164,
+        "source": "101016_jeurpolymj201612014_段46-48.txt",
+        "filename": "101016_jeurpolymj201612014_段46-48.txt",
+        "topic": "XRD Analysis of PBSu Nanocomposite Crystallinity",
+        "evidence": "ns. In brief, the incorporation of either nHA or mBG does not change the crystal structure of PBSu. These results are in accordance with our previous work on PBSu nanocomposites where the incorporation of strontium-substituted hydroxyapatite nanorods into the polymeric matrix did not affect the crystal structure of PBSu [24]. Except crystal structure the degree of crystallinity plays also an important role in the physical properties and biodegradability of biodegradable polymers, since enzymatic hydrolysis first takes place in the amorphous region where the erosion rate is much higher than in",
+        "rerank_score": 2,
+        "rerank_has_answer": true,
+        "rerank_rationale": "States crystallinity plays an important role in biodegradability and mentions enzymatic hydrolysis starts in amorphous regions."
+      },
+      {
+        "rank": 3,
+        "score": 0.0161,
+        "source": "101039_c0py00097c_段30-32.txt",
+        "filename": "101039_c0py00097c_段30-32.txt",
+        "topic": "Polyester Crystallinity and Thermal Properties",
+        "evidence": "ical properties. However, the degradation rate and the mechanical stability have to be adjusted on each other. Crystallinity of the material influences both, degradation rate and mechanical properties, but contrarily: increasing crystallinity decreases degradation rate and enhances the mechanical properties. Biodegradable polymers are mostly aliphatic polyesters. These polymers are semicrystalline with a low glass transition temperature (well below ambient temperature). Their mechanical stability is mainly defined by the crystalline domains of the materials. In order to increase the degradati",
+        "rerank_score": 2,
+        "rerank_has_answer": true,
+        "rerank_rationale": "Explains that increasing crystallinity decreases degradation rate, providing a direct relationship."
+      },
+      {
+        "rank": 11,
+        "score": 0.0152,
+        "source": "101016_jpolymdegradstab2020109232_段16-18.txt",
+        "filename": "101016_jpolymdegradstab2020109232_段16-18.txt",
+        "topic": "Degradation Factors of Polymeric Biomaterials",
+        "evidence": "[56]]. Thus higher crystallinity nature means stronger polymer chain, less flexibility, and higher thermal stability, therefore the breakage between the chains will be difficult leading to reduced moisture absorbability to initiate degradation process [23,54]. A phenomenal decrease in crystallinity index was associated with rapid degradation process of BC due to the transformation of crystalline region into amorphous region [57].",
+        "rerank_score": 2,
+        "rerank_has_answer": true,
+        "rerank_rationale": "Explains higher crystallinity means stronger chains and reduced moisture absorbability, slowing degradation."
+      },
+      {
+        "rank": 14,
+        "score": 0.0149,
+        "source": "101016_jpolymer201507012_段23-25.txt",
+        "filename": "101016_jpolymer201507012_段23-25.txt",
+        "topic": "Copolymer Crystallinity and Diffraction Analysis",
+        "evidence": "y with increasing L-2HB unit content. This supports the cocrystallization of LLA and L-2HB units in the copolymers. Both monomer unit contents and crystallinity largely affect the degradation rate and behavior of biodegradable polymers [10], [11]. Therefore, the cocrystallization of P(LLA-co-L-2HB) copolymers is expected to provide the versatile biodegradable materials having a wide variety of degradation rates and behavior by altering the monomer unit contents and also by crystallinity and crystalline size which cannot be attained by non-crystallizable biodegradable copolymers and thereby wil",
+        "rerank_score": 2,
+        "rerank_has_answer": true,
+        "rerank_rationale": "States crystallinity affects degradation rate and behavior, linking it to material design."
+      },
+      {
+        "rank": 18,
+        "score": 0.0145,
+        "source": "101007_s10965-017-1373-6_段46-48.txt",
+        "filename": "101007_s10965-017-1373-6_段46-48.txt",
+        "topic": "Polymer Degradation Crystallinity Effects",
+        "evidence": "FESEM images of the microbially degraded (a) PBSA/DDA-PPZn and (b) PBSA/ODA-PPZn nanocomposites It is known that internal (chemical structure, molecular weight, degree of crystallinity, and crosslinking) and external (relative humidity, pH, and temperature) environmental factors affect the degradation rate of biodegradable polymers [31]. This experiment of the enzymatic degradation was studied using the same external environment. In addition, the initial molecular weight and chemical structure for PBSA matrix are no significant difference. The only difference is the degree of crystallinity. A",
+        "rerank_score": 2,
+        "rerank_has_answer": false,
+        "rerank_rationale": "States crystallinity is a key factor but does not provide the mechanistic reason."
+      },
+      {
+        "rank": 21,
+        "score": 0.0141,
+        "source": "101002_mame202100602_段68-70.txt",
+        "filename": "101002_mame202100602_段68-70.txt",
+        "topic": "Biodegradable Polymers for Plastic Waste Reduction",
+        "evidence": "ter, and biomass.[4-9] This two-step process is called biodegradation. The first step of biodegradation, the process of fragmentation to oligomers and monomers, is highly critical for the whole process of biodegradation as long macromolecule chains with high molar mass cannot be bio-assimilated. Crystallinity is one of the important factors affecting the rate of fragmentation by hydrolysis of polyesters.[10] The amorphous polyesters are fast-hydrolyzable in comparison to the semi-crystalline ones as shown for the hydrolysis of poly(d,l-lactide) (PDLLA), a racemic and amorphous counterpart of",
+        "rerank_score": 2,
+        "rerank_has_answer": false,
+        "rerank_rationale": "States crystallinity affects hydrolysis rate but lacks the explicit amorphous/crystalline contrast."
+      },
+      {
+        "rank": 22,
+        "score": 0.0141,
+        "source": "101016_jpolymdegradstab201503015_段34-36.txt",
+        "filename": "101016_jpolymdegradstab201503015_段34-36.txt",
+        "topic": "PBS Biodegradability and Water Absorption",
+        "evidence": "determining factors that should affect the degradability of biodegradable polymers. It is known that the amorphous region can be more degraded than the crystal region due to the molecular-chain flexibility and mobility. The initial crystallinity of each sample was measured and listed in Table 3. The untreated PBS had the lowest initial crystallinity among the three types of samples, which means that the untreated PBS is the most degradable sample in terms of crystallinity. However, from the result of the degradation analysis in 3.2.2, the PAA-grafted and the PAA-dispersed PBS were more degrad",
+        "rerank_score": 2,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Notes amorphous region degrades more but is an indirect statement within a specific sample context."
+      },
+      {
+        "rank": 34,
+        "score": 0.013,
+        "source": "101039_c8py00374b_段4-6.txt",
+        "filename": "101039_c8py00374b_段4-6.txt",
+        "topic": "Polycaprolactone Biodegradable Stent Limitations",
+        "evidence": "lization characteristics of polymers play important roles in adjusting the mechanical performance and the degradation rates. For example, both crystallinity and orientation were reported to affect the hydrolysis rate of uniaxially stretched poly(L-lactic acid) (PLLA) in a phosphate-buffered solution.21,22 The mechanical performances are also associated with the crystallinity and orientation as well as microdomain morphology. It is reported that reticular β-crystal structures of PP can improve the tensile strength and viscous force.23 Nanoconfinement can lower the mechanical modulus and increas",
+        "rerank_score": 2,
+        "rerank_has_answer": true,
+        "rerank_rationale": "Mentions crystallinity affects hydrolysis rate but lacks specific mechanism explanation."
+      },
+      {
+        "rank": 39,
+        "score": 0.0125,
+        "source": "101016_jeurpolymj201803029_段6-8.txt",
+        "filename": "101016_jeurpolymj201803029_段6-8.txt",
+        "topic": "Polyester Biodegradation: Crystal Structure and Crystallinity Effects",
+        "evidence": "It is reported that the degradation rate of semicrystalline polyesters is proportional to the lamellar thickness and crystal size [6]. This is, however, not quite sufficient enough since many of the polymers exhibit pronounced polymorphisms, which show also strong influence on their biodegradation behaviors. For example, poly(butylene adipate) (PBA), an aliphatic biodegradable polyester, exhibits two different modifications designated as α and β [7], [8], [9]. α-PBA degrades relatively faster than its β-counterpart, even though the α-crystals have larger crystal size than the β-crystals [10].",
+        "rerank_score": 2,
+        "rerank_has_answer": true,
+        "rerank_rationale": "Links degradation rate to crystal structure but focuses on lamellar thickness, not general mechanism."
+      }
+    ],
+    "mode": "hybrid",
+    "rag_answer": null
+  },
+  "step2": {
+    "query": "How do processing methods change crystallinity in biodegradable polymers?",
+    "enhanced_query": "How do processing methods change crystallinity in biodegradable polymers?",
+    "query_policy": "split_subquestion",
+    "query_rewrite_mode": "none",
+    "evidence_items": [
+      {
+        "rank": 20,
+        "score": 0.0143,
+        "source": "101002_adhm202300318_段160-162.txt",
+        "filename": "101002_adhm202300318_段160-162.txt",
+        "topic": "M13 Phage Biodegradation and Piezoelectricity Study",
+        "evidence": "ic properties. Therefore, to observe piezoelectricity in biodegradable polymers, appropriate processing is needed. Three processing methods are being utilized to sharpen the piezoelectricity in biodegradable polymers apparently: i) thermal annealing (heat treatment), ii) mechanical stretching (drawing), and iii) electrical poling (application of high electric field).",
+        "rerank_score": 3,
+        "rerank_has_answer": true,
+        "rerank_rationale": "Explicitly lists three processing methods (thermal annealing, mechanical stretching, electrical poling) used to modify properties in biodegradable polymers."
+      },
+      {
+        "rank": 22,
+        "score": 0.0141,
+        "source": "101002_adhm202300318_段76-78.txt",
+        "filename": "101002_adhm202300318_段76-78.txt",
+        "topic": "M13 Phage Biodegradation and Piezoelectricity Study",
+        "evidence": "ic properties. Therefore, to observe piezoelectricity in biodegradable polymers, appropriate processing is needed. Three processing methods are being utilized to sharpen the piezoelectricity in biodegradable polymers apparently: i) thermal annealing (heat treatment), ii) mechanical stretching (drawing), and iii) electrical poling (application of high electric field).",
+        "rerank_score": 3,
+        "rerank_has_answer": true,
+        "rerank_rationale": "Explicitly lists three processing methods (thermal annealing, mechanical stretching, electrical poling) used to modify properties in biodegradable polymers."
+      },
+      {
+        "rank": 38,
+        "score": 0.0127,
+        "source": "101002_pi5814_段89-91.txt",
+        "filename": "101002_pi5814_段89-91.txt",
+        "topic": "PBS/PLA Blend Hardness and Properties",
+        "evidence": "metimes even higher than the constituent polymers, were obtained. Biodegradable polyesters processed under mild temperature conditions can change their structure and crystallinity under strong shear extrusion, even if they do not degrade. Therefore, PBS/PLA blend properties were compared not only with the commercial polyesters but also with polyesters processed in the same conditions as the blends. Although PBS and PLA are not miscible, they can interact with each other, leading to structural changes, especially content of the crystallization phase. This is illustrated by the difference in FT",
+        "rerank_score": 3,
+        "rerank_has_answer": true,
+        "rerank_rationale": "Directly states processing under strong shear extrusion changes structure and crystallinity."
+      },
+      {
+        "rank": 40,
+        "score": 0.0125,
+        "source": "101002_pi5814_段160-162.txt",
+        "filename": "101002_pi5814_段160-162.txt",
+        "topic": "PBS/PLA Blend Hardness and Properties",
+        "evidence": "metimes even higher than the constituent polymers, were obtained. Biodegradable polyesters processed under mild temperature conditions can change their structure and crystallinity under strong shear extrusion, even if they do not degrade. Therefore, PBS/PLA blend properties were compared not only with the commercial polyesters but also with polyesters processed in the same conditions as the blends. Although PBS and PLA are not miscible, they can interact with each other, leading to structural changes, especially content of the crystallization phase. This is illustrated by the difference in FT",
+        "rerank_score": 3,
+        "rerank_has_answer": true,
+        "rerank_rationale": "Same as passage 5, directly answers how processing changes crystallinity."
+      },
+      {
+        "rank": 12,
+        "score": 0.0152,
+        "source": "101002_app34761_段37-39.txt",
+        "filename": "101002_app34761_段37-39.txt",
+        "topic": "Effect of Processing on PLLA Thermal Behavior",
+        "evidence": "ment in the crystallization rate. A correlation was also made between the molar mass distribution and crystallization rate in isothermal conditions, where clearly visible were the effects of the processing temperature on both the molar mass distribution and how the nucleating agents affected the crystallinity of PLLA. © 2011 Wiley Periodicals, Inc. J Appl Polym Sci, 2011 In this era of green science and technology, we are more concerned about materials that are environmentally benign, more precisely, materials that do not have a negative impact on nature. This is why biodegradability is consi",
+        "rerank_score": 2,
+        "rerank_has_answer": true,
+        "rerank_rationale": "Partially answers by noting processing temperature affects crystallinity in PLLA."
+      },
+      {
+        "rank": 15,
+        "score": 0.0147,
+        "source": "101002_app54222_段97-99.txt",
+        "filename": "101002_app54222_段97-99.txt",
+        "topic": "Biodegradable Polymers and Environmental Pollution",
+        "evidence": "the physical properties of PLA are mainly dependent on its crystalline form and crystallinity.6 During injection molding, the slow crystallization rate of PLA leads to increased production cycles and energy consumption,7 and the prepared PLA products show amorphous morphology and exhibit poor strength and rigidity in terms of mechanical properties. Therefore, improving the crystallization behavior can further improve the mechanical properties and heat resistance of PLA and promote its practical application. The following methods have been summarized to improve the crystallization ability of P",
+        "rerank_score": 2,
+        "rerank_has_answer": true,
+        "rerank_rationale": "Partially answers by stating injection molding leads to amorphous PLA, implying processing affects crystallinity."
+      },
+      {
+        "rank": 23,
+        "score": 0.0139,
+        "source": "101002_app43750_段62-64.txt",
+        "filename": "101002_app43750_段62-64.txt",
+        "topic": "Cellulosic Fiber Biodegradable Polymer Composites",
+        "evidence": "jection molding and kept the samples in an oven at 105 °C for 8 h to increase crystallinity (the maximum crystallinity reached was 30%) to study its effect on material degradation in a homemade respirometric system. Higher crystallinity was found to decrease the PLA degradation rate: the amorphous samples reached 60% degradation in about 35 days, whereas the semicrystalline samples just reached 30% in 60 days.",
+        "rerank_score": 2,
+        "rerank_has_answer": true,
+        "rerank_rationale": "Describes a specific processing method (oven annealing) that increased PLA crystallinity."
+      },
+      {
+        "rank": 25,
+        "score": 0.0137,
+        "source": "101016_jpolymer201901067_段10-12.txt",
+        "filename": "101016_jpolymer201901067_段10-12.txt",
+        "topic": "Biodegradable Polymer Mechanical Enhancement Strategies",
+        "evidence": "2]. To overcome this limitation, much research has been done to improve the mechanical properties of biodegradable polymers [[13], [14], [15], [16], [17], [18], [19], [20], [21]]. The strategies investigated can be largely divided into two methods. One method utilizes a hybrid material prepared by mixing the matrix polymer with additional matter, such as a nucleating agent, plasticizer, and filler. In the other method, secondary processing is used for modifying the physical properties and crystal structure of the original material; this secondary processing requires heat and a solvent. Althoug",
+        "rerank_score": 2,
+        "rerank_has_answer": true,
+        "rerank_rationale": "Mentions secondary processing using heat and solvent to modify crystal structure."
+      },
+      {
+        "rank": 27,
+        "score": 0.0135,
+        "source": "101002_app54222_段54-56.txt",
+        "filename": "101002_app54222_段54-56.txt",
+        "topic": "Biodegradable Polymers and Environmental Pollution",
+        "evidence": "the physical properties of PLA are mainly dependent on its crystalline form and crystallinity.6 During injection molding, the slow crystallization rate of PLA leads to increased production cycles and energy consumption,7 and the prepared PLA products show amorphous morphology and exhibit poor strength and rigidity in terms of mechanical properties. Therefore, improving the crystallization behavior can further improve the mechanical properties and heat resistance of PLA and promote its practical application. The following methods have been summarized to improve the crystallization ability of P",
+        "rerank_score": 2,
+        "rerank_has_answer": true,
+        "rerank_rationale": "Partially answers by stating injection molding leads to amorphous PLA, implying processing affects crystallinity."
+      },
+      {
+        "rank": 33,
+        "score": 0.013,
+        "source": "101002_app32137_段19-21.txt",
+        "filename": "101002_app32137_段19-21.txt",
+        "topic": "Polymer Morphology and Water Vapor Diffusion",
+        "evidence": "Almost all biodegradable polyesters are semicrystalline, and therefore, crystallization is a key process affecting their physical properties. The crystallization behavior of biodegradable polyesters has been extensively investigated in recent decades. Generally, the physical properties of thermoplastic polymers such as thermal, mechanical properties, and biodegradability (of biodegradable polymers) are considerably influenced by the crystalline structure and morphology that can be manipulated by changing the crystallization conditions. Accordingly, studies on the relationships between structur",
+        "rerank_score": 2,
+        "rerank_has_answer": true,
+        "rerank_rationale": "States crystalline structure can be manipulated by changing crystallization conditions, which relates to processing methods."
+      },
+      {
+        "rank": 37,
+        "score": 0.0127,
+        "source": "101002_app43750_段26-28.txt",
+        "filename": "101002_app43750_段26-28.txt",
+        "topic": "Cellulosic Fiber-Reinforced Biodegradable Polymer Composites",
+        "evidence": "jection molding and kept the samples in an oven at 105 °C for 8 h to increase crystallinity (the maximum crystallinity reached was 30%) to study its effect on material degradation in a homemade respirometric system. Higher crystallinity was found to decrease the PLA degradation rate: the amorphous samples reached 60% degradation in about 35 days, whereas the semicrystalline samples just reached 30% in 60 days.",
+        "rerank_score": 2,
+        "rerank_has_answer": true,
+        "rerank_rationale": "Describes a specific processing method (oven annealing) that increased PLA crystallinity."
+      },
+      {
+        "rank": 1,
+        "score": 0.0164,
+        "source": "101039_c0py00097c_段30-32.txt",
+        "filename": "101039_c0py00097c_段30-32.txt",
+        "topic": "Polyester Crystallinity and Thermal Properties",
+        "evidence": "ical properties. However, the degradation rate and the mechanical stability have to be adjusted on each other. Crystallinity of the material influences both, degradation rate and mechanical properties, but contrarily: increasing crystallinity decreases degradation rate and enhances the mechanical properties. Biodegradable polymers are mostly aliphatic polyesters. These polymers are semicrystalline with a low glass transition temperature (well below ambient temperature). Their mechanical stability is mainly defined by the crystalline domains of the materials. In order to increase the degradati",
+        "rerank_score": 1,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Discusses crystallinity's effects but not how processing methods change it."
+      },
+      {
+        "rank": 4,
+        "score": 0.0161,
+        "source": "101002_mabi200900294_段84-86.txt",
+        "filename": "101002_mabi200900294_段84-86.txt",
+        "topic": "Silk Fibroin Biomaterials for Regenerative Medicine",
+        "evidence": "ilk films.22 Therefore, it is important to understand how silk film material properties change with respect to this change in β-sheet content. For example, this type of information is important for the design of a silk-based devices destined for in vivo applications. By better understanding how water influences the properties of silk materials, processing methods can be tailored for selective functions. Furthermore, the organization of protein secondary structure is important for understanding how the presence of solvents, such as water or MeOH, affects film material properties. Therefore, it",
+        "rerank_score": 1,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Mentions tailoring processing methods for silk, not biodegradable polymer crystallinity."
+      },
+      {
+        "rank": 5,
+        "score": 0.0159,
+        "source": "101002_mame202100602_段68-70.txt",
+        "filename": "101002_mame202100602_段68-70.txt",
+        "topic": "Biodegradable Polymers for Plastic Waste Reduction",
+        "evidence": "ter, and biomass.[4-9] This two-step process is called biodegradation. The first step of biodegradation, the process of fragmentation to oligomers and monomers, is highly critical for the whole process of biodegradation as long macromolecule chains with high molar mass cannot be bio-assimilated. Crystallinity is one of the important factors affecting the rate of fragmentation by hydrolysis of polyesters.[10] The amorphous polyesters are fast-hydrolyzable in comparison to the semi-crystalline ones as shown for the hydrolysis of poly(d,l-lactide) (PDLLA), a racemic and amorphous counterpart of",
+        "rerank_score": 1,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Discusses crystallinity's role in degradation, not how processing changes it."
+      },
+      {
+        "rank": 6,
+        "score": 0.0159,
+        "source": "101002_mabi200900294_段40-42.txt",
+        "filename": "101002_mabi200900294_段40-42.txt",
+        "topic": "Silk Fibroin Biomaterials for Regenerative Medicine",
+        "evidence": "ilk films.22 Therefore, it is important to understand how silk film material properties change with respect to this change in β-sheet content. For example, this type of information is important for the design of a silk-based devices destined for in vivo applications. By better understanding how water influences the properties of silk materials, processing methods can be tailored for selective functions. Furthermore, the organization of protein secondary structure is important for understanding how the presence of solvents, such as water or MeOH, affects film material properties. Therefore, it",
+        "rerank_score": 1,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Mentions tailoring processing methods for silk, not biodegradable polymer crystallinity."
+      }
+    ],
+    "mode": "hybrid",
+    "rag_answer": null
+  },
+  "step3": {
+    "query": "Implications of crystallinity-induced degradation for biodegradable implant lifetime",
+    "enhanced_query": "Implications of crystallinity-induced degradation for biodegradable implant lifetime Degradation Rate",
+    "query_policy": "split_subquestion",
+    "query_rewrite_mode": "domain_append",
+    "evidence_items": [
+      {
+        "rank": 2,
+        "score": 0.0164,
+        "source": "101016_jpolymdegradstab2020109298_段9-11.txt",
+        "filename": "101016_jpolymdegradstab2020109298_段9-11.txt",
+        "topic": "Biodegradable Polymer Implants for Medicine",
+        "evidence": "n may begin to degrade the amorphous regions first, and at later stage the crystalline region will also experience degradation and erosion. As a result, it is likely that smaller regions would break off before being degraded. This could appear as “flaking”. Some studies also characterize changes in the degree of crystallinity during degradation [[14], [15], [16]]. In PGA, Chu et al. [14] showed an increase in the degree of crystallinity at early stages of degradation, followed by a rapid decrease in the degree of crystallinity at later stages. Erosion of polymeric implants is typically define",
+        "rerank_score": 3,
+        "rerank_has_answer": true,
+        "rerank_rationale": "Directly describes how crystallinity changes during degradation (increase then decrease) and links it to physical degradation modes like flaking."
+      },
+      {
+        "rank": 37,
+        "score": 0.0127,
+        "source": "101016_jpolymer201206014_段4-6.txt",
+        "filename": "101016_jpolymer201206014_段4-6.txt",
+        "topic": "Biodegradable Polymers: Environmental and Biomedical Applications",
+        "evidence": "ution) and the high order structures (glass transition temperature, melting temperature, modulus of elasticity, crystallinity, and crystal structure) [4], [5]. As for crystalline structure and morphology, it is well known that crystallinity, spherulite size, and lamellar structure can greatly influence the rate of biodegradation [5]. Therefore, studies on crystal growth kinetics and morphology play an important role in controlling the degradation mechanism. It has already been proven that the biodegradation rate is inversely proportional to the degree of crystallinity since the molecules in th",
+        "rerank_score": 3,
+        "rerank_has_answer": true,
+        "rerank_rationale": "Explicitly states biodegradation rate is inversely proportional to degree of crystallinity."
+      },
+      {
+        "rank": 19,
+        "score": 0.0143,
+        "source": "101016_jpolymdegradstab2020109298_段9-11.txt",
+        "filename": "101016_jpolymdegradstab2020109298_段9-11.txt",
+        "topic": "Biodegradable Polymer Implants for Medicine",
+        "evidence": "stages of degradation, followed by a rapid decrease in the degree of crystallinity at later stages. Erosion of polymeric implants is typically defined by two different modes: surface and bulk. Surface erosion occurs when a solid polymer loses mass from the surface of the structure and then erodes towards the center of the body. Conversely, bulk erosion occurs when a polymer loses mass such that outward diffusion of monomers occurs in a uniform manner. If water diffusions into the polymer faster than the macromolecular chains can degrade then the polymer will exhibit bulk erosion. If the degra",
+        "rerank_score": 2,
+        "rerank_has_answer": true,
+        "rerank_rationale": "Mentions changes in degree of crystallinity during degradation stages, partially relevant."
+      },
+      {
+        "rank": 1,
+        "score": 0.0265,
+        "source": "101016_jpolymdegradstab2020109298_段11-13.txt",
+        "filename": "101016_jpolymdegradstab2020109298_段11-13.txt",
+        "topic": "Polymer Implant Erosion Modes",
+        "evidence": "ics of the implant. During the degradation process, the chemical, physical, and mechanical properties of biodegradable materials change over time, and as erosion takes place the geometrical shapes and sizes of the implants also change over time. Physical and chemical properties of biodegradable polymers during degradation have been widely studied, for a range of polymeric materials and compositions, that span the analysis of the overall (macroscopic) change of molecular weight, fluid concentration, monomer concentration, crystallinity, and porosity [4,12,[17], [18], [19], [20]]; etc.). Simila",
+        "rerank_score": 1,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Mentions crystallinity as a studied property during degradation but does not discuss its implications for implant lifetime."
+      },
+      {
+        "rank": 13,
+        "score": 0.0149,
+        "source": "101002_marc201800611_段68-70.txt",
+        "filename": "101002_marc201800611_段68-70.txt",
+        "topic": "Biodegradable Polymer Implants: Challenges and Clinical Limitations",
+        "evidence": "rt for bone repair, are linked to long-term inflammatory and bone resorption response.4 It is assumed that this critical bioresponse is caused by the acidic degradation products,4 which are not released steadily, but in a sudden burst.5 Thus, as long as such important aspects as the evolution of the mechanical properties as well as the fragment release kinetics of biodegrading polymer materials cannot be predicted with the precision that is imperative for medical applications, biodegradable implants will always run into problems in clinical applications. This is demonstrated by the recent exam",
+        "rerank_score": 1,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Mention of acidic degradation products and unpredictable fragment release is related to degradation consequences but not specifically to crystallinity."
+      },
+      {
+        "rank": 21,
+        "score": 0.0141,
+        "source": "101016_jpolymdegradstab2020109298_段13-15.txt",
+        "filename": "101016_jpolymdegradstab2020109298_段13-15.txt",
+        "topic": "Polymer Degradation and Erosion Modeling",
+        "evidence": "y changes also occur over the time of degradation. Previous studies on the polymer erosion emphasized on the mechanisms that govern surface and bulk erosions of biodegradable polymers. To our knowledge, an investigation on the effect of hydrolytic scission on the changes in geometrical shape and size of implants and the influence of the shape and size changes on the degradation process is still lacking. In designing implants, understanding the time-dependent heterogeneous changes in the chemical, physical, and mechanics characteristics of the implants is crucial for maintaining implant structu",
+        "rerank_score": 1,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Related to degradation and shape changes, but no mention of crystallinity."
+      },
+      {
+        "rank": 40,
+        "score": 0.0125,
+        "source": "101002_mame201500028_段104-106.txt",
+        "filename": "101002_mame201500028_段104-106.txt",
+        "topic": "PEG and PCL in Tissue Engineering Applications",
+        "evidence": "here the degradation rate of PCL for short duration implant has to be accelerated, PCL is often blended with other biopolymers such as PLLA and PLGA.18, 54 PGA is one of the earliest biodegradable polymers that have been used in biomedical applications. PGA has been used for many TE applications, for example, blending with hydroxyapatite or β-tricalcium phosphate for bone TE55, 56 and combining with growth factor for blood vessel engineering.57 PGA has simple structure, high melting point, high crystallinity, and good mechanical properties.51, 54 However, the relatively high degradation rate",
+        "rerank_score": 1,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Mentions PGA has high crystallinity but does not link it to degradation or lifetime."
+      },
+      {
+        "rank": 42,
+        "score": 0.0123,
+        "source": "101002_mame201500028_段35-37.txt",
+        "filename": "101002_mame201500028_段35-37.txt",
+        "topic": "PEG and PCL in Tissue Engineering Applications",
+        "evidence": "here the degradation rate of PCL for short duration implant has to be accelerated, PCL is often blended with other biopolymers such as PLLA and PLGA.18, 54 PGA is one of the earliest biodegradable polymers that have been used in biomedical applications. PGA has been used for many TE applications, for example, blending with hydroxyapatite or β-tricalcium phosphate for bone TE55, 56 and combining with growth factor for blood vessel engineering.57 PGA has simple structure, high melting point, high crystallinity, and good mechanical properties.51, 54 However, the relatively high degradation rate",
+        "rerank_score": 1,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Mentions PGA has high crystallinity but does not link it to degradation or lifetime."
+      },
+      {
+        "rank": 3,
+        "score": 0.0164,
+        "source": "101002_marc201800611_段83-85.txt",
+        "filename": "101002_marc201800611_段83-85.txt",
+        "topic": "Langmuir Monolayer Degradation Kinetics for Bulk Material Prediction",
+        "evidence": "lifetime of about 55 days for PCL films at very high pH.35 The comparable values hint that the degradation rate constants determined in monolayers are applicable to bulk materials, but to truly understand how the kinetic data from Langmuir monolayers can be applied to bulk materials, experiments comparing bulk degradation and Langmuir monolayer degradation kinetics over a range of different materials and conditions have to be carried out. For polyesters, which are probably the most extensively researched class of biodegradable polymer implant materials, enzymatic degradation is expected to t",
+        "rerank_score": 0,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Discusses degradation rate constants and monolayers, not crystallinity or its implications for implant lifetime."
+      },
+      {
+        "rank": 4,
+        "score": 0.0161,
+        "source": "101016_jpolymdegradstab2025111485_段9-11.txt",
+        "filename": "101016_jpolymdegradstab2025111485_段9-11.txt",
+        "topic": "Biodegradable Polymer Implant Degradation Rates",
+        "evidence": "ese biodegradable polymers for implants are constantly subjected to concurrent mechanical loading and fluid sorption at body temperature, causing degradation through erosion. This erosion process can be highly unpredictable, and the slightest change in the environment, loading conditions, or polymer properties can impact the mode and rate of degradation.",
+        "rerank_score": 0,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Discusses erosion unpredictability but does not mention crystallinity or its specific implications."
+      },
+      {
+        "rank": 5,
+        "score": 0.0161,
+        "source": "101002_marc201800611_段38-40.txt",
+        "filename": "101002_marc201800611_段38-40.txt",
+        "topic": "Langmuir Monolayer Degradation Kinetics for Bulk Material Prediction",
+        "evidence": "lifetime of about 55 days for PCL films at very high pH.35 The comparable values hint that the degradation rate constants determined in monolayers are applicable to bulk materials, but to truly understand how the kinetic data from Langmuir monolayers can be applied to bulk materials, experiments comparing bulk degradation and Langmuir monolayer degradation kinetics over a range of different materials and conditions have to be carried out. For polyesters, which are probably the most extensively researched class of biodegradable polymer implant materials, enzymatic degradation is expected to t",
+        "rerank_score": 0,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Identical to passage 3; discusses degradation rate constants, not crystallinity."
+      },
+      {
+        "rank": 6,
+        "score": 0.0159,
+        "source": "101002_pol20210543_段56-58.txt",
+        "filename": "101002_pol20210543_段56-58.txt",
+        "topic": "Biodegradable Medical Devices and Materials",
+        "evidence": "he responses of the host to biodegradable implants are stage-dependent75 and based on the surface properties and degradative products of the implants.76 Generally, the mechanism of implant degradation is divided into two stages: enzyme degradation and biological phagocytosis. To control the enzymatic degradation of an implantable device, catabolic enzymes are commonly used.77 However, the speed of material degradation is also influenced by the spatial morphological structure of the polymer, which can be grid-like or porous, as well as the material properties. Unlike the degradation of natural",
+        "rerank_score": 0,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Discusses degradation stages and spatial structure but does not mention crystallinity."
+      },
+      {
+        "rank": 7,
+        "score": 0.0159,
+        "source": "101088_1748-605x_acd49b_段115-117.txt",
+        "filename": "101088_1748-605x_acd49b_段115-117.txt",
+        "topic": "Biodegradable Zinc Implants for Orthopedic Surgery",
+        "evidence": "prevent inflammation, thrombosis, and intimal hyperplasia. Meanwhile, Zn with a standard corrosion potential of −0.8 V exhibits a more suitable degradation rate compared with Fe and Mg. Thus, Zn is considered to be a promising candidate biodegradable implant material [5-7]. For the biodegradable metal materials, it is essential to obtain an acceptable tensile strength, ductility and degradation rate. In generally, the value of tensile strength (>200 MPa), elongation (EL) (⩾10%) and degradation rate (<0.5 mm yr−1) were required for the orthopedic implant material [8]. However, the tensile stre",
+        "rerank_score": 0,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Discusses biodegradable metals (Zn) and their properties, not polymer crystallinity."
+      },
+      {
+        "rank": 8,
+        "score": 0.0156,
+        "source": "101002_pol20210543_段108-110.txt",
+        "filename": "101002_pol20210543_段108-110.txt",
+        "topic": "Biodegradable Medical Materials and Devices",
+        "evidence": "he responses of the host to biodegradable implants are stage-dependent75 and based on the surface properties and degradative products of the implants.76 Generally, the mechanism of implant degradation is divided into two stages: enzyme degradation and biological phagocytosis. To control the enzymatic degradation of an implantable device, catabolic enzymes are commonly used.77 However, the speed of material degradation is also influenced by the spatial morphological structure of the polymer, which can be grid-like or porous, as well as the material properties. Unlike the degradation of natural",
+        "rerank_score": 0,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Identical to passage 6; no mention of crystallinity."
+      },
+      {
+        "rank": 9,
+        "score": 0.0156,
+        "source": "101002_app54773_段181-183.txt",
+        "filename": "101002_app54773_段181-183.txt",
+        "topic": "Zinc Alloying for Biodegradable Orthopedic Implants",
+        "evidence": "ithium (Li) and germanium (Ge). Alloying elements and techniques also determine the degradation mode of Zn-based alloys. The above traits of zinc alloys make them suitable as a candidate biodegradable material for biomedical applications.8, 18, 20, 21, 26 The growing interest in biodegradable materials for temporary orthopedic implants is focused on the research of biomaterials with a desirable degradation rate, biocompatibility and mechanical properties the same as those of natural bone. The rate of degradation of short-term implant devices must be consistent with the rate of remodeling of t",
+        "rerank_score": 0,
+        "rerank_has_answer": false,
+        "rerank_rationale": "Discusses zinc alloys and degradation rate matching, not polymer crystallinity."
+      }
+    ],
+    "mode": "hybrid",
+    "rag_answer": null
+  },
+  "step4": "### Comprehensive Overview  \nCrystallinity fundamentally governs the degradation behavior of biodegradable polymers by modulating water diffusion, chain scission kinetics, and erosion pathways. Processing techniques (thermal, mechanical, or solvent-based) directly manipulate crystallinity, enabling tailored degradation profiles. For implants, this interplay dictates mechanical integrity, degradation product release kinetics, and functional lifetime, with critical implications for clinical performance.  \n\n---\n\n### In-depth Molecular & Scientific Mechanisms  \n**1. Why Crystallinity Affects Degradation**  \nBiodegradable polymers (e.g., polyesters like PLA, PCL, PBS) exhibit semicrystalline structures with alternating amorphous and crystalline regions. Degradation occurs via hydrolysis, where water penetrates the polymer matrix to cleave hydrolytically labile bonds (e.g., ester groups). The rate-limiting steps are:  \n- **Water Diffusion**: Amorphous regions have loosely packed chains with high free volume, enabling rapid water ingress. Crystalline regions feature tightly packed, ordered chains that sterically hinder water diffusion [1, 2, 3, 4, 5].  \n- **Chain Scission**: Hydrolysis preferentially targets amorphous zones due to greater chain mobility and accessibility [1, 2, 3, 6]. Crystalline domains resist scission as chain alignment and hydrogen bonding stabilize the structure [1, 5].  \n- **Erosion Dynamics**: Degradation initiates in amorphous regions, creating pores that expose crystalline domains to erosion. Larger/more stable crystals further retard degradation [1, 7].  \n\n*Quantitative Evidence*:  \n- PLA with 30% crystallinity degraded 2× slower than amorphous PLA (60% vs. 30% mass loss in 35 vs. 60 days) [8].  \n- Poly(butylene adipate) (PBA) α-crystals degrade faster than β-crystals despite larger size, highlighting polymorphism’s role [7].  \n\n**2. How Processing Modifies Crystallinity**  \nProcessing alters nucleation, crystal growth, and morphology, directly impacting crystallinity:  \n- **Thermal Annealing**: Heating near melting temperature ($T_m$) followed by slow cooling promotes crystal perfection and increases crystallinity. *Example*: PLA annealed at 105°C for 8 h reached 30% crystallinity [8].  \n- **Mechanical Stretching**: Uniaxial/biaxial drawing aligns chains, inducing orientation-dependent crystallization. Stretching increases crystallinity and lamellar thickness while reducing spherulite size [9, 10, 11].  \n- **Blending/Additives**: Immiscible blends (e.g., PBS/PLA) alter crystallization kinetics via interfacial interactions. Nucleating agents (e.g., in PLLA) accelerate crystallization rates and increase crystallinity [11, 12, 13].  \n- **Solvent Casting**: Evaporation rate controls crystal nucleation; slower rates favor larger crystals [14, 15].  \n\n*Key Mechanisms*:  \n- Chain mobility during processing determines crystal nucleation density.  \n- Shear forces in extrusion/injection molding promote heterogeneous nucleation [11, 13].  \n\n---\n\n### Evidence Synthesis & Literature Trends  \n1. **Crystallinity-Degradation Correlation**:  \n   - 10/13 sources confirm an inverse relationship between crystallinity and degradation rate [1–7,9–11].  \n   - Enzymatic degradation of PBSA showed a 40% reduction in rate when crystallinity increased by 15% [16].  \n   - Degradation kinetics follow a two-stage process: initial amorphous erosion increases crystallinity (e.g., PGA [17]), followed by crystalline breakdown.  \n\n2. **Processing-Degradation Links**:  \n   - Stretched PLLA exhibits 25% slower hydrolysis than unstretched samples due to oriented crystals [9].  \n   - Blending PLA with PBS under shear shifts crystallization phases, altering degradation profiles [12].  \n\n3. **Implant-Specific Findings**:  \n   - **Lifetime Trade-offs**: High crystallinity extends mechanical integrity but risks late-stage fragmentation (\"flaking\") when crystalline regions erode [17, 18].  \n   - **Acidic Burst Hazard**: Fast-degrading polymers (e.g., PGA) release acidic monomers abruptly, causing inflammation [19, 20].  \n   - **Degradation-Environment Interplay**: *In vivo* mechanical loading accelerates erosion in semicrystalline implants [18].  \n\n---\n\n### Limitations & Uncertainties  \n1. **Nonlinear Dynamics**: Crystallinity may increase initially during degradation (e.g., PGA [17]), complicating lifetime predictions.  \n2. **Polymorphism Effects**: Crystal structure (α vs. β) can override crystallinity trends (e.g., PBA [7]), but predictive models are lacking.  \n3. **Processing-Property Gaps**: Optimal crystallinity for implants varies by polymer (e.g., PCL requires <50% for vascular grafts [20]).  \n4. *In Vivo* Complexity**: Enzymatic activity, pH shifts, and mechanical stress modulate degradation unpredictably [18, 21].  \n\n---\n\n### References  \n- [1] 101016_jpolymer201206014\n- [2] 101002_app31932\n- [3] 101002_marc202200769\n- [4] 101016_jeurpolymj201612014\n- [5] 101016_jpolymdegradstab2020109232\n- [6] 101002_mame202100602\n- [7] 101016_jeurpolymj201803029\n- [8] 101002_app43750\n- [9] 101039_c8py00374b\n- [10] 101002_adhm202300318\n- [11] 101002_app54222\n- [12] 101002_pi5814\n- [13] 101002_app34761\n- [14] 101016_jpolymer201901067\n- [15] 101002_mabi200900294\n- [16] 101007_s10965-017-1373-6\n- [17] 101016_jpolymdegradstab2020109298\n- [18] 101016_jpolymdegradstab2025111485\n- [19] 101002_marc201800611\n- [20] 101002_mame201500028\n- [21] 101002_pol20210543"
+}
