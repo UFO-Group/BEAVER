@@ -25,3 +25,7 @@ Large literature embeddings, metadata, machine-learning grid-search outputs, and
 https://doi.org/10.5281/zenodo.22135808
 
 The required directory layouts and configuration steps are described in the corresponding component READMEs. Publisher PDF files and licensed full-text source documents are not redistributed in this repository.
+
+## License
+
+Original BEAVER source code is released under the [MIT License](LICENSE). Third-party software, publisher content, and external datasets remain subject to their respective licenses and terms of use.
