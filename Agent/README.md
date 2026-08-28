@@ -66,80 +66,72 @@ Users must provide their own API endpoint and API key. API credentials are retai
 
 ## External resources
 
-The large literature embedding arrays (`.npy`) and their associated metadata
-files are not included in this GitHub repository. They are archived on Zenodo:
+The large literature embedding arrays (`.npy`) and their associated metadata files are not included in this GitHub repository. They are archived on Zenodo:
 
 https://doi.org/10.5281/zenodo.22135808
 
-Download and extract the chunk-level and/or paragraph-level corpus archives
-before launching the Agent. Set the extracted corpus location through the
-`BEAVER_CORPUS_ROOT` environment variable.
-
-Windows Command Prompt:
-
-```bat
-set "BEAVER_CORPUS_ROOT=C:\path\to\BEAVER_Corpus"
-set "BEAVER_CORPUS_GRANULARITY=chunk"
-```
-
-Linux:
-
-```bash
-export BEAVER_CORPUS_ROOT="/path/to/BEAVER_Corpus"
-export BEAVER_CORPUS_GRANULARITY="chunk"
-```
-
-Set `BEAVER_CORPUS_GRANULARITY` to `paras` to use the paragraph-level corpus.
-
-The BM25 index and other retrieval caches are generated automatically during
-the first run and are therefore not included in the Zenodo archive.
+Download and extract the chunk-level and/or paragraph-level corpus archives before launching the Agent.
 
 ### Corpus directory layout
+
 The Zenodo archives are organized by retrieval granularity:
-```bash
+
+```text
 chunk/<publisher>/...
 para/<publisher>/...
 ```
+
 Before running BEAVER, place the extracted files under a common corpus root using the directory structure expected by `Agent_Config/agent_config.py`:
-```bash
+
+```text
 BEAVER_Corpus/
-    |-- RSC/
-    |   |-- Embeddings_label/
-    |   |   |-- file_embeddings.npy
-    |   |   |-- file_metadata_cleaned.csv
-    |   |-- PARA_CORPUS/
-    |       |-- file_embeddings.npy
-    |       |-- file_metadata.csv
-    |-- Wiley/
-    |-- AIP/
-    |-- IOP/
-    |-- Elsevier/
-    |-- Springer/
-    |-- ACS/
+|-- RSC/
+|   |-- Embeddings_label/
+|   |   |-- file_embeddings.npy
+|   |   `-- file_metadata_cleaned.csv
+|   `-- PARA_CORPUS/
+|       |-- file_embeddings.npy
+|       `-- file_metadata.csv
+|-- Wiley/
+|-- AIP/
+|-- IOP/
+|-- Elsevier/
+|-- Springer/
+`-- ACS/
 ```
+
 For each publisher, move the extracted files according to the following rule:
-```bash
+
+```text
 chunk/<publisher>/*  ->  BEAVER_Corpus/<publisher>/Embeddings_label/
 para/<publisher>/*   ->  BEAVER_Corpus/<publisher>/PARA_CORPUS/
 ```
+
 The original filenames must be retained. In particular, the ACS and Elsevier archives use the cleaned filenames:
-```bash
+
+```text
 file_embeddings.cleaned.npy
 file_metadata.cleaned_cleaned.csv
 file_metadata.cleaned.csv
 ```
+
 After arranging the files, set `BEAVER_CORPUS_ROOT` to the common `BEAVER_Corpus` directory.
+
 Windows Command Prompt:
+
 ```bat
 set "BEAVER_CORPUS_ROOT=C:\path\to\BEAVER_Corpus"
 set "BEAVER_CORPUS_GRANULARITY=chunk"
 ```
+
 Linux:
+
 ```bash
 export BEAVER_CORPUS_ROOT="/path/to/BEAVER_Corpus"
 export BEAVER_CORPUS_GRANULARITY="chunk"
 ```
-Set `BEAVER_CORPUS_GRANULARITY=paras` to use the paragraph-level corpus. The BM25 cache is generated automatically during the first run.
+
+Set `BEAVER_CORPUS_GRANULARITY=paras` to use the paragraph-level corpus. The BM25 index and other retrieval caches are generated automatically during the first run and are therefore not included in the Zenodo archive.
 
 ## Folder structure
 
@@ -162,33 +154,8 @@ Do not place real API keys, service credentials, tunnel tokens, or populated use
 
 ## Data availability
 
-The large literature embeddings and associated metadata required by the
-BEAVER retrieval workflow are available from Zenodo:
+The large literature embeddings and associated metadata required by the BEAVER retrieval workflow are available from Zenodo:
 
 https://doi.org/10.5281/zenodo.22135808
 
-The source code and configuration instructions are provided in this GitHub
-repository.
-
-
-Windows Command Prompt:
-
-```bat
-set "BEAVER_CORPUS_ROOT=C:\path\to\BEAVER_Corpus"
-set "BEAVER_CORPUS_GRANULARITY=chunk"
-```
-
-Linux:
-
-```bash
-export BEAVER_CORPUS_ROOT="/path/to/BEAVER_Corpus"
-export BEAVER_CORPUS_GRANULARITY="chunk"
-```
-
-Set `BEAVER_CORPUS_GRANULARITY` to `paras` to use the paragraph-level corpus.
-
-The BM25 index and other retrieval caches are generated automatically during
-the first run and are therefore not included in the Zenodo archive.
-
-The source code and configuration instructions are provided in this GitHub
-repository.
+The source code and configuration instructions are provided in this GitHub repository.
