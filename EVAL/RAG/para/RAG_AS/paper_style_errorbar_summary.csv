@@ -1,0 +1,13 @@
+﻿Mode,Condition,Setting,n,mean,std,se,ci_low,ci_high,err_low,err_high
+Bm25,Basic (No Rerank),"Bm25
+Basic (No Rerank)",111,0.643499,0.170586,0.016191,0.610526,0.675728,0.032972,0.03223
+Bm25,+ Rerank,"Bm25
++ Rerank",111,0.67561,0.172007,0.016326,0.641662,0.707058,0.033949,0.031448
+Dense,Basic (No Rerank),"Dense
+Basic (No Rerank)",111,0.623538,0.169388,0.016078,0.590293,0.65443,0.033245,0.030892
+Dense,+ Rerank,"Dense
++ Rerank",111,0.670569,0.168994,0.01604,0.635562,0.699742,0.035007,0.029173
+Hybrid,Basic (No Rerank),"Hybrid
+Basic (No Rerank)",111,0.638231,0.164637,0.015627,0.604539,0.668826,0.033692,0.030594
+Hybrid,+ Rerank,"Hybrid
++ Rerank",111,0.69373,0.155535,0.014763,0.661493,0.72084,0.032237,0.02711
