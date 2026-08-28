@@ -503,7 +503,7 @@ def load_name_name_dictionary(path: str | os.PathLike[str] | None) -> dict[str, 
     Supported sources:
     1. txt keyword folder: each .txt filename stem is the canonical name; file
        contents are aliases/keywords. This is the intended mode for
-       C:/Users/user/Desktop/关键词归类/Polymer-关键词.
+       resources/Polymer_name.
     2. CSV/JSON mapping file: alias/source name -> canonical/database name.
 
     Returns a dict keyed by normalized names. Values preserve the canonical name text.
