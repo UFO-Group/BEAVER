@@ -116,19 +116,27 @@ Before running BEAVER, place the extracted files under a common corpus root usin
     |-- ACS/
 ```
 For each publisher, move the extracted files according to the following rule:
+```bash
     chunk/<publisher>/*  ->  BEAVER_Corpus/<publisher>/Embeddings_label/
     para/<publisher>/*   ->  BEAVER_Corpus/<publisher>/PARA_CORPUS/
+```
 The original filenames must be retained. In particular, the ACS and Elsevier archives use the cleaned filenames:
+```bash
     file_embeddings.cleaned.npy
     file_metadata.cleaned_cleaned.csv
     file_metadata.cleaned.csv
+```
 After arranging the files, set `BEAVER_CORPUS_ROOT` to the common `BEAVER_Corpus` directory.
 Windows Command Prompt:
+```bat
     set "BEAVER_CORPUS_ROOT=C:\path\to\BEAVER_Corpus"
     set "BEAVER_CORPUS_GRANULARITY=chunk"
+```
 Linux:
+```bash
     export BEAVER_CORPUS_ROOT="/path/to/BEAVER_Corpus"
     export BEAVER_CORPUS_GRANULARITY="chunk"
+```
 Set `BEAVER_CORPUS_GRANULARITY=paras` to use the paragraph-level corpus. The BM25 cache is generated automatically during the first run.
 
 ## Folder structure
