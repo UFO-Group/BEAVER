@@ -1,0 +1,1714 @@
+{
+  "dataset_name": "beaver_biodegradable_polymers_111",
+  "language": "English",
+  "total_items": 111,
+  "type_counts": {
+    "single": 37,
+    "single_with_facets": 37,
+    "multi_part": 37
+  },
+  "notes": [
+    "All items are synthetic QA pairs written from nine uploaded review articles on biodegradable polymers; answers are concise ground-truth style syntheses rather than verbatim quotations.",
+    "Question types follow the intended BEAVER routing taxonomy: single, single_with_facets, and multi_part.",
+    "Source papers are given as review-level provenance rather than page-level citations."
+  ],
+  "sources": {
+    "R1": {
+      "title": "Biodegradable synthetic polymers: Preparation, functionalization and biomedical application",
+      "file": "1-s2.0-S007967001100092X-main.pdf",
+      "year": 2012,
+      "focus": "synthetic biodegradable polymers, functionalization, responsive systems, biomedical use"
+    },
+    "R2": {
+      "title": "3D printing of biodegradable polymers and their composites – Current state-of-the-art, properties, applications, and machine learning for potential future applications",
+      "file": "1-s2.0-S0079642524001051-main.pdf",
+      "year": 2024,
+      "focus": "3D printing, biodegradable polymers, composites, applications, machine learning"
+    },
+    "R3": {
+      "title": "Catalytic chemical recycling of biodegradable polyesters",
+      "file": "1-s2.0-S0141391020301737-main.pdf",
+      "year": 2020,
+      "focus": "chemical recycling of PLA and PHB, alcoholysis, hydrolysis, enzymatic routes"
+    },
+    "R4": {
+      "title": "Sustainable and biodegradable polymer packaging: Perspectives, challenges, and opportunities",
+      "file": "1-s2.0-S0308814624043024-main.pdf",
+      "year": 2024,
+      "focus": "sustainable packaging, cellulose derivatives, starch, PLA, PVA, regulation"
+    },
+    "R5": {
+      "title": "Next-generation biodegradable polymers: toward a circular plastics economy",
+      "file": "10.3934_bioeng.2025023.pdf",
+      "year": 2025,
+      "focus": "degradation mechanisms, circular economy, green energy devices, life-cycle thinking"
+    },
+    "R6": {
+      "title": "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications",
+      "file": "Angew Chem Int Ed - 2025 - Velasquez - Plastics of the Future  An Interdisciplinary Review on Biobased and Biodegradable.pdf",
+      "year": 2025,
+      "focus": "biobased and biodegradable polymers, environmental implications, recycling, biodegradation scenarios, societal views"
+    },
+    "R7": {
+      "title": "Recent advances in biodegradable polymer blends and their biocomposites: a comprehensive review",
+      "file": "d5gc01294e.pdf",
+      "year": 2025,
+      "focus": "blends, compatibilization, biocomposites, PLA/PBAT, PLA/PHA, fillers, applications"
+    },
+    "R8": {
+      "title": "Biodegradable Polymers in Biomedical Applications: A Review—Developments, Perspectives and Future Challenges",
+      "file": "ijms-24-16952.pdf",
+      "year": 2023,
+      "focus": "biomedical polymers, natural vs synthetic polymers, electrospinning, 3D printing, tissue engineering"
+    },
+    "R9": {
+      "title": "Biodegradable Polymers: Properties, Applications, and Environmental Impact",
+      "file": "polymers-17-01981-v2.pdf",
+      "year": 2025,
+      "focus": "classification, degradation mechanisms, applications, environmental impact"
+    }
+  },
+  "items": [
+    {
+      "id": "S001",
+      "type": "single",
+      "topic": "fundamentals",
+      "question": "Why are synthetic biodegradable polymers especially attractive for biomedical applications?",
+      "answer": "They are attractive because their chemistry can be engineered more predictably than most natural polymers. That gives researchers finer control over molecular weight, degradation rate, mechanical behavior, processability, and the introduction of functional groups for drug delivery, imaging, or tissue engineering.",
+      "source_papers": [
+        "R1",
+        "R8"
+      ],
+      "source_titles": [
+        "Biodegradable synthetic polymers: Preparation, functionalization and biomedical application",
+        "Biodegradable Polymers in Biomedical Applications: A Review—Developments, Perspectives and Future Challenges"
+      ]
+    },
+    {
+      "id": "S002",
+      "type": "single",
+      "topic": "fundamentals",
+      "question": "What makes PLA a dominant material in biodegradable polymer research and applications?",
+      "answer": "PLA sits at an attractive intersection of bio-based sourcing, established processing routes, commercial availability, and acceptable mechanical stiffness. It is easy to study, easy to shape into films or filaments, and relevant to packaging, biomedicine, and additive manufacturing, even though it is not ideal for every end-of-life scenario.",
+      "source_papers": [
+        "R2",
+        "R4",
+        "R9"
+      ],
+      "source_titles": [
+        "3D printing of biodegradable polymers and their composites – Current state-of-the-art, properties, applications, and machine learning for potential future applications",
+        "Sustainable and biodegradable polymer packaging: Perspectives, challenges, and opportunities",
+        "Biodegradable Polymers: Properties, Applications, and Environmental Impact"
+      ]
+    },
+    {
+      "id": "S003",
+      "type": "single",
+      "topic": "degradation",
+      "question": "Why is PCL often described as a slow-degrading biodegradable polyester?",
+      "answer": "PCL contains hydrolysable ester bonds, but its hydrophobicity and semicrystalline character slow water penetration and chain scission. As a result, it retains structure longer than faster-eroding aliphatic polyesters, which is useful for long-term scaffolds but less attractive when rapid resorption is needed.",
+      "source_papers": [
+        "R5",
+        "R8"
+      ],
+      "source_titles": [
+        "Next-generation biodegradable polymers: toward a circular plastics economy",
+        "Biodegradable Polymers in Biomedical Applications: A Review—Developments, Perspectives and Future Challenges"
+      ]
+    },
+    {
+      "id": "S004",
+      "type": "single",
+      "topic": "sustainability",
+      "question": "Why are PHAs considered attractive from a sustainability standpoint?",
+      "answer": "PHAs are attractive because they are produced biologically and can fit a renewable-carbon narrative while also offering biodegradability in a wider range of environments than some other bioplastics. Their appeal comes from combining biological origin, end-of-life flexibility, and growing interest in circular materials systems.",
+      "source_papers": [
+        "R5",
+        "R6",
+        "R9"
+      ],
+      "source_titles": [
+        "Next-generation biodegradable polymers: toward a circular plastics economy",
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications",
+        "Biodegradable Polymers: Properties, Applications, and Environmental Impact"
+      ]
+    },
+    {
+      "id": "S005",
+      "type": "single",
+      "topic": "biomedical",
+      "question": "What is the main purpose of introducing reactive groups into biodegradable polymers, especially in terms of post-functionalization and biomedical use?",
+      "answer": "Reactive groups are mainly introduced to turn a degradable polymer backbone into a chemically addressable platform that can be further functionalized. They provide handles for conjugating drugs, targeting ligands, imaging probes, crosslinkers, or other bioactive moieties, which makes the material much more useful than an inert degradable polyester alone. Although reactive groups can also influence degradation behavior, that is usually a secondary benefit rather than the primary reason for introducing them.",
+      "source_papers": [
+        "R1"
+      ],
+      "source_titles": [
+        "Biodegradable synthetic polymers: Preparation, functionalization and biomedical application"
+      ]
+    },
+    {
+      "id": "S006",
+      "type": "single",
+      "topic": "biomedical",
+      "question": "What is the value of stimuli-responsive biodegradable polymers in medicine?",
+      "answer": "Their value is that degradation or release behavior can be coupled to a trigger such as temperature, pH, redox environment, or biological recognition. That makes therapy or diagnostics more selective and can reduce off-target exposure compared with passive materials.",
+      "source_papers": [
+        "R1"
+      ],
+      "source_titles": [
+        "Biodegradable synthetic polymers: Preparation, functionalization and biomedical application"
+      ]
+    },
+    {
+      "id": "S007",
+      "type": "single",
+      "topic": "biomedical",
+      "question": "Why is PLGA widely used for controlled drug delivery?",
+      "answer": "PLGA is widely used because it is processable, biocompatible, and degradable over a tunable timescale by adjusting composition and molecular design. This makes it practical for microspheres, implants, and carriers that release payloads over time instead of all at once.",
+      "source_papers": [
+        "R1",
+        "R8"
+      ],
+      "source_titles": [
+        "Biodegradable synthetic polymers: Preparation, functionalization and biomedical application",
+        "Biodegradable Polymers in Biomedical Applications: A Review—Developments, Perspectives and Future Challenges"
+      ]
+    },
+    {
+      "id": "S008",
+      "type": "single",
+      "topic": "biomedical",
+      "question": "What limits the use of biodegradable polymers in load-bearing orthopedic devices?",
+      "answer": "The main limitation is that many biodegradable polymers lose mechanical integrity before hard tissues fully heal, especially under sustained stress. Their degradation products, local pH shifts, and lower stiffness relative to metals or ceramics can also complicate use in highly loaded sites.",
+      "source_papers": [
+        "R1",
+        "R8"
+      ],
+      "source_titles": [
+        "Biodegradable synthetic polymers: Preparation, functionalization and biomedical application",
+        "Biodegradable Polymers in Biomedical Applications: A Review—Developments, Perspectives and Future Challenges"
+      ]
+    },
+    {
+      "id": "S009",
+      "type": "single",
+      "topic": "biomedical",
+      "question": "Why is electrospinning so widely used for biodegradable biomedical scaffolds?",
+      "answer": "Electrospinning is popular because it can generate high-surface-area fibrous mats that resemble parts of the extracellular matrix. It is relatively flexible in material choice and useful when researchers want porous, cell-interactive structures without needing bulk machining.",
+      "source_papers": [
+        "R8"
+      ],
+      "source_titles": [
+        "Biodegradable Polymers in Biomedical Applications: A Review—Developments, Perspectives and Future Challenges"
+      ]
+    },
+    {
+      "id": "S010",
+      "type": "single",
+      "topic": "bioprinting",
+      "question": "Why is bioprinting more demanding than conventional 3D printing of biodegradable polymers?",
+      "answer": "Bioprinting must satisfy ordinary printability requirements while also preserving living cells or biologically sensitive components. That means viscosity, crosslinking, shear stress, and post-print stability all have to be controlled more tightly than in ordinary thermoplastic printing.",
+      "source_papers": [
+        "R2",
+        "R8"
+      ],
+      "source_titles": [
+        "3D printing of biodegradable polymers and their composites – Current state-of-the-art, properties, applications, and machine learning for potential future applications",
+        "Biodegradable Polymers in Biomedical Applications: A Review—Developments, Perspectives and Future Challenges"
+      ]
+    },
+    {
+      "id": "S011",
+      "type": "single",
+      "topic": "3d_printing",
+      "question": "Why is FDM/FFF the most common 3D-printing route for biodegradable polymers?",
+      "answer": "It is the most common route because many biodegradable polymers, especially PLA-based systems, can be made into printable filaments and processed with relatively accessible equipment. The method is inexpensive, scalable for prototyping, and well matched to the thermal behavior of several commercial bioplastics.",
+      "source_papers": [
+        "R2"
+      ],
+      "source_titles": [
+        "3D printing of biodegradable polymers and their composites – Current state-of-the-art, properties, applications, and machine learning for potential future applications"
+      ]
+    },
+    {
+      "id": "S012",
+      "type": "single",
+      "topic": "3d_printing",
+      "question": "Why does 3D printing of biodegradable polymers often require post-processing?",
+      "answer": "Printed parts frequently need post-processing to improve surface quality, dimensional accuracy, interlayer bonding, sterilizability, or final function. In biomedical settings, additional finishing may also be needed to tune porosity, remove residues, or make the part more cell-compatible.",
+      "source_papers": [
+        "R2",
+        "R8"
+      ],
+      "source_titles": [
+        "3D printing of biodegradable polymers and their composites – Current state-of-the-art, properties, applications, and machine learning for potential future applications",
+        "Biodegradable Polymers in Biomedical Applications: A Review—Developments, Perspectives and Future Challenges"
+      ]
+    },
+    {
+      "id": "S013",
+      "type": "single",
+      "topic": "blends",
+      "question": "What is the core function of compatibilizers in biodegradable polymer blends?",
+      "answer": "Compatibilizers are used to reduce interfacial incompatibility between phases that do not naturally mix well. By improving adhesion and stabilizing morphology, they help blends translate composition changes into useful toughness, strength, or processing gains instead of phase-separated weakness.",
+      "source_papers": [
+        "R7"
+      ],
+      "source_titles": [
+        "Recent advances in biodegradable polymer blends and their biocomposites: a comprehensive review"
+      ]
+    },
+    {
+      "id": "S014",
+      "type": "single",
+      "topic": "blends",
+      "question": "Why is PLA often blended with PBAT?",
+      "answer": "PLA is often blended with PBAT because PLA contributes stiffness and bio-based appeal, while PBAT contributes ductility and impact resistance. The blend is therefore a common route to make brittle PLA-based formulations more usable in flexible packaging and other toughness-sensitive applications.",
+      "source_papers": [
+        "R5",
+        "R7"
+      ],
+      "source_titles": [
+        "Next-generation biodegradable polymers: toward a circular plastics economy",
+        "Recent advances in biodegradable polymer blends and their biocomposites: a comprehensive review"
+      ]
+    },
+    {
+      "id": "S015",
+      "type": "single",
+      "topic": "packaging",
+      "question": "Why is thermoplastic starch rarely used alone for demanding applications?",
+      "answer": "Thermoplastic starch is appealing because it is cheap and renewable, but by itself it is usually too sensitive to moisture and often lacks the mechanical consistency required for demanding service conditions. It therefore tends to be plasticized, blended, coated, or reinforced rather than used as a standalone high-performance material.",
+      "source_papers": [
+        "R4",
+        "R7"
+      ],
+      "source_titles": [
+        "Sustainable and biodegradable polymer packaging: Perspectives, challenges, and opportunities",
+        "Recent advances in biodegradable polymer blends and their biocomposites: a comprehensive review"
+      ]
+    },
+    {
+      "id": "S016",
+      "type": "single",
+      "topic": "packaging",
+      "question": "Why are cellulose derivatives attractive for sustainable packaging?",
+      "answer": "They are attractive because cellulose is abundant, renewable, and compatible with film formation and surface-functional packaging designs. Cellulose derivatives can also offer transparency and useful barrier-related functionality, although performance depends strongly on formulation and humidity.",
+      "source_papers": [
+        "R4",
+        "R9"
+      ],
+      "source_titles": [
+        "Sustainable and biodegradable polymer packaging: Perspectives, challenges, and opportunities",
+        "Biodegradable Polymers: Properties, Applications, and Environmental Impact"
+      ]
+    },
+    {
+      "id": "S017",
+      "type": "single",
+      "topic": "packaging",
+      "question": "Why is PVA useful in biodegradable packaging even though it is moisture-sensitive?",
+      "answer": "PVA remains useful because it can form films well and can contribute desirable mechanical or barrier properties in the right packaging architecture. Its weakness to water does not eliminate its value, but it means application design has to respect humidity exposure and disposal context.",
+      "source_papers": [
+        "R4"
+      ],
+      "source_titles": [
+        "Sustainable and biodegradable polymer packaging: Perspectives, challenges, and opportunities"
+      ]
+    },
+    {
+      "id": "S018",
+      "type": "single",
+      "topic": "fundamentals",
+      "question": "What is the main distinction between biobased and biodegradable plastics?",
+      "answer": "Biobased describes where the carbon comes from, whereas biodegradable describes what happens at end of life under specific conditions. A plastic can be one without being the other, so feedstock origin and degradation behavior must be evaluated separately.",
+      "source_papers": [
+        "R6",
+        "R9"
+      ],
+      "source_titles": [
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications",
+        "Biodegradable Polymers: Properties, Applications, and Environmental Impact"
+      ]
+    },
+    {
+      "id": "S019",
+      "type": "single",
+      "topic": "degradation",
+      "question": "Why does biodegradability depend strongly on the disposal environment?",
+      "answer": "Degradation depends on heat, moisture, oxygen, pH, microorganisms, and physical form. A polymer that breaks down in industrial composting may persist much longer in soil, seawater, landfill, or dry ambient conditions, so environmental context is part of the material specification rather than an afterthought.",
+      "source_papers": [
+        "R5",
+        "R6",
+        "R9"
+      ],
+      "source_titles": [
+        "Next-generation biodegradable polymers: toward a circular plastics economy",
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications",
+        "Biodegradable Polymers: Properties, Applications, and Environmental Impact"
+      ]
+    },
+    {
+      "id": "S020",
+      "type": "single",
+      "topic": "recycling",
+      "question": "What is the main goal of catalytic chemical recycling of biodegradable polyesters?",
+      "answer": "The goal is to recover value from end-of-life polymers by depolymerizing them into useful monomers or chemical intermediates instead of simply downcycling or discarding them. In circular terms, it aims to keep material utility in the loop rather than relying only on biodegradation.",
+      "source_papers": [
+        "R3",
+        "R6"
+      ],
+      "source_titles": [
+        "Catalytic chemical recycling of biodegradable polyesters",
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications"
+      ]
+    },
+    {
+      "id": "S021",
+      "type": "single",
+      "topic": "recycling",
+      "question": "Why is alcoholysis attractive for chemical recycling of PLA?",
+      "answer": "Alcoholysis is attractive because it can convert PLA into targeted small molecules under catalytic control and can be designed for product selectivity. That makes it a promising route when the goal is chemical recovery rather than simple destruction of the polymer chain.",
+      "source_papers": [
+        "R3"
+      ],
+      "source_titles": [
+        "Catalytic chemical recycling of biodegradable polyesters"
+      ]
+    },
+    {
+      "id": "S022",
+      "type": "single",
+      "topic": "recycling",
+      "question": "What is the main challenge of hydrolytic recycling under acidic or alkaline conditions?",
+      "answer": "The main challenge is that hydrolysis can require corrosive conditions, downstream neutralization, and careful product purification. Even when chemically effective, those burdens can reduce economic and environmental attractiveness at scale.",
+      "source_papers": [
+        "R3"
+      ],
+      "source_titles": [
+        "Catalytic chemical recycling of biodegradable polyesters"
+      ]
+    },
+    {
+      "id": "S023",
+      "type": "single",
+      "topic": "recycling",
+      "question": "Why is enzymatic depolymerization attractive but hard to scale?",
+      "answer": "It is attractive because enzymes can operate selectively under milder conditions than many chemical routes. It is hard to scale because rates, substrate accessibility, enzyme stability, and process cost often become limiting outside laboratory conditions.",
+      "source_papers": [
+        "R3",
+        "R5"
+      ],
+      "source_titles": [
+        "Catalytic chemical recycling of biodegradable polyesters",
+        "Next-generation biodegradable polymers: toward a circular plastics economy"
+      ]
+    },
+    {
+      "id": "S024",
+      "type": "single",
+      "topic": "circularity",
+      "question": "Why is chemical recycling relevant even for biodegradable plastics?",
+      "answer": "Because biodegradability does not automatically mean the best circular option is to let the material decay. When waste streams are recoverable, recycling can preserve molecular value and reduce the need for fresh feedstock, which may be preferable to one-way end-of-life pathways.",
+      "source_papers": [
+        "R3",
+        "R6"
+      ],
+      "source_titles": [
+        "Catalytic chemical recycling of biodegradable polyesters",
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications"
+      ]
+    },
+    {
+      "id": "S025",
+      "type": "single",
+      "topic": "regulation",
+      "question": "Why do biodegradable polymers still require certification and standards?",
+      "answer": "They require certification because degradable behavior is highly condition-dependent and marketing claims are easy to overstate. Standards provide a common basis for testing whether a material actually meets compostability or biodegradation requirements under defined conditions.",
+      "source_papers": [
+        "R4",
+        "R6"
+      ],
+      "source_titles": [
+        "Sustainable and biodegradable polymer packaging: Perspectives, challenges, and opportunities",
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications"
+      ]
+    },
+    {
+      "id": "S026",
+      "type": "single",
+      "topic": "environment",
+      "question": "Why can biodegradable plastics still contribute to microplastic concerns?",
+      "answer": "Because fragmentation can occur before full mineralization, especially in environments that do not support rapid biological breakdown. In such cases, the material may still produce persistent small particles even though it is formally degradable under other conditions.",
+      "source_papers": [
+        "R5",
+        "R6"
+      ],
+      "source_titles": [
+        "Next-generation biodegradable polymers: toward a circular plastics economy",
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications"
+      ]
+    },
+    {
+      "id": "S027",
+      "type": "single",
+      "topic": "sustainability",
+      "question": "Why is life-cycle thinking important when judging biodegradable polymers?",
+      "answer": "A polymer cannot be judged only by whether it degrades. Feedstock sourcing, energy demand, additives, use-phase performance, waste capture, and realistic end-of-life routes all influence total impact, so a narrow biodegradation-only view can be misleading.",
+      "source_papers": [
+        "R5",
+        "R6",
+        "R9"
+      ],
+      "source_titles": [
+        "Next-generation biodegradable polymers: toward a circular plastics economy",
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications",
+        "Biodegradable Polymers: Properties, Applications, and Environmental Impact"
+      ]
+    },
+    {
+      "id": "S028",
+      "type": "single",
+      "topic": "blends",
+      "question": "Why are blends and biocomposites important for next-generation biodegradable plastics?",
+      "answer": "Because single polymers rarely satisfy all property requirements across packaging, biomedicine, and durable goods. Blending and reinforcement let researchers tune stiffness, toughness, barrier behavior, cost, and degradation without having to invent a completely new polymer each time.",
+      "source_papers": [
+        "R5",
+        "R7"
+      ],
+      "source_titles": [
+        "Next-generation biodegradable polymers: toward a circular plastics economy",
+        "Recent advances in biodegradable polymer blends and their biocomposites: a comprehensive review"
+      ]
+    },
+    {
+      "id": "S029",
+      "type": "single",
+      "topic": "biocomposites",
+      "question": "Why do fillers sometimes accelerate biodegradation in biocomposites?",
+      "answer": "Fillers can change water uptake, interfacial defects, crystallization, and microbial accessibility. Especially with bio-based fillers, they may create pathways that help the matrix break down faster than the neat polymer under suitable environmental conditions.",
+      "source_papers": [
+        "R7",
+        "R9"
+      ],
+      "source_titles": [
+        "Recent advances in biodegradable polymer blends and their biocomposites: a comprehensive review",
+        "Biodegradable Polymers: Properties, Applications, and Environmental Impact"
+      ]
+    },
+    {
+      "id": "S030",
+      "type": "single",
+      "topic": "3d_printing",
+      "question": "Why is machine learning attractive in biodegradable polymer 3D printing research, particularly for handling coupled processing variables and predicting printability or final properties?",
+      "answer": "Machine learning is attractive because biodegradable polymer 3D printing depends on many coupled variables, such as composition, molecular weight, rheology, temperature, printing speed, layer geometry, and post-processing conditions. These variables interact nonlinearly, so printability and final properties are difficult to optimize efficiently by trial-and-error alone. Data-driven models can help predict outcomes such as extrusion stability, shape fidelity, mechanical performance, or degradation behavior more quickly, making formulation and process optimization much faster.",
+      "source_papers": [
+        "R2"
+      ],
+      "source_titles": [
+        "3D printing of biodegradable polymers and their composites – Current state-of-the-art, properties, applications, and machine learning for potential future applications"
+      ]
+    },
+    {
+      "id": "S031",
+      "type": "single",
+      "topic": "energy",
+      "question": "What is the main trade-off when adding conductive or electroactive components to biodegradable polymers?",
+      "answer": "The central trade-off is that additives used to improve electrical performance can complicate biodegradability, purity, and environmental safety. Better function may therefore come at the cost of a less clean end-of-life profile.",
+      "source_papers": [
+        "R5"
+      ],
+      "source_titles": [
+        "Next-generation biodegradable polymers: toward a circular plastics economy"
+      ]
+    },
+    {
+      "id": "S032",
+      "type": "single",
+      "topic": "energy",
+      "question": "Why are transient or biodegradable energy devices scientifically appealing?",
+      "answer": "They are appealing because they point to electronics and energy systems that do not need permanent persistence after short-term use. This is attractive for temporary sensors, implantables, and low-waste devices, provided the material system remains safe and functional during service.",
+      "source_papers": [
+        "R5"
+      ],
+      "source_titles": [
+        "Next-generation biodegradable polymers: toward a circular plastics economy"
+      ]
+    },
+    {
+      "id": "S033",
+      "type": "single",
+      "topic": "biomedical",
+      "question": "Why are natural polymers rarely a complete substitute for synthetic biodegradable polymers in medicine?",
+      "answer": "Natural polymers offer bioactivity and biomimicry, but they often vary more from batch to batch and give less precise control over mechanics and degradation. Synthetic biodegradable polymers remain important when reproducibility, scalable processing, and predictable performance are priorities.",
+      "source_papers": [
+        "R1",
+        "R8"
+      ],
+      "source_titles": [
+        "Biodegradable synthetic polymers: Preparation, functionalization and biomedical application",
+        "Biodegradable Polymers in Biomedical Applications: A Review—Developments, Perspectives and Future Challenges"
+      ]
+    },
+    {
+      "id": "S034",
+      "type": "single",
+      "topic": "packaging",
+      "question": "Why is PLA not automatically the best choice for home-compostable packaging?",
+      "answer": "PLA is important commercially, but it often performs best in controlled industrial composting rather than mild household conditions. So product thickness, local compost temperature, and collection infrastructure matter more than the label alone.",
+      "source_papers": [
+        "R4",
+        "R6"
+      ],
+      "source_titles": [
+        "Sustainable and biodegradable polymer packaging: Perspectives, challenges, and opportunities",
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications"
+      ]
+    },
+    {
+      "id": "S035",
+      "type": "single",
+      "topic": "circularity",
+      "question": "Why is integrating biodegradable plastics into a circular economy harder than simply replacing fossil-based plastics at the material level?",
+      "answer": "Because circular-economy success depends on the whole system, not just on polymer substitution. Even if a biodegradable material is well designed, collection, sorting, contamination control, processing routes, disposal infrastructure, user behavior, and policy alignment still determine whether it actually delivers environmental benefit. In other words, replacing the polymer recipe is only one step; circularity fails if the surrounding waste-management and communication system does not match the material’s intended end-of-life pathway.",
+      "source_papers": [
+        "R5",
+        "R6"
+      ],
+      "source_titles": [
+        "Next-generation biodegradable polymers: toward a circular plastics economy",
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications"
+      ]
+    },
+    {
+      "id": "S036",
+      "type": "single",
+      "topic": "copolymers",
+      "question": "What is the practical advantage of using copolymerization instead of a single biodegradable polymer?",
+      "answer": "Copolymerization gives a more direct way to tune trade-offs among stiffness, toughness, crystallinity, hydrophilicity, and degradation rate. It is therefore a powerful strategy when no homopolymer offers the required balance of properties.",
+      "source_papers": [
+        "R1",
+        "R9"
+      ],
+      "source_titles": [
+        "Biodegradable synthetic polymers: Preparation, functionalization and biomedical application",
+        "Biodegradable Polymers: Properties, Applications, and Environmental Impact"
+      ]
+    },
+    {
+      "id": "S037",
+      "type": "single",
+      "topic": "infrastructure",
+      "question": "Why is end-of-life infrastructure a bottleneck for biodegradable plastics?",
+      "answer": "Because the material can only behave as intended when collection, labeling, and treatment systems send it to the right destination. Without that infrastructure, compostable or recyclable bioplastics may end up mixed with unsuitable waste streams and lose their intended benefit.",
+      "source_papers": [
+        "R4",
+        "R5",
+        "R6"
+      ],
+      "source_titles": [
+        "Sustainable and biodegradable polymer packaging: Perspectives, challenges, and opportunities",
+        "Next-generation biodegradable polymers: toward a circular plastics economy",
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications"
+      ]
+    },
+    {
+      "id": "F001",
+      "type": "single_with_facets",
+      "topic": "biomedical",
+      "question": "For drug-delivery carriers, how should PLGA be judged in terms of degradation control, payload protection, and translational maturity?",
+      "answer": "PLGA is strong on translational maturity because it has an extensive biomedical track record and established processing know-how. It is also attractive for degradation control because composition and formulation can tune release windows, but payload protection depends on the cargo since acidic microenvironments and processing stresses can still destabilize sensitive actives.",
+      "source_papers": [
+        "R1",
+        "R8"
+      ],
+      "source_titles": [
+        "Biodegradable synthetic polymers: Preparation, functionalization and biomedical application",
+        "Biodegradable Polymers in Biomedical Applications: A Review—Developments, Perspectives and Future Challenges"
+      ]
+    },
+    {
+      "id": "F002",
+      "type": "single_with_facets",
+      "topic": "biomedical",
+      "question": "For tissue-engineering scaffolds, how do natural and synthetic biodegradable polymers compare in bioactivity, reproducibility, and processing control?",
+      "answer": "Natural polymers usually lead in intrinsic bioactivity and cell-friendly signaling, while synthetic polymers lead in reproducibility, tunable mechanics, and manufacturing control. In practice, scaffold design often combines them because neither class alone reliably maximizes all three facets.",
+      "source_papers": [
+        "R1",
+        "R8"
+      ],
+      "source_titles": [
+        "Biodegradable synthetic polymers: Preparation, functionalization and biomedical application",
+        "Biodegradable Polymers in Biomedical Applications: A Review—Developments, Perspectives and Future Challenges"
+      ]
+    },
+    {
+      "id": "F003",
+      "type": "single_with_facets",
+      "topic": "biomedical",
+      "question": "For orthopedic fixation, how should one balance initial stiffness, degradation pace, and inflammatory risk when choosing a biodegradable polymer?",
+      "answer": "A useful orthopedic polymer must keep enough initial stiffness to support healing, but it cannot persist so long that it behaves like a permanent implant. The degradation pace also has to avoid overly rapid loss of strength or excessive local by-product accumulation that could aggravate inflammation, so the best choice is usually application-specific rather than universal.",
+      "source_papers": [
+        "R1",
+        "R8"
+      ],
+      "source_titles": [
+        "Biodegradable synthetic polymers: Preparation, functionalization and biomedical application",
+        "Biodegradable Polymers in Biomedical Applications: A Review—Developments, Perspectives and Future Challenges"
+      ]
+    },
+    {
+      "id": "F004",
+      "type": "single_with_facets",
+      "topic": "3d_printing",
+      "question": "For FDM printing, how should PLA, PCL, and PBS be compared in printability, thermal behavior, and part performance?",
+      "answer": "PLA is usually the easiest benchmark because it prints cleanly and holds shape well, PCL benefits from low-temperature processing but can be too soft for some printed parts, and PBS sits between flexibility and processability but is less standardized in consumer printing workflows. So the comparison should start from target service temperature and required stiffness, not from biodegradability alone.",
+      "source_papers": [
+        "R2",
+        "R5"
+      ],
+      "source_titles": [
+        "3D printing of biodegradable polymers and their composites – Current state-of-the-art, properties, applications, and machine learning for potential future applications",
+        "Next-generation biodegradable polymers: toward a circular plastics economy"
+      ]
+    },
+    {
+      "id": "F005",
+      "type": "single_with_facets",
+      "topic": "packaging",
+      "question": "For packaging films, how should starch-based polymers be judged in renewability, barrier limitations, and moisture sensitivity?",
+      "answer": "Starch-based systems score strongly on renewability and low-cost biomass sourcing, but their service performance is constrained by humidity sensitivity and often uneven barrier behavior. They therefore look best when formulation, blending, or coatings are used to compensate for those weaknesses rather than when they are treated as direct one-to-one replacements.",
+      "source_papers": [
+        "R4",
+        "R7",
+        "R9"
+      ],
+      "source_titles": [
+        "Sustainable and biodegradable polymer packaging: Perspectives, challenges, and opportunities",
+        "Recent advances in biodegradable polymer blends and their biocomposites: a comprehensive review",
+        "Biodegradable Polymers: Properties, Applications, and Environmental Impact"
+      ]
+    },
+    {
+      "id": "F006",
+      "type": "single_with_facets",
+      "topic": "packaging",
+      "question": "For sustainable packaging, how do cellulose derivatives compare with PLA in transparency, processability, and end-of-life?",
+      "answer": "Cellulose derivatives can be highly attractive for film design and renewable-content narratives, but their processing window and moisture response differ from PLA. PLA often fits existing thermoplastic processing more naturally, whereas cellulose-derived systems can be compelling when surface functionality and fiber-based packaging integration matter more than simple melt-process substitution.",
+      "source_papers": [
+        "R4",
+        "R6",
+        "R9"
+      ],
+      "source_titles": [
+        "Sustainable and biodegradable polymer packaging: Perspectives, challenges, and opportunities",
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications",
+        "Biodegradable Polymers: Properties, Applications, and Environmental Impact"
+      ]
+    },
+    {
+      "id": "F007",
+      "type": "single_with_facets",
+      "topic": "blends",
+      "question": "For biodegradable blends, how should one evaluate miscibility, interfacial adhesion, and final mechanical performance?",
+      "answer": "Miscibility determines whether the phases can form a stable and useful morphology, interfacial adhesion determines whether stress can be transferred across those phases, and final mechanical performance reveals whether the formulation actually converts the first two into function. A blend is therefore not successful just because the ingredients are biodegradable; morphology control is central.",
+      "source_papers": [
+        "R7"
+      ],
+      "source_titles": [
+        "Recent advances in biodegradable polymer blends and their biocomposites: a comprehensive review"
+      ]
+    },
+    {
+      "id": "F008",
+      "type": "single_with_facets",
+      "topic": "blends",
+      "question": "When evaluating PLA/PBAT blends, how should toughness improvement be weighed against stiffness loss, and why should compostability claims be treated cautiously?",
+      "answer": "PLA/PBAT blending is attractive because it can greatly improve toughness relative to neat PLA, especially for flexible packaging uses. That benefit, however, usually comes with some loss of stiffness and may also reduce clarity or heat resistance, so the value of the blend depends on the application rather than on toughness alone. Compostability claims should also be treated cautiously, because actual end-of-life behavior depends on the full formulation, blend morphology, article thickness, additives, and disposal route, not simply on the fact that both base polymers are described as biodegradable.",
+      "source_papers": [
+        "R5",
+        "R7"
+      ],
+      "source_titles": [
+        "Next-generation biodegradable polymers: toward a circular plastics economy",
+        "Recent advances in biodegradable polymer blends and their biocomposites: a comprehensive review"
+      ]
+    },
+    {
+      "id": "F009",
+      "type": "single_with_facets",
+      "topic": "biocomposites",
+      "question": "For biocomposites, how do natural fillers affect stiffness, interfacial quality, and degradation behavior?",
+      "answer": "Natural fillers often raise stiffness or lower cost, but they can also create weak interfaces if surface compatibility is poor. Those same interfaces may increase water uptake and accelerate degradation, which can be beneficial or detrimental depending on whether the application prioritizes durability or rapid end-of-life breakdown.",
+      "source_papers": [
+        "R7",
+        "R9"
+      ],
+      "source_titles": [
+        "Recent advances in biodegradable polymer blends and their biocomposites: a comprehensive review",
+        "Biodegradable Polymers: Properties, Applications, and Environmental Impact"
+      ]
+    },
+    {
+      "id": "F010",
+      "type": "single_with_facets",
+      "topic": "recycling",
+      "question": "For catalytic recycling of PLA, how should alcoholysis, hydrolysis, and enzymatic routes be compared in selectivity, conditions, and scalability?",
+      "answer": "Alcoholysis is attractive when targeted chemical products and catalytic selectivity are priorities, hydrolysis is conceptually straightforward but can impose harsher downstream handling burdens, and enzymatic routes are appealing for milder operation but still face scalability constraints. The best route therefore depends on whether the process is optimized for product purity, operational simplicity, or industrial throughput.",
+      "source_papers": [
+        "R3"
+      ],
+      "source_titles": [
+        "Catalytic chemical recycling of biodegradable polyesters"
+      ]
+    },
+    {
+      "id": "F011",
+      "type": "single_with_facets",
+      "topic": "sustainability",
+      "question": "For judging a 'green' biodegradable polymer, how should feedstock origin, processing burden, and end-of-life be weighed together?",
+      "answer": "Feedstock origin matters because renewable carbon can reduce fossil dependence, but that benefit can be offset by energy-intensive processing or poor waste handling. End-of-life must therefore be assessed alongside production burden, since a polymer is only convincingly green when upstream and downstream assumptions are both realistic.",
+      "source_papers": [
+        "R5",
+        "R6",
+        "R9"
+      ],
+      "source_titles": [
+        "Next-generation biodegradable polymers: toward a circular plastics economy",
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications",
+        "Biodegradable Polymers: Properties, Applications, and Environmental Impact"
+      ]
+    },
+    {
+      "id": "F012",
+      "type": "single_with_facets",
+      "topic": "energy",
+      "question": "For biodegradable polymers in energy devices, how should electrochemical performance, stability, and degradability be balanced?",
+      "answer": "Electrochemical performance cannot be sacrificed to the point that the device becomes unusable, but pursuing maximum conductivity or stability often pushes the formulation toward additives that complicate biodegradation. The most credible designs therefore aim for sufficient functional lifetime followed by safe disassembly or degradation, rather than treating biodegradability as the only metric.",
+      "source_papers": [
+        "R5"
+      ],
+      "source_titles": [
+        "Next-generation biodegradable polymers: toward a circular plastics economy"
+      ]
+    },
+    {
+      "id": "F013",
+      "type": "single_with_facets",
+      "topic": "biomedical",
+      "question": "For smart biodegradable polymers in medicine, how should responsiveness, synthesis complexity, and safety be considered together?",
+      "answer": "Responsiveness can create major therapeutic advantages, but every added trigger-responsive element increases synthetic complexity and raises new safety or regulatory questions. A strong design is therefore one in which the trigger offers a real clinical benefit that justifies the extra chemistry and validation burden.",
+      "source_papers": [
+        "R1"
+      ],
+      "source_titles": [
+        "Biodegradable synthetic polymers: Preparation, functionalization and biomedical application"
+      ]
+    },
+    {
+      "id": "F014",
+      "type": "single_with_facets",
+      "topic": "biomedical",
+      "question": "For disposable medical devices, how should sterility, service lifetime, and degradation after use be balanced?",
+      "answer": "The device must first survive sterilization and remain reliable over its intended service window; only after that does degradability become meaningful. For this reason, degradable disposables need materials whose post-use breakdown does not compromise in-use safety or shelf stability.",
+      "source_papers": [
+        "R1",
+        "R8"
+      ],
+      "source_titles": [
+        "Biodegradable synthetic polymers: Preparation, functionalization and biomedical application",
+        "Biodegradable Polymers in Biomedical Applications: A Review—Developments, Perspectives and Future Challenges"
+      ]
+    },
+    {
+      "id": "F015",
+      "type": "single_with_facets",
+      "topic": "bioprinting",
+      "question": "For bioprinting inks, how should cell compatibility, rheology, and shape fidelity be balanced?",
+      "answer": "Cell compatibility sets the biological floor, rheology determines whether the material can be printed without damaging the cells, and shape fidelity determines whether the printed construct stays close to its intended architecture. A usable bioink therefore sits in a narrow window where all three facets are acceptable at once.",
+      "source_papers": [
+        "R2",
+        "R8"
+      ],
+      "source_titles": [
+        "3D printing of biodegradable polymers and their composites – Current state-of-the-art, properties, applications, and machine learning for potential future applications",
+        "Biodegradable Polymers in Biomedical Applications: A Review—Developments, Perspectives and Future Challenges"
+      ]
+    },
+    {
+      "id": "F016",
+      "type": "single_with_facets",
+      "topic": "biomedical",
+      "question": "For gene delivery polymers, how should charge density, degradability, and cytotoxicity be weighed?",
+      "answer": "Higher charge density can improve nucleic-acid complexation, but it also increases the risk of cytotoxicity and nonspecific interactions. Degradability helps reduce long-term residue, so the best carriers are usually those that achieve enough charge for delivery while breaking down into less harmful products.",
+      "source_papers": [
+        "R1"
+      ],
+      "source_titles": [
+        "Biodegradable synthetic polymers: Preparation, functionalization and biomedical application"
+      ]
+    },
+    {
+      "id": "F017",
+      "type": "single_with_facets",
+      "topic": "packaging",
+      "question": "For food-contact packaging, how should oxygen barrier, water sensitivity, and regulatory compliance be evaluated together?",
+      "answer": "Oxygen barrier can be decisive for shelf life, but many biodegradable polymers show a trade-off between gas control and moisture tolerance. Regulatory compliance further narrows the field because additives, coatings, and degradation claims all have to align with food-contact rules, so the winning solution is often a multilayer or blended system rather than a single neat polymer.",
+      "source_papers": [
+        "R4"
+      ],
+      "source_titles": [
+        "Sustainable and biodegradable polymer packaging: Perspectives, challenges, and opportunities"
+      ]
+    },
+    {
+      "id": "F018",
+      "type": "single_with_facets",
+      "topic": "materials_selection",
+      "question": "For comparing PHAs and PLA, how should biobased sourcing, processability, and brittleness/toughness be balanced?",
+      "answer": "PHAs are appealing because of their biological origin and broad sustainability narrative, while PLA benefits from stronger industrial maturity and easier mainstream processing. Mechanically, PLA often needs toughening, whereas PHAs can offer a different balance but still bring cost and processing challenges, so the comparison depends on the manufacturing route as much as on the polymer family.",
+      "source_papers": [
+        "R2",
+        "R5",
+        "R6"
+      ],
+      "source_titles": [
+        "3D printing of biodegradable polymers and their composites – Current state-of-the-art, properties, applications, and machine learning for potential future applications",
+        "Next-generation biodegradable polymers: toward a circular plastics economy",
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications"
+      ]
+    },
+    {
+      "id": "F019",
+      "type": "single_with_facets",
+      "topic": "degradation",
+      "question": "For home-compostable products, how should degradation temperature, moisture availability, and product thickness be considered?",
+      "answer": "Home composting is usually colder and less controlled than industrial composting, so degradation temperature becomes a central constraint. Moisture and article thickness then determine whether the bulk material is actually accessible to degradation, which is why a polymer that works in thin films may disappoint in thicker items.",
+      "source_papers": [
+        "R4",
+        "R6"
+      ],
+      "source_titles": [
+        "Sustainable and biodegradable polymer packaging: Perspectives, challenges, and opportunities",
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications"
+      ]
+    },
+    {
+      "id": "F020",
+      "type": "single_with_facets",
+      "topic": "3d_printing",
+      "question": "For 3D-printed implants, how should geometry freedom, sterilization compatibility, and degradation predictability be weighed?",
+      "answer": "Geometry freedom is a major advantage of additive manufacturing, but a printed implant is only credible if sterilization does not damage it and if its degradation remains predictable after printing-induced anisotropy and porosity are considered. In other words, design freedom is valuable only when it survives the translation pipeline.",
+      "source_papers": [
+        "R2",
+        "R8"
+      ],
+      "source_titles": [
+        "3D printing of biodegradable polymers and their composites – Current state-of-the-art, properties, applications, and machine learning for potential future applications",
+        "Biodegradable Polymers in Biomedical Applications: A Review—Developments, Perspectives and Future Challenges"
+      ]
+    },
+    {
+      "id": "F021",
+      "type": "single_with_facets",
+      "topic": "blends",
+      "question": "For choosing a compatibilizer, how should reactivity, processing stability, and biodegradation impact be evaluated?",
+      "answer": "A compatibilizer must be reactive enough to improve phase adhesion, but not so reactive that it destabilizes processing or creates uncontrolled branching and gelation. It also should not undermine the intended biodegradation pathway, which means compatibilizer choice is a systems decision rather than a simple additive swap.",
+      "source_papers": [
+        "R7"
+      ],
+      "source_titles": [
+        "Recent advances in biodegradable polymer blends and their biocomposites: a comprehensive review"
+      ]
+    },
+    {
+      "id": "F022",
+      "type": "single_with_facets",
+      "topic": "circularity",
+      "question": "For circular economy planning, how should reuse, mechanical recycling, chemical recycling, and biodegradation be prioritized for biodegradable plastics?",
+      "answer": "They should be prioritized according to the product’s realistic collection pathway and contamination profile rather than according to ideology. Reuse and recycling usually preserve more value when feasible, while biodegradation becomes more credible for dispersed or contamination-prone applications where recovery is unlikely.",
+      "source_papers": [
+        "R3",
+        "R5",
+        "R6"
+      ],
+      "source_titles": [
+        "Catalytic chemical recycling of biodegradable polyesters",
+        "Next-generation biodegradable polymers: toward a circular plastics economy",
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications"
+      ]
+    },
+    {
+      "id": "F023",
+      "type": "single_with_facets",
+      "topic": "communication",
+      "question": "For biodegradable packaging, why must in-use performance remain a primary requirement, even when certified end-of-life and clear consumer communication are also essential?",
+      "answer": "A biodegradable package still has to function as packaging during storage, transport, and use, so in-use performance cannot be treated as secondary. Certified end-of-life is essential because environmental claims need to be tied to a real disposal pathway rather than to vague biodegradability language. Clear communication is equally important, since ambiguous claims can mislead users into littering or disposing of the package incorrectly, which can undermine the intended environmental benefit. The right balance is therefore not to trade performance away for marketing claims, but to require all three: functional use performance, credible certification, and unambiguous disposal guidance.",
+      "source_papers": [
+        "R4",
+        "R6"
+      ],
+      "source_titles": [
+        "Sustainable and biodegradable polymer packaging: Perspectives, challenges, and opportunities",
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications"
+      ]
+    },
+    {
+      "id": "F024",
+      "type": "single_with_facets",
+      "topic": "processing",
+      "question": "For scaffold fabrication methods, how should electrospinning, solvent casting, and 3D printing compare in porosity control, scalability, and architectural precision?",
+      "answer": "Electrospinning is strong for fibrous microstructure, solvent casting is simple but limited in architectural sophistication, and 3D printing offers the most explicit macro-level precision. The right choice depends on which facet is most critical: microfibrous mimicry, low-complexity fabrication, or digitally controlled geometry.",
+      "source_papers": [
+        "R2",
+        "R8"
+      ],
+      "source_titles": [
+        "3D printing of biodegradable polymers and their composites – Current state-of-the-art, properties, applications, and machine learning for potential future applications",
+        "Biodegradable Polymers in Biomedical Applications: A Review—Developments, Perspectives and Future Challenges"
+      ]
+    },
+    {
+      "id": "F025",
+      "type": "single_with_facets",
+      "topic": "agriculture",
+      "question": "For agricultural mulch films, how should soil degradability, field durability, and cost be balanced?",
+      "answer": "Mulch films must remain intact through the growing season but then degrade without leaving problematic residues, so soil degradability and field durability have to be tuned together. Cost remains decisive because agriculture is price-sensitive, which is why ideal laboratory formulations do not automatically translate into field adoption.",
+      "source_papers": [
+        "R5",
+        "R9"
+      ],
+      "source_titles": [
+        "Next-generation biodegradable polymers: toward a circular plastics economy",
+        "Biodegradable Polymers: Properties, Applications, and Environmental Impact"
+      ]
+    },
+    {
+      "id": "F026",
+      "type": "single_with_facets",
+      "topic": "biomedical",
+      "question": "For comparing PLA, PCL, and PLGA in biomedical use, how should modulus, degradation rate, and drug-delivery versatility be weighed?",
+      "answer": "PLA is useful when relatively higher stiffness is valued, PCL when longer structural persistence is needed, and PLGA when release engineering and tunable degradation are central. No one polymer dominates all three facets, so application logic should start from the required timeline of mechanics and therapy.",
+      "source_papers": [
+        "R1",
+        "R8"
+      ],
+      "source_titles": [
+        "Biodegradable synthetic polymers: Preparation, functionalization and biomedical application",
+        "Biodegradable Polymers in Biomedical Applications: A Review—Developments, Perspectives and Future Challenges"
+      ]
+    },
+    {
+      "id": "F027",
+      "type": "single_with_facets",
+      "topic": "packaging",
+      "question": "For biodegradable blends for rigid packaging, how should heat resistance, toughness, and clarity be balanced?",
+      "answer": "Rigid packaging often exposes the weakness of neat biodegradable polymers because heat resistance, toughness, and visual clarity do not always improve together. That means blend design has to decide which compromise is acceptable rather than assuming every property can be optimized at once.",
+      "source_papers": [
+        "R4",
+        "R7"
+      ],
+      "source_titles": [
+        "Sustainable and biodegradable polymer packaging: Perspectives, challenges, and opportunities",
+        "Recent advances in biodegradable polymer blends and their biocomposites: a comprehensive review"
+      ]
+    },
+    {
+      "id": "F028",
+      "type": "single_with_facets",
+      "topic": "consumer_goods",
+      "question": "For biodegradable polymers in consumer goods, how should appearance retention, service life, and realistic disposal routes be balanced?",
+      "answer": "Consumer goods must keep acceptable appearance and function long enough to avoid premature replacement, which means service life still matters even for degradable products. Their disposal route then determines whether degradability is an asset or mostly a marketing label, so product design should be synchronized with actual waste handling.",
+      "source_papers": [
+        "R5",
+        "R6"
+      ],
+      "source_titles": [
+        "Next-generation biodegradable polymers: toward a circular plastics economy",
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications"
+      ]
+    },
+    {
+      "id": "F029",
+      "type": "single_with_facets",
+      "topic": "environment",
+      "question": "For evaluating microplastic risk in BBPs, how should fragmentation behavior, mineralization potential, and environmental setting be assessed together?",
+      "answer": "Fragmentation behavior indicates how easily the material breaks into small pieces, mineralization potential indicates whether those pieces can continue toward true breakdown, and environmental setting determines whether that pathway is available. None of the three alone is sufficient to claim low microplastic risk.",
+      "source_papers": [
+        "R5",
+        "R6"
+      ],
+      "source_titles": [
+        "Next-generation biodegradable polymers: toward a circular plastics economy",
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications"
+      ]
+    },
+    {
+      "id": "F030",
+      "type": "single_with_facets",
+      "topic": "feedstocks",
+      "question": "For advanced feedstocks, how should renewability, chemical tunability, and supply-chain practicality be compared?",
+      "answer": "A feedstock can be highly renewable yet still difficult to purify, scale, or convert consistently. The most promising feedstocks are those that not only come from renewable sources but also allow useful chemistry and can be integrated into supply chains without excessive complexity.",
+      "source_papers": [
+        "R6",
+        "R9"
+      ],
+      "source_titles": [
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications",
+        "Biodegradable Polymers: Properties, Applications, and Environmental Impact"
+      ]
+    },
+    {
+      "id": "F031",
+      "type": "single_with_facets",
+      "topic": "coatings",
+      "question": "For biodegradable coatings, how should adhesion, protective function, and eventual degradation be balanced?",
+      "answer": "A coating has to adhere well enough to perform its barrier or protective role, but it should not create a persistent residue once that role is over. Good design therefore seeks a controlled sequence: stable during service, degradable after service.",
+      "source_papers": [
+        "R9"
+      ],
+      "source_titles": [
+        "Biodegradable Polymers: Properties, Applications, and Environmental Impact"
+      ]
+    },
+    {
+      "id": "F032",
+      "type": "single_with_facets",
+      "topic": "wound_healing",
+      "question": "For selecting a biodegradable polymer for wound healing, how should moisture management, biocompatibility, and mechanical handling be balanced?",
+      "answer": "Wound-healing materials must maintain an appropriate moist environment, avoid irritating tissue, and still be robust enough to handle during placement and removal. In practice, this often leads to composite or hybrid dressings because no single polymer optimizes every one of those facets.",
+      "source_papers": [
+        "R8",
+        "R9"
+      ],
+      "source_titles": [
+        "Biodegradable Polymers in Biomedical Applications: A Review—Developments, Perspectives and Future Challenges",
+        "Biodegradable Polymers: Properties, Applications, and Environmental Impact"
+      ]
+    },
+    {
+      "id": "F033",
+      "type": "single_with_facets",
+      "topic": "packaging",
+      "question": "For PBS and PBAT in packaging, how should flexibility and processability be compared without ignoring the intended end-of-life context?",
+      "answer": "PBS and PBAT should not be compared only by which one is softer or easier to process. PBAT is usually favored when high flexibility and film toughness are needed, whereas PBS can offer a different balance of stiffness, thermal behavior, and biodegradation profile. However, the more important comparison is application context: how the material processes in the full formulation, what packaging function it must serve, and where it is realistically likely to end up after use. A packaging choice that looks favorable on flexibility alone may be much less favorable once composting conditions, disposal route, and infrastructure are considered.",
+      "source_papers": [
+        "R5",
+        "R7"
+      ],
+      "source_titles": [
+        "Next-generation biodegradable polymers: toward a circular plastics economy",
+        "Recent advances in biodegradable polymer blends and their biocomposites: a comprehensive review"
+      ]
+    },
+    {
+      "id": "F034",
+      "type": "single_with_facets",
+      "topic": "3d_printing",
+      "question": "For integrating ML into biodegradable polymer printing, how should data quality, process complexity, and property prediction goals be prioritized?",
+      "answer": "Data quality comes first because noisy or sparse experiments can make even sophisticated models unreliable. Process complexity then determines how ambitious the model can be, while the prediction goal should stay tightly defined, such as printability, porosity, strength, or shrinkage rather than everything at once.",
+      "source_papers": [
+        "R2"
+      ],
+      "source_titles": [
+        "3D printing of biodegradable polymers and their composites – Current state-of-the-art, properties, applications, and machine learning for potential future applications"
+      ]
+    },
+    {
+      "id": "F035",
+      "type": "single_with_facets",
+      "topic": "circularity",
+      "question": "For a polymer intended for both bio-based branding and real environmental benefit, how should renewable carbon content, compostability, and recyclability be weighed?",
+      "answer": "Renewable carbon content is useful, but it is not enough on its own. Compostability is only meaningful when the product reaches the right system, and recyclability is only meaningful when sorting and reprocessing are realistic, so the most defensible design is the one whose claimed route matches actual infrastructure.",
+      "source_papers": [
+        "R5",
+        "R6"
+      ],
+      "source_titles": [
+        "Next-generation biodegradable polymers: toward a circular plastics economy",
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications"
+      ]
+    },
+    {
+      "id": "F036",
+      "type": "single_with_facets",
+      "topic": "biocomposites",
+      "question": "For reinforced biocomposites, how should filler loading, dispersion, and manufacturability be optimized together?",
+      "answer": "Higher filler loading can improve stiffness or reduce cost, but too much filler often hurts dispersion and makes processing less stable. The practical optimum is therefore rarely the maximum loading; it is the point where reinforcement benefits survive real manufacturing conditions.",
+      "source_papers": [
+        "R7"
+      ],
+      "source_titles": [
+        "Recent advances in biodegradable polymer blends and their biocomposites: a comprehensive review"
+      ]
+    },
+    {
+      "id": "F037",
+      "type": "single_with_facets",
+      "topic": "biomedical",
+      "question": "For biomedical polymers with functional groups, how should conjugation ability, synthesis burden, and degradation side-products be assessed?",
+      "answer": "Functional groups are valuable because they expand what the material can do, but each additional synthetic step adds cost and translational burden. The modified polymer must also degrade into products that remain acceptable for the intended application, so functionality has to justify the added complexity.",
+      "source_papers": [
+        "R1"
+      ],
+      "source_titles": [
+        "Biodegradable synthetic polymers: Preparation, functionalization and biomedical application"
+      ]
+    },
+    {
+      "id": "M001",
+      "type": "multi_part",
+      "topic": "biomedical",
+      "question": "What makes PLGA useful for drug delivery, and what usually controls its degradation rate?",
+      "answer": "PLGA is useful because it can be processed into carriers that release drugs over a programmable timescale while maintaining good biomedical familiarity. Its degradation rate is usually controlled by factors such as lactic/glycolic composition, molecular weight, device geometry, and local water access.",
+      "source_papers": [
+        "R1",
+        "R8"
+      ],
+      "source_titles": [
+        "Biodegradable synthetic polymers: Preparation, functionalization and biomedical application",
+        "Biodegradable Polymers in Biomedical Applications: A Review—Developments, Perspectives and Future Challenges"
+      ]
+    },
+    {
+      "id": "M002",
+      "type": "multi_part",
+      "topic": "3d_printing",
+      "question": "Why is PLA easy to print by FDM, and why is it still limited in some demanding biomedical or packaging applications?",
+      "answer": "PLA is easy to print because it has a well-matched melt-processing window, broad filament availability, and good shape retention after extrusion. It remains limited because brittleness, heat resistance, and environment-specific degradation behavior can still fall short in applications that demand toughness, thermal stability, or home-compostable performance.",
+      "source_papers": [
+        "R2",
+        "R4",
+        "R8"
+      ],
+      "source_titles": [
+        "3D printing of biodegradable polymers and their composites – Current state-of-the-art, properties, applications, and machine learning for potential future applications",
+        "Sustainable and biodegradable polymer packaging: Perspectives, challenges, and opportunities",
+        "Biodegradable Polymers in Biomedical Applications: A Review—Developments, Perspectives and Future Challenges"
+      ]
+    },
+    {
+      "id": "M003",
+      "type": "multi_part",
+      "topic": "blends",
+      "question": "What do compatibilizers do in biodegradable blends, and why are they often needed even when both components are biodegradable?",
+      "answer": "Compatibilizers improve interfacial bonding and help control phase morphology so that a blend behaves as a coherent material instead of a weak phase-separated mixture. They are still needed because biodegradability does not imply thermodynamic miscibility, so two degradable polymers may remain poorly compatible without additional chemistry.",
+      "source_papers": [
+        "R7"
+      ],
+      "source_titles": [
+        "Recent advances in biodegradable polymer blends and their biocomposites: a comprehensive review"
+      ]
+    },
+    {
+      "id": "M004",
+      "type": "multi_part",
+      "topic": "degradation",
+      "question": "How does hydrolytic degradation differ from enzymatic degradation, and why does that difference matter for end-of-life claims?",
+      "answer": "Hydrolytic degradation is driven mainly by chemical attack of water on susceptible bonds, while enzymatic degradation depends on biological catalysts and access to the substrate. The difference matters because a polymer may hydrolyze slowly in one environment but biodegrade much faster in another where the right enzymes and microbes are present.",
+      "source_papers": [
+        "R3",
+        "R5",
+        "R9"
+      ],
+      "source_titles": [
+        "Catalytic chemical recycling of biodegradable polyesters",
+        "Next-generation biodegradable polymers: toward a circular plastics economy",
+        "Biodegradable Polymers: Properties, Applications, and Environmental Impact"
+      ]
+    },
+    {
+      "id": "M005",
+      "type": "multi_part",
+      "topic": "fundamentals",
+      "question": "Why can a biodegradable polymer be biobased, fossil-based, or both, and why does that distinction matter for sustainability assessments?",
+      "answer": "Biodegradability comes from molecular structure and environmental conditions, whereas biobased origin comes from feedstock source, so the two properties are independent. The distinction matters because a material can lower fossil dependence without degrading well, or degrade well without being renewable, leading to different sustainability conclusions.",
+      "source_papers": [
+        "R6",
+        "R9"
+      ],
+      "source_titles": [
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications",
+        "Biodegradable Polymers: Properties, Applications, and Environmental Impact"
+      ]
+    },
+    {
+      "id": "M006",
+      "type": "multi_part",
+      "topic": "materials_selection",
+      "question": "What are the main advantages of PHAs, and what currently limits their broader replacement of conventional plastics?",
+      "answer": "Their main advantages are biological origin, strong sustainability appeal, and potentially broader biodegradation scenarios than some mainstream bioplastics. Their wider replacement is still limited by cost, production scale, property variability, and processing constraints relative to entrenched petrochemical plastics.",
+      "source_papers": [
+        "R5",
+        "R6",
+        "R9"
+      ],
+      "source_titles": [
+        "Next-generation biodegradable polymers: toward a circular plastics economy",
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications",
+        "Biodegradable Polymers: Properties, Applications, and Environmental Impact"
+      ]
+    },
+    {
+      "id": "M007",
+      "type": "multi_part",
+      "topic": "packaging",
+      "question": "Why are cellulose-based materials attractive for packaging, and what usually prevents them from being a drop-in replacement for petrochemical films?",
+      "answer": "They are attractive because cellulose is renewable, abundant, and compatible with lightweight film or coating applications. They are not automatic drop-in replacements because moisture sensitivity, process differences, and application-specific performance gaps often require redesign rather than simple substitution.",
+      "source_papers": [
+        "R4",
+        "R6",
+        "R9"
+      ],
+      "source_titles": [
+        "Sustainable and biodegradable polymer packaging: Perspectives, challenges, and opportunities",
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications",
+        "Biodegradable Polymers: Properties, Applications, and Environmental Impact"
+      ]
+    },
+    {
+      "id": "M008",
+      "type": "multi_part",
+      "topic": "biomedical",
+      "question": "What makes electrospun scaffolds attractive in tissue engineering, and what keeps them from fully mimicking native tissues on their own?",
+      "answer": "Electrospun scaffolds are attractive because their fibrous architecture resembles features of extracellular matrices and provides high surface area for cell interaction. On their own, they are limited because native tissues are hierarchically organized, mechanically complex, and biologically dynamic in ways that simple fibrous mats do not fully reproduce.",
+      "source_papers": [
+        "R8"
+      ],
+      "source_titles": [
+        "Biodegradable Polymers in Biomedical Applications: A Review—Developments, Perspectives and Future Challenges"
+      ]
+    },
+    {
+      "id": "M009",
+      "type": "multi_part",
+      "topic": "3d_printing",
+      "question": "Why are 3D-printed biodegradable composites interesting, and what new variability do fillers introduce during processing?",
+      "answer": "They are interesting because printing plus reinforcement allows geometry control and property tuning at the same time. Fillers, however, introduce new variability in viscosity, dispersion, nozzle flow, interlayer bonding, and anisotropy, which can make process optimization much harder.",
+      "source_papers": [
+        "R2",
+        "R7"
+      ],
+      "source_titles": [
+        "3D printing of biodegradable polymers and their composites – Current state-of-the-art, properties, applications, and machine learning for potential future applications",
+        "Recent advances in biodegradable polymer blends and their biocomposites: a comprehensive review"
+      ]
+    },
+    {
+      "id": "M010",
+      "type": "multi_part",
+      "topic": "recycling",
+      "question": "What is the point of chemical recycling for PLA, and how does it differ from simple composting as an end-of-life strategy?",
+      "answer": "The point of chemical recycling is to recover chemical value, such as monomers or useful intermediates, rather than letting the polymer pass irreversibly into low-value end states. Composting is instead a degradation-oriented route, so the two strategies differ in whether they primarily preserve material value or manage biological breakdown.",
+      "source_papers": [
+        "R3",
+        "R6"
+      ],
+      "source_titles": [
+        "Catalytic chemical recycling of biodegradable polyesters",
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications"
+      ]
+    },
+    {
+      "id": "M011",
+      "type": "multi_part",
+      "topic": "biomedical",
+      "question": "Why do biodegradable polymers in medicine often need functionalization, and what risks come with adding more chemistry to the backbone or side chains?",
+      "answer": "They often need functionalization so they can carry drugs, target tissues, respond to stimuli, or interact more specifically with cells. The added chemistry can increase synthesis burden, complicate reproducibility, change degradation behavior, and introduce new toxicological or regulatory concerns.",
+      "source_papers": [
+        "R1"
+      ],
+      "source_titles": [
+        "Biodegradable synthetic polymers: Preparation, functionalization and biomedical application"
+      ]
+    },
+    {
+      "id": "M012",
+      "type": "multi_part",
+      "topic": "biomedical",
+      "question": "What makes PCL valuable in long-term implants or scaffolds, and when can its slow degradation become a disadvantage?",
+      "answer": "PCL is valuable because it offers long structural persistence, good processability, and usefulness in applications that need a scaffold to remain for an extended healing window. Its slow degradation becomes a disadvantage when faster tissue turnover, quicker drug release, or more rapid implant resorption is desired.",
+      "source_papers": [
+        "R5",
+        "R8"
+      ],
+      "source_titles": [
+        "Next-generation biodegradable polymers: toward a circular plastics economy",
+        "Biodegradable Polymers in Biomedical Applications: A Review—Developments, Perspectives and Future Challenges"
+      ]
+    },
+    {
+      "id": "M013",
+      "type": "multi_part",
+      "topic": "packaging",
+      "question": "Why is packaging a major target for biodegradable polymers, and why is packaging also one of the hardest sectors for full replacement?",
+      "answer": "Packaging is a major target because it generates massive short-life plastic volumes and aligns naturally with the logic of materials that need not persist for years. It is also one of the hardest sectors because packaging must still meet demanding cost, barrier, sealing, clarity, and infrastructure requirements at very large scale.",
+      "source_papers": [
+        "R4",
+        "R5",
+        "R6"
+      ],
+      "source_titles": [
+        "Sustainable and biodegradable polymer packaging: Perspectives, challenges, and opportunities",
+        "Next-generation biodegradable polymers: toward a circular plastics economy",
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications"
+      ]
+    },
+    {
+      "id": "M014",
+      "type": "multi_part",
+      "topic": "blends",
+      "question": "How do blend morphology and miscibility affect final properties, and why is that especially important in PLA-rich systems?",
+      "answer": "Blend morphology and miscibility determine whether stress can be transferred efficiently and whether the tough phase actually improves performance instead of acting like a defect. This is especially important in PLA-rich systems because PLA’s intrinsic brittleness means that poor morphology can erase the entire purpose of the blend.",
+      "source_papers": [
+        "R7"
+      ],
+      "source_titles": [
+        "Recent advances in biodegradable polymer blends and their biocomposites: a comprehensive review"
+      ]
+    },
+    {
+      "id": "M015",
+      "type": "multi_part",
+      "topic": "environment",
+      "question": "Why can biodegradable plastics still generate microplastic-like fragments, and what determines whether those fragments persist?",
+      "answer": "They can generate such fragments because fragmentation may occur earlier than full mineralization, especially under unfavorable environmental conditions. Persistence is then determined by factors such as microbial activity, temperature, moisture, oxygen availability, and the chemistry and size of the fragments themselves.",
+      "source_papers": [
+        "R5",
+        "R6"
+      ],
+      "source_titles": [
+        "Next-generation biodegradable polymers: toward a circular plastics economy",
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications"
+      ]
+    },
+    {
+      "id": "M016",
+      "type": "multi_part",
+      "topic": "biocomposites",
+      "question": "What advantages do natural fillers bring to biocomposites, and what interfacial problems can they create?",
+      "answer": "Natural fillers can improve stiffness, lower cost, increase renewable content, and in some cases modify degradation behavior beneficially. They can also create interfacial incompatibility, poor dispersion, and moisture-assisted defects if the filler surface does not interact well with the polymer matrix.",
+      "source_papers": [
+        "R7"
+      ],
+      "source_titles": [
+        "Recent advances in biodegradable polymer blends and their biocomposites: a comprehensive review"
+      ]
+    },
+    {
+      "id": "M017",
+      "type": "multi_part",
+      "topic": "bioprinting",
+      "question": "Why is bioprinting more complex than standard polymer printing, and why does that matter for material selection?",
+      "answer": "Bioprinting is more complex because it must protect cells or biomolecules while still delivering printable rheology and structural stability. That matters for material selection because many printable thermoplastics are biologically irrelevant, while many biologically attractive hydrogels print poorly without additional formulation work.",
+      "source_papers": [
+        "R2",
+        "R8"
+      ],
+      "source_titles": [
+        "3D printing of biodegradable polymers and their composites – Current state-of-the-art, properties, applications, and machine learning for potential future applications",
+        "Biodegradable Polymers in Biomedical Applications: A Review—Developments, Perspectives and Future Challenges"
+      ]
+    },
+    {
+      "id": "M018",
+      "type": "multi_part",
+      "topic": "biomedical",
+      "question": "What is the benefit of using responsive biodegradable polymers in drug delivery, and what translation barriers still remain?",
+      "answer": "The benefit is more selective release behavior, where the carrier can respond to a disease-relevant trigger instead of releasing cargo passively. Translation barriers remain because responsive systems are harder to synthesize, characterize, scale, and regulate than simpler degradable carriers.",
+      "source_papers": [
+        "R1"
+      ],
+      "source_titles": [
+        "Biodegradable synthetic polymers: Preparation, functionalization and biomedical application"
+      ]
+    },
+    {
+      "id": "M019",
+      "type": "multi_part",
+      "topic": "regulation",
+      "question": "Why do certification labels matter for biodegradable packaging, and why can they still fail to guarantee real-world environmental benefit?",
+      "answer": "Labels matter because they anchor claims to defined testing standards and reduce purely promotional use of the term biodegradable. They still cannot guarantee benefit in the real world if the product is mis-sorted, littered, too thick for the intended scenario, or used in places lacking the required treatment infrastructure.",
+      "source_papers": [
+        "R4",
+        "R6"
+      ],
+      "source_titles": [
+        "Sustainable and biodegradable polymer packaging: Perspectives, challenges, and opportunities",
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications"
+      ]
+    },
+    {
+      "id": "M020",
+      "type": "multi_part",
+      "topic": "recycling",
+      "question": "How does alcoholysis help depolymerize PLA, and what practical constraints affect catalyst and solvent choice?",
+      "answer": "Alcoholysis breaks ester bonds in PLA to generate smaller, potentially valuable chemical products under catalytic conditions. In practice, catalyst and solvent choices are constrained by selectivity, separation burden, corrosion, cost, and the need to avoid undermining the process with overly harsh or impractical conditions.",
+      "source_papers": [
+        "R3"
+      ],
+      "source_titles": [
+        "Catalytic chemical recycling of biodegradable polyesters"
+      ]
+    },
+    {
+      "id": "M021",
+      "type": "multi_part",
+      "topic": "materials_selection",
+      "question": "Why is PBS often discussed alongside PBAT and PLA, and what role does it fill in blend design?",
+      "answer": "PBS is discussed alongside them because it occupies an intermediate design space relevant to flexible and semi-rigid biodegradable products. In blend design it can help tune flexibility, processability, and balance-of-properties issues that neither neat PLA nor neat PBAT solves by itself.",
+      "source_papers": [
+        "R2",
+        "R5",
+        "R7"
+      ],
+      "source_titles": [
+        "3D printing of biodegradable polymers and their composites – Current state-of-the-art, properties, applications, and machine learning for potential future applications",
+        "Next-generation biodegradable polymers: toward a circular plastics economy",
+        "Recent advances in biodegradable polymer blends and their biocomposites: a comprehensive review"
+      ]
+    },
+    {
+      "id": "M022",
+      "type": "multi_part",
+      "topic": "society",
+      "question": "What makes BBPs appealing in public discourse, and what scientific caveats complicate that positive narrative?",
+      "answer": "BBPs are appealing because they promise movement away from fossil feedstocks and away from highly persistent plastic waste. The caveats are that environmental benefit depends on specific life-cycle choices, real degradation conditions, and the risk that optimistic messaging outruns the evidence.",
+      "source_papers": [
+        "R5",
+        "R6"
+      ],
+      "source_titles": [
+        "Next-generation biodegradable polymers: toward a circular plastics economy",
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications"
+      ]
+    },
+    {
+      "id": "M023",
+      "type": "multi_part",
+      "topic": "sustainability",
+      "question": "Why is life-cycle assessment necessary for biodegradable polymers, and what can it miss if system boundaries are poorly chosen?",
+      "answer": "Life-cycle assessment is necessary because it captures trade-offs among feedstock production, manufacturing, use, and end-of-life rather than focusing on a single stage. If system boundaries are poorly chosen, it can miss relevant impacts such as infrastructure mismatch, land-use implications, additive burdens, or unrealistic disposal assumptions.",
+      "source_papers": [
+        "R5",
+        "R6",
+        "R9"
+      ],
+      "source_titles": [
+        "Next-generation biodegradable polymers: toward a circular plastics economy",
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications",
+        "Biodegradable Polymers: Properties, Applications, and Environmental Impact"
+      ]
+    },
+    {
+      "id": "M024",
+      "type": "multi_part",
+      "topic": "energy",
+      "question": "What is the appeal of biodegradable polymers in transient energy devices, and what material conflicts appear once electrical performance is prioritized?",
+      "answer": "Their appeal lies in enabling devices that perform for a limited time and then do not persist indefinitely as waste. Once electrical performance is prioritized, however, the formulation often moves toward conductive fillers or stabilizers that can compromise degradability, simplicity, or environmental benignity.",
+      "source_papers": [
+        "R5"
+      ],
+      "source_titles": [
+        "Next-generation biodegradable polymers: toward a circular plastics economy"
+      ]
+    },
+    {
+      "id": "M025",
+      "type": "multi_part",
+      "topic": "biomedical",
+      "question": "Why are synthetic biodegradable polymers favored for reproducible biomedical manufacturing, and why are natural polymers still kept in the conversation?",
+      "answer": "Synthetic polymers are favored because they provide tighter control over composition, processing, degradation, and batch reproducibility. Natural polymers remain important because they contribute biological recognition, cell affinity, and biomimetic cues that purely synthetic systems often lack.",
+      "source_papers": [
+        "R1",
+        "R8"
+      ],
+      "source_titles": [
+        "Biodegradable synthetic polymers: Preparation, functionalization and biomedical application",
+        "Biodegradable Polymers in Biomedical Applications: A Review—Developments, Perspectives and Future Challenges"
+      ]
+    },
+    {
+      "id": "M026",
+      "type": "multi_part",
+      "topic": "packaging",
+      "question": "What makes thermoplastic starch attractive economically, and what formulation steps are usually needed to make it usable?",
+      "answer": "It is attractive economically because starch is abundant and relatively inexpensive. To make it usable, developers typically plasticize it and often blend, compatibilize, coat, or reinforce it so that moisture sensitivity and weak mechanical consistency do not dominate final performance.",
+      "source_papers": [
+        "R4",
+        "R7",
+        "R9"
+      ],
+      "source_titles": [
+        "Sustainable and biodegradable polymer packaging: Perspectives, challenges, and opportunities",
+        "Recent advances in biodegradable polymer blends and their biocomposites: a comprehensive review",
+        "Biodegradable Polymers: Properties, Applications, and Environmental Impact"
+      ]
+    },
+    {
+      "id": "M027",
+      "type": "multi_part",
+      "topic": "communication",
+      "question": "Why does compostability not necessarily imply marine degradability, and why is that distinction important for communication?",
+      "answer": "Compostability is usually certified under controlled compost conditions, whereas marine environments are colder, more dilute, and biologically different. The distinction is important because oversimplified messaging can make consumers assume a material is harmless in any environment, which is scientifically untrue.",
+      "source_papers": [
+        "R5",
+        "R6"
+      ],
+      "source_titles": [
+        "Next-generation biodegradable polymers: toward a circular plastics economy",
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications"
+      ]
+    },
+    {
+      "id": "M028",
+      "type": "multi_part",
+      "topic": "3d_printing",
+      "question": "What does machine learning promise for biodegradable polymer printing, and what prevents immediate industrial adoption?",
+      "answer": "Machine learning promises faster optimization of process windows, defect prediction, and property mapping across many variables. Immediate adoption is limited by sparse datasets, changing material batches, nonstandardized experiments, and the gap between laboratory data and industrially stable process control.",
+      "source_papers": [
+        "R2"
+      ],
+      "source_titles": [
+        "3D printing of biodegradable polymers and their composites – Current state-of-the-art, properties, applications, and machine learning for potential future applications"
+      ]
+    },
+    {
+      "id": "M029",
+      "type": "multi_part",
+      "topic": "copolymers",
+      "question": "Why do copolymers offer more design freedom than homopolymers, and what extra complexity do they introduce in characterization?",
+      "answer": "They offer more freedom because composition can be adjusted to tune degradation, crystallinity, mechanics, hydrophilicity, and function in ways a single repeat unit cannot. The trade-off is added characterization complexity, since sequence effects, composition drift, phase behavior, and degradation pathways can all become harder to interpret.",
+      "source_papers": [
+        "R1",
+        "R9"
+      ],
+      "source_titles": [
+        "Biodegradable synthetic polymers: Preparation, functionalization and biomedical application",
+        "Biodegradable Polymers: Properties, Applications, and Environmental Impact"
+      ]
+    },
+    {
+      "id": "M030",
+      "type": "multi_part",
+      "topic": "infrastructure",
+      "question": "Why is end-of-life infrastructure central to circular plastics policy, and what happens when materials are introduced faster than sorting or processing systems adapt?",
+      "answer": "Infrastructure is central because even a well-designed material only delivers value when it is collected and sent to a compatible recovery or treatment route. When material adoption outruns system adaptation, contamination, mis-sorting, and public confusion can erase much of the intended benefit.",
+      "source_papers": [
+        "R4",
+        "R5",
+        "R6"
+      ],
+      "source_titles": [
+        "Sustainable and biodegradable polymer packaging: Perspectives, challenges, and opportunities",
+        "Next-generation biodegradable polymers: toward a circular plastics economy",
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications"
+      ]
+    },
+    {
+      "id": "M031",
+      "type": "multi_part",
+      "topic": "biomedical",
+      "question": "What are the main biomedical requirements for a degradable implant, and what property trade-offs make it difficult to satisfy all of them in a single material?",
+      "answer": "A degradable implant should combine biocompatibility, adequate initial mechanical support, predictable degradation behavior, acceptable degradation products, and practical processability for fabrication and sterilization. It is difficult to satisfy all of these requirements in one material because they are often coupled through trade-offs: materials with higher strength or slower hydrolysis may persist too long, while faster-resorbing materials may lose mechanics too early; adding biofunctionality or porosity can improve tissue interaction but may weaken structural integrity or complicate processing. As a result, no single polymer usually optimizes every requirement simultaneously.",
+      "source_papers": [
+        "R1",
+        "R8"
+      ],
+      "source_titles": [
+        "Biodegradable synthetic polymers: Preparation, functionalization and biomedical application",
+        "Biodegradable Polymers in Biomedical Applications: A Review—Developments, Perspectives and Future Challenges"
+      ]
+    },
+    {
+      "id": "M032",
+      "type": "multi_part",
+      "topic": "blends",
+      "question": "Why can biodegradable blend design improve toughness, and why does that improvement often come with trade-offs in stiffness or heat resistance?",
+      "answer": "Toughness improves when a second phase changes stress distribution and failure behavior relative to a brittle neat matrix. The trade-off arises because the softer or more flexible phase that helps absorb energy can also reduce modulus, thermal resistance, or dimensional stability.",
+      "source_papers": [
+        "R7"
+      ],
+      "source_titles": [
+        "Recent advances in biodegradable polymer blends and their biocomposites: a comprehensive review"
+      ]
+    },
+    {
+      "id": "M033",
+      "type": "multi_part",
+      "topic": "materials_selection",
+      "question": "Why is PLA dominant in commercial bioplastics, and why does that dominance not settle the broader sustainability debate?",
+      "answer": "PLA is dominant because it combines industrial availability, recognizable bio-based positioning, and compatibility with major processing routes. Its dominance does not settle the sustainability debate because realistic end-of-life behavior, infrastructure, additives, and use-case fit still determine whether it is genuinely preferable in practice.",
+      "source_papers": [
+        "R4",
+        "R6"
+      ],
+      "source_titles": [
+        "Sustainable and biodegradable polymer packaging: Perspectives, challenges, and opportunities",
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications"
+      ]
+    },
+    {
+      "id": "M034",
+      "type": "multi_part",
+      "topic": "degradation",
+      "question": "How do environmental conditions change degradation behavior, and how should that affect product design claims?",
+      "answer": "Environmental conditions change degradation by controlling hydrolysis, microbial access, oxidation, and physical disintegration. Product claims should therefore be scenario-specific, stating the relevant disposal environment rather than implying uniform biodegradation everywhere.",
+      "source_papers": [
+        "R5",
+        "R6",
+        "R9"
+      ],
+      "source_titles": [
+        "Next-generation biodegradable polymers: toward a circular plastics economy",
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications",
+        "Biodegradable Polymers: Properties, Applications, and Environmental Impact"
+      ]
+    },
+    {
+      "id": "M035",
+      "type": "multi_part",
+      "topic": "circularity",
+      "question": "What is the difference between designing for biodegradation and designing for recycling, and can one material realistically do both well?",
+      "answer": "Designing for biodegradation prioritizes controlled breakdown after use, whereas designing for recycling prioritizes preservation of recoverable material value and compatibility with recovery systems. One material can sometimes support both in theory, but in practice the application and waste pathway usually force one route to be the primary design target.",
+      "source_papers": [
+        "R3",
+        "R5",
+        "R6"
+      ],
+      "source_titles": [
+        "Catalytic chemical recycling of biodegradable polyesters",
+        "Next-generation biodegradable polymers: toward a circular plastics economy",
+        "Plastics of the Future? An Interdisciplinary Review on Biobased and Biodegradable Polymers: Progress in Chemistry, Societal Views, and Environmental Implications"
+      ]
+    },
+    {
+      "id": "M036",
+      "type": "multi_part",
+      "topic": "biomedical",
+      "question": "Why are reactive side groups valuable in biomedical polymers, and how do they change downstream processing or storage?",
+      "answer": "Reactive side groups are valuable because they create anchor points for drugs, ligands, imaging probes, or crosslinking chemistry. They also make downstream handling more sensitive, since unintended reactions, moisture exposure, or storage instability can become more important than for inert backbones.",
+      "source_papers": [
+        "R1"
+      ],
+      "source_titles": [
+        "Biodegradable synthetic polymers: Preparation, functionalization and biomedical application"
+      ]
+    },
+    {
+      "id": "M037",
+      "type": "multi_part",
+      "topic": "agriculture",
+      "question": "What are the opportunities for biodegradable polymers in agriculture, and what unanswered questions remain about soil interactions and ecotoxicity?",
+      "answer": "The opportunities include mulch films, controlled-release systems, and other products where recovery is difficult and degradability has practical value. Unanswered questions remain about actual soil breakdown rates, residue persistence, interactions with soil biology, and the ecotoxicity of additives or incomplete degradation products.",
+      "source_papers": [
+        "R5",
+        "R9"
+      ],
+      "source_titles": [
+        "Next-generation biodegradable polymers: toward a circular plastics economy",
+        "Biodegradable Polymers: Properties, Applications, and Environmental Impact"
+      ]
+    }
+  ]
+}
