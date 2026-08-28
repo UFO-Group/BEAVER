@@ -190,31 +190,5 @@ Set `BEAVER_CORPUS_GRANULARITY` to `paras` to use the paragraph-level corpus.
 The BM25 index and other retrieval caches are generated automatically during
 the first run and are therefore not included in the Zenodo archive.
 
-## Folder structure
-
-| Folder | Purpose |
-|---|---|
-| `Agent_Config/` | Stores model names, corpus locations, output settings, and the shared LLM/API client. |
-| `APP/` | Contains the Streamlit entry point, login interface, sidebar configuration, chat interface, and web assets. |
-| `Intent/` | Classifies user requests and routes them to question-answering or polymer-design workflows. |
-| `memory/` | Implements short-term and long-term Agent memory. |
-| `Planner/` | Decomposes requests, executes workflow steps, queries property data, and coordinates design tasks. |
-| `Quality_loop/` | Performs answer-quality checks and knowledge-graph-assisted consistency inspection. |
-| `RAG/` | Loads retrieval indexes and performs Dense, BM25, hybrid retrieval, reranking, and evidence-grounded answering. |
-| `Report/` | Generates reports, Word documents, design summaries, and repeat-unit figures. |
-| `resources/` | Contains the polymer-name keyword files and polymer-name/SMILES dictionary used for repeat-unit figures. |
-| `Utils/` | Provides shared file, text, path, plotting, and document-conversion utilities. |
-
-## Security
-
-Do not place real API keys, service credentials, tunnel tokens, or populated user databases in the source-code package. Reviewers should use their own API credentials or access a separately hosted demonstration instance.
-
-## Data availability
-
-The large literature embeddings and associated metadata required by the
-BEAVER retrieval workflow are available from Zenodo:
-
-https://doi.org/10.5281/zenodo.22135808
-
 The source code and configuration instructions are provided in this GitHub
 repository.
