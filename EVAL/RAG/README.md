@@ -20,7 +20,7 @@ This folder contains the retrieval-augmented generation (RAG) evaluation used in
 | `RAG_script/RAG_BERTScore_COS.py` | Generates answers and calculates Cosine Similarity and BERTScore. |
 | `RAG_script/RAG_AS.py` | Generates answers and evaluates them using RAGAS. |
 | `RAG_script/RAG_BERTScore_COS_draw.ipynb` | Draws the Cosine Similarity and BERTScore figures. |
-| `RAG_script/RAG_AS_draw.ipynb` | Draws the RAGAS figures. |
+| `RAG_script/RAG_AS_draw_completed.ipynb` | Draws the RAGAS figures. |
 
 Each retrieval-method folder contains the question-level results, metric details, summary tables, and distribution figures. The final manuscript figures are stored directly under `para/BERT_COS`, `para/RAG_AS`, `chunk/BERT_COS`, and `chunk/RAG_AS`.
 
