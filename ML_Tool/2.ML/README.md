@@ -320,3 +320,24 @@ python draw/draw_r2_joint.py \
 ```
 
 The plotting scripts expect positive values on the original linear scale when generating their additional log10 panels. The Young's-modulus, tensile-strength, and elongation-at-break training targets in this folder are already stored as log10 values; do not apply a second log10 transformation to those columns. In addition, `draw_r2.py` contains property-specific hard-coded titles, so they should be adjusted before it is used for another property.
+
+## Grid-search results
+
+The complete grid-search CSV and JSON outputs are archived on Zenodo as
+`BEAVER_ML_grid_results.zip`. Serialized `.pkl` and `.joblib` models are not
+included because they can be regenerated from the deposited training data and
+source code.
+
+## Final cross-validation results
+
+The final fold-level and summary metrics are archived on Zenodo as
+`BEAVER_ML_metrics.zip`. The archive contains `metrics.json`,
+`cv10_metrics.csv`, `cv10_summary.json`, and related summary files for five
+polymer properties and eight candidate models.
+
+## Data availability
+
+Large training datasets, grid-search outputs, final cross-validation metrics,
+and the property database are available from Zenodo:
+
+https://doi.org/10.5281/zenodo.22135808
