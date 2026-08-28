@@ -1,0 +1,16 @@
+﻿Setting,question_structure,Model,Model_Label,n_items,Detail_Specificity,Scientific_Grounding,Mechanistic_Explanation,Organization_Format_Quality,Anchor_Alignment,Internal_Consistency,Research_Utility,Overall
+Reverse,single,BEAVER_NoQualityLoop,BEAVER,37,9.408,8.292,9.095,8.362,8.768,8.6,8.941,8.815
+Reverse,single,Constrained_DeepSeek-V3,Constrained DS-V3,37,9.089,7.724,9.386,8.973,8.008,9.335,8.935,8.661
+Reverse,single,Raw_DeepSeek-V3,Raw DS-V3,37,7.808,7.873,7.395,8.37,9.016,8.795,7.511,8.061
+Reverse,single,Constrained_DeepSeek-R1,Constrained DS-R1,37,9.203,7.608,9.473,8.897,7.908,9.305,8.859,8.637
+Reverse,single,Raw_DeepSeek-R1,Raw DS-R1,37,7.678,7.759,7.238,8.254,8.824,8.849,7.311,7.926
+Reverse,single_with_facets,BEAVER_NoQualityLoop,BEAVER,37,9.259,7.43,8.746,7.827,7.954,7.703,8.416,8.236
+Reverse,single_with_facets,Constrained_DeepSeek-V3,Constrained DS-V3,37,9.003,7.173,9.27,8.981,7.392,9.284,9.005,8.411
+Reverse,single_with_facets,Raw_DeepSeek-V3,Raw DS-V3,37,8.238,8.205,7.919,8.849,8.886,8.746,8.251,8.388
+Reverse,single_with_facets,Constrained_DeepSeek-R1,Constrained DS-R1,37,9.257,7.376,9.457,8.873,7.605,9.232,8.87,8.536
+Reverse,single_with_facets,Raw_DeepSeek-R1,Raw DS-R1,37,8.227,7.854,7.719,8.616,8.559,8.649,8.151,8.187
+Reverse,multi_part,BEAVER_NoQualityLoop,BEAVER,37,9.3,8.154,8.83,7.959,8.603,8.273,8.619,8.599
+Reverse,multi_part,Constrained_DeepSeek-V3,Constrained DS-V3,37,9.057,7.797,9.373,8.997,8.132,9.378,8.895,8.691
+Reverse,multi_part,Raw_DeepSeek-V3,Raw DS-V3,37,8.078,8.141,7.9,8.446,9.065,8.959,7.924,8.321
+Reverse,multi_part,Constrained_DeepSeek-R1,Constrained DS-R1,37,9.014,7.838,9.278,8.816,8.305,9.219,8.595,8.644
+Reverse,multi_part,Raw_DeepSeek-R1,Raw DS-R1,37,7.7,7.789,7.462,8.27,8.716,8.805,7.324,7.952

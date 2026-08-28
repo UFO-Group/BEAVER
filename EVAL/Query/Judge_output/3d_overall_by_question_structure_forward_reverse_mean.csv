@@ -1,0 +1,4 @@
+﻿QuestionStructure,BEAVER_NoQualityLoop,Constrained_DeepSeek-R1,Constrained_DeepSeek-V3,Raw_DeepSeek-R1,Raw_DeepSeek-V3
+single,8.982,8.32,8.543,7.904,7.98
+single_with_facets,8.535,8.127,8.216,8.129,8.346
+multi_part,8.795,8.358,8.515,7.924,8.272

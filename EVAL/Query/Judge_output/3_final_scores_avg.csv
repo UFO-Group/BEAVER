@@ -1,0 +1,6 @@
+﻿Model,Detail_Specificity,Scientific_Grounding,Mechanistic_Explanation,Organization_Format_Quality,Anchor_Alignment,Internal_Consistency,Research_Utility,Overall,JudgeParseOK(%),InvalidAnswer(%),ScoredItems,Coverage(%),Overall_from_4_12,Overall_from_5_12
+BEAVER_NoQualityLoop,9.41,8.23,9.16,8.3,8.58,8.62,8.9,8.77,100.0,0.0,111.0,100.0,8.99,8.55
+Constrained_DeepSeek-V3,8.81,7.52,9.09,8.81,7.8,9.12,8.7,8.42,100.0,0.0,111.0,100.0,8.26,8.59
+Constrained_DeepSeek-R1,8.62,7.49,8.83,8.56,7.82,8.87,8.34,8.27,100.0,0.0,111.0,100.0,7.93,8.61
+Raw_DeepSeek-V3,7.98,8.04,7.72,8.49,8.86,8.78,7.85,8.2,100.0,0.0,111.0,100.0,8.14,8.26
+Raw_DeepSeek-R1,7.86,7.76,7.54,8.28,8.59,8.61,7.64,7.99,100.0,0.0,111.0,100.0,7.95,8.02

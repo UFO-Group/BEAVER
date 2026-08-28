@@ -1,0 +1,776 @@
+[2026-05-12 13:35:38] ================================================================================
+[2026-05-12 13:35:38] 开始运行 BEAVER_VS_LLMs.py
+[2026-05-12 13:35:38] ✅ 已加载旧 raw answers: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\1_raw_answers.csv
+[2026-05-12 13:36:41] ▶️ 用户选择：直接从评分开始。
+[2026-05-12 13:36:41] ⏩ 已按用户选择跳过生成阶段。
+[2026-05-12 13:36:41] ⚖️ Round 3: AI Judge scoring by question (workers=2)
+[2026-05-12 13:36:41] 🚀 开始按问题同时评分: pending=111
+[2026-05-12 13:38:25] ✅ API成功 [Judge::AllModels] row=0 model=DeepSeek-R1 time=104.50s chars=3107 preview=```json {   "Critique": "All responses capture the core conclusion from the Ground Truth (engineerable chemistry enabling control over degradation, mechanics, a...
+[2026-05-12 13:38:25] ✅ Judge成功 row=0 models=5
+[2026-05-12 13:38:41] ❌ API失败 [Judge::AllModels] row=1 model=DeepSeek-R1 attempt=1/3 time=120.38s error=Request timed out.
+[2026-05-12 13:44:18] ================================================================================
+[2026-05-12 13:44:18] 开始运行 BEAVER_VS_LLMs.py
+[2026-05-12 13:44:18] ✅ 已加载旧 raw answers: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\1_raw_answers.csv
+[2026-05-12 13:45:03] ================================================================================
+[2026-05-12 13:45:03] 开始运行 BEAVER_VS_LLMs.py
+[2026-05-12 13:45:03] ✅ 已加载旧 raw answers: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\1_raw_answers.csv
+[2026-05-12 13:45:04] ▶️ 用户选择：直接从评分开始。
+[2026-05-12 13:45:04] ⏩ 已按用户选择跳过生成阶段。
+[2026-05-12 13:45:04] ⚖️ Round 3: AI Judge scoring by question (workers=2)
+[2026-05-12 13:45:04] 🚀 开始按问题同时评分: pending=111
+[2026-05-12 13:45:06] ▶️ 用户选择：直接从评分开始。
+[2026-05-12 13:45:06] ⏩ 已按用户选择跳过生成阶段。
+[2026-05-12 13:45:06] ⚖️ Round 3: AI Judge scoring by question (workers=2)
+[2026-05-12 13:45:06] 🚀 开始按问题同时评分: pending=111
+[2026-05-12 13:46:04] ✅ API成功 [Judge::AllModels] row=0 model=DeepSeek-R1 time=60.31s chars=3420 preview={   "Critique": "All responses effectively capture the core GT premise of engineerable control over properties, but differ significantly in scientific depth and...
+[2026-05-12 13:46:04] ✅ Judge成功 row=0 models=5
+[2026-05-12 13:46:23] ✅ API成功 [Judge::AllModels] row=1 model=DeepSeek-R1 time=77.39s chars=3729 preview={   "Critique": "All responses capture PLA's core dominance factors from the GT (renewable sourcing, processability, commercial viability). BEAVER excels in spe...
+[2026-05-12 13:46:23] ✅ Judge成功 row=1 models=5
+[2026-05-12 13:46:45] ✅ API成功 [Judge::AllModels] row=1 model=DeepSeek-R1 time=100.86s chars=2616 preview=```json {   "Critique": "All responses align with the GT's core points but vary in depth and scientific rigor. Constrained models excel in mechanistic depth and...
+[2026-05-12 13:46:45] ✅ Judge成功 row=1 models=5
+[2026-05-12 13:47:03] ✅ API成功 [Judge::AllModels] row=0 model=DeepSeek-R1 time=117.01s chars=3152 preview=**Critique:**   BEAVER_NoQualityLoop provides exceptional depth, integrating molecular mechanisms, concrete polymer examples, and quantitative data, while maint...
+[2026-05-12 13:47:03] ✅ Judge成功 row=0 models=5
+[2026-05-12 13:47:28] ✅ API成功 [Judge::AllModels] row=2 model=DeepSeek-R1 time=83.88s chars=2947 preview=```json {   "Critique": "All responses correctly address the core question and align with the GT's scientific conclusions. Constrained models demonstrate superi...
+[2026-05-12 13:47:28] ✅ Judge成功 row=2 models=5
+[2026-05-12 13:48:06] ✅ API成功 [Judge::AllModels] row=3 model=DeepSeek-R1 time=63.31s chars=3056 preview={   "Critique": "All responses correctly address the core sustainability advantages of PHAs as outlined in the GT. BEAVER_NoQualityLoop demonstrates exceptional...
+[2026-05-12 13:48:06] ✅ Judge成功 row=3 models=5
+[2026-05-12 13:48:16] ✅ API成功 [Judge::AllModels] row=2 model=DeepSeek-R1 time=112.19s chars=3420 preview=**Error Analysis**: The task requires evaluating five candidate responses, but the provided JSON schema template only accommodates two models. This creates a st...
+[2026-05-12 13:48:16] ✅ Judge成功 row=2 models=5
+[2026-05-12 13:48:26] ✅ API成功 [Judge::AllModels] row=3 model=DeepSeek-R1 time=101.93s chars=2590 preview=```json {   "Critique": "All responses adequately address the sustainability of PHAs, with varying levels of detail and scientific depth. Constrained_DeepSeek-V...
+[2026-05-12 13:48:26] ✅ Judge成功 row=3 models=5
+[2026-05-12 13:49:08] ✅ API成功 [Judge::AllModels] row=4 model=DeepSeek-R1 time=99.69s chars=3238 preview={   "Critique": "All responses correctly identify the primary purpose of reactive groups as enabling post-functionalization for biomedical enhancement, aligning...
+[2026-05-12 13:49:08] ✅ Judge成功 row=4 models=5
+[2026-05-12 13:49:28] ✅ API成功 [Judge::AllModels] row=4 model=DeepSeek-R1 time=81.27s chars=2754 preview=```json {   "Critique": "All responses correctly address the core purpose of reactive groups as defined in the GT (chemical addressability for functionalization...
+[2026-05-12 13:49:28] ✅ Judge成功 row=4 models=5
+[2026-05-12 13:50:11] ✅ API成功 [Judge::AllModels] row=5 model=DeepSeek-R1 time=115.49s chars=2584 preview=```json {   "Critique": "All responses address the core value of stimuli-responsive biodegradable polymers in medicine as per the GT, with varying levels of det...
+[2026-05-12 13:50:11] ✅ Judge成功 row=5 models=5
+[2026-05-12 13:50:27] ❌ API失败 [Judge::AllModels] row=5 model=DeepSeek-R1 attempt=1/3 time=120.09s error=Request timed out.
+[2026-05-12 13:51:07] ✅ API成功 [Judge::AllModels] row=6 model=DeepSeek-R1 time=99.55s chars=3354 preview={   "Critique": "All responses correctly anchor to PLGA's core advantages: biocompatibility, tunable degradation, and processability. BEAVER_NoQualityLoop demon...
+[2026-05-12 13:51:07] ✅ Judge成功 row=6 models=5
+[2026-05-12 13:51:08] ❌ API失败 [Judge::AllModels] row=6 model=DeepSeek-R1 attempt=1/3 time=120.11s error=Request timed out.
+[2026-05-12 13:51:23] ✅ API成功 [Judge::AllModels] row=7 model=DeepSeek-R1 time=71.64s chars=3180 preview={   "Critique": "All responses correctly identify the core limitations from the Ground Truth: premature mechanical degradation, stiffness mismatch, and biocompa...
+[2026-05-12 13:51:23] ✅ Judge成功 row=7 models=5
+[2026-05-12 13:51:37] ✅ API成功 [Judge::AllModels] row=5 model=DeepSeek-R1 time=68.20s chars=2752 preview=```json {   "Critique": "All responses align with the GT's core conclusion that stimuli-responsive biodegradable polymers enable targeted therapy and reduced of...
+[2026-05-12 13:51:37] ✅ Judge成功 row=5 models=5
+[2026-05-12 13:52:16] ✅ API成功 [Judge::AllModels] row=8 model=DeepSeek-R1 time=68.58s chars=2886 preview=```json {   "Critique": "All responses adequately address the core GT points of ECM mimicry, material versatility, and structural control. BEAVER and Constraine...
+[2026-05-12 13:52:16] ✅ Judge成功 row=8 models=5
+[2026-05-12 13:52:23] ✅ API成功 [Judge::AllModels] row=6 model=DeepSeek-R1 time=73.65s chars=3489 preview={   "Critique": "All responses correctly capture the core GT concepts of biocompatibility, tunable degradation, and processability. Differences emerge in scient...
+[2026-05-12 13:52:23] ✅ Judge成功 row=6 models=5
+[2026-05-12 13:52:39] ✅ API成功 [Judge::AllModels] row=9 model=DeepSeek-R1 time=76.52s chars=3873 preview=```json {   "Critique": "All responses correctly address the core conclusion from the Ground Truth (GT) that bioprinting requires stricter control of material a...
+[2026-05-12 13:52:39] ✅ Judge成功 row=9 models=5
+[2026-05-12 13:52:40] ✅ save_current_outputs: raw answers + cleaned columns saved
+[2026-05-12 13:52:40] ✅ save_current_outputs: generation status built
+[2026-05-12 13:52:40] ✅ save_current_outputs: item scores saved
+[2026-05-12 13:52:40] ✅ save_current_outputs: summary saved
+[2026-05-12 13:52:41] 📊 图表已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\4_arena_chart.png
+[2026-05-12 13:52:41] ✅ save_current_outputs: plot saved
+[2026-05-12 13:52:41] 💾 已中间保存评分: 10/111 (latest_ok=True)
+[2026-05-12 13:53:05] ✅ API成功 [Judge::AllModels] row=7 model=DeepSeek-R1 time=88.65s chars=3105 preview={   "Critique": "All responses exceed the Ground Truth in detail and depth while maintaining core alignment. Raw_DeepSeek-R1 provides the most comprehensive cov...
+[2026-05-12 13:53:05] ✅ Judge成功 row=7 models=5
+[2026-05-12 13:53:39] ✅ API成功 [Judge::AllModels] row=10 model=DeepSeek-R1 time=83.70s chars=3077 preview=```json {   "Critique": "All responses align with the GT's core conclusions, but vary in depth, scientific grounding, and research utility. BEAVER and Constrain...
+[2026-05-12 13:53:39] ✅ Judge成功 row=10 models=5
+[2026-05-12 13:53:50] ✅ API成功 [Judge::AllModels] row=8 model=DeepSeek-R1 time=86.22s chars=3240 preview={   "Critique": "All responses correctly capture the core scientific conclusions from the Ground Truth (ECM mimicry, porous structure, material versatility). Th...
+[2026-05-12 13:53:50] ✅ Judge成功 row=8 models=5
+[2026-05-12 13:54:29] ✅ API成功 [Judge::AllModels] row=9 model=DeepSeek-R1 time=83.49s chars=2837 preview=```json {   "Critique": "All responses address the core conclusion that bioprinting demands stem from maintaining cell viability alongside printability, with va...
+[2026-05-12 13:54:29] ✅ Judge成功 row=9 models=5
+[2026-05-12 13:54:29] ✅ save_current_outputs: raw answers + cleaned columns saved
+[2026-05-12 13:54:29] ✅ save_current_outputs: generation status built
+[2026-05-12 13:54:29] ✅ save_current_outputs: item scores saved
+[2026-05-12 13:54:29] ✅ save_current_outputs: summary saved
+[2026-05-12 13:54:30] 📊 图表已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\4_arena_chart_倒.png
+[2026-05-12 13:54:30] ✅ save_current_outputs: plot saved
+[2026-05-12 13:54:30] 💾 已中间保存评分: 10/111 (latest_ok=True)
+[2026-05-12 13:54:39] ❌ API失败 [Judge::AllModels] row=11 model=DeepSeek-R1 attempt=1/3 time=120.24s error=Request timed out.
+[2026-05-12 13:55:40] ❌ API失败 [Judge::AllModels] row=12 model=DeepSeek-R1 attempt=1/3 time=120.09s error=Request timed out.
+[2026-05-12 13:55:50] ❌ API失败 [Judge::AllModels] row=10 model=DeepSeek-R1 attempt=1/3 time=120.09s error=Request timed out.
+[2026-05-12 13:55:58] ✅ API成功 [Judge::AllModels] row=11 model=DeepSeek-R1 time=89.49s chars=2816 preview=```json {   "Critique": "All responses address the core reasons for post-processing biodegradable 3D prints as outlined in the GT. Constrained_DeepSeek variants...
+[2026-05-12 13:55:58] ✅ Judge成功 row=11 models=5
+[2026-05-12 13:56:11] ✅ API成功 [Judge::AllModels] row=11 model=DeepSeek-R1 time=89.39s chars=2665 preview=```json {   "Critique": "BEAVER_NoQualityLoop demonstrates exceptional detail and mechanistic depth with quantitative data and traceable references, though orga...
+[2026-05-12 13:56:11] ✅ Judge成功 row=11 models=5
+[2026-05-12 13:57:16] ✅ API成功 [Judge::AllModels] row=10 model=DeepSeek-R1 time=84.79s chars=3350 preview={   "Critique": "All responses capture the core GT conclusion: FDM/FFF dominates due to material compatibility (especially PLA), cost-effectiveness, and accessi...
+[2026-05-12 13:57:16] ✅ Judge成功 row=10 models=5
+[2026-05-12 13:57:23] ✅ API成功 [Judge::AllModels] row=12 model=DeepSeek-R1 time=84.67s chars=3340 preview={   "Critique": "All responses correctly identify the core function of compatibilizers per the Ground Truth. Significant differentiation occurs in scientific de...
+[2026-05-12 13:57:23] ✅ Judge成功 row=12 models=5
+[2026-05-12 13:57:31] ✅ API成功 [Judge::AllModels] row=12 model=DeepSeek-R1 time=109.10s chars=2769 preview=```json {   "Critique": "BEAVER_NoQualityLoop provides the most comprehensive and scientifically grounded response, excelling in detail and research utility. Ra...
+[2026-05-12 13:57:31] ✅ Judge成功 row=12 models=5
+[2026-05-12 13:57:32] ✅ API成功 [Judge::AllModels] row=13 model=DeepSeek-R1 time=81.30s chars=1348 preview=```json {   "Critique": "BEAVER_NoQualityLoop provides extensive detail and scientific mechanisms but includes some unsupported references. Raw_DeepSeek-V3 is c...
+[2026-05-12 13:57:32] ✅ Judge成功 row=13 models=5
+[2026-05-12 13:58:47] ✅ API成功 [Judge::AllModels] row=14 model=DeepSeek-R1 time=76.53s chars=2673 preview=```json {   "Critique": "BEAVER_NoQualityLoop provides the most detailed and scientifically grounded response, excelling in mechanistic explanations and researc...
+[2026-05-12 13:58:47] ✅ Judge成功 row=14 models=5
+[2026-05-12 13:59:17] ❌ API失败 [Judge::AllModels] row=13 model=DeepSeek-R1 attempt=1/3 time=120.09s error=Request timed out.
+[2026-05-12 13:59:24] ❌ API失败 [Judge::AllModels] row=14 model=DeepSeek-R1 attempt=1/3 time=121.11s error=Request timed out.
+[2026-05-12 13:59:32] ❌ API失败 [Judge::AllModels] row=15 model=DeepSeek-R1 attempt=1/3 time=120.08s error=Request timed out.
+[2026-05-12 14:00:20] ✅ API成功 [Judge::AllModels] row=13 model=DeepSeek-R1 time=61.72s chars=2906 preview=```json {   "Critique": "All responses align with the GT's core conclusion that PLA/PBAT blending combines stiffness and ductility while maintaining biodegradab...
+[2026-05-12 14:00:20] ✅ Judge成功 row=13 models=5
+[2026-05-12 14:00:39] ✅ API成功 [Judge::AllModels] row=15 model=DeepSeek-R1 time=64.62s chars=2759 preview=```json {   "Critique": "BEAVER_NoQualityLoop provides the most detailed and scientifically grounded response with extensive mechanistic explanations and eviden...
+[2026-05-12 14:00:39] ✅ Judge成功 row=15 models=5
+[2026-05-12 14:00:45] ✅ API成功 [Judge::AllModels] row=14 model=DeepSeek-R1 time=79.04s chars=2491 preview=```json {   "Critique": "All responses correctly address the core conclusion from the GT regarding TPS's moisture sensitivity and mechanical limitations. The Co...
+[2026-05-12 14:00:45] ✅ Judge成功 row=14 models=5
+[2026-05-12 14:00:47] ❌ API失败 [Judge::AllModels] row=16 model=DeepSeek-R1 attempt=1/3 time=120.10s error=Request timed out.
+[2026-05-12 14:01:27] ✅ API成功 [Judge::AllModels] row=15 model=DeepSeek-R1 time=66.73s chars=3117 preview={   "Critique": "All responses adequately cover the GT's core points of renewability, biodegradability, and functional versatility. Significant differentiation ...
+[2026-05-12 14:01:27] ✅ Judge成功 row=15 models=5
+[2026-05-12 14:01:53] ✅ API成功 [Judge::AllModels] row=17 model=DeepSeek-R1 time=73.77s chars=3312 preview={   "Critique": "All responses correctly distinguish biobased (origin) vs biodegradable (end-of-life) as orthogonal properties, aligning with the GT. BEAVER and...
+[2026-05-12 14:01:53] ✅ Judge成功 row=17 models=5
+[2026-05-12 14:01:57] ✅ API成功 [Judge::AllModels] row=16 model=DeepSeek-R1 time=67.54s chars=2970 preview=```json {   "Critique": "BEAVER_NoQualityLoop and Constrained_DeepSeek-V3 provide the most scientifically grounded, detailed, and actionable responses, with str...
+[2026-05-12 14:01:57] ✅ Judge成功 row=16 models=5
+[2026-05-12 14:02:29] ✅ API成功 [Judge::AllModels] row=16 model=DeepSeek-R1 time=103.88s chars=3207 preview={   "Critique": "All responses correctly address the core question and align with the GT's essential conclusion: PVA's moisture sensitivity is mitigated through...
+[2026-05-12 14:02:29] ✅ Judge成功 row=16 models=5
+[2026-05-12 14:02:50] ✅ API成功 [Judge::AllModels] row=17 model=DeepSeek-R1 time=82.75s chars=2811 preview={   "Critique": "All responses correctly anchor the core distinction: biobased = carbon origin, biodegradable = end-of-life behavior. Constrained models excel i...
+[2026-05-12 14:02:50] ✅ Judge成功 row=17 models=5
+[2026-05-12 14:03:18] ✅ API成功 [Judge::AllModels] row=18 model=DeepSeek-R1 time=85.21s chars=3520 preview={   "Critique": "All responses correctly capture the GT's core scientific conclusion: biodegradability is environment-dependent due to variable biotic/abiotic f...
+[2026-05-12 14:03:18] ✅ Judge成功 row=18 models=5
+[2026-05-12 14:03:43] ✅ API成功 [Judge::AllModels] row=18 model=DeepSeek-R1 time=73.54s chars=3275 preview={   "Critique": "All responses correctly capture the core scientific conclusion from the Ground Truth: biodegradability is environment-dependent due to variable...
+[2026-05-12 14:03:43] ✅ Judge成功 row=18 models=5
+[2026-05-12 14:03:57] ❌ API失败 [Judge::AllModels] row=19 model=DeepSeek-R1 attempt=1/3 time=120.09s error=Request timed out.
+[2026-05-12 14:04:43] ✅ API成功 [Judge::AllModels] row=20 model=DeepSeek-R1 time=84.85s chars=3799 preview={   "Critique": "All responses capture the core GT conclusion that alcoholysis enables selective depolymerization to valuable monomers under mild catalytic cond...
+[2026-05-12 14:04:43] ✅ Judge成功 row=20 models=5
+[2026-05-12 14:04:43] ✅ save_current_outputs: raw answers + cleaned columns saved
+[2026-05-12 14:04:43] ✅ save_current_outputs: generation status built
+[2026-05-12 14:04:43] ✅ save_current_outputs: item scores saved
+[2026-05-12 14:04:43] ✅ save_current_outputs: summary saved
+[2026-05-12 14:04:44] 📊 图表已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\4_arena_chart.png
+[2026-05-12 14:04:44] ✅ save_current_outputs: plot saved
+[2026-05-12 14:04:44] 💾 已中间保存评分: 20/111 (latest_ok=True)
+[2026-05-12 14:04:50] ❌ API失败 [Judge::AllModels] row=19 model=DeepSeek-R1 attempt=1/3 time=120.09s error=Request timed out.
+[2026-05-12 14:05:05] ✅ API成功 [Judge::AllModels] row=20 model=DeepSeek-R1 time=82.26s chars=3566 preview={   "Critique": "All responses capture the core GT conclusion that alcoholysis enables selective depolymerization to valuable monomers under mild conditions. Co...
+[2026-05-12 14:05:05] ✅ Judge成功 row=20 models=5
+[2026-05-12 14:05:05] ✅ save_current_outputs: raw answers + cleaned columns saved
+[2026-05-12 14:05:05] ✅ save_current_outputs: generation status built
+[2026-05-12 14:05:05] ✅ save_current_outputs: item scores saved
+[2026-05-12 14:05:05] ✅ save_current_outputs: summary saved
+[2026-05-12 14:05:06] 📊 图表已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\4_arena_chart_倒.png
+[2026-05-12 14:05:06] ✅ save_current_outputs: plot saved
+[2026-05-12 14:05:06] 💾 已中间保存评分: 20/111 (latest_ok=True)
+[2026-05-12 14:05:15] ✅ API成功 [Judge::AllModels] row=19 model=DeepSeek-R1 time=76.30s chars=3601 preview={   "Critique": "All responses correctly capture the core GT premise: catalytic chemical recycling aims to recover value via depolymerization into monomers/inte...
+[2026-05-12 14:05:15] ✅ Judge成功 row=19 models=5
+[2026-05-12 14:06:12] ✅ API成功 [Judge::AllModels] row=19 model=DeepSeek-R1 time=80.58s chars=2780 preview=```json {   "Critique": "All responses correctly address the core goal of catalytic chemical recycling as defined in the GT, with varying levels of depth and sc...
+[2026-05-12 14:06:12] ✅ Judge成功 row=19 models=5
+[2026-05-12 14:06:40] ✅ API成功 [Judge::AllModels] row=21 model=DeepSeek-R1 time=94.86s chars=3480 preview={   "Critique": "All responses correctly anchor to the GT's core challenge of hydrolytic recycling's economic/environmental burdens from corrosive conditions, p...
+[2026-05-12 14:06:40] ✅ Judge成功 row=21 models=5
+[2026-05-12 14:06:43] ❌ API失败 [Judge::AllModels] row=21 model=DeepSeek-R1 attempt=1/3 time=120.23s error=Request timed out.
+[2026-05-12 14:07:15] ❌ API失败 [Judge::AllModels] row=22 model=DeepSeek-R1 attempt=1/3 time=120.10s error=Request timed out.
+[2026-05-12 14:07:48] ✅ API成功 [Judge::AllModels] row=23 model=DeepSeek-R1 time=67.88s chars=2661 preview=```json {   "Critique": "All responses address the core GT conclusion that chemical recycling preserves molecular value where biodegradation is impractical. BEA...
+[2026-05-12 14:07:48] ✅ Judge成功 row=23 models=5
+[2026-05-12 14:08:13] ❌ API失败 [Judge::AllModels] row=22 model=DeepSeek-R1 attempt=1/3 time=120.09s error=Request timed out.
+[2026-05-12 14:08:43] ✅ API成功 [Judge::AllModels] row=21 model=DeepSeek-R1 time=117.65s chars=2717 preview=```json {   "Critique": "All responses address the core challenges outlined in the GT (corrosive conditions, neutralization, purification). BEAVER_NoQualityLoop...
+[2026-05-12 14:08:43] ✅ Judge成功 row=21 models=5
+[2026-05-12 14:08:47] ✅ API成功 [Judge::AllModels] row=22 model=DeepSeek-R1 time=89.26s chars=3792 preview={   "Critique": "All responses correctly capture the core scientific conclusion from the GT: enzymatic depolymerization's appeal lies in selectivity and mild co...
+[2026-05-12 14:08:47] ✅ Judge成功 row=22 models=5
+[2026-05-12 14:09:03] ✅ API成功 [Judge::AllModels] row=24 model=DeepSeek-R1 time=75.15s chars=2938 preview={   "Critique": "All responses correctly address the core conclusion from the Ground Truth (condition-dependent degradation and prevention of greenwashing). The...
+[2026-05-12 14:09:03] ✅ Judge成功 row=24 models=5
+[2026-05-12 14:09:38] ✅ API成功 [Judge::AllModels] row=22 model=DeepSeek-R1 time=83.90s chars=2601 preview={   "Critique": "All responses correctly address the core question and align with the GT's essential points. Raw_DeepSeek-V3 and Constrained_DeepSeek-V3 stand o...
+[2026-05-12 14:09:38] ✅ Judge成功 row=22 models=5
+[2026-05-12 14:10:04] ✅ API成功 [Judge::AllModels] row=25 model=DeepSeek-R1 time=61.48s chars=3200 preview=```json {   "Critique": "All responses correctly capture the GT's core premise that fragmentation precedes mineralization in non-optimal environments. Constrain...
+[2026-05-12 14:10:04] ✅ Judge成功 row=25 models=5
+[2026-05-12 14:10:05] ✅ API成功 [Judge::AllModels] row=23 model=DeepSeek-R1 time=82.69s chars=3109 preview={   "Critique": "All responses correctly capture the GT core argument that biodegradability doesn't preclude recycling's value for resource recovery. BEAVER_NoQ...
+[2026-05-12 14:10:05] ✅ Judge成功 row=23 models=5
+[2026-05-12 14:10:39] ✅ API成功 [Judge::AllModels] row=26 model=DeepSeek-R1 time=60.63s chars=3045 preview=```json {   "Critique": "All responses correctly capture the GT's core thesis that biodegradability alone is insufficient for environmental assessment. Raw_Deep...
+[2026-05-12 14:10:39] ✅ Judge成功 row=26 models=5
+[2026-05-12 14:10:47] ❌ API失败 [Judge::AllModels] row=24 model=DeepSeek-R1 attempt=1/3 time=120.10s error=Request timed out.
+[2026-05-12 14:11:32] ✅ API成功 [Judge::AllModels] row=25 model=DeepSeek-R1 time=86.39s chars=2797 preview={   "Critique": "All responses correctly address the core conclusion from the Ground Truth (fragmentation precedes mineralization in non-optimal environments). ...
+[2026-05-12 14:11:32] ✅ Judge成功 row=25 models=5
+[2026-05-12 14:11:41] ✅ API成功 [Judge::AllModels] row=27 model=DeepSeek-R1 time=96.92s chars=3684 preview={   "Critique": "All responses correctly anchor the core scientific conclusion: blends and biocomposites overcome limitations of single polymers by enabling tun...
+[2026-05-12 14:11:41] ✅ Judge成功 row=27 models=5
+[2026-05-12 14:11:55] ✅ API成功 [Judge::AllModels] row=28 model=DeepSeek-R1 time=76.26s chars=3174 preview={   "Critique": "All responses correctly capture the GT's core conclusion that fillers accelerate biodegradation through enhanced water access, interfacial defe...
+[2026-05-12 14:11:55] ✅ Judge成功 row=28 models=5
+[2026-05-12 14:12:49] ❌ API失败 [Judge::AllModels] row=24 model=DeepSeek-R1 attempt=2/3 time=120.11s error=Request timed out.
+[2026-05-12 14:13:27] ✅ API成功 [Judge::AllModels] row=26 model=DeepSeek-R1 time=115.36s chars=2395 preview=```json {   "Critique": "BEAVER_NoQualityLoop excels in detail and scientific grounding but is slightly verbose. Raw_DeepSeek-R1 provides a balanced, structured...
+[2026-05-12 14:13:27] ✅ Judge成功 row=26 models=5
+[2026-05-12 14:13:28] ✅ API成功 [Judge::AllModels] row=30 model=DeepSeek-R1 time=92.88s chars=2900 preview=```json {   "Critique": "All responses correctly identify the core trade-off between enhanced electrical functionality and compromised biodegradability/environm...
+[2026-05-12 14:13:28] ✅ Judge成功 row=30 models=5
+[2026-05-12 14:13:29] ✅ save_current_outputs: raw answers + cleaned columns saved
+[2026-05-12 14:13:29] ✅ save_current_outputs: generation status built
+[2026-05-12 14:13:29] ✅ save_current_outputs: item scores saved
+[2026-05-12 14:13:29] ✅ save_current_outputs: summary saved
+[2026-05-12 14:13:30] 📊 图表已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\4_arena_chart_倒.png
+[2026-05-12 14:13:30] ✅ save_current_outputs: plot saved
+[2026-05-12 14:13:30] 💾 已中间保存评分: 30/111 (latest_ok=True)
+[2026-05-12 14:13:43] ❌ API失败 [Judge::AllModels] row=29 model=DeepSeek-R1 attempt=1/3 time=122.20s error=Request timed out.
+[2026-05-12 14:13:44] ✅ API成功 [Judge::AllModels] row=24 model=DeepSeek-R1 time=51.32s chars=2825 preview=```json {   "Critique": "All responses correctly address the core conclusion from the GT about condition-dependent degradation and certification necessity. BEAV...
+[2026-05-12 14:13:44] ✅ Judge成功 row=24 models=5
+[2026-05-12 14:14:52] ✅ API成功 [Judge::AllModels] row=31 model=DeepSeek-R1 time=83.57s chars=2703 preview={   "Critique": "All responses align with the GT's core conclusion about transient devices' appeal for reducing e-waste and enabling temporary applications. Con...
+[2026-05-12 14:14:52] ✅ Judge成功 row=31 models=5
+[2026-05-12 14:15:06] ✅ API成功 [Judge::AllModels] row=29 model=DeepSeek-R1 time=80.70s chars=3098 preview=```json {   "Critique": "All responses address the core question and align with the GT's conclusion that ML handles coupled variables and predicts outcomes effi...
+[2026-05-12 14:15:06] ✅ Judge成功 row=29 models=5
+[2026-05-12 14:15:27] ❌ API失败 [Judge::AllModels] row=27 model=DeepSeek-R1 attempt=1/3 time=120.10s error=Request timed out.
+[2026-05-12 14:15:44] ❌ API失败 [Judge::AllModels] row=28 model=DeepSeek-R1 attempt=1/3 time=120.09s error=Request timed out.
+[2026-05-12 14:16:01] ✅ API成功 [Judge::AllModels] row=32 model=DeepSeek-R1 time=68.74s chars=2638 preview=```json {   "Critique": "All responses address the core question and align with the GT's conclusions. Constrained_DeepSeek-V3 and Constrained_DeepSeek-R1 provid...
+[2026-05-12 14:16:01] ✅ Judge成功 row=32 models=5
+[2026-05-12 14:16:09] ✅ API成功 [Judge::AllModels] row=33 model=DeepSeek-R1 time=62.79s chars=2950 preview=```json {   "Critique": "All responses correctly address the core conclusion that PLA's home compostability is limited by temperature requirements and environme...
+[2026-05-12 14:16:09] ✅ Judge成功 row=33 models=5
+[2026-05-12 14:17:00] ✅ API成功 [Judge::AllModels] row=27 model=DeepSeek-R1 time=90.51s chars=4273 preview={   "Critique": "The candidate responses generally capture the GT's core premise that blends and biocomposites overcome limitations of single biodegradable poly...
+[2026-05-12 14:17:00] ✅ Judge成功 row=27 models=5
+[2026-05-12 14:17:04] ✅ API成功 [Judge::AllModels] row=28 model=DeepSeek-R1 time=78.03s chars=3366 preview=```json {   "Critique": "All responses address the core mechanisms outlined in the GT, but differ in depth, specificity, and scientific grounding. BEAVER_NoQual...
+[2026-05-12 14:17:04] ✅ Judge成功 row=28 models=5
+[2026-05-12 14:17:15] ✅ API成功 [Judge::AllModels] row=34 model=DeepSeek-R1 time=74.81s chars=3161 preview={   "Critique": "All responses correctly capture the GT's core premise that biodegradable plastic integration faces systemic challenges beyond material substitu...
+[2026-05-12 14:17:15] ✅ Judge成功 row=34 models=5
+[2026-05-12 14:17:36] ✅ API成功 [Judge::AllModels] row=35 model=DeepSeek-R1 time=87.11s chars=2649 preview={   "Critique": "All responses correctly address the core advantage of copolymerization for property tuning, aligning with the GT. Constrained_DeepSeek-V3 and B...
+[2026-05-12 14:17:36] ✅ Judge成功 row=35 models=5
+[2026-05-12 14:18:27] ✅ API成功 [Judge::AllModels] row=29 model=DeepSeek-R1 time=87.26s chars=3338 preview={   "Critique": "All responses effectively capture ML's core value in handling coupled variables and predicting outcomes, aligning with the GT. BEAVER excels in...
+[2026-05-12 14:18:27] ✅ Judge成功 row=29 models=5
+[2026-05-12 14:18:27] ✅ save_current_outputs: raw answers + cleaned columns saved
+[2026-05-12 14:18:27] ✅ save_current_outputs: generation status built
+[2026-05-12 14:18:27] ✅ save_current_outputs: item scores saved
+[2026-05-12 14:18:27] ✅ save_current_outputs: summary saved
+[2026-05-12 14:18:28] 📊 图表已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\4_arena_chart.png
+[2026-05-12 14:18:28] ✅ save_current_outputs: plot saved
+[2026-05-12 14:18:28] 💾 已中间保存评分: 30/111 (latest_ok=True)
+[2026-05-12 14:19:00] ✅ API成功 [Judge::AllModels] row=37 model=DeepSeek-R1 time=84.18s chars=3316 preview={   "Critique": "All responses demonstrate strong scientific understanding of PLGA's properties, exceeding GT's core conclusions with valuable mechanistic detai...
+[2026-05-12 14:19:00] ✅ Judge成功 row=37 models=5
+[2026-05-12 14:19:04] ❌ API失败 [Judge::AllModels] row=30 model=DeepSeek-R1 attempt=1/3 time=120.09s error=Request timed out.
+[2026-05-12 14:19:16] ❌ API失败 [Judge::AllModels] row=36 model=DeepSeek-R1 attempt=1/3 time=120.12s error=Request timed out.
+[2026-05-12 14:19:56] ✅ API成功 [Judge::AllModels] row=31 model=DeepSeek-R1 time=88.84s chars=4022 preview={   "Critique": "All responses capture the core scientific appeal of transient devices as environmentally benign, medically advantageous alternatives to persist...
+[2026-05-12 14:19:56] ✅ Judge成功 row=31 models=5
+[2026-05-12 14:20:03] ✅ API成功 [Judge::AllModels] row=30 model=DeepSeek-R1 time=56.59s chars=2882 preview=```json {   "Critique": "BEAVER_NoQualityLoop provides the most detailed and scientifically grounded response, with robust mechanistic explanations and referenc...
+[2026-05-12 14:20:03] ✅ Judge成功 row=30 models=5
+[2026-05-12 14:20:41] ✅ API成功 [Judge::AllModels] row=38 model=DeepSeek-R1 time=101.07s chars=2945 preview=```json {   "Critique": "All responses align with the GT's core conclusion that natural polymers excel in bioactivity while synthetics lead in reproducibility/p...
+[2026-05-12 14:20:41] ✅ Judge成功 row=38 models=5
+[2026-05-12 14:20:42] ✅ API成功 [Judge::AllModels] row=36 model=DeepSeek-R1 time=84.34s chars=2499 preview=```json {   "Critique": "All responses address the core issue of infrastructure mismatch, with varying levels of detail and scientific depth. Constrained_DeepSe...
+[2026-05-12 14:20:42] ✅ Judge成功 row=36 models=5
+[2026-05-12 14:21:09] ✅ API成功 [Judge::AllModels] row=32 model=DeepSeek-R1 time=73.01s chars=3205 preview={   "Critique": "All responses correctly capture the GT's core conclusion about natural polymers' batch variability and inferior control over mechanics/degradat...
+[2026-05-12 14:21:09] ✅ Judge成功 row=32 models=5
+[2026-05-12 14:21:23] ✅ API成功 [Judge::AllModels] row=33 model=DeepSeek-R1 time=79.94s chars=3741 preview={   "Critique": "All responses correctly identify PLA's incompatibility with home composting as the core conclusion, with BEAVER_NoQualityLoop delivering except...
+[2026-05-12 14:21:23] ✅ Judge成功 row=33 models=5
+[2026-05-12 14:22:01] ✅ API成功 [Judge::AllModels] row=40 model=DeepSeek-R1 time=79.03s chars=4245 preview=```json {   "Critique": "All responses generally capture the core GT conclusion that PLA excels in printability but is brittle, PCL offers flexibility with low-...
+[2026-05-12 14:22:01] ✅ Judge成功 row=40 models=5
+[2026-05-12 14:22:01] ✅ save_current_outputs: raw answers + cleaned columns saved
+[2026-05-12 14:22:01] ✅ save_current_outputs: generation status built
+[2026-05-12 14:22:01] ✅ save_current_outputs: item scores saved
+[2026-05-12 14:22:01] ✅ save_current_outputs: summary saved
+[2026-05-12 14:22:02] 📊 图表已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\4_arena_chart_倒.png
+[2026-05-12 14:22:02] ✅ save_current_outputs: plot saved
+[2026-05-12 14:22:02] 💾 已中间保存评分: 40/111 (latest_ok=True)
+[2026-05-12 14:22:09] ✅ API成功 [Judge::AllModels] row=39 model=DeepSeek-R1 time=87.24s chars=2764 preview={   "Critique": "All responses address the core aspects of balancing stiffness, degradation, and inflammation, with varying levels of detail and scientific grou...
+[2026-05-12 14:22:09] ✅ Judge成功 row=39 models=5
+[2026-05-12 14:22:26] ✅ API成功 [Judge::AllModels] row=34 model=DeepSeek-R1 time=77.43s chars=2884 preview=```json {   "Critique": "All responses align with the GT's core conclusion that systemic challenges, not just material substitution, hinder biodegradable plasti...
+[2026-05-12 14:22:26] ✅ Judge成功 row=34 models=5
+[2026-05-12 14:22:58] ✅ API成功 [Judge::AllModels] row=35 model=DeepSeek-R1 time=95.55s chars=2895 preview=```json {   "Critique": "All responses address the core advantage of copolymerization in tuning material properties, with BEAVER_NoQualityLoop and Constrained_D...
+[2026-05-12 14:22:58] ✅ Judge成功 row=35 models=5
+[2026-05-12 14:23:16] ✅ API成功 [Judge::AllModels] row=41 model=DeepSeek-R1 time=75.30s chars=2778 preview=```json {   "Critique": "All responses align with the GT's core conclusions, highlighting starch's renewability but poor moisture resistance and barrier limitat...
+[2026-05-12 14:23:16] ✅ Judge成功 row=41 models=5
+[2026-05-12 14:23:38] ✅ API成功 [Judge::AllModels] row=42 model=DeepSeek-R1 time=89.25s chars=3571 preview={   "Critique": "All responses effectively capture the core scientific conclusions from the GT regarding PLA's superior processability and cellulose derivatives...
+[2026-05-12 14:23:38] ✅ Judge成功 row=42 models=5
+[2026-05-12 14:24:06] ✅ API成功 [Judge::AllModels] row=36 model=DeepSeek-R1 time=99.94s chars=4021 preview={   "Critique": "All responses correctly address the core bottleneck identified in the GT: infrastructure mismatch prevents biodegradable plastics from reaching...
+[2026-05-12 14:24:06] ✅ Judge成功 row=36 models=5
+[2026-05-12 14:24:07] ✅ API成功 [Judge::AllModels] row=37 model=DeepSeek-R1 time=69.01s chars=2839 preview={   "Critique": "All responses correctly capture PLGA's core properties per GT: tunable degradation, cargo-dependent payload protection, and high translational ...
+[2026-05-12 14:24:07] ✅ Judge成功 row=37 models=5
+[2026-05-12 14:24:28] ✅ API成功 [Judge::AllModels] row=43 model=DeepSeek-R1 time=72.09s chars=2446 preview=```json {   "Critique": "The responses vary in depth, scientific grounding, and alignment with the GT. Constrained_DeepSeek models excel in mechanistic explanat...
+[2026-05-12 14:24:28] ✅ Judge成功 row=43 models=5
+[2026-05-12 14:24:37] ✅ API成功 [Judge::AllModels] row=44 model=DeepSeek-R1 time=59.36s chars=3028 preview={   "Critique": "All responses address the core question and align with the GT's essential conclusions about application-dependent trade-offs and compostability...
+[2026-05-12 14:24:37] ✅ Judge成功 row=44 models=5
+[2026-05-12 14:25:23] ✅ API成功 [Judge::AllModels] row=38 model=DeepSeek-R1 time=77.10s chars=2860 preview=```json {   "Critique": "All responses align with the GT's core conclusion that natural polymers excel in bioactivity while synthetics lead in reproducibility a...
+[2026-05-12 14:25:23] ✅ Judge成功 row=38 models=5
+[2026-05-12 14:25:43] ✅ API成功 [Judge::AllModels] row=39 model=DeepSeek-R1 time=95.94s chars=3097 preview=```json {   "Critique": "All responses address the core aspects of the GT (application-specific balance of stiffness, degradation, and inflammation) with varyin...
+[2026-05-12 14:25:43] ✅ Judge成功 row=39 models=5
+[2026-05-12 14:25:44] ✅ save_current_outputs: raw answers + cleaned columns saved
+[2026-05-12 14:25:44] ✅ save_current_outputs: generation status built
+[2026-05-12 14:25:44] ✅ save_current_outputs: item scores saved
+[2026-05-12 14:25:44] ✅ save_current_outputs: summary saved
+[2026-05-12 14:25:45] 📊 图表已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\4_arena_chart.png
+[2026-05-12 14:25:45] ✅ save_current_outputs: plot saved
+[2026-05-12 14:25:45] 💾 已中间保存评分: 40/111 (latest_ok=True)
+[2026-05-12 14:25:51] ✅ API成功 [Judge::AllModels] row=45 model=DeepSeek-R1 time=82.84s chars=2637 preview={   "Critique": "All responses address the core question and align with GT's conclusions. Constrained models excel in mechanistic depth and scientific grounding...
+[2026-05-12 14:25:51] ✅ Judge成功 row=45 models=5
+[2026-05-12 14:26:07] ✅ API成功 [Judge::AllModels] row=46 model=DeepSeek-R1 time=89.30s chars=2552 preview=```json {   "Critique": "All responses align with the GT's core conclusions, varying in depth and structure. Raw_DeepSeek-V3 and Constrained_DeepSeek-V3 excel i...
+[2026-05-12 14:26:07] ✅ Judge成功 row=46 models=5
+[2026-05-12 14:26:36] ✅ API成功 [Judge::AllModels] row=40 model=DeepSeek-R1 time=72.53s chars=2780 preview=```json {   "Critique": "All responses address the question with varying depth and structure. BEAVER_NoQualityLoop offers extensive detail and references but ma...
+[2026-05-12 14:26:36] ✅ Judge成功 row=40 models=5
+[2026-05-12 14:26:48] ✅ API成功 [Judge::AllModels] row=41 model=DeepSeek-R1 time=64.62s chars=2784 preview=```json {   "Critique": "All responses align with the GT's core conclusion that starch-based polymers are renewable but limited by moisture sensitivity and barr...
+[2026-05-12 14:26:48] ✅ Judge成功 row=41 models=5
+[2026-05-12 14:27:02] ✅ API成功 [Judge::AllModels] row=48 model=DeepSeek-R1 time=55.85s chars=3264 preview={   "Critique": "All responses capture the core trade-off between performance, stability, and degradability aligned with the GT. Raw_DeepSeek-R1 and Constrained...
+[2026-05-12 14:27:02] ✅ Judge成功 row=48 models=5
+[2026-05-12 14:27:04] ✅ API成功 [Judge::AllModels] row=47 model=DeepSeek-R1 time=72.75s chars=2560 preview=```json {   "Critique": "All responses address the question holistically, but vary in depth, scientific grounding, and utility. Constrained_DeepSeek-V3 and BEAV...
+[2026-05-12 14:27:04] ✅ Judge成功 row=47 models=5
+[2026-05-12 14:27:59] ✅ API成功 [Judge::AllModels] row=42 model=DeepSeek-R1 time=82.84s chars=3340 preview=```json {   "Critique": "All responses address the core comparison between cellulose derivatives and PLA across transparency, processability, and end-of-life, a...
+[2026-05-12 14:27:59] ✅ Judge成功 row=42 models=5
+[2026-05-12 14:28:13] ✅ API成功 [Judge::AllModels] row=43 model=DeepSeek-R1 time=84.78s chars=2622 preview=```json {   "Critique": "BEAVER_NoQualityLoop excels in detail, scientific grounding, and research utility with concrete data and references. Constrained_DeepSe...
+[2026-05-12 14:28:13] ✅ Judge成功 row=43 models=5
+[2026-05-12 14:28:13] ✅ API成功 [Judge::AllModels] row=49 model=DeepSeek-R1 time=70.82s chars=3169 preview={   "Critique": "All responses capture the GT's core trade-off between therapeutic benefit and complexity/safety. Raw_DeepSeek-V3 excels in actionable design pr...
+[2026-05-12 14:28:13] ✅ Judge成功 row=49 models=5
+[2026-05-12 14:28:14] ✅ save_current_outputs: raw answers + cleaned columns saved
+[2026-05-12 14:28:14] ✅ save_current_outputs: generation status built
+[2026-05-12 14:28:14] ✅ save_current_outputs: item scores saved
+[2026-05-12 14:28:14] ✅ save_current_outputs: summary saved
+[2026-05-12 14:28:15] 📊 图表已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\4_arena_chart_倒.png
+[2026-05-12 14:28:15] ✅ save_current_outputs: plot saved
+[2026-05-12 14:28:15] 💾 已中间保存评分: 50/111 (latest_ok=True)
+[2026-05-12 14:28:29] ✅ API成功 [Judge::AllModels] row=50 model=DeepSeek-R1 time=85.03s chars=3202 preview={   "Critique": "All responses correctly capture the GT's core hierarchy: sterility and service lifetime as non-negotiables preceding degradation. Raw_DeepSeek-...
+[2026-05-12 14:28:29] ✅ Judge成功 row=50 models=5
+[2026-05-12 14:29:22] ✅ API成功 [Judge::AllModels] row=51 model=DeepSeek-R1 time=69.11s chars=3283 preview={   "Critique": "All responses correctly capture the GT's core premise that bioprinting ink design requires simultaneous optimization of cell compatibility, rhe...
+[2026-05-12 14:29:22] ✅ Judge成功 row=51 models=5
+[2026-05-12 14:29:27] ✅ API成功 [Judge::AllModels] row=44 model=DeepSeek-R1 time=88.18s chars=3544 preview=```json {   "Critique": "All responses address the core question and GT conclusions, with BEAVER_NoQualityLoop and Constrained models offering superior mechanis...
+[2026-05-12 14:29:27] ✅ Judge成功 row=44 models=5
+[2026-05-12 14:29:50] ✅ API成功 [Judge::AllModels] row=52 model=DeepSeek-R1 time=80.84s chars=3469 preview={   "Critique": "All responses correctly capture the GT's core principle: charge density must balance complexation efficiency against cytotoxicity, while degrad...
+[2026-05-12 14:29:50] ✅ Judge成功 row=52 models=5
+[2026-05-12 14:30:13] ❌ API失败 [Judge::AllModels] row=45 model=DeepSeek-R1 attempt=1/3 time=120.10s error=Request timed out.
+[2026-05-12 14:30:39] ✅ API成功 [Judge::AllModels] row=53 model=DeepSeek-R1 time=76.44s chars=2759 preview=```json {   "Critique": "All responses address the core aspects of the question, with Raw_DeepSeek-R1 and Constrained_DeepSeek-R1 providing the most scientifica...
+[2026-05-12 14:30:39] ✅ Judge成功 row=53 models=5
+[2026-05-12 14:30:53] ✅ API成功 [Judge::AllModels] row=46 model=DeepSeek-R1 time=86.19s chars=3049 preview=```json {   "Critique": "All responses align with the GT's core conclusions but vary in depth, structure, and scientific grounding. BEAVER_NoQualityLoop and Con...
+[2026-05-12 14:30:53] ✅ Judge成功 row=46 models=5
+[2026-05-12 14:31:14] ✅ API成功 [Judge::AllModels] row=54 model=DeepSeek-R1 time=84.28s chars=2687 preview=```json {   "Critique": "All responses address the question and align with the GT's core conclusions. Constrained_DeepSeek-V3 and BEAVER_NoQualityLoop offer the...
+[2026-05-12 14:31:14] ✅ Judge成功 row=54 models=5
+[2026-05-12 14:31:41] ✅ API成功 [Judge::AllModels] row=45 model=DeepSeek-R1 time=85.72s chars=3463 preview=```json {   "Critique": "All responses address the core question and align with GT conclusions. BEAVER_NoQualityLoop and Constrained_DeepSeek-R1 stand out for e...
+[2026-05-12 14:31:41] ✅ Judge成功 row=45 models=5
+[2026-05-12 14:31:44] ✅ API成功 [Judge::AllModels] row=55 model=DeepSeek-R1 time=65.12s chars=2750 preview=```json {   "Critique": "All responses address the core aspects of the question and align with the GT's key points. Constrained_DeepSeek models excel in mechani...
+[2026-05-12 14:31:44] ✅ Judge成功 row=55 models=5
+[2026-05-12 14:32:12] ✅ API成功 [Judge::AllModels] row=56 model=DeepSeek-R1 time=58.29s chars=3232 preview={   "Critique": "All responses correctly anchor on degradation predictability as the non-negotiable constraint, consistent with the GT. DeepSeek-R1 and Constrai...
+[2026-05-12 14:32:12] ❌ Judge JSON解析异常 row=56 error=Expecting ',' delimiter: line 32 column 162 (char 2058) raw={   "Critique": "All responses correctly anchor on degradation predictability as the non-negotiable constraint, consistent with the GT. DeepSeek-R1 and Constrai...
+[2026-05-12 14:32:19] ✅ API成功 [Judge::AllModels] row=47 model=DeepSeek-R1 time=85.75s chars=3575 preview={   "Critique": "All responses correctly capture the core LCA-based integration principle from the Ground Truth. BEAVER_NoQualityLoop excels in granular scienti...
+[2026-05-12 14:32:19] ✅ Judge成功 row=47 models=5
+[2026-05-12 14:32:46] ✅ API成功 [Judge::AllModels] row=57 model=DeepSeek-R1 time=61.95s chars=3040 preview=```json {   "Critique": "All responses address the core aspects of reactivity, processing stability, and biodegradation impact, aligning with the GT's systems-b...
+[2026-05-12 14:32:46] ✅ Judge成功 row=57 models=5
+[2026-05-12 14:32:58] ✅ API成功 [Judge::AllModels] row=48 model=DeepSeek-R1 time=76.86s chars=3704 preview={   "Critique": "All responses capture the GT's core conclusion: prioritize functional stability during operational lifetime, then trigger degradation. BEAVER a...
+[2026-05-12 14:32:58] ✅ Judge成功 row=48 models=5
+[2026-05-12 14:33:12] ✅ API成功 [Judge::AllModels] row=58 model=DeepSeek-R1 time=59.93s chars=2807 preview={   "Critique": "All responses generally align with the GT's core conclusion that prioritization depends on collection feasibility and contamination, with biode...
+[2026-05-12 14:33:12] ✅ Judge成功 row=58 models=5
+[2026-05-12 14:34:08] ✅ API成功 [Judge::AllModels] row=59 model=DeepSeek-R1 time=82.46s chars=2806 preview=```json {   "Critique": "All responses correctly address the core conclusion that in-use performance is non-negotiable for biodegradable packaging, aligning wit...
+[2026-05-12 14:34:08] ✅ Judge成功 row=59 models=5
+[2026-05-12 14:34:09] ✅ save_current_outputs: raw answers + cleaned columns saved
+[2026-05-12 14:34:09] ✅ save_current_outputs: generation status built
+[2026-05-12 14:34:09] ✅ save_current_outputs: item scores saved
+[2026-05-12 14:34:09] ✅ save_current_outputs: summary saved
+[2026-05-12 14:34:10] 📊 图表已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\4_arena_chart_倒.png
+[2026-05-12 14:34:10] ✅ save_current_outputs: plot saved
+[2026-05-12 14:34:10] 💾 已中间保存评分: 60/111 (latest_ok=True)
+[2026-05-12 14:34:19] ❌ API失败 [Judge::AllModels] row=49 model=DeepSeek-R1 attempt=1/3 time=120.10s error=Request timed out.
+[2026-05-12 14:34:35] ✅ API成功 [Judge::AllModels] row=60 model=DeepSeek-R1 time=83.02s chars=2894 preview=```json {   "Critique": "All responses address the question with varying levels of detail and scientific grounding. Raw_DeepSeek-V3 and Constrained_DeepSeek-V3 ...
+[2026-05-12 14:34:35] ✅ Judge成功 row=60 models=5
+[2026-05-12 14:34:58] ❌ API失败 [Judge::AllModels] row=50 model=DeepSeek-R1 attempt=1/3 time=120.12s error=Request timed out.
+[2026-05-12 14:35:09] ✅ API成功 [Judge::AllModels] row=61 model=DeepSeek-R1 time=60.61s chars=2840 preview={   "Critique": "All responses address the core balance of degradability, durability, and cost from the GT, with varying levels of scientific depth and practica...
+[2026-05-12 14:35:09] ✅ Judge成功 row=61 models=5
+[2026-05-12 14:35:57] ✅ API成功 [Judge::AllModels] row=49 model=DeepSeek-R1 time=95.79s chars=3706 preview={   "Critique": "All responses correctly capture the GT's core thesis that responsiveness must justify added complexity and safety risks. BEAVER excels in techn...
+[2026-05-12 14:35:57] ✅ Judge成功 row=49 models=5
+[2026-05-12 14:35:57] ✅ save_current_outputs: raw answers + cleaned columns saved
+[2026-05-12 14:35:57] ✅ save_current_outputs: generation status built
+[2026-05-12 14:35:57] ✅ save_current_outputs: item scores saved
+[2026-05-12 14:35:57] ✅ save_current_outputs: summary saved
+[2026-05-12 14:35:58] 📊 图表已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\4_arena_chart.png
+[2026-05-12 14:35:58] ✅ save_current_outputs: plot saved
+[2026-05-12 14:35:58] 💾 已中间保存评分: 50/111 (latest_ok=True)
+[2026-05-12 14:36:04] ✅ API成功 [Judge::AllModels] row=62 model=DeepSeek-R1 time=88.41s chars=3358 preview={   "Critique": "All responses adequately capture the core trade-offs emphasized in the Ground Truth (GT). Raw responses excel in application-specific prioritiz...
+[2026-05-12 14:36:04] ✅ Judge成功 row=62 models=5
+[2026-05-12 14:36:08] ✅ API成功 [Judge::AllModels] row=50 model=DeepSeek-R1 time=68.34s chars=2849 preview=```json {   "Critique": "BEAVER_NoQualityLoop and Raw_DeepSeek-R1 demonstrate the strongest scientific grounding and specificity, with BEAVER excelling in mecha...
+[2026-05-12 14:36:08] ✅ Judge成功 row=50 models=5
+[2026-05-12 14:37:09] ❌ API失败 [Judge::AllModels] row=63 model=DeepSeek-R1 attempt=1/3 time=120.09s error=Request timed out.
+[2026-05-12 14:37:18] ✅ API成功 [Judge::AllModels] row=51 model=DeepSeek-R1 time=80.85s chars=3605 preview={   "Critique": "All responses correctly capture the GT's core premise that bioprinting ink design requires simultaneous optimization of three conflicting requi...
+[2026-05-12 14:37:18] ✅ Judge成功 row=51 models=5
+[2026-05-12 14:37:22] ✅ API成功 [Judge::AllModels] row=52 model=DeepSeek-R1 time=74.02s chars=2785 preview=```json {   "Critique": "All responses address the core question and align with the GT's conclusion that charge density must balance complexation efficiency wit...
+[2026-05-12 14:37:22] ✅ Judge成功 row=52 models=5
+[2026-05-12 14:37:23] ✅ API成功 [Judge::AllModels] row=64 model=DeepSeek-R1 time=78.73s chars=3614 preview={   "Critique": "All responses correctly capture the GT's core premise that service life must prevent premature replacement and disposal routes must align with ...
+[2026-05-12 14:37:23] ✅ Judge成功 row=64 models=5
+[2026-05-12 14:38:31] ✅ API成功 [Judge::AllModels] row=53 model=DeepSeek-R1 time=73.29s chars=3289 preview=```json {   "Critique": "All responses address the core conclusion of interdependent evaluation and trade-offs between oxygen barrier, water sensitivity, and re...
+[2026-05-12 14:38:31] ✅ Judge成功 row=53 models=5
+[2026-05-12 14:38:33] ✅ API成功 [Judge::AllModels] row=63 model=DeepSeek-R1 time=81.66s chars=3025 preview=```json {   "Critique": "All responses address the core trade-offs highlighted in the GT, but differ in depth, specificity, and scientific support. Raw_DeepSeek...
+[2026-05-12 14:38:33] ✅ Judge成功 row=63 models=5
+[2026-05-12 14:38:33] ✅ API成功 [Judge::AllModels] row=54 model=DeepSeek-R1 time=71.22s chars=4002 preview={   "Critique": "All responses correctly capture the GT's core conclusion that PHAs offer superior biobased credentials and toughness potential while PLA excels...
+[2026-05-12 14:38:33] ✅ Judge成功 row=54 models=5
+[2026-05-12 14:38:44] ✅ API成功 [Judge::AllModels] row=65 model=DeepSeek-R1 time=81.77s chars=2795 preview={   "Critique": "All responses align with the GT's core conclusion that fragmentation behavior, mineralization potential, and environmental setting must be asse...
+[2026-05-12 14:38:44] ✅ Judge成功 row=65 models=5
+[2026-05-12 14:39:45] ✅ API成功 [Judge::AllModels] row=55 model=DeepSeek-R1 time=74.14s chars=2695 preview={   "Critique": "All responses address the core factors of temperature, moisture, and thickness for home-compostable products, aligning with the GT's conclusion...
+[2026-05-12 14:39:45] ✅ Judge成功 row=55 models=5
+[2026-05-12 14:39:48] ✅ API成功 [Judge::AllModels] row=66 model=DeepSeek-R1 time=75.01s chars=3354 preview={   "Critique": "All responses capture the GT's core conclusion about the interdependence and trade-offs among renewability, tunability, and supply-chain practi...
+[2026-05-12 14:39:48] ✅ Judge成功 row=66 models=5
+[2026-05-12 14:39:49] ✅ API成功 [Judge::AllModels] row=56 model=DeepSeek-R1 time=75.48s chars=2677 preview=```json {   "Critique": "All responses align with the GT's core conclusion that geometry freedom is secondary to sterilization compatibility and degradation pre...
+[2026-05-12 14:39:49] ✅ Judge成功 row=56 models=5
+[2026-05-12 14:40:04] ✅ API成功 [Judge::AllModels] row=67 model=DeepSeek-R1 time=79.28s chars=3153 preview={   "Critique": "All responses capture the core conclusion of balancing temporal performance in biodegradable coatings. Raw_DeepSeek variants excel in mechanist...
+[2026-05-12 14:40:04] ✅ Judge成功 row=67 models=5
+[2026-05-12 14:40:59] ✅ API成功 [Judge::AllModels] row=57 model=DeepSeek-R1 time=73.45s chars=3428 preview={   "Critique": "All responses correctly address the core scientific conclusion from the Ground Truth: compatibilizer selection requires balancing reactivity, p...
+[2026-05-12 14:40:59] ✅ Judge成功 row=57 models=5
+[2026-05-12 14:41:01] ✅ API成功 [Judge::AllModels] row=68 model=DeepSeek-R1 time=73.70s chars=3860 preview={   "Critique": "All responses correctly anchor the core conclusion that composite/hybrid designs are typically needed to balance moisture, biocompatibility, an...
+[2026-05-12 14:41:01] ✅ Judge成功 row=68 models=5
+[2026-05-12 14:41:26] ✅ API成功 [Judge::AllModels] row=69 model=DeepSeek-R1 time=82.67s chars=2645 preview=```json {   "Critique": "All responses address the core comparison of PBS and PBAT with end-of-life considerations, but vary in depth, scientific grounding, and...
+[2026-05-12 14:41:26] ✅ Judge成功 row=69 models=5
+[2026-05-12 14:41:27] ✅ save_current_outputs: raw answers + cleaned columns saved
+[2026-05-12 14:41:27] ✅ save_current_outputs: generation status built
+[2026-05-12 14:41:27] ✅ save_current_outputs: item scores saved
+[2026-05-12 14:41:27] ✅ save_current_outputs: summary saved
+[2026-05-12 14:41:28] 📊 图表已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\4_arena_chart_倒.png
+[2026-05-12 14:41:28] ✅ save_current_outputs: plot saved
+[2026-05-12 14:41:28] 💾 已中间保存评分: 70/111 (latest_ok=True)
+[2026-05-12 14:41:47] ✅ API成功 [Judge::AllModels] row=58 model=DeepSeek-R1 time=118.11s chars=2678 preview=```json {   "Critique": "All responses align with the core conclusion that prioritization depends on collection feasibility and contamination, with biodegradati...
+[2026-05-12 14:41:47] ✅ Judge成功 row=58 models=5
+[2026-05-12 14:42:19] ✅ API成功 [Judge::AllModels] row=70 model=DeepSeek-R1 time=77.06s chars=2646 preview=```json {   "Critique": "All responses correctly prioritize data quality first, aligning with the GT. Constrained_DeepSeek-V3 and Constrained_DeepSeek-R1 excel ...
+[2026-05-12 14:42:19] ✅ Judge成功 row=70 models=5
+[2026-05-12 14:42:51] ✅ API成功 [Judge::AllModels] row=59 model=DeepSeek-R1 time=112.27s chars=1298 preview=```json {   "Critique": "BEAVER_NoQualityLoop provides a highly detailed, mechanism-rich answer with strong scientific grounding and research utility, while Raw...
+[2026-05-12 14:42:51] ✅ Judge成功 row=59 models=5
+[2026-05-12 14:42:51] ✅ save_current_outputs: raw answers + cleaned columns saved
+[2026-05-12 14:42:51] ✅ save_current_outputs: generation status built
+[2026-05-12 14:42:51] ✅ save_current_outputs: item scores saved
+[2026-05-12 14:42:51] ✅ save_current_outputs: summary saved
+[2026-05-12 14:42:52] 📊 图表已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\4_arena_chart.png
+[2026-05-12 14:42:52] ✅ save_current_outputs: plot saved
+[2026-05-12 14:42:52] 💾 已中间保存评分: 60/111 (latest_ok=True)
+[2026-05-12 14:42:53] ✅ API成功 [Judge::AllModels] row=71 model=DeepSeek-R1 time=86.61s chars=2751 preview={   "Critique": "All responses align with the GT's core conclusion that renewable carbon, compostability, and recyclability must be weighed based on infrastruct...
+[2026-05-12 14:42:53] ✅ Judge成功 row=71 models=5
+[2026-05-12 14:43:05] ✅ API成功 [Judge::AllModels] row=60 model=DeepSeek-R1 time=78.27s chars=2605 preview={   "Critique": "All responses align with the GT's core conclusions, but vary in depth and scientific grounding. BEAVER_NoQualityLoop and Constrained_DeepSeek-V...
+[2026-05-12 14:43:05] ✅ Judge成功 row=60 models=5
+[2026-05-12 14:43:47] ✅ API成功 [Judge::AllModels] row=72 model=DeepSeek-R1 time=88.86s chars=3478 preview=```json {   "Critique": "All responses correctly capture the GT's core conclusion that filler loading must be balanced against dispersion challenges and manufac...
+[2026-05-12 14:43:47] ✅ Judge成功 row=72 models=5
+[2026-05-12 14:44:15] ✅ API成功 [Judge::AllModels] row=61 model=DeepSeek-R1 time=84.38s chars=3734 preview={   "Critique": "All responses capture the core tension between durability during crop cycles and post-harvest degradation, with cost as a decisive adoption fac...
+[2026-05-12 14:44:15] ❌ Judge JSON解析异常 row=61 error=Expecting ',' delimiter: line 32 column 235 (char 2391) raw={   "Critique": "All responses capture the core tension between durability during crop cycles and post-harvest degradation, with cost as a decisive adoption fac...
+[2026-05-12 14:44:38] ✅ API成功 [Judge::AllModels] row=73 model=DeepSeek-R1 time=105.04s chars=2908 preview=```json {   "Critique": "All responses address the core aspects of the question, with varying degrees of specificity and scientific depth. Constrained_DeepSeek-...
+[2026-05-12 14:44:38] ✅ Judge成功 row=73 models=5
+[2026-05-12 14:45:04] ✅ API成功 [Judge::AllModels] row=74 model=DeepSeek-R1 time=76.77s chars=2793 preview=```json {   "Critique": "All responses correctly address the question and capture the GT's core conclusions. Constrained models demonstrate superior scientific ...
+[2026-05-12 14:45:04] ✅ Judge成功 row=74 models=5
+[2026-05-12 14:45:05] ❌ API失败 [Judge::AllModels] row=62 model=DeepSeek-R1 attempt=1/3 time=120.11s error=Request timed out.
+[2026-05-12 14:45:26] ✅ API成功 [Judge::AllModels] row=63 model=DeepSeek-R1 time=70.36s chars=2830 preview=```json {   "Critique": "All responses address the core conclusion of necessary trade-offs but vary in depth, specificity, and scientific grounding. BEAVER_NoQu...
+[2026-05-12 14:45:26] ✅ Judge成功 row=63 models=5
+[2026-05-12 14:46:12] ✅ API成功 [Judge::AllModels] row=62 model=DeepSeek-R1 time=65.13s chars=2771 preview=```json {   "Critique": "All responses align with the GT's core conclusion that PLA, PCL, and PLGA each excel in different facets (modulus, degradation rate, dr...
+[2026-05-12 14:46:12] ✅ Judge成功 row=62 models=5
+[2026-05-12 14:46:14] ✅ API成功 [Judge::AllModels] row=75 model=DeepSeek-R1 time=95.82s chars=2892 preview={   "Critique": "All responses address the core question and align with GT's conclusions. Raw_DeepSeek-V3 and Constrained_DeepSeek-V3 stand out for their mechan...
+[2026-05-12 14:46:14] ✅ Judge成功 row=75 models=5
+[2026-05-12 14:46:27] ✅ API成功 [Judge::AllModels] row=76 model=DeepSeek-R1 time=83.08s chars=3345 preview=```json {   "Critique": "All responses correctly capture the core scientific conclusion from the GT: compatibilizers address thermodynamic immiscibility in biod...
+[2026-05-12 14:46:27] ✅ Judge成功 row=76 models=5
+[2026-05-12 14:46:39] ✅ API成功 [Judge::AllModels] row=64 model=DeepSeek-R1 time=73.32s chars=3500 preview={   "Critique": "All responses capture the core GT conclusion that service life must prevent premature replacement and disposal routes must align with infrastru...
+[2026-05-12 14:46:39] ✅ Judge成功 row=64 models=5
+[2026-05-12 14:47:16] ✅ API成功 [Judge::AllModels] row=65 model=DeepSeek-R1 time=63.19s chars=3075 preview=```json {   "Critique": "All responses address the core conclusion that fragmentation behavior, mineralization potential, and environmental setting must be asse...
+[2026-05-12 14:47:16] ✅ Judge成功 row=65 models=5
+[2026-05-12 14:47:36] ✅ API成功 [Judge::AllModels] row=77 model=DeepSeek-R1 time=82.45s chars=2541 preview=```json {   "Critique": "All responses capture the core distinction between hydrolytic and enzymatic degradation, aligning with the GT. Constrained_DeepSeek-V3 ...
+[2026-05-12 14:47:36] ✅ Judge成功 row=77 models=5
+[2026-05-12 14:47:41] ✅ API成功 [Judge::AllModels] row=78 model=DeepSeek-R1 time=74.11s chars=3211 preview={   "Critique": "All responses correctly capture the core independence of biodegradability (molecular structure) and biobased origin (feedstock source), alignin...
+[2026-05-12 14:47:41] ✅ Judge成功 row=78 models=5
+[2026-05-12 14:48:17] ✅ API成功 [Judge::AllModels] row=67 model=DeepSeek-R1 time=61.51s chars=4178 preview=```json {   "Critique": "All responses correctly capture the GT's core concept of sequential stability followed by triggered degradation. BEAVER_NoQualityLoop p...
+[2026-05-12 14:48:17] ✅ Judge成功 row=67 models=5
+[2026-05-12 14:48:39] ❌ API失败 [Judge::AllModels] row=66 model=DeepSeek-R1 attempt=1/3 time=120.09s error=Request timed out.
+[2026-05-12 14:48:43] ✅ API成功 [Judge::AllModels] row=79 model=DeepSeek-R1 time=67.20s chars=3261 preview={   "Critique": "All responses demonstrate strong anchor alignment with the GT's core conclusions about PHA advantages (biodegradability, renewability) and limi...
+[2026-05-12 14:48:43] ✅ Judge成功 row=79 models=5
+[2026-05-12 14:48:44] ✅ save_current_outputs: raw answers + cleaned columns saved
+[2026-05-12 14:48:44] ✅ save_current_outputs: generation status built
+[2026-05-12 14:48:44] ✅ save_current_outputs: item scores saved
+[2026-05-12 14:48:44] ✅ save_current_outputs: summary saved
+[2026-05-12 14:48:45] 📊 图表已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\4_arena_chart_倒.png
+[2026-05-12 14:48:45] ✅ save_current_outputs: plot saved
+[2026-05-12 14:48:45] 💾 已中间保存评分: 80/111 (latest_ok=True)
+[2026-05-12 14:49:03] ✅ API成功 [Judge::AllModels] row=80 model=DeepSeek-R1 time=81.91s chars=2603 preview=```json {   "Critique": "All responses address the core question and align with the GT's conclusions. Constrained_DeepSeek-V3 and Constrained_DeepSeek-R1 excel ...
+[2026-05-12 14:49:03] ✅ Judge成功 row=80 models=5
+[2026-05-12 14:49:59] ✅ API成功 [Judge::AllModels] row=66 model=DeepSeek-R1 time=78.44s chars=3407 preview=```json {   "Critique": "All responses address the core comparison of renewability, tunability, and supply-chain practicality, with BEAVER and Raw_DeepSeek-V3/R...
+[2026-05-12 14:49:59] ✅ Judge成功 row=66 models=5
+[2026-05-12 14:50:10] ✅ API成功 [Judge::AllModels] row=81 model=DeepSeek-R1 time=86.34s chars=2595 preview=```json {   "Critique": "All responses address the core question and align with the GT's conclusions. Constrained models and BEAVER provide richer mechanistic e...
+[2026-05-12 14:50:10] ✅ Judge成功 row=81 models=5
+[2026-05-12 14:50:17] ❌ API失败 [Judge::AllModels] row=68 model=DeepSeek-R1 attempt=1/3 time=120.09s error=Request timed out.
+[2026-05-12 14:51:03] ❌ API失败 [Judge::AllModels] row=82 model=DeepSeek-R1 attempt=1/3 time=120.10s error=Request timed out.
+[2026-05-12 14:51:17] ✅ API成功 [Judge::AllModels] row=83 model=DeepSeek-R1 time=67.00s chars=4151 preview={   "Critique": "All responses correctly capture the core distinction between chemical recycling (value recovery) and composting (degradation) per the GT anchor...
+[2026-05-12 14:51:17] ❌ Judge JSON解析异常 row=83 error=Expecting ',' delimiter: line 42 column 191 (char 3079) raw={   "Critique": "All responses correctly capture the core distinction between chemical recycling (value recovery) and composting (degradation) per the GT anchor...
+[2026-05-12 14:51:18] ✅ API成功 [Judge::AllModels] row=68 model=DeepSeek-R1 time=58.48s chars=3390 preview={   "Critique": "All responses correctly capture the core conclusion that trade-offs necessitate composite solutions. BEAVER_NoQualityLoop stands out for except...
+[2026-05-12 14:51:18] ✅ Judge成功 row=68 models=5
+[2026-05-12 14:51:23] ✅ API成功 [Judge::AllModels] row=69 model=DeepSeek-R1 time=83.19s chars=3092 preview={   "Critique": "All responses address the core comparison of PBS and PBAT with end-of-life considerations, but vary in scientific depth, alignment with GT conc...
+[2026-05-12 14:51:23] ✅ Judge成功 row=69 models=5
+[2026-05-12 14:51:23] ✅ save_current_outputs: raw answers + cleaned columns saved
+[2026-05-12 14:51:23] ✅ save_current_outputs: generation status built
+[2026-05-12 14:51:23] ✅ save_current_outputs: item scores saved
+[2026-05-12 14:51:23] ✅ save_current_outputs: summary saved
+[2026-05-12 14:51:24] 📊 图表已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\4_arena_chart.png
+[2026-05-12 14:51:24] ✅ save_current_outputs: plot saved
+[2026-05-12 14:51:24] 💾 已中间保存评分: 70/111 (latest_ok=True)
+[2026-05-12 14:52:19] ✅ API成功 [Judge::AllModels] row=82 model=DeepSeek-R1 time=73.75s chars=2861 preview=```json {   "Critique": "All responses address the core question and align with the GT's key points. Constrained_DeepSeek-V3 stands out for its depth, mechanist...
+[2026-05-12 14:52:19] ✅ Judge成功 row=82 models=5
+[2026-05-12 14:52:35] ✅ API成功 [Judge::AllModels] row=84 model=DeepSeek-R1 time=78.51s chars=3057 preview=```json {   "Critique": "All responses address the core reasons for functionalization and associated risks, aligning with the GT. Constrained_DeepSeek-V3 and BE...
+[2026-05-12 14:52:35] ✅ Judge成功 row=84 models=5
+[2026-05-12 14:52:36] ✅ API成功 [Judge::AllModels] row=71 model=DeepSeek-R1 time=72.98s chars=3745 preview={   "Critique": "All responses capture the GT's core premise that infrastructure alignment dictates environmental benefit, with renewable carbon alone being ins...
+[2026-05-12 14:52:36] ✅ Judge成功 row=71 models=5
+[2026-05-12 14:53:00] ✅ API成功 [Judge::AllModels] row=70 model=DeepSeek-R1 time=102.66s chars=2611 preview=```json {   "Critique": "All responses except Raw_DeepSeek-V3 correctly prioritize data quality > process complexity > property prediction as per GT. BEAVER and...
+[2026-05-12 14:53:00] ✅ Judge成功 row=70 models=5
+[2026-05-12 14:53:46] ✅ API成功 [Judge::AllModels] row=85 model=DeepSeek-R1 time=87.18s chars=3886 preview={   "Critique": "All responses demonstrate strong scientific understanding of PCL's degradation characteristics and applications. Each accurately captures the c...
+[2026-05-12 14:53:46] ✅ Judge成功 row=85 models=5
+[2026-05-12 14:53:56] ✅ API成功 [Judge::AllModels] row=86 model=DeepSeek-R1 time=80.57s chars=2501 preview=```json {   "Critique": "All responses address the core question and align with the GT's conclusions. Constrained models and BEAVER excel in mechanistic depth a...
+[2026-05-12 14:53:56] ✅ Judge成功 row=86 models=5
+[2026-05-12 14:54:36] ❌ API失败 [Judge::AllModels] row=72 model=DeepSeek-R1 attempt=1/3 time=120.08s error=Request timed out.
+[2026-05-12 14:54:43] ✅ API成功 [Judge::AllModels] row=87 model=DeepSeek-R1 time=56.72s chars=2472 preview={   "Critique": "All responses correctly capture the GT's core scientific conclusion that morphology determines stress transfer efficiency and is crucial in PLA...
+[2026-05-12 14:54:43] ✅ Judge成功 row=87 models=5
+[2026-05-12 14:54:53] ✅ API成功 [Judge::AllModels] row=73 model=DeepSeek-R1 time=112.77s chars=3221 preview={   "Critique": "BEAVER_NoQualityLoop provides highly detailed, specific mechanisms and data with strong scientific grounding but lacks explicit integration of ...
+[2026-05-12 14:54:53] ✅ Judge成功 row=73 models=5
+[2026-05-12 14:55:23] ✅ API成功 [Judge::AllModels] row=88 model=DeepSeek-R1 time=87.13s chars=3334 preview={   "Critique": "All responses correctly capture the GT's core scientific conclusion: fragmentation precedes mineralization in biodegradable plastics, and persi...
+[2026-05-12 14:55:23] ✅ Judge成功 row=88 models=5
+[2026-05-12 14:55:48] ✅ API成功 [Judge::AllModels] row=72 model=DeepSeek-R1 time=70.82s chars=3551 preview={   "Critique": "All responses successfully capture the GT's core scientific conclusion that optimization requires balancing filler loading against dispersion l...
+[2026-05-12 14:55:48] ✅ Judge成功 row=72 models=5
+[2026-05-12 14:55:57] ✅ API成功 [Judge::AllModels] row=74 model=DeepSeek-R1 time=63.86s chars=2917 preview=```json {   "Critique": "All responses correctly address the core question and align with the GT's essential points. BEAVER and Constrained models excel in deta...
+[2026-05-12 14:55:57] ✅ Judge成功 row=74 models=5
+[2026-05-12 14:56:35] ✅ API成功 [Judge::AllModels] row=90 model=DeepSeek-R1 time=72.26s chars=3091 preview=```json {   "Critique": "All responses correctly capture the core complexity of bioprinting (biological constraints) and its impact on material selection, align...
+[2026-05-12 14:56:35] ✅ Judge成功 row=90 models=5
+[2026-05-12 14:56:36] ✅ save_current_outputs: raw answers + cleaned columns saved
+[2026-05-12 14:56:36] ✅ save_current_outputs: generation status built
+[2026-05-12 14:56:36] ✅ save_current_outputs: item scores saved
+[2026-05-12 14:56:36] ✅ save_current_outputs: summary saved
+[2026-05-12 14:56:36] ✅ API成功 [Judge::AllModels] row=89 model=DeepSeek-R1 time=112.75s chars=2738 preview={   "Critique": "All responses address the question with varying depth and scientific rigor. Constrained_DeepSeek-V3 stands out for its comprehensive mechanisti...
+[2026-05-12 14:56:36] ✅ Judge成功 row=89 models=5
+[2026-05-12 14:56:37] 📊 图表已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\4_arena_chart_倒.png
+[2026-05-12 14:56:37] ✅ save_current_outputs: plot saved
+[2026-05-12 14:56:37] 💾 已中间保存评分: 90/111 (latest_ok=True)
+[2026-05-12 14:57:30] ✅ API成功 [Judge::AllModels] row=75 model=DeepSeek-R1 time=101.41s chars=2876 preview=```json {   "Critique": "BEAVER_NoQualityLoop offers the most detailed and scientifically grounded response with extensive mechanisms and quantitative data, tho...
+[2026-05-12 14:57:30] ✅ Judge成功 row=75 models=5
+[2026-05-12 14:57:48] ✅ API成功 [Judge::AllModels] row=91 model=DeepSeek-R1 time=72.30s chars=2722 preview=```json {   "Critique": "All responses adequately address the core benefits and translation barriers outlined in the GT, with varying levels of detail and scien...
+[2026-05-12 14:57:48] ✅ Judge成功 row=91 models=5
+[2026-05-12 14:57:57] ❌ API失败 [Judge::AllModels] row=76 model=DeepSeek-R1 attempt=1/3 time=120.15s error=Request timed out.
+[2026-05-12 14:58:19] ✅ API成功 [Judge::AllModels] row=92 model=DeepSeek-R1 time=102.94s chars=3313 preview={   "Critique": "All responses correctly address both parts of the question and capture the GT's core conclusions about standardization value and real-world lim...
+[2026-05-12 14:58:19] ✅ Judge成功 row=92 models=5
+[2026-05-12 14:59:29] ✅ API成功 [Judge::AllModels] row=94 model=DeepSeek-R1 time=70.36s chars=2806 preview={   "Critique": "All responses address the core question and align with the GT's conclusion that PBS serves as an intermediate modifier in biodegradable blends....
+[2026-05-12 14:59:29] ✅ Judge成功 row=94 models=5
+[2026-05-12 14:59:30] ❌ API失败 [Judge::AllModels] row=77 model=DeepSeek-R1 attempt=1/3 time=120.09s error=Request timed out.
+[2026-05-12 14:59:48] ❌ API失败 [Judge::AllModels] row=93 model=DeepSeek-R1 attempt=1/3 time=120.09s error=Request timed out.
+[2026-05-12 14:59:59] ❌ API失败 [Judge::AllModels] row=76 model=DeepSeek-R1 attempt=2/3 time=120.10s error=Request timed out.
+[2026-05-12 15:00:59] ✅ API成功 [Judge::AllModels] row=95 model=DeepSeek-R1 time=89.82s chars=2555 preview=```json {   "Critique": "The responses vary in depth, scientific grounding, and alignment with the Ground Truth. Constrained_DeepSeek-V3 and -R1 provide the mos...
+[2026-05-12 15:00:59] ✅ Judge成功 row=95 models=5
+[2026-05-12 15:01:05] ✅ API成功 [Judge::AllModels] row=77 model=DeepSeek-R1 time=92.64s chars=3543 preview={   "Critique": "All responses correctly distinguish hydrolytic and enzymatic degradation mechanisms and their environmental dependencies, aligning with the GT ...
+[2026-05-12 15:01:05] ✅ Judge成功 row=77 models=5
+[2026-05-12 15:01:50] ❌ API失败 [Judge::AllModels] row=93 model=DeepSeek-R1 attempt=2/3 time=120.10s error=Request timed out.
+[2026-05-12 15:02:04] ❌ API失败 [Judge::AllModels] row=76 model=DeepSeek-R1 attempt=3/3 time=121.19s error=Request timed out.
+[2026-05-12 15:02:59] ❌ API失败 [Judge::AllModels] row=96 model=DeepSeek-R1 attempt=1/3 time=120.10s error=Request timed out.
+[2026-05-12 15:03:05] ❌ API失败 [Judge::AllModels] row=78 model=DeepSeek-R1 attempt=1/3 time=120.09s error=Request timed out.
+[2026-05-12 15:03:54] ❌ API失败 [Judge::AllModels] row=93 model=DeepSeek-R1 attempt=3/3 time=120.45s error=Request timed out.
+[2026-05-12 15:04:05] ❌ API失败 [Judge::AllModels] row=79 model=DeepSeek-R1 attempt=1/3 time=120.12s error=Request timed out.
+[2026-05-12 15:04:14] ✅ API成功 [Judge::AllModels] row=96 model=DeepSeek-R1 time=72.95s chars=2727 preview=```json {   "Critique": "All responses address the core necessity of LCAs for biodegradable polymers and potential omissions from poor system boundaries, aligni...
+[2026-05-12 15:04:14] ✅ Judge成功 row=96 models=5
+[2026-05-12 15:04:36] ✅ API成功 [Judge::AllModels] row=78 model=DeepSeek-R1 time=89.00s chars=3581 preview=```json {   "Critique": "All responses correctly establish the independence of biodegradability (molecular structure-dependent) and feedstock origin. BEAVER_NoQ...
+[2026-05-12 15:04:36] ✅ Judge成功 row=78 models=5
+[2026-05-12 15:05:27] ✅ API成功 [Judge::AllModels] row=79 model=DeepSeek-R1 time=80.91s chars=3537 preview={   "Critique": "All responses correctly capture the core advantages (biodegradability, renewable origin) and limitations (cost, processing, scalability) aligne...
+[2026-05-12 15:05:27] ✅ Judge成功 row=79 models=5
+[2026-05-12 15:05:28] ✅ save_current_outputs: raw answers + cleaned columns saved
+[2026-05-12 15:05:28] ✅ save_current_outputs: generation status built
+[2026-05-12 15:05:28] ✅ save_current_outputs: item scores saved
+[2026-05-12 15:05:28] ✅ save_current_outputs: summary saved
+[2026-05-12 15:05:29] 📊 图表已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\4_arena_chart.png
+[2026-05-12 15:05:29] ✅ save_current_outputs: plot saved
+[2026-05-12 15:05:29] 💾 已中间保存评分: 80/111 (latest_ok=True)
+[2026-05-12 15:05:30] ✅ API成功 [Judge::AllModels] row=97 model=DeepSeek-R1 time=96.10s chars=2684 preview=```json {   "Critique": "All responses address the core appeal and conflicts outlined in the GT, with varying levels of detail and scientific depth. Constrained...
+[2026-05-12 15:05:30] ✅ Judge成功 row=97 models=5
+[2026-05-12 15:05:38] ✅ API成功 [Judge::AllModels] row=80 model=DeepSeek-R1 time=62.42s chars=2805 preview=```json {   "Critique": "BEAVER_NoQualityLoop provides the most detailed and specific response with quantitative data and references, excelling in scientific gr...
+[2026-05-12 15:05:38] ✅ Judge成功 row=80 models=5
+[2026-05-12 15:05:54] ✅ API成功 [Judge::AllModels] row=98 model=DeepSeek-R1 time=100.39s chars=3176 preview={   "Critique": "All responses correctly capture the core trade-off from the GT: synthetics for reproducibility/control, naturals for bioactivity. Key different...
+[2026-05-12 15:05:54] ✅ Judge成功 row=98 models=5
+[2026-05-12 15:06:49] ✅ API成功 [Judge::AllModels] row=99 model=DeepSeek-R1 time=78.63s chars=3127 preview={   "Critique": "All responses correctly capture the core economic drivers (starch abundance/low cost) and essential formulation steps (plasticization + modific...
+[2026-05-12 15:06:49] ✅ Judge成功 row=99 models=5
+[2026-05-12 15:06:49] ✅ save_current_outputs: raw answers + cleaned columns saved
+[2026-05-12 15:06:49] ✅ save_current_outputs: generation status built
+[2026-05-12 15:06:49] ✅ save_current_outputs: item scores saved
+[2026-05-12 15:06:49] ✅ save_current_outputs: summary saved
+[2026-05-12 15:06:50] 📊 图表已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\4_arena_chart_倒.png
+[2026-05-12 15:06:50] ✅ save_current_outputs: plot saved
+[2026-05-12 15:06:50] 💾 已中间保存评分: 100/111 (latest_ok=True)
+[2026-05-12 15:06:53] ✅ API成功 [Judge::AllModels] row=81 model=DeepSeek-R1 time=85.05s chars=2670 preview=```json {   "Critique": "BEAVER_NoQualityLoop provides the most detailed and scientifically grounded response with extensive specifics and references, though so...
+[2026-05-12 15:06:53] ✅ Judge成功 row=81 models=5
+[2026-05-12 15:06:59] ✅ API成功 [Judge::AllModels] row=100 model=DeepSeek-R1 time=64.81s chars=3034 preview=```json {   "Critique": "All responses correctly address the core scientific conclusion from the GT, with varying levels of detail and scientific depth. Constra...
+[2026-05-12 15:06:59] ✅ Judge成功 row=100 models=5
+[2026-05-12 15:07:04] ✅ API成功 [Judge::AllModels] row=82 model=DeepSeek-R1 time=85.84s chars=3350 preview={   "Critique": "All responses adequately address the core question and align with GT's scientific anchors. BEAVER_NoQualityLoop demonstrates exceptional detail...
+[2026-05-12 15:07:04] ✅ Judge成功 row=82 models=5
+[2026-05-12 15:08:00] ✅ API成功 [Judge::AllModels] row=102 model=DeepSeek-R1 time=61.01s chars=3537 preview={   "Critique": "All responses correctly capture the core scientific conclusions from the Ground Truth: copolymers enable property tuning via compositional/sequ...
+[2026-05-12 15:08:00] ✅ Judge成功 row=102 models=5
+[2026-05-12 15:08:13] ✅ API成功 [Judge::AllModels] row=83 model=DeepSeek-R1 time=80.47s chars=2996 preview=```json {   "Critique": "BEAVER_NoQualityLoop and Constrained_DeepSeek-V3 provide the most scientifically rigorous responses, with BEAVER excelling in mechanist...
+[2026-05-12 15:08:13] ✅ Judge成功 row=83 models=5
+[2026-05-12 15:08:13] ✅ API成功 [Judge::AllModels] row=84 model=DeepSeek-R1 time=69.03s chars=3469 preview=```json {   "Critique": "BEAVER_NoQualityLoop and Constrained_DeepSeek-V3 provide the most detailed, mechanism-rich answers with strong scientific grounding and...
+[2026-05-12 15:08:13] ✅ Judge成功 row=84 models=5
+[2026-05-12 15:08:26] ✅ API成功 [Judge::AllModels] row=101 model=DeepSeek-R1 time=96.83s chars=3262 preview={   "Critique": "All responses capture the core GT points: ML promises optimization, defect prediction, property mapping; barriers include data scarcity, batch ...
+[2026-05-12 15:08:26] ✅ Judge成功 row=101 models=5
+[2026-05-12 15:09:25] ✅ API成功 [Judge::AllModels] row=103 model=DeepSeek-R1 time=84.67s chars=3722 preview={   "Critique": "All responses correctly address the core scientific conclusions in the Ground Truth: infrastructure enables material recovery loops, and materi...
+[2026-05-12 15:09:25] ✅ Judge成功 row=103 models=5
+[2026-05-12 15:09:41] ✅ API成功 [Judge::AllModels] row=86 model=DeepSeek-R1 time=88.12s chars=2957 preview=```json {   "Critique": "All responses address the question's core points, but differ in depth, scientific grounding, and practical utility. BEAVER_NoQualityLoo...
+[2026-05-12 15:09:41] ✅ Judge成功 row=86 models=5
+[2026-05-12 15:09:49] ✅ API成功 [Judge::AllModels] row=85 model=DeepSeek-R1 time=95.55s chars=3369 preview={   "Critique": "All responses correctly capture PCL's slow degradation as both advantage (long-term structural support) and disadvantage (mismatch with rapid r...
+[2026-05-12 15:09:49] ✅ Judge成功 row=85 models=5
+[2026-05-12 15:10:26] ❌ API失败 [Judge::AllModels] row=104 model=DeepSeek-R1 attempt=1/3 time=120.08s error=Request timed out.
+[2026-05-12 15:11:05] ✅ API成功 [Judge::AllModels] row=88 model=DeepSeek-R1 time=76.86s chars=2899 preview=```json {   "Critique": "All responses address the core question and align with the Ground Truth. BEAVER_NoQualityLoop stands out for its exceptional detail, me...
+[2026-05-12 15:11:05] ✅ Judge成功 row=88 models=5
+[2026-05-12 15:11:06] ✅ API成功 [Judge::AllModels] row=105 model=DeepSeek-R1 time=100.86s chars=3297 preview={   "Critique": "All responses correctly identify the core trade-offs between toughness, stiffness, and heat resistance in biodegradable blends, aligning with t...
+[2026-05-12 15:11:06] ✅ Judge成功 row=105 models=5
+[2026-05-12 15:11:41] ❌ API失败 [Judge::AllModels] row=87 model=DeepSeek-R1 attempt=1/3 time=120.10s error=Request timed out.
+[2026-05-12 15:12:08] ✅ API成功 [Judge::AllModels] row=104 model=DeepSeek-R1 time=100.25s chars=3152 preview={   "Critique": "All responses correctly identify the core requirements and trade-offs outlined in the GT, but exhibit significant differences in depth, scienti...
+[2026-05-12 15:12:08] ✅ Judge成功 row=104 models=5
+[2026-05-12 15:12:26] ✅ API成功 [Judge::AllModels] row=106 model=DeepSeek-R1 time=79.77s chars=2946 preview=```json {   "Critique": "All responses correctly address the core conclusions of the GT regarding PLA's dominance and unresolved sustainability issues. Constrai...
+[2026-05-12 15:12:26] ✅ Judge成功 row=106 models=5
+[2026-05-12 15:12:42] ✅ API成功 [Judge::AllModels] row=89 model=DeepSeek-R1 time=96.53s chars=3712 preview={   "Critique": "All responses capture the core advantages (sustainability, cost, mechanical benefits) and interfacial problems (hydrophilic-hydrophobic mismatc...
+[2026-05-12 15:12:42] ✅ Judge成功 row=89 models=5
+[2026-05-12 15:13:27] ✅ API成功 [Judge::AllModels] row=87 model=DeepSeek-R1 time=103.62s chars=3848 preview={   "Critique": "All responses effectively anchor to the GT's core premise: morphology/miscibility dictate stress transfer and toughening efficacy in PLA blends...
+[2026-05-12 15:13:27] ✅ Judge成功 row=87 models=5
+[2026-05-12 15:13:27] ✅ save_current_outputs: raw answers + cleaned columns saved
+[2026-05-12 15:13:27] ✅ save_current_outputs: generation status built
+[2026-05-12 15:13:27] ✅ save_current_outputs: item scores saved
+[2026-05-12 15:13:27] ✅ save_current_outputs: summary saved
+[2026-05-12 15:13:28] 📊 图表已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\4_arena_chart.png
+[2026-05-12 15:13:28] ✅ save_current_outputs: plot saved
+[2026-05-12 15:13:28] 💾 已中间保存评分: 90/111 (latest_ok=True)
+[2026-05-12 15:13:40] ✅ API成功 [Judge::AllModels] row=108 model=DeepSeek-R1 time=74.11s chars=3429 preview=```json {   "Critique": "All responses correctly capture the core scientific conflict between biodegradation (requiring labile bonds) and recycling (requiring s...
+[2026-05-12 15:13:40] ✅ Judge成功 row=108 models=5
+[2026-05-12 15:13:42] ✅ API成功 [Judge::AllModels] row=107 model=DeepSeek-R1 time=94.16s chars=3549 preview={   "Critique": "All responses significantly exceed the GT in detail while preserving its core scientific conclusion: degradation is environment-dependent, requ...
+[2026-05-12 15:13:42] ✅ Judge成功 row=107 models=5
+[2026-05-12 15:13:58] ✅ API成功 [Judge::AllModels] row=90 model=DeepSeek-R1 time=75.82s chars=3383 preview=```json {   "Critique": "All responses address the core complexities of bioprinting vs. polymer printing and their material selection implications, aligning wel...
+[2026-05-12 15:13:58] ✅ Judge成功 row=90 models=5
+[2026-05-12 15:14:55] ✅ API成功 [Judge::AllModels] row=110 model=DeepSeek-R1 time=72.78s chars=2978 preview=```json {   "Critique": "All responses address the core opportunities and unanswered questions from the GT, with varying levels of detail and scientific depth. ...
+[2026-05-12 15:14:55] ✅ Judge成功 row=110 models=5
+[2026-05-12 15:14:55] ✅ save_current_outputs: raw answers + cleaned columns saved
+[2026-05-12 15:14:55] ✅ save_current_outputs: generation status built
+[2026-05-12 15:14:55] ✅ save_current_outputs: item scores saved
+[2026-05-12 15:14:55] ✅ save_current_outputs: summary saved
+[2026-05-12 15:14:57] 📊 图表已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\4_arena_chart_倒.png
+[2026-05-12 15:14:57] ✅ save_current_outputs: plot saved
+[2026-05-12 15:14:57] 💾 已中间保存评分: 110/111 (latest_ok=True)
+[2026-05-12 15:14:57] ✅ API成功 [Judge::AllModels] row=109 model=DeepSeek-R1 time=77.44s chars=2807 preview={   "Critique": "All responses correctly capture the core GT conclusions about functionalization value and stability trade-offs. BEAVER_NoQualityLoop excels in ...
+[2026-05-12 15:14:57] ✅ Judge成功 row=109 models=5
+[2026-05-12 15:14:57] ✅ save_current_outputs: raw answers + cleaned columns saved
+[2026-05-12 15:14:57] ✅ save_current_outputs: generation status built
+[2026-05-12 15:14:57] ✅ save_current_outputs: item scores saved
+[2026-05-12 15:14:58] ✅ save_current_outputs: summary saved
+[2026-05-12 15:14:59] 📊 图表已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\4_arena_chart_倒.png
+[2026-05-12 15:14:59] ✅ save_current_outputs: plot saved
+[2026-05-12 15:14:59] 💾 已中间保存评分: 111/111 (latest_ok=True)
+[2026-05-12 15:14:59] ✅ save_current_outputs: raw answers + cleaned columns saved
+[2026-05-12 15:14:59] ✅ save_current_outputs: generation status built
+[2026-05-12 15:14:59] ✅ save_current_outputs: item scores saved
+[2026-05-12 15:14:59] ✅ save_current_outputs: summary saved
+[2026-05-12 15:15:00] 📊 图表已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\4_arena_chart_倒.png
+[2026-05-12 15:15:00] ✅ save_current_outputs: plot saved
+[2026-05-12 15:15:00] ✅ 按问题同时评分完成
+[2026-05-12 15:15:00] === 当前排行榜 ===
+[2026-05-12 15:15:00] 
+                  Model  Overall  JudgeParseOK(%)  InvalidAnswer(%)  ScoredItems  Coverage(%)  Detail_Specificity  Scientific_Grounding  Mechanistic_Explanation  Organization_Format_Quality  Anchor_Alignment  Internal_Consistency  Research_Utility
+Constrained_DeepSeek-V3     8.31             97.3               0.0          111        100.0                8.87                  7.41                     9.12                         8.52              7.52                  8.85              8.53
+   BEAVER_NoQualityLoop     8.31             97.3               0.0          111        100.0                8.99                  7.93                     8.48                         7.89              8.13                  8.11              8.42
+        Raw_DeepSeek-V3     8.22             97.3               0.0          111        100.0                8.29                  8.01                     7.87                         8.31              8.79                  8.77              7.66
+Constrained_DeepSeek-R1     8.01             97.3               0.0          111        100.0                8.42                  7.31                     8.49                         8.27              7.56                  8.48              8.08
+        Raw_DeepSeek-R1     7.79             97.3               0.0          111        100.0                7.85                  7.58                     7.45                         8.01              8.19                  8.36              7.36
+[2026-05-12 15:15:00] ⚠️ JudgeParseOK 检查发现 0：bad_pairs=15, need_rejudge_rows=3. 详情已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\2b_judge_parse_failures_倒.csv
+[2026-05-12 15:15:08] ✅ API成功 [Judge::AllModels] row=92 model=DeepSeek-R1 time=70.19s chars=3713 preview={   "Critique": "All responses correctly capture the GT's core conclusions about certification value and failure modes. BEAVER_NoQualityLoop excels in molecular...
+[2026-05-12 15:15:08] ✅ Judge成功 row=92 models=5
+[2026-05-12 15:15:27] ❌ API失败 [Judge::AllModels] row=91 model=DeepSeek-R1 attempt=1/3 time=120.31s error=Request timed out.
+[2026-05-12 15:16:28] ✅ API成功 [Judge::AllModels] row=93 model=DeepSeek-R1 time=79.59s chars=2901 preview=```json {   "Critique": "All responses address the core mechanisms and constraints of PLA alcoholysis as per the GT. BEAVER and Raw_DeepSeek-V3 excel in specifi...
+[2026-05-12 15:16:28] ✅ Judge成功 row=93 models=5
+[2026-05-12 15:16:46] ✅ API成功 [Judge::AllModels] row=91 model=DeepSeek-R1 time=76.41s chars=3172 preview={   "Critique": "All responses capture the core benefit (stimuli-triggered release) and key barriers (synthesis complexity, scalability, regulatory challenges) ...
+[2026-05-12 15:16:46] ✅ Judge成功 row=91 models=5
+[2026-05-12 15:17:53] ✅ API成功 [Judge::AllModels] row=95 model=DeepSeek-R1 time=67.49s chars=2730 preview=```json {   "Critique": "BEAVER_NoQualityLoop focuses on biomedical applications, missing the environmental focus of the question, while other responses align b...
+[2026-05-12 15:17:53] ✅ Judge成功 row=95 models=5
+[2026-05-12 15:18:28] ❌ API失败 [Judge::AllModels] row=94 model=DeepSeek-R1 attempt=1/3 time=120.09s error=Request timed out.
+[2026-05-12 15:19:34] ✅ API成功 [Judge::AllModels] row=96 model=DeepSeek-R1 time=100.89s chars=3025 preview={   "Critique": "All responses address the core necessity of LCA for biodegradable polymers and risks of poor system boundaries, aligning reasonably with the GT...
+[2026-05-12 15:19:34] ✅ Judge成功 row=96 models=5
+[2026-05-12 15:20:01] ✅ API成功 [Judge::AllModels] row=94 model=DeepSeek-R1 time=91.13s chars=3639 preview={   "Critique": "All responses correctly capture the core scientific conclusion from the GT: PBS bridges the property gap between brittle PLA and soft PBAT in b...
+[2026-05-12 15:20:01] ✅ Judge成功 row=94 models=5
+[2026-05-12 15:21:08] ✅ API成功 [Judge::AllModels] row=98 model=DeepSeek-R1 time=67.39s chars=3024 preview=```json {   "Critique": "All responses address the core question and align with the GT's conclusions. BEAVER_NoQualityLoop stands out for its exceptional detail...
+[2026-05-12 15:21:08] ✅ Judge成功 row=98 models=5
+[2026-05-12 15:21:34] ❌ API失败 [Judge::AllModels] row=97 model=DeepSeek-R1 attempt=1/3 time=120.10s error=Request timed out.
+[2026-05-12 15:22:52] ✅ API成功 [Judge::AllModels] row=97 model=DeepSeek-R1 time=75.53s chars=2851 preview=```json {   "Critique": "BEAVER_NoQualityLoop offers exceptional detail and references, aligning closely with the GT's core conclusions while providing rich sci...
+[2026-05-12 15:22:52] ✅ Judge成功 row=97 models=5
+[2026-05-12 15:23:08] ❌ API失败 [Judge::AllModels] row=99 model=DeepSeek-R1 attempt=1/3 time=120.23s error=Request timed out.
+[2026-05-12 15:24:27] ✅ API成功 [Judge::AllModels] row=100 model=DeepSeek-R1 time=95.43s chars=3941 preview={   "Critique": "All responses correctly anchor the core scientific distinction: compostability requires controlled conditions (temperature, microbes) absent in...
+[2026-05-12 15:24:27] ✅ Judge成功 row=100 models=5
+[2026-05-12 15:24:27] ✅ save_current_outputs: raw answers + cleaned columns saved
+[2026-05-12 15:24:27] ✅ save_current_outputs: generation status built
+[2026-05-12 15:24:27] ✅ save_current_outputs: item scores saved
+[2026-05-12 15:24:28] ✅ save_current_outputs: summary saved
+[2026-05-12 15:24:28] 📊 图表已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\4_arena_chart.png
+[2026-05-12 15:24:28] ✅ save_current_outputs: plot saved
+[2026-05-12 15:24:28] 💾 已中间保存评分: 100/111 (latest_ok=True)
+[2026-05-12 15:25:11] ❌ API失败 [Judge::AllModels] row=99 model=DeepSeek-R1 attempt=2/3 time=120.10s error=Request timed out.
+[2026-05-12 15:26:27] ❌ API失败 [Judge::AllModels] row=101 model=DeepSeek-R1 attempt=1/3 time=120.24s error=Request timed out.
+[2026-05-12 15:26:43] ✅ API成功 [Judge::AllModels] row=99 model=DeepSeek-R1 time=88.24s chars=2629 preview=```json {   "Critique": "BEAVER_NoQualityLoop and Constrained_DeepSeek-V3 stand out for their high detail, mechanistic depth, and research utility. Raw_DeepSeek...
+[2026-05-12 15:26:43] ✅ Judge成功 row=99 models=5
+[2026-05-12 15:27:57] ✅ API成功 [Judge::AllModels] row=101 model=DeepSeek-R1 time=88.10s chars=3394 preview={   "Critique": "All responses correctly capture the core GT conclusions: ML promises optimization/defect prediction/property mapping, while adoption faces data...
+[2026-05-12 15:27:57] ✅ Judge成功 row=101 models=5
+[2026-05-12 15:28:43] ❌ API失败 [Judge::AllModels] row=102 model=DeepSeek-R1 attempt=1/3 time=120.10s error=Request timed out.
+[2026-05-12 15:29:58] ❌ API失败 [Judge::AllModels] row=103 model=DeepSeek-R1 attempt=1/3 time=120.11s error=Request timed out.
+[2026-05-12 15:30:15] ✅ API成功 [Judge::AllModels] row=102 model=DeepSeek-R1 time=90.56s chars=3478 preview={   "Critique": "All responses correctly capture the core scientific conclusion from the Ground Truth (GT): copolymers offer design freedom through tunable comp...
+[2026-05-12 15:30:15] ✅ Judge成功 row=102 models=5
+[2026-05-12 15:32:00] ❌ API失败 [Judge::AllModels] row=103 model=DeepSeek-R1 attempt=2/3 time=120.09s error=Request timed out.
+[2026-05-12 15:32:16] ❌ API失败 [Judge::AllModels] row=104 model=DeepSeek-R1 attempt=1/3 time=120.10s error=Request timed out.
+[2026-05-12 15:33:38] ✅ API成功 [Judge::AllModels] row=103 model=DeepSeek-R1 time=94.26s chars=3456 preview={   "Critique": "All responses correctly capture the GT's core premise: infrastructure enables circularity, and material-infrastructure mismatches cause contami...
+[2026-05-12 15:33:38] ✅ Judge成功 row=103 models=5
+[2026-05-12 15:34:19] ❌ API失败 [Judge::AllModels] row=104 model=DeepSeek-R1 attempt=2/3 time=121.08s error=Request timed out.
+[2026-05-12 15:35:12] ✅ API成功 [Judge::AllModels] row=105 model=DeepSeek-R1 time=93.68s chars=2636 preview=```json {   "Critique": "All responses correctly address the core mechanisms from the GT, with BEAVER_NoQualityLoop standing out in specificity and evidence int...
+[2026-05-12 15:35:12] ✅ Judge成功 row=105 models=5
+[2026-05-12 15:36:13] ✅ API成功 [Judge::AllModels] row=104 model=DeepSeek-R1 time=110.10s chars=2813 preview={   "Critique": "All responses correctly address the core requirements and trade-offs outlined in the GT, with varying levels of detail and scientific depth. BE...
+[2026-05-12 15:36:13] ✅ Judge成功 row=104 models=5
+[2026-05-12 15:36:37] ✅ API成功 [Judge::AllModels] row=106 model=DeepSeek-R1 time=85.64s chars=3001 preview={   "Critique": "All responses address the core question and align with the Ground Truth, but differ in depth, scientific grounding, and utility. BEAVER_NoQuali...
+[2026-05-12 15:36:37] ✅ Judge成功 row=106 models=5
+[2026-05-12 15:37:38] ✅ API成功 [Judge::AllModels] row=107 model=DeepSeek-R1 time=85.29s chars=3354 preview={   "Critique": "All responses capture the core scientific conclusion that environmental conditions dictate degradation behavior and necessitate scenario-specif...
+[2026-05-12 15:37:38] ✅ Judge成功 row=107 models=5
+[2026-05-12 15:38:24] ✅ API成功 [Judge::AllModels] row=108 model=DeepSeek-R1 time=106.45s chars=2738 preview=```json {   "Critique": "All responses align with the GT's core conclusion that biodegradation and recycling design have conflicting requirements, making dual o...
+[2026-05-12 15:38:24] ✅ Judge成功 row=108 models=5
+[2026-05-12 15:39:38] ❌ API失败 [Judge::AllModels] row=109 model=DeepSeek-R1 attempt=1/3 time=120.12s error=Request timed out.
+[2026-05-12 15:40:08] ✅ API成功 [Judge::AllModels] row=110 model=DeepSeek-R1 time=104.75s chars=2675 preview=```json {   "Critique": "BEAVER_NoQualityLoop provides the most detailed and scientifically grounded response, excelling in mechanistic explanations and researc...
+[2026-05-12 15:40:08] ✅ Judge成功 row=110 models=5
+[2026-05-12 15:40:09] ✅ save_current_outputs: raw answers + cleaned columns saved
+[2026-05-12 15:40:09] ✅ save_current_outputs: generation status built
+[2026-05-12 15:40:09] ✅ save_current_outputs: item scores saved
+[2026-05-12 15:40:09] ✅ save_current_outputs: summary saved
+[2026-05-12 15:40:10] 📊 图表已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\4_arena_chart.png
+[2026-05-12 15:40:10] ✅ save_current_outputs: plot saved
+[2026-05-12 15:40:10] 💾 已中间保存评分: 110/111 (latest_ok=True)
+[2026-05-12 15:41:40] ❌ API失败 [Judge::AllModels] row=109 model=DeepSeek-R1 attempt=2/3 time=120.08s error=Request timed out.
+[2026-05-12 15:43:44] ❌ API失败 [Judge::AllModels] row=109 model=DeepSeek-R1 attempt=3/3 time=120.09s error=Request timed out.
+[2026-05-12 15:43:45] ✅ save_current_outputs: raw answers + cleaned columns saved
+[2026-05-12 15:43:45] ✅ save_current_outputs: generation status built
+[2026-05-12 15:43:45] ✅ save_current_outputs: item scores saved
+[2026-05-12 15:43:45] ✅ save_current_outputs: summary saved
+[2026-05-12 15:43:46] 📊 图表已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\4_arena_chart.png
+[2026-05-12 15:43:46] ✅ save_current_outputs: plot saved
+[2026-05-12 15:43:46] 💾 已中间保存评分: 111/111 (latest_ok=False)
+[2026-05-12 15:43:46] ✅ save_current_outputs: raw answers + cleaned columns saved
+[2026-05-12 15:43:46] ✅ save_current_outputs: generation status built
+[2026-05-12 15:43:46] ✅ save_current_outputs: item scores saved
+[2026-05-12 15:43:46] ✅ save_current_outputs: summary saved
+[2026-05-12 15:43:47] 📊 图表已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\4_arena_chart.png
+[2026-05-12 15:43:47] ✅ save_current_outputs: plot saved
+[2026-05-12 15:43:47] ✅ 按问题同时评分完成
+[2026-05-12 15:43:47] === 当前排行榜 ===
+[2026-05-12 15:43:47] 
+                  Model  Overall  JudgeParseOK(%)  InvalidAnswer(%)  ScoredItems  Coverage(%)  Detail_Specificity  Scientific_Grounding  Mechanistic_Explanation  Organization_Format_Quality  Anchor_Alignment  Internal_Consistency  Research_Utility
+   BEAVER_NoQualityLoop     8.73             97.3               0.0          111        100.0                9.24                  8.25                     9.17                         8.31              8.46                  8.80              8.87
+        Raw_DeepSeek-V3     7.92             97.3               0.0          111        100.0                7.72                  7.80                     7.50                         8.19              8.50                  8.49              7.59
+Constrained_DeepSeek-V3     7.91             97.3               0.0          111        100.0                8.17                  7.24                     8.42                         8.37              7.38                  8.53              8.06
+        Raw_DeepSeek-R1     7.61             97.3               0.0          111        100.0                7.48                  7.42                     7.27                         7.88              8.08                  8.07              7.36
+Constrained_DeepSeek-R1     7.54             97.3               0.0          111        100.0                7.64                  7.14                     7.79                         7.99              7.29                  8.06              7.49
+[2026-05-12 15:43:47] ⚠️ JudgeParseOK 检查发现 0：bad_pairs=15, need_rejudge_rows=3. 详情已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\2b_judge_parse_failures.csv
+[2026-05-12 15:58:19] 🔁 JudgeParseOK=0 自动重评 round=1/2: rows=3, bad_pairs=15
+[2026-05-12 15:58:22] 🔁 JudgeParseOK=0 自动重评 round=1/2: rows=3, bad_pairs=15
+[2026-05-12 15:59:20] ✅ API成功 [Judge::AllModels] row=56 model=DeepSeek-R1 time=60.92s chars=2759 preview=```json {   "Critique": "All responses align with the GT's core conclusion that degradation predictability and sterilization compatibility must constrain geomet...
+[2026-05-12 15:59:20] ✅ Judge成功 row=56 models=5
+[2026-05-12 15:59:44] ✅ API成功 [Judge::AllModels] row=83 model=DeepSeek-R1 time=84.54s chars=2558 preview=```json {   "Critique": "All responses address the core distinction between chemical recycling (value recovery) and composting (degradation), aligning with the ...
+[2026-05-12 15:59:44] ✅ Judge成功 row=83 models=5
+[2026-05-12 15:59:51] ✅ API成功 [Judge::AllModels] row=76 model=DeepSeek-R1 time=88.66s chars=4371 preview={   "Critique": "All responses correctly identify the core role of compatibilizers and the thermodynamic immiscibility rationale per the GT. BEAVER_NoQualityLoo...
+[2026-05-12 15:59:51] ✅ Judge成功 row=76 models=5
+[2026-05-12 16:00:22] ❌ API失败 [Judge::AllModels] row=61 model=DeepSeek-R1 attempt=1/3 time=120.11s error=Request timed out.
+[2026-05-12 16:01:00] ✅ API成功 [Judge::AllModels] row=93 model=DeepSeek-R1 time=100.23s chars=2774 preview=```json {   "Critique": "All responses address the core question and GT conclusions, with varying levels of detail and scientific grounding. Raw_DeepSeek-V3 sta...
+[2026-05-12 16:01:00] ✅ Judge成功 row=93 models=5
+[2026-05-12 16:01:01] ✅ save_current_outputs: raw answers + cleaned columns saved
+[2026-05-12 16:01:01] ✅ save_current_outputs: generation status built
+[2026-05-12 16:01:01] ✅ save_current_outputs: item scores saved
+[2026-05-12 16:01:01] ✅ save_current_outputs: summary saved
+[2026-05-12 16:01:02] 📊 图表已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\4_arena_chart_倒.png
+[2026-05-12 16:01:02] ✅ save_current_outputs: plot saved
+[2026-05-12 16:01:02] 💾 已中间保存JudgeParseOK=0重评 round=1: 3/3 (latest_ok=True)
+[2026-05-12 16:01:02] ✅ save_current_outputs: raw answers + cleaned columns saved
+[2026-05-12 16:01:02] ✅ save_current_outputs: generation status built
+[2026-05-12 16:01:02] ✅ save_current_outputs: item scores saved
+[2026-05-12 16:01:02] ❌ save_current_outputs: build/save summary failed: [WinError 5] 拒绝访问。: 'C:\\Users\\user\\FXR-水凝胶\\2026-0429-0421-最终版-Desgin绘图\\Agent\\EVAL\\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\\3_final_scores_倒.csv.tmp' -> 'C:\\Users\\user\\FXR-水凝胶\\2026-0429-0421-最终版-Desgin绘图\\Agent\\EVAL\\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\\3_final_scores_倒.csv'
+[2026-05-12 16:01:51] ❌ API失败 [Judge::AllModels] row=109 model=DeepSeek-R1 attempt=1/3 time=120.09s error=Request timed out.
+[2026-05-12 16:01:53] ✅ API成功 [Judge::AllModels] row=61 model=DeepSeek-R1 time=88.64s chars=2908 preview=```json {   "Critique": "BEAVER_NoQualityLoop provides the most detailed and scientifically grounded response with extensive mechanisms, references, and data, a...
+[2026-05-12 16:01:53] ✅ Judge成功 row=61 models=5
+[2026-05-12 16:03:09] ✅ API成功 [Judge::AllModels] row=109 model=DeepSeek-R1 time=76.27s chars=3065 preview=```json {   "Critique": "All responses address the core conclusions of the GT, with BEAVER_NoQualityLoop excelling in detail and scientific grounding through ex...
+[2026-05-12 16:03:09] ✅ Judge成功 row=109 models=5
+[2026-05-12 16:03:10] ✅ save_current_outputs: raw answers + cleaned columns saved
+[2026-05-12 16:03:10] ✅ save_current_outputs: generation status built
+[2026-05-12 16:03:10] ✅ save_current_outputs: item scores saved
+[2026-05-12 16:03:10] ✅ save_current_outputs: summary saved
+[2026-05-12 16:03:11] 📊 图表已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\4_arena_chart.png
+[2026-05-12 16:03:11] ✅ save_current_outputs: plot saved
+[2026-05-12 16:03:11] 💾 已中间保存JudgeParseOK=0重评 round=1: 3/3 (latest_ok=True)
+[2026-05-12 16:03:11] ✅ save_current_outputs: raw answers + cleaned columns saved
+[2026-05-12 16:03:11] ✅ save_current_outputs: generation status built
+[2026-05-12 16:03:11] ✅ save_current_outputs: item scores saved
+[2026-05-12 16:03:11] ✅ save_current_outputs: summary saved
+[2026-05-12 16:03:12] 📊 图表已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\4_arena_chart.png
+[2026-05-12 16:03:12] ✅ save_current_outputs: plot saved
+[2026-05-12 16:03:12] ✅ JudgeParseOK 重评前检查完成：round=2 已无 JudgeParseOK=0。
+[2026-05-12 16:03:12] ✅ JudgeParseOK=0 自动重评完成：当前已无 JudgeParseOK=0。
+[2026-05-12 16:03:13] ✅ save_current_outputs: raw answers + cleaned columns saved
+[2026-05-12 16:03:13] ✅ save_current_outputs: generation status built
+[2026-05-12 16:03:13] ✅ save_current_outputs: item scores saved
+[2026-05-12 16:03:13] ✅ save_current_outputs: summary saved
+[2026-05-12 16:03:14] 📊 图表已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\4_arena_chart.png
+[2026-05-12 16:03:14] ✅ save_current_outputs: plot saved
+[2026-05-12 16:03:14] ✅ raw answers 已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\1_raw_answers.csv
+[2026-05-12 16:03:14] ✅ generation status 已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\1b_generation_status.csv
+[2026-05-12 16:03:14] ✅ item scores 已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\2_item_scores.csv
+[2026-05-12 16:03:14] ✅ final scores 已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\3_final_scores.csv
+[2026-05-12 16:03:14] ✅ by-type final scores 已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\3b_final_scores_by_type.csv
+[2026-05-12 16:03:14] ✅ by-type overall matrix 已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\3c_overall_by_question_type.csv
+[2026-05-12 16:03:14] ✅ by-structure overall matrix 已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\3d_overall_by_question_structure.csv
+[2026-05-12 16:03:14] ✅ arena chart 已保存: C:\Users\user\FXR-水凝胶\2026-0429-0421-最终版-Desgin绘图\Agent\EVAL\BEAVER_VS_DirectLLMs_VS_约束LLMs/6/顺序+倒序_2-0512\4_arena_chart.png
+[2026-05-12 16:03:14] 运行结束
+[2026-05-12 16:03:14] ================================================================================
